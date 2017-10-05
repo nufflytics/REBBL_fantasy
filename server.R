@@ -13,7 +13,7 @@ library(lubridate)
 cat(file=stderr(), "starting.....","\n")
 start_time = lubridate::dmy_hm("051017 0000", tz = "EST")
 
-teams <- read_csv("data/fantasy_teams.csv") %>% mutate(Race = str_replace_all(Race, "_"," "))
+teams <- read_csv("data/fantasy_teams.csv") %>% mutate(Race = stringr::str_replace_all(Race, "_"," "))
 cat(file=stderr(), "teams loaded","\n")
 
 
