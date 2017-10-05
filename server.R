@@ -10,16 +10,24 @@ library(tidyverse)
 library(DT)
 library(lubridate)
 
-#start_time = lubridate::dmy_hm("051017 0000", tz = "EST")
+cat(file=stderr(), "starting.....","\n")
+start_time = lubridate::dmy_hm("051017 0000", tz = "EST")
 
 teams <- read_csv("data/fantasy_teams.csv") %>% mutate(Race = str_replace_all(Race, "_"," "))
+cat(file=stderr(), "teams loaded","\n")
+
+
 stats <- read_csv("data/player_stats.csv") %>% filter(!Type %in% c("Star Player", "Unknown playertype"))
+cat(file=stderr(), "stats loaded","\n")
 
 points = left_join(teams, stats, by=c("Player" = "Name", "Race", "Type"))
+cat(file=stderr(), "points loaded","\n")
+
+
 
 shinyServer(function(input, output, session) {
   #General data -----
-#  gameweek = difftime(now("UTC"), start_time, units = "weeks") %>% ceiling()
+  gameweek = difftime(now("UTC"), start_time, units = "weeks") %>% ceiling()
   
   #Teams tab ------
   
