@@ -7,9 +7,9 @@ suppressMessages(require(stringr))
 suppressMessages(require(nufflytics))
 
 #load webhook info and API calls from file
-load("data/api.Rda")
-load("data/RFBBL_parameters.Rda")
-last_game = read_file("data/last_game.uuid")
+load("api.Rda")
+load("RFBBL_parameters.Rda")
+last_game = read_file("last_game.uuid")
 
 get_league_data <- function(league_response) {
   response_content <- content(league_response) 
