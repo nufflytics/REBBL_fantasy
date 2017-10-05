@@ -99,6 +99,6 @@ new_games <- league_data %>% filter(ID> strtoi(last_game, base=16))
 new_stats <- map2_df(new_games$uuid, new_games$round, match_FP)
 
 #Write new stats and update last recorded game
-write_csv(new_stats, "data/player_stats.csv", append = TRUE)
+write_csv(new_stats, "player_stats.csv", append = TRUE)
 
-write_file(filter(league_data, ID == max(ID))$uuid,"data/last_game.uuid")
+write_file(filter(league_data, ID == max(ID))$uuid,"last_game.uuid")
