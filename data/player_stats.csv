@@ -764,3 +764,50 @@ match_uuid,Round,Team,Race,Name,Type,Level,SPP_gain,playerID,Opponent,Opponent_R
 003901f1,1,Trust No One,Brettonian,Bugs Bunny,Blitzer,1,0,18887587,Burning Inferno,Undead,6,1,0,0,0,0,0,0,0,0,0,0,3
 003901f1,1,Trust No One,Brettonian,Clementine,Lineman,1,0,18887594,Burning Inferno,Undead,4,0,0,0,0,0,0,0,0,0,0,0,1
 003901f1,1,Trust No One,Brettonian,Samwell Tarly,Lineman,1,0,18887597,Burning Inferno,Undead,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039040b,1,Running Goofs,Skaven,Move Away,Storm Vermin,1,5,19004592,These Violent Delights,Amazon,9,1,1,0,0,0,0,0,0,0,0,0,4
+0039040b,1,Running Goofs,Skaven,Haunted Doll Watch,Gutter Runner,1,0,19004594,These Violent Delights,Amazon,0,1,0,0,0,0,0,0,0,0,0,0,1
+0039040b,1,Running Goofs,Skaven,Scott Bakula,Lineman,1,0,19165263,These Violent Delights,Amazon,3,1,0,0,0,0,0,0,0,0,0,0,2
+0039040b,1,Running Goofs,Skaven,Pack Your Bags,Storm Vermin,1,0,19004591,These Violent Delights,Amazon,6,1,0,0,0,0,0,0,0,0,0,0,3
+0039040b,1,Running Goofs,Skaven,Jimmy Buffett,Thrower,1,1,19165249,These Violent Delights,Amazon,3,1,1,0,0,0,1,0,0,0,14,0,6
+0039040b,1,Running Goofs,Skaven,French Stewart,Lineman,1,0,19004598,These Violent Delights,Amazon,8,4,2,0,0,0,0,0,0,0,0,0,6
+0039040b,1,Running Goofs,Skaven,Sad Libs,Gutter Runner,1,3,19004595,These Violent Delights,Amazon,0,0,0,0,0,1,0,0,1,0,12,0,6
+0039040b,1,Running Goofs,Skaven,Harry Lime,Gutter Runner,1,1,19165237,These Violent Delights,Amazon,0,0,0,0,0,0,1,0,0,0,8,0,3
+0039040b,1,Running Goofs,Skaven,Money Zone,Gutter Runner,1,0,19004593,These Violent Delights,Amazon,0,0,0,0,0,0,0,0,1,0,12,0,3
+0039040b,1,Running Goofs,Skaven,Munch Squad,Lineman,1,0,19004597,These Violent Delights,Amazon,5,2,1,0,0,0,0,0,0,0,0,0,3
+0039040b,1,Running Goofs,Skaven,Farm Wisdom,Lineman,1,0,19004596,These Violent Delights,Amazon,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039040b,1,These Violent Delights,Amazon,"""Don't Call Me"" Billy",Catcher,1,5,18703401,Running Goofs,Skaven,4,2,2,0,0,0,0,0,0,0,6,0,5
+0039040b,1,These Violent Delights,Amazon,Ed Harris,Catcher,1,3,18703402,Running Goofs,Skaven,3,1,0,0,0,1,0,0,0,0,16,0,6
+0039040b,1,These Violent Delights,Amazon,Dolores,Blitzer,1,0,18703396,Running Goofs,Skaven,2,0,0,0,0,0,0,0,0,0,0,0,1
+0039040b,1,These Violent Delights,Amazon,Theresa,Linewoman,1,2,18703403,Running Goofs,Skaven,7,4,1,1,0,0,0,0,0,0,0,0,6
+0039040b,1,These Violent Delights,Amazon,Maeve,Blitzer,1,0,18703397,Running Goofs,Skaven,11,4,0,0,0,0,0,0,0,0,14,1,8
+0039040b,1,These Violent Delights,Amazon,Arnold,Linewoman,1,2,18703406,Running Goofs,Skaven,4,1,0,1,1,0,0,0,0,0,0,0,5
+0039040b,1,These Violent Delights,Amazon,Clementine,Blitzer,1,0,18703399,Running Goofs,Skaven,8,0,0,0,0,0,0,0,0,0,0,0,2
+0039040b,1,These Violent Delights,Amazon,Elsie,Linewoman,1,0,18703404,Running Goofs,Skaven,3,1,0,0,0,0,0,0,0,0,0,0,2
+0039040b,1,These Violent Delights,Amazon,Armistice,Blitzer,1,0,18703398,Running Goofs,Skaven,7,3,2,0,0,0,0,0,0,0,0,0,6
+0039040b,1,These Violent Delights,Amazon,Ford,Thrower,1,3,18703400,Running Goofs,Skaven,2,0,0,0,0,1,0,0,0,0,58,0,6
+0039040b,1,These Violent Delights,Amazon,Charlotte,Linewoman,1,0,18703405,Running Goofs,Skaven,8,1,0,0,0,0,0,0,0,0,0,0,3
+003904b6,1,Cheaters and Such,Goblin,Tugnag,Goblin,1,5,19022236,We Chillin',Dark Elf,2,1,0,0,0,0,0,0,0,0,0,0,2
+003904b6,1,Cheaters and Such,Goblin,Snita,Goblin,1,0,19022231,We Chillin',Dark Elf,3,1,0,0,0,0,0,0,0,0,0,1,4
+003904b6,1,Cheaters and Such,Goblin,Rattra,Goblin,1,0,19022240,We Chillin',Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1
+003904b6,1,Cheaters and Such,Goblin,Zatgrib,Looney,1,0,19022230,We Chillin',Dark Elf,0,3,0,0,0,0,0,0,0,0,0,0,2
+003904b6,1,Cheaters and Such,Goblin,Splennguff,Troll,1,4,19022228,We Chillin',Dark Elf,10,6,1,2,0,0,0,0,0,0,0,0,8
+003904b6,1,Cheaters and Such,Goblin,Bellyguff,Troll,1,2,19022229,We Chillin',Dark Elf,8,2,1,1,0,0,0,0,0,0,0,0,5
+003904b6,1,Cheaters and Such,Goblin,Ardig,Goblin,1,0,19022237,We Chillin',Dark Elf,3,1,0,0,0,0,0,0,0,0,0,0,2
+003904b6,1,Cheaters and Such,Goblin,Gimmink,Goblin,1,3,19022238,We Chillin',Dark Elf,2,1,0,0,0,1,0,0,0,0,64,0,7
+003904b6,1,Cheaters and Such,Goblin,Nifmink,Goblin,1,0,19022239,We Chillin',Dark Elf,3,1,0,0,0,0,0,0,0,0,0,0,2
+003904b6,1,Cheaters and Such,Goblin,Grubgag,Goblin,1,0,19022235,We Chillin',Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+003904b6,1,Cheaters and Such,Goblin,Nisus,Bombardier,1,0,19022246,We Chillin',Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+003904b6,1,Cheaters and Such,Goblin,Topsham,Goblin,1,0,19022234,We Chillin',Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+003904b6,1,Cheaters and Such,Goblin,Snalik,Goblin,1,0,19022233,We Chillin',Dark Elf,2,0,0,0,0,0,0,0,0,0,0,0,1
+003904b6,1,Cheaters and Such,Goblin,Zigrak,Goblin,1,0,19022232,We Chillin',Dark Elf,2,0,0,0,0,0,0,0,0,0,0,0,1
+003904b6,1,We Chillin',Dark Elf,Nordror,Blitzer,1,5,19207574,Cheaters and Such,Goblin,4,2,1,0,0,0,0,0,0,0,0,0,3
+003904b6,1,We Chillin',Dark Elf,Nenhor,Lineman,1,0,19207579,Cheaters and Such,Goblin,1,1,1,0,0,0,0,0,0,0,0,0,3
+003904b6,1,We Chillin',Dark Elf,Caemwe,Lineman,1,0,19207578,Cheaters and Such,Goblin,0,0,0,0,0,0,0,0,0,0,0,0,0
+003904b6,1,We Chillin',Dark Elf,Caleorl,Lineman,1,0,19207580,Cheaters and Such,Goblin,1,0,0,0,0,0,0,0,0,0,0,0,1
+003904b6,1,We Chillin',Dark Elf,Morteorl,Lineman,1,0,19207582,Cheaters and Such,Goblin,3,0,0,0,0,0,0,0,0,0,0,0,1
+003904b6,1,We Chillin',Dark Elf,Yvmal,Lineman,1,0,19207576,Cheaters and Such,Goblin,0,0,0,0,0,0,0,0,0,0,0,0,0
+003904b6,1,We Chillin',Dark Elf,Argmal,Lineman,1,2,19207577,Cheaters and Such,Goblin,3,1,0,1,0,0,0,0,0,0,0,0,3
+003904b6,1,We Chillin',Dark Elf,Naleos,Blitzer,1,3,19207572,Cheaters and Such,Goblin,5,0,0,0,0,1,0,0,0,0,34,0,5
+003904b6,1,We Chillin',Dark Elf,Lothrinisa,Witch Elf,1,0,19207575,Cheaters and Such,Goblin,2,0,0,0,0,0,0,0,0,0,16,0,2
+003904b6,1,We Chillin',Dark Elf,Umtin,Lineman,1,0,19207581,Cheaters and Such,Goblin,0,0,0,0,0,0,0,0,0,0,0,0,0
+003904b6,1,We Chillin',Dark Elf,Bethran,Blitzer,1,2,19207573,Cheaters and Such,Goblin,4,1,0,1,1,0,0,0,0,0,0,0,5
