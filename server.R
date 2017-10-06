@@ -30,30 +30,84 @@ shinyServer(function(input, output, session) {
     once = T
     )
   
+  #Leaderboard tab ------
+  
+  weekly_points <- points %>% 
+    group_by(Coach, Round) %>% 
+    filter(!is.na(FP)) %>% 
+    mutate(
+      FP = ifelse( Special %in% c("c"), 2*FP, FP), # Double captain's points
+      FP = ifelse( Special %in% c("r") & max(row_number() > 11), 0, FP) # Remove reserve's points if more than 11 points recorded
+      ) %>% 
+    summarise(FP = sum(FP))
+  
+  leaders <- weekly_points %>% summarise(Points = sum(FP)) %>% arrange(desc(Points))
+  
+  output$leaderboard <- renderDataTable(
+    leaders,
+    options = list(
+      pageLength = 100,
+      dom = 't',
+      class = 'compact',
+      selected = "all"
+    ),
+    rownames = FALSE
+  )
+  
+  output$weekly_bars <- renderPlot({
+    validate(need(input$leaderboard_rows_selected, message = F))
+    
+    coaches = leaders[input$leaderboard_rows_selected,]$Coach
+    weekly_points %>% 
+      ungroup %>% 
+      filter(Coach %in% coaches) %>% 
+      mutate(Coach = factor(Coach, levels=coaches)) %>% 
+      ggplot(aes(x=Round, y = FP, fill = Coach)) +
+      geom_bar(position = "dodge", stat = "identity") +
+      scale_fill_brewer(palette="Paired") +
+      ylab("Points")
+  })
+  
+  output$weekly_lines <- renderPlot({
+    validate(need(input$leaderboard_rows_selected, message = F))
+    
+    coaches = leaders[input$leaderboard_rows_selected,]$Coach
+    weekly_points %>% 
+      ungroup %>% 
+      filter(Coach %in% coaches) %>% 
+      mutate(Coach = factor(Coach, levels=coaches)) %>% 
+      ggplot(aes(x=Round, y = FP, colour = Coach)) +
+      geom_point() +
+      geom_line() +
+      scale_colour_brewer(palette="Paired") +
+      ylab("Points")
+  })
+  
   #Teams tab ------
   
   output$coach_select <- renderUI({
     selectizeInput("selected_coach", NULL, teams$Coach %>% unique %>% sort)
   })
   
-  
   output$team_name <- renderUI(h3(filter(teams,Coach == input$selected_coach) %>% .$FTeam %>% unique))
   
-  output$team_summary <- DT::renderDataTable(
-    points %>% 
-      filter(Round == input$selected_round) %>% 
-      filter(Coach == input$selected_coach) %>% 
-      select(Special,Player:Type, Points = FP) %>% 
-      mutate(Special = ifelse(
-        Special == "c", 
-        "<i class='fa fa-copyright' title='Captain'></i>",
-        ifelse(
-          Special=="r", 
-          "<i class='fa fa-registered' title='Reserve'></i>", 
-          NA
-        )
+  team_table <- reactive({points %>% 
+    filter(Round == input$selected_round) %>% 
+    filter(Coach == input$selected_coach) %>% 
+    select(Special,Player:Type, Points = FP) %>% 
+    mutate(Special = ifelse(
+      Special == "c", 
+      "<i class='fa fa-copyright' title='Captain'></i>",
+      ifelse(
+        Special=="r", 
+        "<i class='fa fa-registered' title='Reserve'></i>", 
+        NA
       )
-      ),
+    )
+    )
+  })
+  output$team_summary <- DT::renderDataTable(
+   team_table(),
     options = list(
       pageLength = 100,
       dom = 't',
@@ -64,6 +118,7 @@ shinyServer(function(input, output, session) {
     escape = FALSE,
     selection = "single"
   )
+  
   
   #Stats tab ---------
   summarised_stats <- stats %>% 
@@ -84,7 +139,7 @@ shinyServer(function(input, output, session) {
     ) %>% DT::formatRound(5:11)
   )
   
-  output$best_game <- renderInfoBox({
+  output$best_game_stats <- renderInfoBox({
     validate(need(input$stats_table_rows_selected, message = F))
     
     best_match = stats %>%  
@@ -100,7 +155,7 @@ shinyServer(function(input, output, session) {
     )
   })
   
-  output$points_bar <- renderPlot({
+  output$points_bar_stats <- renderPlot({
     validate(need(input$stats_table_rows_selected, message = F))
     
     stats %>%  
@@ -109,7 +164,7 @@ shinyServer(function(input, output, session) {
       barplot()
   })
   
-  output$worst_game <- renderInfoBox({
+  output$worst_game_stats <- renderInfoBox({
     validate(need(input$stats_table_rows_selected, message = F))
     
     worst_match = stats %>%  
