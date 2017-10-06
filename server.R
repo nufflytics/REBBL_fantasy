@@ -10,24 +10,25 @@ library(tidyverse)
 library(DT)
 library(lubridate)
 
-cat(file=stderr(), "starting.....","\n")
 start_time = lubridate::dmy_hm("051017 0000", tz = "EST")
 
 teams <- read_csv("data/fantasy_teams.csv") %>% mutate(Race = stringr::str_replace_all(Race, "_"," "))
-cat(file=stderr(), "teams loaded","\n")
-
 
 stats <- read_csv("data/player_stats.csv") %>% filter(!Type %in% c("Star Player", "Unknown playertype"))
-cat(file=stderr(), "stats loaded","\n")
 
-points = left_join(teams, stats, by=c("Player" = "Name", "Race", "Type"))
-cat(file=stderr(), "points loaded","\n")
+points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
 
 
 
 shinyServer(function(input, output, session) {
   #General data -----
   gameweek = difftime(now("UTC"), start_time, units = "weeks") %>% ceiling()
+  
+  observeEvent(
+    input$tabs,
+    updateNumericInput(session, "selected_round", value = as.numeric(gameweek)),
+    once = T
+    )
   
   #Teams tab ------
   
@@ -40,7 +41,7 @@ shinyServer(function(input, output, session) {
   
   output$team_summary <- DT::renderDataTable(
     points %>% 
-      #filter(round == input$selected_round) %>% 
+      filter(Round == input$selected_round) %>% 
       filter(Coach == input$selected_coach) %>% 
       select(Special,Player:Type, Points = FP) %>% 
       mutate(Special = ifelse(
@@ -93,7 +94,7 @@ shinyServer(function(input, output, session) {
     infoBox(
       title = "Best Match",
       value = best_match$FP,
-      subtitle = paste0("Against ", best_match$Name), #CHANGE TO OPP_TEAM WHEN USING REAL DATA
+      subtitle = paste0("Against ", best_match$Opponent), #CHANGE TO OPP_TEAM WHEN USING REAL DATA
       icon = icon("thumbs-up"),
       color = "green"
     )
@@ -118,7 +119,7 @@ shinyServer(function(input, output, session) {
     infoBox(
       title = "Worst Match",
       value = worst_match$FP,
-      subtitle = paste0("Against ", worst_match$Name), #CHANGE TO OPP_TEAM WHEN USING REAL DATA
+      subtitle = paste0("Against ", worst_match$Opponent), #CHANGE TO OPP_TEAM WHEN USING REAL DATA
       icon = icon("thumbs-down"),
       color="red"
     )

@@ -12,6 +12,7 @@ dashboardPage(skin="black",
               dashboardHeader(title = span(tagList(a(href="https://www.reddit.com/r/rebbl", img(src = "img/ReBBL_logo_800px_72dpi.png", width = "70px")),"Fantasy"))),
               dashboardSidebar(
                 sidebarMenu(
+                  id = "tabs",
                   menuItem("Leaderboard", tabName = "leaderboard", icon = icon("trophy", class = "fa-fw")),
                   menuItem("Teams", tabName = "teams", icon = icon("user", class = "fa-fw")),
                   menuItem("Stats", tabName = "stats", icon = icon("bar-chart", class = "fa-fw"))
@@ -24,8 +25,7 @@ dashboardPage(skin="black",
                           box(
                             title = "Current Standings",
                             width = 12,
-                            sliderInput("bins", "bins?", min=1, max = 80, value = 30),
-                            plotOutput("distPlot")
+                            h3("Leaderboard coming soon")
                           )
                   ),
                   
@@ -42,8 +42,8 @@ dashboardPage(skin="black",
                               title = "Round:",
                               width = 6,
                               height = 100,
-                              numericInput("selected_round", NULL, 1, min = 0, max = 13, step = 1)
-                            )
+                              numericInput("selected_round", NULL, 1, min = 1, max = 13, step = 1)
+                              )
                           ),
                           fluidRow(
                             box(
@@ -51,7 +51,19 @@ dashboardPage(skin="black",
                               uiOutput("team_name"),
                               DT::dataTableOutput("team_summary")
                             )
-                          )
+                          )#,
+                          # fluidRow(
+                          #   infoBoxOutput("best_game", width = 3),
+                          #   conditionalPanel(
+                          #     "input.team_summary_table_rows_selected != ''",
+                          #     box(
+                          #       width = 6,
+                          #       title = "Week by week",
+                          #       plotOutput("points_bar")
+                          #     )
+                          #   ),
+                          #   infoBoxOutput("worst_game", width = 3)
+                          # )
                   ),
                   # Third tab content 
                   tabItem(tabName = "stats",
