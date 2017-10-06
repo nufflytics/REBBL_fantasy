@@ -20,12 +20,22 @@ dashboardPage(skin="black",
               ),
               dashboardBody(
                 tabItems(
-                  # First tab content
+                  # Leaderboard content ----
                   tabItem(tabName = "leaderboard",
-                          box(
+                          fluidRow(
+                            box(
                             title = "Current Standings",
                             width = 12,
-                            h3("Leaderboard coming soon")
+                            DT::dataTableOutput("leaderboard")
+                          ),
+                          box(
+                            width = 6,
+                            plotOutput("weekly_bars")
+                          ),
+                          box(
+                            width = 6,
+                            plotOutput("weekly_lines")
+                          )
                           )
                   ),
                   
@@ -51,19 +61,7 @@ dashboardPage(skin="black",
                               uiOutput("team_name"),
                               DT::dataTableOutput("team_summary")
                             )
-                          )#,
-                          # fluidRow(
-                          #   infoBoxOutput("best_game", width = 3),
-                          #   conditionalPanel(
-                          #     "input.team_summary_table_rows_selected != ''",
-                          #     box(
-                          #       width = 6,
-                          #       title = "Week by week",
-                          #       plotOutput("points_bar")
-                          #     )
-                          #   ),
-                          #   infoBoxOutput("worst_game", width = 3)
-                          # )
+                          )
                   ),
                   # Third tab content 
                   tabItem(tabName = "stats",
@@ -76,16 +74,16 @@ dashboardPage(skin="black",
                             )
                           ),
                           fluidRow(
-                            infoBoxOutput("best_game", width = 3),
+                            infoBoxOutput("best_game_stats", width = 3),
                             conditionalPanel(
                               "input.stats_table_rows_selected != ''",
                               box(
                                 width = 6,
                                 title = "Week by week",
-                                plotOutput("points_bar")
+                                plotOutput("points_bar_stats")
                               )
                             ),
-                            infoBoxOutput("worst_game", width = 3)
+                            infoBoxOutput("worst_game_stats", width = 3)
                           )
                   )
                 )
