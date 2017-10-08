@@ -811,3 +811,1182 @@ match_uuid,Round,Team,Race,Name,Type,Level,SPP_gain,playerID,Opponent,Opponent_R
 003904b6,1,We Chillin',Dark Elf,Lothrinisa,Witch Elf,1,0,19207575,Cheaters and Such,Goblin,2,0,0,0,0,0,0,0,0,0,16,0,2
 003904b6,1,We Chillin',Dark Elf,Umtin,Lineman,1,0,19207581,Cheaters and Such,Goblin,0,0,0,0,0,0,0,0,0,0,0,0,0
 003904b6,1,We Chillin',Dark Elf,Bethran,Blitzer,1,2,19207573,Cheaters and Such,Goblin,4,1,0,1,1,0,0,0,0,0,0,0,5
+003905c6,1,Not FDA Approved,High Elf,GingsengReinforcingKidny,Catcher,2,6,15726622,Scholarly Gentlemen,Chaos,1,0,0,0,0,0,1,0,0,0,26,0,4
+003905c6,1,Not FDA Approved,High Elf,Alion Miththalar,Lineman,1,0,11,Scholarly Gentlemen,Chaos,0,1,1,0,0,0,0,0,0,0,0,0,2
+003905c6,1,Not FDA Approved,High Elf,Ready Man!,Lineman,3,0,14416681,Scholarly Gentlemen,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1
+003905c6,1,Not FDA Approved,High Elf,Triple Premium Zen Gold,Blitzer,1,0,16641280,Scholarly Gentlemen,Chaos,6,1,0,0,0,0,0,0,0,0,0,0,3
+003905c6,1,Not FDA Approved,High Elf,Super Panther 7K,Lineman,1,0,16056941,Scholarly Gentlemen,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1
+003905c6,1,Not FDA Approved,High Elf,XXX Zone Platinum,Lineman,1,0,17037759,Scholarly Gentlemen,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0
+003905c6,1,Not FDA Approved,High Elf,Super Dragon 6000,Blitzer,6,2,11759780,Scholarly Gentlemen,Chaos,15,3,0,1,0,0,0,0,0,0,0,0,6
+003905c6,1,Not FDA Approved,High Elf,X-rect,Catcher,3,0,15615327,Scholarly Gentlemen,Chaos,3,0,0,0,0,0,0,0,0,0,0,0,1
+003905c6,1,Not FDA Approved,High Elf,Sidhôndur Auglata,Lineman,1,0,10,Scholarly Gentlemen,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0
+003905c6,1,Not FDA Approved,High Elf,One More Knight,Catcher,6,9,11759779,Scholarly Gentlemen,Chaos,4,1,0,0,0,3,0,0,2,0,36,0,16
+003905c6,1,Not FDA Approved,High Elf,GoldReallas,Catcher,3,2,13881897,Scholarly Gentlemen,Chaos,3,0,0,0,0,0,2,2,1,0,50,0,9
+003905c6,1,Scholarly Gentlemen,Chaos,Dubner II,Chaos Warrior,2,5,13267459,Not FDA Approved,High Elf,1,0,0,0,0,0,0,0,0,0,0,1,3
+003905c6,1,Scholarly Gentlemen,Chaos,Archa Gibbervex,Chaos Warrior,1,0,13938773,Not FDA Approved,High Elf,3,0,0,0,0,0,0,0,0,0,0,0,1
+003905c6,1,Scholarly Gentlemen,Chaos,Feynman,Beastman,3,0,12549244,Not FDA Approved,High Elf,8,2,0,0,0,0,0,0,0,0,0,0,3
+003905c6,1,Scholarly Gentlemen,Chaos,Rosling,Beastman,3,0,13938812,Not FDA Approved,High Elf,9,0,0,0,0,0,0,0,0,0,0,0,2
+003905c6,1,Scholarly Gentlemen,Chaos,Maslow,Beastman,2,1,12549359,Not FDA Approved,High Elf,0,0,0,0,0,0,1,0,0,0,0,0,2
+003905c6,1,Scholarly Gentlemen,Chaos,Pythagoras,Beastman,3,3,14463582,Not FDA Approved,High Elf,2,0,0,0,0,1,0,0,1,0,14,0,7
+003905c6,1,Scholarly Gentlemen,Chaos,Levitt,Chaos Warrior,3,0,12549419,Not FDA Approved,High Elf,5,1,0,0,0,0,0,0,0,0,0,0,2
+003905c6,1,Scholarly Gentlemen,Chaos,Kant,Beastman,3,0,12549342,Not FDA Approved,High Elf,2,0,0,0,0,0,0,0,0,0,0,0,1
+003905c6,1,Scholarly Gentlemen,Chaos,Carlin,Minotaur,2,2,15715825,Not FDA Approved,High Elf,12,3,0,1,1,0,0,0,0,0,0,0,8
+003905c6,1,Scholarly Gentlemen,Chaos,Freud,Beastman,4,0,12676757,Not FDA Approved,High Elf,1,0,0,0,0,0,0,0,1,0,62,0,5
+003905c6,1,Scholarly Gentlemen,Chaos,Locke,Beastman,3,1,12549356,Not FDA Approved,High Elf,4,2,1,0,0,0,1,0,0,0,6,0,6
+003905c6,1,Scholarly Gentlemen,Chaos,Harris,Chaos Warrior,1,0,16148559,Not FDA Approved,High Elf,4,2,0,0,0,0,0,0,0,0,0,0,2
+00390639,1,Lizaztecas,Lizardmen,Clack,Saurus,1,5,18983912,Austin Knights,Human,9,2,0,0,0,0,0,0,0,0,0,0,3
+00390639,1,Lizaztecas,Lizardmen,Skitter,Skink,1,0,18983270,Austin Knights,Human,0,1,1,0,0,0,0,0,0,0,10,0,3
+00390639,1,Lizaztecas,Lizardmen,Tipper,Saurus,1,0,18983909,Austin Knights,Human,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390639,1,Lizaztecas,Lizardmen,Bopper,Saurus,1,0,18983914,Austin Knights,Human,3,1,0,0,0,0,0,0,0,0,0,0,2
+00390639,1,Lizaztecas,Lizardmen,Tapper,Saurus,1,3,18983910,Austin Knights,Human,9,0,0,0,0,1,0,0,0,0,8,0,6
+00390639,1,Lizaztecas,Lizardmen,Rex,Kroxigor,1,0,18986340,Austin Knights,Human,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390639,1,Lizaztecas,Lizardmen,Click,Saurus,1,0,18983911,Austin Knights,Human,2,0,0,0,0,0,0,0,0,0,0,0,1
+00390639,1,Lizaztecas,Lizardmen,Skooter,Skink,1,0,19010264,Austin Knights,Human,0,0,0,0,0,0,0,0,0,0,26,0,1
+00390639,1,Lizaztecas,Lizardmen,Basher,Saurus,1,0,18983939,Austin Knights,Human,5,0,0,0,0,0,0,0,0,0,0,1,3
+00390639,1,Lizaztecas,Lizardmen,Skatter,Skink,1,0,18983271,Austin Knights,Human,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390639,1,Lizaztecas,Lizardmen,Skeeter,Skink,1,3,19010241,Austin Knights,Human,0,0,0,0,0,1,0,0,0,0,68,0,5
+00390639,1,Austin Knights,Human,Jay Jackron,Catcher,1,5,19140775,Lizaztecas,Lizardmen,1,0,0,0,0,0,0,0,0,0,28,0,2
+00390639,1,Austin Knights,Human,Steren Bassi,Blitzer,1,0,19140768,Lizaztecas,Lizardmen,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390639,1,Austin Knights,Human,Staubach,Ogre,1,2,19140771,Lizaztecas,Lizardmen,6,1,0,1,0,0,0,0,0,0,0,0,4
+00390639,1,Austin Knights,Human,Devinn Cassus,Thrower,1,1,19140772,Lizaztecas,Lizardmen,0,0,0,0,0,0,1,0,0,0,22,0,3
+00390639,1,Austin Knights,Human,Wilham Glennon,Blitzer,1,0,19140770,Lizaztecas,Lizardmen,4,1,0,0,0,0,0,0,0,0,0,0,2
+00390639,1,Austin Knights,Human,Calvinus Yangar,Lineman,1,0,19140855,Lizaztecas,Lizardmen,3,1,0,0,0,0,0,0,1,0,0,0,4
+00390639,1,Austin Knights,Human,Russious Degreve,Blitzer,1,0,19140769,Lizaztecas,Lizardmen,6,0,0,0,0,0,0,0,0,0,0,0,2
+00390639,1,Austin Knights,Human,Francious Ragsdale,Lineman,1,0,19140776,Lizaztecas,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390639,1,Austin Knights,Human,Brize Tadlok,Blitzer,1,0,19140767,Lizaztecas,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390639,1,Austin Knights,Human,Adadnan Heikle,Lineman,1,0,19140777,Lizaztecas,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+00390639,1,Austin Knights,Human,Ryne Pinn,Lineman,1,0,19140778,Lizaztecas,Lizardmen,2,1,0,0,0,0,0,0,0,0,0,0,2
+00390664,1,SayHelloToMyLittleFriends,Goblin,Laslowe,Looney,1,5,17235813,The Merry Ballers,Kislev Circus,0,2,0,0,0,0,0,0,0,0,0,0,1
+00390664,1,SayHelloToMyLittleFriends,Goblin,Eric Embarrasment,Goblin,2,0,17235821,The Merry Ballers,Kislev Circus,0,1,1,0,0,0,0,0,0,0,0,0,2
+00390664,1,SayHelloToMyLittleFriends,Goblin,Splennrot,Troll,1,0,17235811,The Merry Ballers,Kislev Circus,3,1,0,0,0,0,0,0,0,0,0,0,2
+00390664,1,SayHelloToMyLittleFriends,Goblin,Bugbli,Goblin,1,0,18950392,The Merry Ballers,Kislev Circus,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390664,1,SayHelloToMyLittleFriends,Goblin,Conner Kaboom,Bombardier,2,0,17235817,The Merry Ballers,Kislev Circus,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390664,1,SayHelloToMyLittleFriends,Goblin,PLAYER_NAMES_CHAMPION_FUNGUS_FALLBACK,Star Player,1,0,12,The Merry Ballers,Kislev Circus,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390664,1,SayHelloToMyLittleFriends,Goblin,Spinny sparker,Fanatic,1,0,17551007,The Merry Ballers,Kislev Circus,1,1,0,0,0,0,0,0,0,0,0,0,2
+00390664,1,SayHelloToMyLittleFriends,Goblin,Archmage Trevor,Goblin,1,0,18997557,The Merry Ballers,Kislev Circus,0,0,0,0,0,0,0,0,0,0,28,0,1
+00390664,1,SayHelloToMyLittleFriends,Goblin,Max Microb,Goblin,1,0,17235819,The Merry Ballers,Kislev Circus,1,0,0,0,0,0,0,0,0,0,14,0,2
+00390664,1,SayHelloToMyLittleFriends,Goblin,Vincent the volitile,Goblin,1,2,17247026,The Merry Ballers,Kislev Circus,0,1,0,1,0,0,0,0,0,0,0,0,2
+00390664,1,SayHelloToMyLittleFriends,Goblin,Christopher crawler,Goblin,1,0,17235820,The Merry Ballers,Kislev Circus,2,0,0,0,0,0,0,0,0,0,0,0,1
+00390664,1,SayHelloToMyLittleFriends,Goblin,Flapstench,Troll,2,0,17235812,The Merry Ballers,Kislev Circus,7,1,1,0,0,0,0,0,0,0,0,0,4
+00390664,1,The Merry Ballers,Kislev Circus,Igor Polunin,Lineman,1,5,46,SayHelloToMyLittleFriends,Goblin,1,1,0,0,0,0,0,0,0,0,0,0,2
+00390664,1,The Merry Ballers,Kislev Circus,Jack Frost,Blitzer,2,9,17281265,SayHelloToMyLittleFriends,Goblin,14,6,3,3,0,1,0,0,1,0,16,0,18
+00390664,1,The Merry Ballers,Kislev Circus,Comet,Lineman,1,1,17281272,SayHelloToMyLittleFriends,Goblin,1,0,0,0,0,0,1,0,0,0,10,0,4
+00390664,1,The Merry Ballers,Kislev Circus,Anton Sadovsky,Lineman,1,0,47,SayHelloToMyLittleFriends,Goblin,2,2,1,0,0,0,0,0,0,0,0,0,3
+00390664,1,The Merry Ballers,Kislev Circus,Prancer,Lineman,2,0,17281270,SayHelloToMyLittleFriends,Goblin,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390664,1,The Merry Ballers,Kislev Circus,Dancer,Lineman,1,0,17281269,SayHelloToMyLittleFriends,Goblin,3,0,0,0,0,0,0,0,0,0,0,0,1
+00390664,1,The Merry Ballers,Kislev Circus,Viktor Baratynsky,Catcher,1,9,18636884,SayHelloToMyLittleFriends,Goblin,0,0,0,0,0,2,3,6,1,0,70,0,17
+00390664,1,The Merry Ballers,Kislev Circus,Alabaster Snowball,Catcher,2,4,17281266,SayHelloToMyLittleFriends,Goblin,2,0,0,0,0,1,1,10,3,0,68,0,15
+00390664,1,The Merry Ballers,Kislev Circus,Santa Claus,Blitzer,1,0,17281264,SayHelloToMyLittleFriends,Goblin,1,1,1,0,0,0,0,0,0,0,0,0,3
+00390664,1,The Merry Ballers,Kislev Circus,Cupid,Lineman,2,0,17281273,SayHelloToMyLittleFriends,Goblin,1,1,1,0,0,0,0,0,0,0,0,0,3
+00390664,1,The Merry Ballers,Kislev Circus,Alexei Romanov,Lineman,1,2,18703838,SayHelloToMyLittleFriends,Goblin,4,2,1,1,0,0,0,0,0,0,0,0,4
+003906c8,1,things dwarves hate,Dwarf,schick,Longbeard,1,5,18472617,Rouge's Gallery,Chaos Dwarf,7,1,0,0,0,0,0,0,0,0,0,0,3
+003906c8,1,things dwarves hate,Dwarf,passing,Longbeard,1,0,18472621,Rouge's Gallery,Chaos Dwarf,8,0,0,0,0,0,0,0,0,0,0,0,2
+003906c8,1,things dwarves hate,Dwarf,Falund,Longbeard,1,0,11,Rouge's Gallery,Chaos Dwarf,7,2,0,0,0,0,0,0,0,0,0,0,3
+003906c8,1,things dwarves hate,Dwarf,road trips with hobbits,Blitzer,1,0,18472721,Rouge's Gallery,Chaos Dwarf,2,0,0,0,0,0,0,0,0,0,24,0,2
+003906c8,1,things dwarves hate,Dwarf,dodging,Longbeard,1,0,18472622,Rouge's Gallery,Chaos Dwarf,8,3,1,0,0,0,0,0,0,0,0,0,5
+003906c8,1,things dwarves hate,Dwarf,elves,Longbeard,1,0,18472620,Rouge's Gallery,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+003906c8,1,things dwarves hate,Dwarf,nair,Troll Slayer,1,2,18472868,Rouge's Gallery,Chaos Dwarf,6,2,0,1,1,0,0,0,0,0,0,1,8
+003906c8,1,things dwarves hate,Dwarf,non-alcoholic beer,Troll Slayer,1,0,18472815,Rouge's Gallery,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+003906c8,1,things dwarves hate,Dwarf,strength injuries,Blitzer,1,0,18472717,Rouge's Gallery,Chaos Dwarf,8,0,0,0,0,0,0,0,0,0,18,0,3
+003906c8,1,things dwarves hate,Dwarf,gillette,Longbeard,1,0,18472619,Rouge's Gallery,Chaos Dwarf,3,1,0,0,0,0,0,0,0,0,0,0,2
+003906c8,1,things dwarves hate,Dwarf,Skalrin,Longbeard,1,0,10,Rouge's Gallery,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Anarky,Bull Centaur,2,5,18255606,things dwarves hate,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Hush,Bull Centaur,2,0,18255607,things dwarves hate,Dwarf,9,0,0,0,0,0,0,0,0,0,0,0,2
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Gebz Bonesnapper,Hobgoblin,1,0,47,things dwarves hate,Dwarf,4,0,0,0,0,0,0,0,0,0,0,0,1
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Blight,Hobgoblin,1,0,18255613,things dwarves hate,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Turtle,Blocker,1,0,18255608,things dwarves hate,Dwarf,8,1,0,0,0,0,0,0,0,0,0,0,3
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Joker,Blocker,1,0,18933826,things dwarves hate,Dwarf,4,1,0,0,0,0,0,0,0,0,0,0,2
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Rival,Hobgoblin,1,0,18255615,things dwarves hate,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Grodd,Blocker,1,2,19131419,things dwarves hate,Dwarf,8,2,0,1,0,0,0,0,0,0,0,0,4
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Grundy,Blocker,1,2,18255610,things dwarves hate,Dwarf,9,1,0,1,0,0,0,0,0,0,0,0,4
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Trickster,Hobgoblin,1,3,18255612,things dwarves hate,Dwarf,1,0,0,0,0,1,0,0,0,0,56,0,6
+003906c8,1,Rouge's Gallery,Chaos Dwarf,Shade,Hobgoblin,1,0,18255614,things dwarves hate,Dwarf,4,1,1,0,0,0,0,0,0,0,0,0,3
+00390782,1,Pantheon Passers,Elven Union,Okawaru,Blitzer,2,7,17278386,"You're a lizard, 'Arry!",Lizardmen,11,6,2,1,0,0,0,0,0,0,0,0,9
+00390782,1,Pantheon Passers,Elven Union,Yredelemnul,Lineman,2,0,17278394,"You're a lizard, 'Arry!",Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390782,1,Pantheon Passers,Elven Union,Dûrion Eleneme,Lineman,1,0,11,"You're a lizard, 'Arry!",Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390782,1,Pantheon Passers,Elven Union,Zin,Catcher,2,3,18977991,"You're a lizard, 'Arry!",Lizardmen,3,0,0,0,0,1,0,0,1,0,28,0,7
+00390782,1,Pantheon Passers,Elven Union,Kikubaqudgaa,Lineman,1,0,17278391,"You're a lizard, 'Arry!",Lizardmen,0,0,0,0,0,0,0,0,0,0,8,0,1
+00390782,1,Pantheon Passers,Elven Union,Dithmenos,Lineman,1,0,17278393,"You're a lizard, 'Arry!",Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390782,1,Pantheon Passers,Elven Union,Sif Muna,Thrower,2,2,17278390,"You're a lizard, 'Arry!",Lizardmen,0,1,1,0,0,0,2,0,0,0,40,0,7
+00390782,1,Pantheon Passers,Elven Union,Trog,Blitzer,1,0,17278387,"You're a lizard, 'Arry!",Lizardmen,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390782,1,Pantheon Passers,Elven Union,Elyvilon,Catcher,2,0,17278389,"You're a lizard, 'Arry!",Lizardmen,1,1,0,0,0,0,0,0,1,0,0,0,4
+00390782,1,Pantheon Passers,Elven Union,Xom,Lineman,1,0,17278392,"You're a lizard, 'Arry!",Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390782,1,Pantheon Passers,Elven Union,Gozag Ym Sagoz,Lineman,1,0,17278395,"You're a lizard, 'Arry!",Lizardmen,2,1,0,0,0,0,0,0,0,0,0,0,2
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Ron Weasel Skink,Skink,2,5,17115137,Pantheon Passers,Elven Union,1,1,1,0,0,0,0,0,0,0,0,0,3
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Tegrud,Kroxigor,2,0,17115133,Pantheon Passers,Elven Union,5,2,1,0,0,0,0,0,0,0,0,0,3
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Hermonitor Granger,Saurus,1,2,17115134,Pantheon Passers,Elven Union,8,5,0,1,0,0,0,0,0,0,0,0,6
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Neville Longnose Leopard,Skink,1,0,17115141,Pantheon Passers,Elven Union,1,0,0,0,0,0,0,0,0,0,8,0,2
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Salazar Sidewinder,Saurus,2,2,17115139,Pantheon Passers,Elven Union,11,1,0,1,0,0,0,0,0,0,0,0,5
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Petunia Dugite,Skink,2,0,17115142,Pantheon Passers,Elven Union,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Helga Hawksbill Turtle,Saurus,1,0,17115138,Pantheon Passers,Elven Union,2,0,0,0,0,0,0,0,0,0,0,0,1
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Rowena Rosy Boa,Saurus,2,0,17115140,Pantheon Passers,Elven Union,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Nymphadora Tawny Dragon,Skink,1,6,17115143,Pantheon Passers,Elven Union,0,0,0,0,0,2,0,0,0,0,94,0,8
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Harry Parentie,Saurus,1,0,17115136,Pantheon Passers,Elven Union,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390782,1,"You're a lizard, 'Arry!",Lizardmen,Godric Geckodor,Saurus,1,2,17115135,Pantheon Passers,Elven Union,5,2,0,1,0,0,0,0,0,0,0,0,3
+00390762,1,Doom Anvils,Chaos Dwarf,Darkkah Smokeyhair,Blocker,1,5,18821258,"Frozen, Dead North",Necromantic,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390762,1,Doom Anvils,Chaos Dwarf,Glor Darkgreen,Hobgoblin,2,3,18821252,"Frozen, Dead North",Necromantic,6,2,1,0,0,1,0,0,0,0,44,0,8
+00390762,1,Doom Anvils,Chaos Dwarf,Hejami Littlegreen,Hobgoblin,1,0,18821255,"Frozen, Dead North",Necromantic,0,1,1,0,0,0,0,0,0,0,0,0,2
+00390762,1,Doom Anvils,Chaos Dwarf,Bukn Painshred,Hobgoblin,1,0,18821254,"Frozen, Dead North",Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390762,1,Doom Anvils,Chaos Dwarf,Marnak Burntfoot,Bull Centaur,1,3,18821314,"Frozen, Dead North",Necromantic,7,0,0,0,0,1,0,0,0,0,16,0,6
+00390762,1,Doom Anvils,Chaos Dwarf,Marzharr Stonetoe,Blocker,1,0,18997915,"Frozen, Dead North",Necromantic,6,1,1,0,0,0,0,0,0,0,0,0,4
+00390762,1,Doom Anvils,Chaos Dwarf,Gharakk Hothead,Blocker,1,2,18821260,"Frozen, Dead North",Necromantic,6,3,1,1,0,0,0,0,0,0,0,0,6
+00390762,1,Doom Anvils,Chaos Dwarf,Thabak Quicktooth,Blocker,1,0,18821257,"Frozen, Dead North",Necromantic,7,2,1,0,0,0,0,0,0,0,0,0,4
+00390762,1,Doom Anvils,Chaos Dwarf,Dzugm Sickfinder,Hobgoblin,1,0,18821253,"Frozen, Dead North",Necromantic,4,1,0,0,0,0,0,0,0,0,14,0,3
+00390762,1,Doom Anvils,Chaos Dwarf,Thagrak Slicetongue,Blocker,1,0,18821256,"Frozen, Dead North",Necromantic,1,1,1,0,0,0,0,0,0,0,0,0,3
+00390762,1,Doom Anvils,Chaos Dwarf,Frenzi-Kork Rottenbull,Bull Centaur,1,3,18821262,"Frozen, Dead North",Necromantic,5,0,0,0,0,1,0,0,0,0,30,0,5
+00390762,1,Doom Anvils,Chaos Dwarf,Fharlak Redeye,Blocker,1,0,18821259,"Frozen, Dead North",Necromantic,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390762,1,"Frozen, Dead North",Necromantic,Deadball Clemens,Flesh Golem,1,5,18256687,Doom Anvils,Chaos Dwarf,7,1,0,0,0,0,0,0,0,0,0,0,3
+00390762,1,"Frozen, Dead North",Necromantic,Cadaver Tails,Wight,1,0,18256691,Doom Anvils,Chaos Dwarf,4,1,0,0,0,0,0,0,0,0,0,0,2
+00390762,1,"Frozen, Dead North",Necromantic,Ketchup RIP's,Wight,1,2,18256690,Doom Anvils,Chaos Dwarf,7,1,0,1,0,0,0,0,0,0,0,0,4
+00390762,1,"Frozen, Dead North",Necromantic,Finne-gone,Werewolf,1,0,19180944,Doom Anvils,Chaos Dwarf,3,0,0,0,0,0,0,0,0,0,0,0,1
+00390762,1,"Frozen, Dead North",Necromantic,Donovan Mauley,Ghoul,2,0,18256689,Doom Anvils,Chaos Dwarf,4,1,0,0,0,0,0,0,1,0,8,0,5
+00390762,1,"Frozen, Dead North",Necromantic,Cameron Not-Awake,Flesh Golem,1,0,18256686,Doom Anvils,Chaos Dwarf,9,1,0,0,0,0,0,0,0,0,0,0,3
+00390762,1,"Frozen, Dead North",Necromantic,Rachel NecrAdams,Zombie,1,0,18256694,Doom Anvils,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390762,1,"Frozen, Dead North",Necromantic,Kristen Kroaked,Zombie,1,0,18256696,Doom Anvils,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390762,1,"Frozen, Dead North",Necromantic,Alanis Corpsitsette,Zombie,1,0,18256695,Doom Anvils,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390762,1,"Frozen, Dead North",Necromantic,Rotten Gosling,Zombie,1,0,18256693,Doom Anvils,Chaos Dwarf,2,1,1,0,0,0,0,0,0,0,0,0,3
+00390762,1,"Frozen, Dead North",Necromantic,Dyin Reynolds,Zombie,2,0,18256692,Doom Anvils,Chaos Dwarf,8,0,0,0,0,0,0,0,0,0,0,0,2
+00390762,1,"Frozen, Dead North",Necromantic,Deadliest Hobo,Werewolf,1,1,18256688,Doom Anvils,Chaos Dwarf,1,1,1,0,0,0,1,0,0,0,36,0,6
+00390796,1,Orklahoma Soonuhs,Orc,Land-raze Jones,Blitzer,1,7,18994767,Kveland Krakens,Norse,6,2,0,1,0,0,0,0,0,0,0,0,4
+00390796,1,Orklahoma Soonuhs,Orc,Chasin Wights,Lineman,1,0,18994770,Kveland Krakens,Norse,2,1,0,0,0,0,0,0,0,0,0,0,2
+00390796,1,Orklahoma Soonuhs,Orc,Adriuhn Smash'yurson,Black Orc,1,0,18994761,Kveland Krakens,Norse,6,3,2,0,0,0,0,0,0,0,0,0,6
+00390796,1,Orklahoma Soonuhs,Orc,Billy Sim-ple-s,Black Orc,1,0,18994764,Kveland Krakens,Norse,5,2,0,0,0,0,0,0,0,0,0,0,2
+00390796,1,Orklahoma Soonuhs,Orc,Mike Stoopin',Lineman,1,0,18994769,Kveland Krakens,Norse,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390796,1,Orklahoma Soonuhs,Orc,Lee Roy Cleavemon,Blitzer,1,0,18994765,Kveland Krakens,Norse,1,2,0,0,0,0,0,0,0,0,0,0,2
+00390796,1,Orklahoma Soonuhs,Orc,Baker Mayfield,Blitzer,1,2,18994766,Kveland Krakens,Norse,3,1,0,1,1,0,0,0,0,0,6,0,6
+00390796,1,Orklahoma Soonuhs,Orc,Steveul Ur-Ownins,Blitzer,1,0,18994768,Kveland Krakens,Norse,4,2,0,0,0,0,0,0,0,0,0,0,2
+00390796,1,Orklahoma Soonuhs,Orc,Roy WAAAAAGHilliams,Black Orc,1,0,18994762,Kveland Krakens,Norse,2,1,1,0,0,0,0,0,0,0,0,0,3
+00390796,1,Orklahoma Soonuhs,Orc,Brian Trollzworth,Troll,1,2,18994760,Kveland Krakens,Norse,6,2,0,1,0,0,0,0,0,0,0,0,4
+00390796,1,Orklahoma Soonuhs,Orc,Sam Brawlfurd,Black Orc,1,8,18994763,Kveland Krakens,Norse,6,2,0,1,0,2,0,0,0,0,44,0,11
+00390796,1,Kveland Krakens,Norse,Lang Gesturson,Lineman,1,5,18996330,Orklahoma Soonuhs,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390796,1,Kveland Krakens,Norse,Véfúss Frosthammer,Yhetee,1,0,18996321,Orklahoma Soonuhs,Orc,11,4,1,0,0,0,0,0,0,0,0,0,6
+00390796,1,Kveland Krakens,Norse,Hrafngestr,Lineman,1,0,18996327,Orklahoma Soonuhs,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390796,1,Kveland Krakens,Norse,Agnivaldr,Lineman,1,0,18996326,Orklahoma Soonuhs,Orc,4,0,0,0,0,0,0,0,0,0,0,0,1
+00390796,1,Kveland Krakens,Norse,Bersiólfr,Lineman,1,2,18996329,Orklahoma Soonuhs,Orc,4,1,0,1,0,0,0,0,0,0,0,0,3
+00390796,1,Kveland Krakens,Norse,Regingrímr,Runner,1,0,18996325,Orklahoma Soonuhs,Orc,3,0,0,0,0,0,0,0,0,0,6,0,2
+00390796,1,Kveland Krakens,Norse,Ketillfriâr,Berserker,1,0,18996323,Orklahoma Soonuhs,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390796,1,Kveland Krakens,Norse,Hálfdanmóâr,Thrower,1,0,18996356,Orklahoma Soonuhs,Orc,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390796,1,Kveland Krakens,Norse,Grettir Dufthak,Lineman,1,0,18996328,Orklahoma Soonuhs,Orc,3,0,0,0,0,0,0,0,0,0,0,0,1
+00390796,1,Kveland Krakens,Norse,Ofeig Audunarson,Runner,1,0,18996324,Orklahoma Soonuhs,Orc,5,2,1,0,0,0,0,0,0,0,12,0,4
+00390796,1,Kveland Krakens,Norse,Olafkell,Berserker,1,0,18996322,Orklahoma Soonuhs,Orc,8,0,0,0,0,0,0,0,0,0,0,0,2
+003907a3,1,Scooby and the Gang,Necromantic,Gargamel,Zombie,1,5,18988139,The Farm Animals,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1
+003907a3,1,Scooby and the Gang,Necromantic,Tom the Cat,Zombie,1,0,18988141,The Farm Animals,Chaos,3,0,0,0,0,0,0,0,0,0,0,0,1
+003907a3,1,Scooby and the Gang,Necromantic,Shaggy,Ghoul,1,0,18988133,The Farm Animals,Chaos,4,1,1,0,0,0,0,0,0,0,38,0,4
+003907a3,1,Scooby and the Gang,Necromantic,Papa Smurf,Zombie,1,0,18988138,The Farm Animals,Chaos,2,1,0,0,0,0,0,0,0,0,0,0,2
+003907a3,1,Scooby and the Gang,Necromantic,Jerry the Mouse,Zombie,1,0,18988142,The Farm Animals,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0
+003907a3,1,Scooby and the Gang,Necromantic,Yogi Bear,Flesh Golem,1,0,18988136,The Farm Animals,Chaos,7,2,0,0,0,0,0,0,0,0,0,0,3
+003907a3,1,Scooby and the Gang,Necromantic,Fred Flintstone,Flesh Golem,1,0,18988137,The Farm Animals,Chaos,7,0,0,0,0,0,0,0,0,0,4,0,3
+003907a3,1,Scooby and the Gang,Necromantic,Captain Caveman,Wight,1,0,18988134,The Farm Animals,Chaos,6,1,0,0,0,0,0,0,0,0,0,0,3
+003907a3,1,Scooby and the Gang,Necromantic,Muttley,Werewolf,1,3,18988132,The Farm Animals,Chaos,5,0,0,0,0,1,0,0,0,0,34,1,7
+003907a3,1,Scooby and the Gang,Necromantic,Top Cat,Wight,1,0,18988135,The Farm Animals,Chaos,13,1,0,0,0,0,0,0,0,0,0,0,4
+003907a3,1,Scooby and the Gang,Necromantic,Penelope Pitstop,Zombie,1,0,18988140,The Farm Animals,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0
+003907a3,1,The Farm Animals,Chaos,The Pig,Beastman,1,5,19188037,Scooby and the Gang,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+003907a3,1,The Farm Animals,Chaos,The Sheep,Beastman,1,0,19188028,Scooby and the Gang,Necromantic,4,1,0,0,0,0,0,0,0,0,0,0,2
+003907a3,1,The Farm Animals,Chaos,The Rabbit,Beastman,1,0,19188052,Scooby and the Gang,Necromantic,3,0,0,0,0,0,0,0,0,0,32,0,2
+003907a3,1,The Farm Animals,Chaos,The Goat,Beastman,1,0,19188033,Scooby and the Gang,Necromantic,6,3,0,0,0,0,0,0,0,0,0,1,6
+003907a3,1,The Farm Animals,Chaos,The Chicken,Beastman,1,0,19188054,Scooby and the Gang,Necromantic,5,0,0,0,0,0,0,0,0,0,0,0,1
+003907a3,1,The Farm Animals,Chaos,The Horse,Chaos Warrior,1,0,19187943,Scooby and the Gang,Necromantic,10,1,0,0,0,0,0,0,0,0,0,0,3
+003907a3,1,The Farm Animals,Chaos,The Cow,Chaos Warrior,1,0,19187966,Scooby and the Gang,Necromantic,7,1,0,0,0,0,0,0,0,0,0,0,3
+003907a3,1,The Farm Animals,Chaos,The Dog,Beastman,1,0,19188055,Scooby and the Gang,Necromantic,6,0,0,0,0,0,0,0,0,0,0,0,2
+003907a3,1,The Farm Animals,Chaos,The Cat,Beastman,1,0,19187991,Scooby and the Gang,Necromantic,5,0,0,0,0,0,0,0,0,0,0,0,1
+003907a3,1,The Farm Animals,Chaos,The Bull,Chaos Warrior,1,0,19187946,Scooby and the Gang,Necromantic,14,2,0,0,0,0,0,0,0,0,0,0,4
+003907a3,1,The Farm Animals,Chaos,The Beef,Chaos Warrior,1,0,19187944,Scooby and the Gang,Necromantic,7,1,0,0,0,0,0,0,0,0,0,0,3
+00390821,1,Howl_at_the_Moon,Necromantic,John Cutesack,Flesh Golem,3,7,11649020,The Three Mountains,Dwarf,7,1,0,1,0,0,0,0,0,0,0,0,4
+00390821,1,Howl_at_the_Moon,Necromantic,Neil Armschlong,Wight,3,0,15377903,The Three Mountains,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390821,1,Howl_at_the_Moon,Necromantic,Throbbin Hood,Zombie,1,0,16698251,The Three Mountains,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390821,1,Howl_at_the_Moon,Necromantic,Clint Orris,Zombie,1,0,18515924,The Three Mountains,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390821,1,Howl_at_the_Moon,Necromantic,Barry McCockinner,Zombie,1,0,19065005,The Three Mountains,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390821,1,Howl_at_the_Moon,Necromantic,Lance Thruster,Wight,3,2,11649021,The Three Mountains,Dwarf,4,2,0,1,0,0,0,0,0,0,0,0,3
+00390821,1,Howl_at_the_Moon,Necromantic,Hugh Gerektion,Zombie,1,0,16698252,The Three Mountains,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390821,1,Howl_at_the_Moon,Necromantic,Alfred Hugecock,Ghoul,3,0,14071647,The Three Mountains,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390821,1,Howl_at_the_Moon,Necromantic,Buck Nekkid,Zombie,3,0,14274659,The Three Mountains,Dwarf,0,1,0,0,0,0,0,0,0,0,0,0,1
+00390821,1,Howl_at_the_Moon,Necromantic,Michael J. Cox,Flesh Golem,2,0,16949631,The Three Mountains,Dwarf,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390821,1,Howl_at_the_Moon,Necromantic,Rod Longstaff,Werewolf,6,11,11649018,The Three Mountains,Dwarf,17,12,0,4,0,1,0,0,0,0,12,0,18
+00390821,1,Howl_at_the_Moon,Necromantic,Luke Thighwalker II,Werewolf,5,2,14870575,The Three Mountains,Dwarf,10,2,0,1,0,0,0,0,1,0,6,1,9
+00390821,1,Howl_at_the_Moon,Necromantic,Rick Hardbeef,Ghoul,2,4,16552690,The Three Mountains,Dwarf,0,0,0,0,0,1,1,0,0,0,60,0,7
+00390821,1,The Three Mountains,Dwarf,Grouse,Blitzer,4,9,14888715,Howl_at_the_Moon,Necromantic,4,2,0,2,1,0,0,0,0,0,0,0,6
+00390821,1,The Three Mountains,Dwarf,Edziza,Longbeard,1,0,19092349,Howl_at_the_Moon,Necromantic,4,0,0,0,0,0,0,0,0,0,0,0,1
+00390821,1,The Three Mountains,Dwarf,Goat,Longbeard,2,0,14888717,Howl_at_the_Moon,Necromantic,5,1,0,0,0,0,0,0,0,0,0,0,2
+00390821,1,The Three Mountains,Dwarf,Seymour,Longbeard,3,2,14888718,Howl_at_the_Moon,Necromantic,2,1,0,1,0,0,0,0,0,0,0,0,3
+00390821,1,The Three Mountains,Dwarf,Bella Coola,Runner,4,0,14888721,Howl_at_the_Moon,Necromantic,3,1,1,0,0,0,0,0,0,0,0,0,3
+00390821,1,The Three Mountains,Dwarf,Fairweather,Longbeard,3,0,14888719,Howl_at_the_Moon,Necromantic,4,1,0,0,0,0,0,0,0,0,0,0,2
+00390821,1,The Three Mountains,Dwarf,Black Tusk,Longbeard,3,0,14888716,Howl_at_the_Moon,Necromantic,9,1,1,0,0,0,0,0,0,0,0,0,4
+00390821,1,The Three Mountains,Dwarf,Hells Gate,Runner,5,5,14888722,Howl_at_the_Moon,Necromantic,4,1,0,1,0,1,0,0,0,0,72,0,8
+00390821,1,The Three Mountains,Dwarf,PLAYER_NAMES_CHAMPION_BOOMER_FALLBACK,Unknown playertype,1,0,49,Howl_at_the_Moon,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390821,1,The Three Mountains,Dwarf,Chief Stawamus,Longbeard,2,0,14888720,Howl_at_the_Moon,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390821,1,The Three Mountains,Dwarf,Cinder,Troll Slayer,2,2,17682262,Howl_at_the_Moon,Necromantic,4,2,0,1,0,0,0,0,0,0,0,0,3
+00390821,1,The Three Mountains,Dwarf,Fernie,Blitzer,3,0,14906808,Howl_at_the_Moon,Necromantic,4,0,0,0,0,0,0,0,0,0,0,0,1
+00390821,1,The Three Mountains,Dwarf,King,Troll Slayer,1,0,16962695,Howl_at_the_Moon,Necromantic,5,1,1,0,0,0,0,0,0,0,0,0,3
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Nonon Jakuzure 2,Blitzer,1,7,18759018,The Grody Greens,Nurgle,8,2,0,1,0,0,0,0,0,0,0,0,4
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Guts,Goblin,1,0,17292209,The Grody Greens,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Ira Gamagoori,Blitzer,2,2,17292199,The Grody Greens,Nurgle,9,4,1,1,0,0,0,0,0,0,0,0,6
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Senketsu,Warpstone Troll,2,2,17292198,The Grody Greens,Nurgle,6,2,0,1,0,0,0,0,0,0,0,0,4
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Tsumugu Kinagase,Goblin,1,0,19216471,The Grody Greens,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Aikuro Mikisugi,Goblin,1,0,18709336,The Grody Greens,Nurgle,1,1,0,0,0,0,0,0,0,0,0,0,2
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Mako Mankanshoku,Goblin,1,0,17292205,The Grody Greens,Nurgle,0,0,0,0,0,0,0,0,1,0,0,0,2
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Sukuyo Mankanshoku,Goblin,1,0,17292207,The Grody Greens,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Houka Inumuta,Lineman,2,3,17292204,The Grody Greens,Nurgle,4,4,2,0,0,1,0,0,0,0,14,0,9
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Barazo Mankanshoku,Goblin,2,0,17292206,The Grody Greens,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Uzu Sanageyama,Lineman,1,0,17292203,The Grody Greens,Nurgle,2,0,0,0,0,0,0,0,0,0,0,0,1
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Mataro Mankanshoku,Goblin,1,0,17292208,The Grody Greens,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Satsuki Kiryuin,Thrower,2,0,17292202,The Grody Greens,Nurgle,4,1,0,0,0,0,0,0,0,0,0,0,2
+00390827,1,Mutants In Human Clothing,Underworld Denizens,Ryuko Matoi,Thrower,2,4,17292201,The Grody Greens,Nurgle,0,0,0,0,0,1,1,0,0,0,68,0,7
+00390827,1,The Grody Greens,Nurgle,Yaaz'a of Mucus,Beast of Nurgle,1,5,17422093,Mutants In Human Clothing,Underworld Denizens,7,3,0,0,0,0,0,0,0,0,0,0,4
+00390827,1,The Grody Greens,Nurgle,Lord Stocco the Plaguebearer,Nurgle Warrior,1,0,17422330,Mutants In Human Clothing,Underworld Denizens,2,0,0,0,0,0,0,0,0,0,0,0,1
+00390827,1,The Grody Greens,Nurgle,Ewan von Rotwurst,Rotter,2,0,17422675,Mutants In Human Clothing,Underworld Denizens,6,0,0,0,0,0,0,0,0,0,0,0,2
+00390827,1,The Grody Greens,Nurgle,Lionel the Primatic,Rotter,1,0,17422672,Mutants In Human Clothing,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390827,1,The Grody Greens,Nurgle,Lord Dorax Malaria,Nurgle Warrior,1,0,17422331,Mutants In Human Clothing,Underworld Denizens,4,0,0,0,0,0,0,0,0,0,0,0,1
+00390827,1,The Grody Greens,Nurgle,Karl the Decayed,Rotter,1,0,19160417,Mutants In Human Clothing,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390827,1,The Grody Greens,Nurgle,Pandemic Pete,Pestigor,1,3,18471892,Mutants In Human Clothing,Underworld Denizens,0,0,0,0,0,1,0,0,0,0,34,0,4
+00390827,1,The Grody Greens,Nurgle,Lord Da-ke the Infector,Nurgle Warrior,1,0,17422449,Mutants In Human Clothing,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390827,1,The Grody Greens,Nurgle,Fracist Attractus,Rotter,1,0,17422673,Mutants In Human Clothing,Underworld Denizens,2,1,1,0,0,0,0,0,0,0,0,0,3
+00390827,1,The Grody Greens,Nurgle,Lord Ephatho Morbid,Nurgle Warrior,2,0,17422450,Mutants In Human Clothing,Underworld Denizens,9,1,1,0,0,0,0,0,0,0,0,0,4
+00390827,1,The Grody Greens,Nurgle,Dengue Dan,Pestigor,2,2,17422607,Mutants In Human Clothing,Underworld Denizens,12,3,0,1,1,0,0,0,0,0,4,0,9
+00390827,1,The Grody Greens,Nurgle,Jek the Indisposed,Rotter,1,0,17422699,Mutants In Human Clothing,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,22,0,2
+00390827,1,The Grody Greens,Nurgle,Uzu Sanageyama,Rotter,1,0,49,Mutants In Human Clothing,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0
+003908b6,1,Perfecto!,Lizardmen,Hotdog,Skink,1,5,19218037,Poopy Smells,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1
+003908b6,1,Perfecto!,Lizardmen,Dennehey,Saurus,2,0,15105066,Poopy Smells,Nurgle,9,0,0,0,0,0,0,0,0,0,0,0,2
+003908b6,1,Perfecto!,Lizardmen,Hash Brown the Third,Skink,1,0,16247353,Poopy Smells,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+003908b6,1,Perfecto!,Lizardmen,Shidoshi,Saurus,3,4,15105065,Poopy Smells,Nurgle,8,4,1,2,0,0,0,0,0,0,0,0,7
+003908b6,1,Perfecto!,Lizardmen,Buddy Guy,Kroxigor,4,0,15105067,Poopy Smells,Nurgle,4,1,0,0,0,0,0,0,0,0,0,0,2
+003908b6,1,Perfecto!,Lizardmen,Ders,Saurus,2,0,15105063,Poopy Smells,Nurgle,8,1,0,0,0,0,0,0,0,0,0,0,3
+003908b6,1,Perfecto!,Lizardmen,Onion,Skink,2,3,15105114,Poopy Smells,Nurgle,1,0,0,0,0,1,0,0,1,0,56,0,8
+003908b6,1,Perfecto!,Lizardmen,Jueles,Saurus,2,2,15105064,Poopy Smells,Nurgle,4,1,0,1,0,0,0,0,0,0,0,0,3
+003908b6,1,Perfecto!,Lizardmen,Kennny Dennis,Saurus,2,2,15105061,Poopy Smells,Nurgle,6,1,0,1,0,0,0,0,0,0,0,0,4
+003908b6,1,Perfecto!,Lizardmen,Corned Beef,Skink,1,0,16964525,Poopy Smells,Nurgle,0,0,0,0,0,0,0,0,0,0,8,0,1
+003908b6,1,Perfecto!,Lizardmen,Rip Tip,Skink,4,1,15105057,Poopy Smells,Nurgle,0,1,0,0,0,0,1,0,0,0,4,0,4
+003908b6,1,Poopy Smells,Nurgle,Docking Dix,Nurgle Warrior,3,5,13362351,Perfecto!,Lizardmen,4,2,1,0,0,0,0,0,0,0,0,0,3
+003908b6,1,Poopy Smells,Nurgle,Pet Sementary,Nurgle Warrior,1,0,15026878,Perfecto!,Lizardmen,4,1,1,0,0,0,0,0,0,0,0,0,3
+003908b6,1,Poopy Smells,Nurgle,Tapeworm Rim,Pestigor,1,0,15584289,Perfecto!,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+003908b6,1,Poopy Smells,Nurgle,Dik-Butt,Rotter,1,0,16737503,Perfecto!,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+003908b6,1,Poopy Smells,Nurgle,Rectal Rupture,Pestigor,4,3,13362352,Perfecto!,Lizardmen,3,0,0,0,0,1,0,0,0,0,46,0,5
+003908b6,1,Poopy Smells,Nurgle,Pee-Cok's Semen Jar,Rotter,1,0,16025956,Perfecto!,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+003908b6,1,Poopy Smells,Nurgle,Coffin Birth Placenta,Beast of Nurgle,2,2,16026947,Perfecto!,Lizardmen,6,2,0,1,1,0,0,0,0,0,0,0,6
+003908b6,1,Poopy Smells,Nurgle,Rectal Torture,Pestigor,2,0,14052831,Perfecto!,Lizardmen,5,0,0,0,0,0,0,0,0,0,0,0,1
+003908b6,1,Poopy Smells,Nurgle,ANULBeadzzz,Nurgle Warrior,2,0,13362349,Perfecto!,Lizardmen,8,1,1,0,0,0,0,0,0,0,0,0,4
+003908b6,1,Poopy Smells,Nurgle,Chode,Nurgle Warrior,3,0,13362350,Perfecto!,Lizardmen,7,1,0,0,0,0,0,0,0,0,0,0,3
+003908b6,1,Poopy Smells,Nurgle,Rectal Rapture,Pestigor,3,0,14052815,Perfecto!,Lizardmen,10,2,1,0,0,0,0,0,0,0,0,0,4
+003908b6,1,Poopy Smells,Nurgle,Did you ever hear,Rotter,1,0,16607905,Perfecto!,Lizardmen,2,1,0,0,0,0,0,0,0,0,0,0,2
+00390b89,1,HAMUFAITASU,Goblin,Craig-kun,Troll,1,5,19039035,Skellie-cuns,Khemri,9,1,0,0,0,0,0,0,0,0,0,0,3
+00390b89,1,HAMUFAITASU,Goblin,Josh-kun,Goblin,1,0,19039045,Skellie-cuns,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390b89,1,HAMUFAITASU,Goblin,Lowell-kun,Goblin,1,0,19039044,Skellie-cuns,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390b89,1,HAMUFAITASU,Goblin,Nicole-chan,Fanatic,1,0,19039037,Skellie-cuns,Khemri,7,2,1,0,0,0,0,0,0,0,0,0,4
+00390b89,1,HAMUFAITASU,Goblin,Jeremy-kun,Troll,1,2,19039036,Skellie-cuns,Khemri,10,3,0,1,0,0,0,0,0,0,0,0,5
+00390b89,1,HAMUFAITASU,Goblin,Jake-kun,Goblin,1,0,19039040,Skellie-cuns,Khemri,0,0,0,0,0,0,0,0,1,0,18,0,3
+00390b89,1,HAMUFAITASU,Goblin,Andy-kun,Goblin,1,0,19039046,Skellie-cuns,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390b89,1,HAMUFAITASU,Goblin,Frank-kun,Goblin,1,0,19039041,Skellie-cuns,Khemri,0,0,0,0,0,0,0,0,0,0,16,0,1
+00390b89,1,HAMUFAITASU,Goblin,Aaron-kun,Goblin,1,0,19039043,Skellie-cuns,Khemri,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390b89,1,HAMUFAITASU,Goblin,Aubrey-chan,Looney,1,0,19039038,Skellie-cuns,Khemri,0,1,0,0,0,0,0,0,0,0,0,0,1
+00390b89,1,HAMUFAITASU,Goblin,Kit-kun,Goblin,1,0,19039042,Skellie-cuns,Khemri,0,2,0,0,0,0,0,0,0,0,0,0,1
+00390b89,1,HAMUFAITASU,Goblin,Juliette-chan,Pogoer,1,1,19039039,Skellie-cuns,Khemri,0,0,0,0,0,0,1,0,0,0,0,0,2
+00390b89,1,Skellie-cuns,Khemri,Big Fella,Tomb Guardian,1,5,18819370,HAMUFAITASU,Goblin,10,4,1,0,0,0,0,0,0,0,0,0,5
+00390b89,1,Skellie-cuns,Khemri,Drongo,Skeleton,1,0,18819397,HAMUFAITASU,Goblin,3,0,0,0,0,0,0,0,0,0,0,0,1
+00390b89,1,Skellie-cuns,Khemri,Gronk,Skeleton,1,0,18819421,HAMUFAITASU,Goblin,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390b89,1,Skellie-cuns,Khemri,Grom,Skeleton,1,0,18819374,HAMUFAITASU,Goblin,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390b89,1,Skellie-cuns,Khemri,Rame-seize-the-ball,Thro Ra,1,0,18819367,HAMUFAITASU,Goblin,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390b89,1,Skellie-cuns,Khemri,Smashy Bloke,Blitz Ra,1,4,18819368,HAMUFAITASU,Goblin,12,3,1,2,0,0,0,0,0,0,0,0,8
+00390b89,1,Skellie-cuns,Khemri,Jeeze there's 4 of em?!,Tomb Guardian,1,0,18819373,HAMUFAITASU,Goblin,6,0,0,0,0,0,0,0,0,0,0,0,2
+00390b89,1,Skellie-cuns,Khemri,Dingbat,Skeleton,1,0,18819376,HAMUFAITASU,Goblin,1,1,0,0,0,0,0,0,0,0,0,0,2
+00390b89,1,Skellie-cuns,Khemri,F* off Big!,Tomb Guardian,1,0,18819372,HAMUFAITASU,Goblin,3,1,1,0,0,0,0,0,0,0,0,0,3
+00390b89,1,Skellie-cuns,Khemri,Flamin Gallah,Skeleton,1,0,18819377,HAMUFAITASU,Goblin,0,0,0,0,0,0,0,0,0,0,38,0,1
+00390b89,1,Skellie-cuns,Khemri,Really Big Fella,Tomb Guardian,1,0,18819371,HAMUFAITASU,Goblin,8,2,0,0,0,0,0,0,0,0,0,0,3
+00390b89,1,Skellie-cuns,Khemri,Punchy,Blitz Ra,1,6,18819369,HAMUFAITASU,Goblin,5,0,0,0,0,2,0,0,0,0,62,0,9
+00390bd3,1,All Just NUmbers,Wood Elf,11,Lineman,2,8,17119930,Muten Roshi's Bear School,Kislev Circus,0,0,0,0,0,1,0,0,0,0,20,0,4
+00390bd3,1,All Just NUmbers,Wood Elf,09,Lineman,1,0,17119928,Muten Roshi's Bear School,Kislev Circus,3,1,1,0,0,0,0,0,0,0,0,0,3
+00390bd3,1,All Just NUmbers,Wood Elf,08,Lineman,1,0,17119927,Muten Roshi's Bear School,Kislev Circus,2,1,1,0,0,0,0,0,0,0,0,0,3
+00390bd3,1,All Just NUmbers,Wood Elf,13 - unlucky for some,Treeman,1,2,19074736,Muten Roshi's Bear School,Kislev Circus,1,1,0,1,0,0,0,0,0,0,0,0,3
+00390bd3,1,All Just NUmbers,Wood Elf,10,Thrower,1,0,17119929,Muten Roshi's Bear School,Kislev Circus,3,0,0,0,0,0,0,0,0,0,0,0,1
+00390bd3,1,All Just NUmbers,Wood Elf,Trielroith,Lineman,1,0,11,Muten Roshi's Bear School,Kislev Circus,2,1,0,0,0,0,0,0,0,0,0,0,2
+00390bd3,1,All Just NUmbers,Wood Elf,03,Lineman,1,0,17119922,Muten Roshi's Bear School,Kislev Circus,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390bd3,1,All Just NUmbers,Wood Elf,02,Wardancer,1,1,17119921,Muten Roshi's Bear School,Kislev Circus,4,1,0,0,0,0,1,0,0,0,18,0,5
+00390bd3,1,All Just NUmbers,Wood Elf,05,Lineman,3,0,17119924,Muten Roshi's Bear School,Kislev Circus,4,1,0,0,0,0,0,0,0,0,16,0,3
+00390bd3,1,All Just NUmbers,Wood Elf,04,Lineman,1,3,17119923,Muten Roshi's Bear School,Kislev Circus,6,1,1,0,0,1,0,0,1,0,30,0,10
+00390bd3,1,All Just NUmbers,Wood Elf,07,Lineman,1,2,17119926,Muten Roshi's Bear School,Kislev Circus,5,1,0,1,0,0,0,0,0,0,0,0,3
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Turles,Lineman,1,5,17291128,All Just NUmbers,Wood Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Teen Gohan,Lineman,1,0,19195120,All Just NUmbers,Wood Elf,2,1,1,0,0,0,0,0,0,0,0,0,3
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Paragus,Lineman,1,0,17291132,All Just NUmbers,Wood Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Vegeta,Blitzer,2,5,17291126,All Just NUmbers,Wood Elf,10,5,0,1,1,1,0,0,0,0,24,0,12
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Goten,Lineman,1,0,17291135,All Just NUmbers,Wood Elf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Trunks,Lineman,1,0,17291133,All Just NUmbers,Wood Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Tarble,Lineman,1,0,17291130,All Just NUmbers,Wood Elf,2,1,0,0,0,0,0,0,0,0,0,0,2
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Bardock,Lineman,1,1,17291129,All Just NUmbers,Wood Elf,1,0,0,0,0,0,1,0,0,0,2,0,4
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Raditz,Catcher,2,0,17292092,All Just NUmbers,Wood Elf,0,1,0,0,0,0,0,0,2,0,80,0,7
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Nappa,Lineman,1,0,17292093,All Just NUmbers,Wood Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Evgeny Bolshakov,Lineman,1,1,18549666,All Just NUmbers,Wood Elf,1,0,0,0,0,0,1,0,0,0,0,0,3
+00390bd3,1,Muten Roshi's Bear School,Kislev Circus,Son Goku,Blitzer,2,2,17291125,All Just NUmbers,Wood Elf,10,3,0,1,0,0,0,0,0,0,12,0,6
+00390f0b,1,Cowboy Dorfs,Dwarf,Yul Brynner,Longbeard,1,5,15762676,Lich's Skull Crushers,Chaos Dwarf,9,0,0,0,0,0,0,0,0,0,0,0,2
+00390f0b,1,Cowboy Dorfs,Dwarf,Jack Palance,Longbeard,1,0,15762675,Lich's Skull Crushers,Chaos Dwarf,3,0,0,0,0,0,0,0,0,0,0,0,1
+00390f0b,1,Cowboy Dorfs,Dwarf,Robert Duvall,Runner,2,0,15762674,Lich's Skull Crushers,Chaos Dwarf,1,1,0,0,0,0,0,0,0,0,20,0,3
+00390f0b,1,Cowboy Dorfs,Dwarf,John Wayne,Troll Slayer,1,0,15762670,Lich's Skull Crushers,Chaos Dwarf,13,1,0,0,0,0,0,0,0,0,0,0,4
+00390f0b,1,Cowboy Dorfs,Dwarf,Roland Deschain,Longbeard,1,0,18896877,Lich's Skull Crushers,Chaos Dwarf,2,0,0,0,0,0,0,0,0,0,0,0,1
+00390f0b,1,Cowboy Dorfs,Dwarf,Sam Elliot,Longbeard,1,0,15762673,Lich's Skull Crushers,Chaos Dwarf,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390f0b,1,Cowboy Dorfs,Dwarf,Gary Cooper,Blitzer,1,2,15762671,Lich's Skull Crushers,Chaos Dwarf,3,1,0,1,1,0,0,0,0,0,12,0,6
+00390f0b,1,Cowboy Dorfs,Dwarf,Ernest Borgnine,Longbeard,1,2,15762677,Lich's Skull Crushers,Chaos Dwarf,7,1,0,1,0,0,0,0,0,0,0,0,4
+00390f0b,1,Cowboy Dorfs,Dwarf,Gene Autry,Blitzer,1,0,15762672,Lich's Skull Crushers,Chaos Dwarf,7,0,0,0,0,0,0,0,0,0,0,0,2
+00390f0b,1,Cowboy Dorfs,Dwarf,Clint Eastwood,Troll Slayer,2,2,15762669,Lich's Skull Crushers,Chaos Dwarf,11,3,1,1,0,0,0,0,0,0,0,0,7
+00390f0b,1,Cowboy Dorfs,Dwarf,Gene Hackman,Longbeard,1,0,15762678,Lich's Skull Crushers,Chaos Dwarf,5,1,0,0,0,0,0,0,0,0,0,0,2
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Ugnor Skullbeard,Blocker,2,5,16250022,Cowboy Dorfs,Dwarf,3,1,0,0,0,0,0,0,0,0,0,0,2
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Ignar Goldfist,Blocker,1,0,16250020,Cowboy Dorfs,Dwarf,9,1,0,0,0,0,0,0,0,0,0,0,3
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Seduzt Bonesnapper,Hobgoblin,1,0,16534690,Cowboy Dorfs,Dwarf,5,1,0,0,0,0,0,0,0,0,0,0,2
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Pingrin Backstabber,Hobgoblin,1,0,16250024,Cowboy Dorfs,Dwarf,0,0,0,0,0,0,0,0,0,0,52,0,2
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Smux Giantstomach,Hobgoblin,1,0,18650490,Cowboy Dorfs,Dwarf,2,0,0,0,0,0,0,0,0,0,0,0,1
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Toregarm Ironhoof,Bull Centaur,2,5,16250235,Cowboy Dorfs,Dwarf,8,2,0,1,0,1,0,0,0,0,22,0,8
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Cragfist Facebreaker,Blocker,1,0,16250019,Cowboy Dorfs,Dwarf,7,1,0,0,0,0,0,0,0,0,0,0,3
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Gruthmar Cragbreaker,Blocker,1,0,16250234,Cowboy Dorfs,Dwarf,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Thabak Deadface,Blocker,1,2,19027094,Cowboy Dorfs,Dwarf,10,3,0,1,0,0,0,0,0,0,0,0,5
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Grimjaw Backcracker,Bull Centaur,2,0,16250236,Cowboy Dorfs,Dwarf,8,0,0,0,0,0,0,0,0,0,0,0,2
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Drackmar Ironboots,Blocker,1,0,16250021,Cowboy Dorfs,Dwarf,5,0,0,0,0,0,0,0,0,0,0,0,1
+00390f0b,1,Lich's Skull Crushers,Chaos Dwarf,Fengrim Sladowslinker,Hobgoblin,1,0,16250025,Cowboy Dorfs,Dwarf,1,0,0,0,0,0,0,0,0,0,8,0,2
+00391027,1,I'm a zon,Amazon,Alkyone,Catcher,1,5,17126442,CIS Bears,Kislev Circus,4,2,1,0,0,0,0,0,0,0,0,0,3
+00391027,1,I'm a zon,Amazon,Bardida,Linewoman,1,2,17125747,CIS Bears,Kislev Circus,8,3,1,1,1,0,0,0,0,0,0,1,10
+00391027,1,I'm a zon,Amazon,Orthia,Linewoman,1,0,17125751,CIS Bears,Kislev Circus,5,0,0,0,0,0,0,0,0,0,6,0,2
+00391027,1,I'm a zon,Amazon,The Dancer,Blitzer,2,2,17125743,CIS Bears,Kislev Circus,1,1,0,1,0,0,0,0,0,0,0,0,3
+00391027,1,I'm a zon,Amazon,The Awaker,Blitzer,2,0,17125742,CIS Bears,Kislev Circus,6,0,0,0,0,0,0,0,0,0,0,0,2
+00391027,1,I'm a zon,Amazon,The Queen of the Stars,Thrower,1,5,19077516,CIS Bears,Kislev Circus,1,1,0,1,0,1,0,0,0,0,52,0,8
+00391027,1,I'm a zon,Amazon,Huntress,Catcher,1,0,17125745,CIS Bears,Kislev Circus,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391027,1,I'm a zon,Amazon,Alkippe Androdaixa,Linewoman,1,0,18784645,CIS Bears,Kislev Circus,7,1,0,0,0,0,0,0,0,0,0,0,3
+00391027,1,I'm a zon,Amazon,Spearwielder,Blitzer,1,0,17125741,CIS Bears,Kislev Circus,6,0,0,0,0,0,0,0,0,0,0,0,2
+00391027,1,I'm a zon,Amazon,Mantamer,Blitzer,1,0,17125744,CIS Bears,Kislev Circus,9,3,0,0,0,0,0,0,0,0,0,1,6
+00391027,1,I'm a zon,Amazon,Andromeda Theseis,Linewoman,1,0,18784646,CIS Bears,Kislev Circus,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391027,1,I'm a zon,Amazon,Starreader,Thrower,2,0,17125746,CIS Bears,Kislev Circus,4,1,1,0,0,0,0,0,0,0,0,0,3
+00391027,1,I'm a zon,Amazon,Akantha,Linewoman,1,0,17125749,CIS Bears,Kislev Circus,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391027,1,CIS Bears,Kislev Circus,Katya Zamolodchikova,Lineman,2,5,17773936,I'm a zon,Amazon,2,1,0,0,0,0,0,0,0,0,0,0,2
+00391027,1,CIS Bears,Kislev Circus,Ivan the Terrible,Lineman,1,0,17773932,I'm a zon,Amazon,4,1,0,0,0,0,0,0,0,0,0,0,2
+00391027,1,CIS Bears,Kislev Circus,Chechen Menaut,Lineman,1,0,17773938,I'm a zon,Amazon,5,1,0,0,0,0,0,0,0,0,0,0,2
+00391027,1,CIS Bears,Kislev Circus,Spartak Rus,Lineman,1,0,17773935,I'm a zon,Amazon,0,1,1,0,0,0,0,0,0,0,0,0,2
+00391027,1,CIS Bears,Kislev Circus,Vlad the Impaler,Blitzer,2,2,17773930,I'm a zon,Amazon,11,1,0,1,0,0,0,0,0,0,0,1,7
+00391027,1,CIS Bears,Kislev Circus,Ra-Ra Rasputin,Blitzer,2,0,17773929,I'm a zon,Amazon,5,2,0,0,0,0,0,0,0,0,0,0,2
+00391027,1,CIS Bears,Kislev Circus,Kafka Esq,Catcher,1,0,19019292,I'm a zon,Amazon,0,0,0,0,0,0,0,0,0,0,30,0,1
+00391027,1,CIS Bears,Kislev Circus,Twink,Tame Bear,1,2,17770753,I'm a zon,Amazon,9,1,0,1,0,0,0,0,0,0,0,0,4
+00391027,1,CIS Bears,Kislev Circus,Sergei of Minsk,Lineman,1,0,17773937,I'm a zon,Amazon,2,1,0,0,0,0,0,0,0,0,2,0,3
+00391027,1,CIS Bears,Kislev Circus,Georgy,Lineman,1,0,17773931,I'm a zon,Amazon,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391027,1,CIS Bears,Kislev Circus,Pyotr Peckerov,Lineman,1,0,17773933,I'm a zon,Amazon,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391259,1,Castlevania Creeps,Vampire,Christopher Belmont,Thrall,1,5,19023826,Mount the Tetons,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391259,1,Castlevania Creeps,Vampire,Charles Vincent,Thrall,1,0,19023862,Mount the Tetons,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391259,1,Castlevania Creeps,Vampire,Charles Vincent,Thrall,1,2,19185654,Mount the Tetons,Orc,1,1,0,1,0,0,0,0,0,0,0,0,3
+00391259,1,Castlevania Creeps,Vampire,Nathan Graves,Thrall,1,0,19023863,Mount the Tetons,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391259,1,Castlevania Creeps,Vampire,Reinhardt Schneider,Thrall,1,0,19023833,Mount the Tetons,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391259,1,Castlevania Creeps,Vampire,Richtor Belmont,Thrall,1,0,19023830,Mount the Tetons,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391259,1,Castlevania Creeps,Vampire,John Morris,Thrall,1,0,19023831,Mount the Tetons,Orc,1,1,0,0,0,0,0,0,0,0,0,0,2
+00391259,1,Castlevania Creeps,Vampire,Soleiyu Belmont,Thrall,1,0,19023827,Mount the Tetons,Orc,5,0,0,0,0,0,0,0,0,0,0,0,1
+00391259,1,Castlevania Creeps,Vampire,Trevor C. Belmont,Thrall,1,0,19023828,Mount the Tetons,Orc,3,1,1,0,0,0,0,0,0,0,0,0,3
+00391259,1,Castlevania Creeps,Vampire,Alucard Cronqvist,Vampire,1,3,19023824,Mount the Tetons,Orc,8,4,2,0,0,1,0,0,0,0,22,0,10
+00391259,1,Castlevania Creeps,Vampire,Grant Danasty,Thrall,1,0,19023829,Mount the Tetons,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391259,1,Castlevania Creeps,Vampire,Eric Lecarde,Thrall,1,0,19023832,Mount the Tetons,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391259,1,Castlevania Creeps,Vampire,Simon Belmont,Thrall,1,2,19023825,Mount the Tetons,Orc,3,1,0,1,0,0,0,0,0,0,0,0,3
+00391259,1,Castlevania Creeps,Vampire,Mathias Cronqvist,Vampire,1,3,19023823,Mount the Tetons,Orc,2,0,0,0,0,1,0,0,0,0,46,0,5
+00391259,1,Mount the Tetons,Orc,Marble Pineripper,Blitzer,1,5,18025429,Castlevania Creeps,Vampire,6,1,1,0,0,0,0,0,0,0,0,0,4
+00391259,1,Mount the Tetons,Orc,Koz Eat'Burn,Black Orc,1,0,18025424,Castlevania Creeps,Vampire,1,1,0,0,0,0,0,0,0,0,0,0,2
+00391259,1,Mount the Tetons,Orc,Gnome Tear'Liver,Black Orc,1,0,18025425,Castlevania Creeps,Vampire,7,0,0,0,0,0,0,0,0,0,0,0,2
+00391259,1,Mount the Tetons,Orc,Big D Bruis'Elbow,Black Orc,1,0,18025427,Castlevania Creeps,Vampire,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391259,1,Mount the Tetons,Orc,Argos Goug'Fing,Black Orc,1,0,18025426,Castlevania Creeps,Vampire,3,2,0,0,0,0,0,0,0,0,0,0,2
+00391259,1,Mount the Tetons,Orc,Geezer Old Tackle,Lineman,1,2,18025434,Castlevania Creeps,Vampire,3,3,0,1,0,0,0,0,0,0,0,0,4
+00391259,1,Mount the Tetons,Orc,Pixie not so Sweet,Blitzer,1,0,18025431,Castlevania Creeps,Vampire,1,0,0,0,0,0,0,0,0,0,54,0,3
+00391259,1,Mount the Tetons,Orc,Foggy Harbor Sunk,Blitzer,1,2,18025430,Castlevania Creeps,Vampire,8,3,0,1,0,0,0,0,0,0,0,0,5
+00391259,1,Mount the Tetons,Orc,Isogel Slobber,Blitzer,1,0,18025428,Castlevania Creeps,Vampire,6,3,0,0,0,0,0,0,0,0,0,0,4
+00391259,1,Mount the Tetons,Orc,MossFly TasteGood,Lineman,1,0,18025433,Castlevania Creeps,Vampire,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391259,1,Mount the Tetons,Orc,CyberKnight Axe,Lineman,1,0,18025432,Castlevania Creeps,Vampire,0,0,0,0,0,0,0,0,0,0,0,0,0
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,Catriona,Pestigor,1,5,18740392,Bloodsuckers inc.,Vampire,5,1,0,0,0,0,0,0,0,0,0,0,2
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,The Distated,Rotter,2,0,17083340,Bloodsuckers inc.,Vampire,0,0,0,0,0,0,0,0,0,0,0,0,0
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,Krieg,Nurgle Warrior,1,0,17083301,Bloodsuckers inc.,Vampire,4,2,0,0,0,0,0,0,0,0,0,0,2
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,The Alienated,Rotter,1,0,17083343,Bloodsuckers inc.,Vampire,1,1,1,0,0,0,0,0,0,0,0,0,3
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,Puppy,Beast of Nurgle,2,0,17083298,Bloodsuckers inc.,Vampire,2,1,0,0,0,0,0,0,0,0,16,0,3
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,Tod,Nurgle Warrior,2,0,17083300,Bloodsuckers inc.,Vampire,1,1,0,0,0,0,0,0,0,0,0,0,2
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,Clarke Griffin,Rotter,1,0,18740304,Bloodsuckers inc.,Vampire,0,0,0,0,0,0,0,0,0,0,0,0,0
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,The Crippled,Rotter,1,0,17083341,Bloodsuckers inc.,Vampire,2,2,0,0,0,0,0,0,0,0,0,0,2
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,The Morbid,Rotter,1,0,17083344,Bloodsuckers inc.,Vampire,1,1,0,0,0,0,0,0,0,0,0,0,2
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,Streit,Nurgle Warrior,1,4,17083299,Bloodsuckers inc.,Vampire,8,2,0,2,0,0,0,0,0,0,0,0,5
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,Wut,Nurgle Warrior,1,0,17083303,Bloodsuckers inc.,Vampire,3,1,1,0,0,0,0,0,0,0,0,0,3
+003912cc,1,Nurgle Murgle Ourgle,Nurgle,Hunger,Pestigor,3,0,17083316,Bloodsuckers inc.,Vampire,6,2,0,0,0,0,0,0,0,0,0,0,3
+003912cc,1,Bloodsuckers inc.,Vampire,Justin Bieber,Thrall,1,5,17197732,Nurgle Murgle Ourgle,Nurgle,6,1,1,0,0,0,0,0,0,0,0,0,4
+003912cc,1,Bloodsuckers inc.,Vampire,The Taxman,Vampire,2,3,18944574,Nurgle Murgle Ourgle,Nurgle,6,0,0,0,0,1,0,0,0,0,42,0,6
+003912cc,1,Bloodsuckers inc.,Vampire,Homework,Thrall,1,0,17197737,Nurgle Murgle Ourgle,Nurgle,1,2,0,0,0,0,0,0,0,0,4,0,3
+003912cc,1,Bloodsuckers inc.,Vampire,ex-wife,Thrall,1,0,17197729,Nurgle Murgle Ourgle,Nurgle,3,0,0,0,0,0,0,0,0,0,0,0,1
+003912cc,1,Bloodsuckers inc.,Vampire,School,Thrall,1,2,17197735,Nurgle Murgle Ourgle,Nurgle,3,1,0,1,0,0,0,0,0,0,0,0,3
+003912cc,1,Bloodsuckers inc.,Vampire,your annoying friend,Thrall,1,0,17596602,Nurgle Murgle Ourgle,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1
+003912cc,1,Bloodsuckers inc.,Vampire,Your Boss,Vampire,2,3,17197738,Nurgle Murgle Ourgle,Nurgle,9,3,1,0,0,1,0,0,0,0,48,0,9
+003912cc,1,Bloodsuckers inc.,Vampire,Twilight,Thrall,1,0,17197728,Nurgle Murgle Ourgle,Nurgle,2,0,0,0,0,0,0,0,0,0,0,0,1
+003912cc,1,Bloodsuckers inc.,Vampire,Feminist,Thrall,1,0,17596603,Nurgle Murgle Ourgle,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+003912cc,1,Bloodsuckers inc.,Vampire,Work,Thrall,2,0,17197734,Nurgle Murgle Ourgle,Nurgle,4,1,1,0,0,0,0,0,0,0,0,0,3
+003912cc,1,Bloodsuckers inc.,Vampire,Chores,Thrall,3,0,17197736,Nurgle Murgle Ourgle,Nurgle,3,0,0,0,0,0,0,0,0,0,0,0,1
+003912cc,1,Bloodsuckers inc.,Vampire,The emoji movie,Thrall,1,0,17197730,Nurgle Murgle Ourgle,Nurgle,3,0,0,0,0,0,0,0,0,0,0,0,1
+003912cc,1,Bloodsuckers inc.,Vampire,Slow internet,Thrall,1,0,19109658,Nurgle Murgle Ourgle,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Sticks and the Stones,Halfling,Davidite Bowieite,Halfling,1,5,17297459,Scum & Villainey,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Sticks and the Stones,Halfling,Van Halite,Halfling,2,0,17297461,Scum & Villainey,Underworld Denizens,2,1,0,0,0,0,0,0,0,0,14,0,3
+0039150a,1,Sticks and the Stones,Halfling,Deep Purpurite,Halfling,1,0,18373773,Scum & Villainey,Underworld Denizens,2,0,0,0,0,0,0,0,0,0,0,0,1
+0039150a,1,Sticks and the Stones,Halfling,Milo Peason,Halfling,1,0,11,Scum & Villainey,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039150a,1,Sticks and the Stones,Halfling,Aerugitesmith,Halfling,2,0,17297730,Scum & Villainey,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Sticks and the Stones,Halfling,Spruce Springsteen,Treeman,2,2,17297457,Scum & Villainey,Underworld Denizens,12,3,0,1,0,0,0,0,0,0,0,0,6
+0039150a,1,Sticks and the Stones,Halfling,Jimthompsonite Hendrix,Halfling,1,0,17297460,Scum & Villainey,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Sticks and the Stones,Halfling,Gunningite n Roselite,Halfling,1,5,17297464,Scum & Villainey,Underworld Denizens,2,1,0,1,0,1,0,0,0,0,42,0,7
+0039150a,1,Sticks and the Stones,Halfling,Miley Cypress,Treeman,2,4,17297458,Scum & Villainey,Underworld Denizens,12,4,2,2,0,0,0,0,0,0,0,0,9
+0039150a,1,Sticks and the Stones,Halfling,Black Sabatierite,Halfling,1,0,17297462,Scum & Villainey,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Sticks and the Stones,Halfling,Michael Jacobsite,Halfling,2,0,17297463,Scum & Villainey,Underworld Denizens,0,1,0,0,0,0,0,0,0,0,0,0,1
+0039150a,1,Sticks and the Stones,Halfling,PLAYER_NAMES_CHAMPION_DEEPROOTSTRONGBRANCH,Unknown playertype,1,2,12,Scum & Villainey,Underworld Denizens,10,2,0,1,0,0,0,0,0,0,0,0,4
+0039150a,1,Scum & Villainey,Underworld Denizens,Libchgob,Goblin,1,5,17173057,Sticks and the Stones,Halfling,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Scum & Villainey,Underworld Denizens,Kwere the Lethal,Thrower,2,1,17172841,Sticks and the Stones,Halfling,0,0,0,0,0,0,1,0,0,0,36,0,3
+0039150a,1,Scum & Villainey,Underworld Denizens,Flapstench,Warpstone Troll,1,0,17172831,Sticks and the Stones,Halfling,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039150a,1,Scum & Villainey,Underworld Denizens,Gitbum,Goblin,1,0,17667198,Sticks and the Stones,Halfling,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Scum & Villainey,Underworld Denizens,Modifych,Blitzer,3,7,17172833,Sticks and the Stones,Halfling,8,5,1,2,0,1,0,0,1,0,8,0,14
+0039150a,1,Scum & Villainey,Underworld Denizens,Jumbit,Lineman,1,0,19127494,Sticks and the Stones,Halfling,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Scum & Villainey,Underworld Denizens,Gnakstump,Goblin,1,0,17172837,Sticks and the Stones,Halfling,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Scum & Villainey,Underworld Denizens,Whuyj,Lineman,1,0,17172835,Sticks and the Stones,Halfling,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Scum & Villainey,Underworld Denizens,Gimess,Goblin,1,0,17172839,Sticks and the Stones,Halfling,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039150a,1,Scum & Villainey,Underworld Denizens,Skryable Nibbler,Blitzer,2,4,17172832,Sticks and the Stones,Halfling,7,3,0,2,1,0,0,0,0,0,0,0,8
+0039150a,1,Scum & Villainey,Underworld Denizens,Ung,Goblin,2,0,18886700,Sticks and the Stones,Halfling,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391566,1,Cold one Cannibals,Lizardmen,Spartacus,Saurus,1,5,19006415,3 Mouseketeers (& spares),Skaven,4,0,0,0,0,0,0,0,0,0,0,0,1
+00391566,1,Cold one Cannibals,Lizardmen,Barca,Saurus,1,0,19006471,3 Mouseketeers (& spares),Skaven,7,1,0,0,0,0,0,0,0,0,0,0,3
+00391566,1,Cold one Cannibals,Lizardmen,Theokoles,Kroxigor,1,2,19006473,3 Mouseketeers (& spares),Skaven,6,3,1,1,0,0,0,0,0,0,0,0,6
+00391566,1,Cold one Cannibals,Lizardmen,Caesar,Skink,1,0,19006647,3 Mouseketeers (& spares),Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391566,1,Cold one Cannibals,Lizardmen,Kerza,Skink,1,0,19006648,3 Mouseketeers (& spares),Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391566,1,Cold one Cannibals,Lizardmen,Ashur,Skink,1,2,19006525,3 Mouseketeers (& spares),Skaven,3,2,0,1,0,0,0,0,0,0,18,0,4
+00391566,1,Cold one Cannibals,Lizardmen,Oenomaus,Saurus,1,0,19006472,3 Mouseketeers (& spares),Skaven,7,1,0,0,0,0,0,0,0,0,0,0,3
+00391566,1,Cold one Cannibals,Lizardmen,Agron,Saurus,1,0,19006416,3 Mouseketeers (& spares),Skaven,8,0,0,0,0,0,0,0,0,0,0,0,2
+00391566,1,Cold one Cannibals,Lizardmen,Gannicus,Saurus,1,0,19006524,3 Mouseketeers (& spares),Skaven,8,0,0,0,0,0,0,0,0,0,0,0,2
+00391566,1,Cold one Cannibals,Lizardmen,Pietros,Skink,1,0,19006649,3 Mouseketeers (& spares),Skaven,1,1,1,0,0,0,0,0,0,0,8,0,4
+00391566,1,Cold one Cannibals,Lizardmen,Crixus,Saurus,1,0,19006414,3 Mouseketeers (& spares),Skaven,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391566,1,3 Mouseketeers (& spares),Skaven,Altform Cutter,Lineman,1,5,18877722,Cold one Cannibals,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391566,1,3 Mouseketeers (& spares),Skaven,Pwyamute Squeek,Lineman,1,0,18877721,Cold one Cannibals,Lizardmen,1,1,1,0,0,0,0,0,0,0,0,0,3
+00391566,1,3 Mouseketeers (& spares),Skaven,Nurgutch,Lineman,1,0,18877723,Cold one Cannibals,Lizardmen,3,0,0,0,0,0,0,0,0,0,0,0,1
+00391566,1,3 Mouseketeers (& spares),Skaven,Aramis,Gutter Runner,1,0,18877717,Cold one Cannibals,Lizardmen,1,1,1,0,0,0,0,0,0,0,0,0,3
+00391566,1,3 Mouseketeers (& spares),Skaven,Sliner of Itchy,Lineman,1,0,18877724,Cold one Cannibals,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391566,1,3 Mouseketeers (& spares),Skaven,Neeable Snarl,Thrower,1,0,18877718,Cold one Cannibals,Lizardmen,2,0,0,0,0,0,0,0,0,0,20,0,2
+00391566,1,3 Mouseketeers (& spares),Skaven,Athos,Gutter Runner,1,0,18877715,Cold one Cannibals,Lizardmen,0,1,0,0,0,0,0,0,0,0,0,0,1
+00391566,1,3 Mouseketeers (& spares),Skaven,Porthos,Gutter Runner,1,3,18877716,Cold one Cannibals,Lizardmen,1,0,0,0,0,1,0,0,0,0,26,0,5
+00391566,1,3 Mouseketeers (& spares),Skaven,Tsatch,Storm Vermin,1,0,18877719,Cold one Cannibals,Lizardmen,11,2,0,0,0,0,0,0,0,0,0,0,4
+00391566,1,3 Mouseketeers (& spares),Skaven,Knettch,Storm Vermin,1,0,18877720,Cold one Cannibals,Lizardmen,4,1,0,0,0,0,0,0,0,0,0,0,2
+00391566,1,3 Mouseketeers (& spares),Skaven,d'Artagnan,Gutter Runner,1,2,18877714,Cold one Cannibals,Lizardmen,5,2,0,1,0,0,0,0,0,0,2,0,4
+0039163e,1,Seven Circles,Chaos,Fire,Chaos Warrior,3,5,14952423,Philbo's Phighting Phist,Orc,6,0,0,0,0,0,0,0,0,0,0,0,2
+0039163e,1,Seven Circles,Chaos,Earth,Chaos Warrior,4,2,14952421,Philbo's Phighting Phist,Orc,11,5,2,1,0,0,0,0,0,0,0,1,11
+0039163e,1,Seven Circles,Chaos,Unf,Minotaur,4,0,14952355,Philbo's Phighting Phist,Orc,13,6,3,0,0,0,0,0,0,0,0,0,9
+0039163e,1,Seven Circles,Chaos,Luxuria,Beastman,2,0,14952387,Philbo's Phighting Phist,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039163e,1,Seven Circles,Chaos,Gula,Beastman,3,3,14952388,Philbo's Phighting Phist,Orc,4,1,1,0,0,1,0,0,0,0,20,0,7
+0039163e,1,Seven Circles,Chaos,Ira,Beastman,2,2,14952391,Philbo's Phighting Phist,Orc,3,1,0,1,0,0,0,0,0,0,0,0,3
+0039163e,1,Seven Circles,Chaos,Acedia,Beastman,2,0,14952390,Philbo's Phighting Phist,Orc,0,0,0,0,0,0,0,0,0,0,6,0,1
+0039163e,1,Seven Circles,Chaos,Air,Chaos Warrior,4,2,15643136,Philbo's Phighting Phist,Orc,10,3,0,1,0,0,0,0,0,0,0,0,5
+0039163e,1,Seven Circles,Chaos,Superbia II,Beastman,1,0,18446520,Philbo's Phighting Phist,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039163e,1,Seven Circles,Chaos,Li'l Unf,Beastman,1,0,17460059,Philbo's Phighting Phist,Orc,0,0,0,0,0,0,0,0,0,0,30,0,1
+0039163e,1,Seven Circles,Chaos,Avarita II,Beastman,1,0,17519313,Philbo's Phighting Phist,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039163e,1,Seven Circles,Chaos,Wind,Chaos Warrior,3,0,14952422,Philbo's Phighting Phist,Orc,4,0,0,0,0,0,0,0,0,0,0,0,1
+0039163e,1,Seven Circles,Chaos,Invidia,Beastman,2,0,14952392,Philbo's Phighting Phist,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039163e,1,Philbo's Phighting Phist,Orc,Duke Cornelius,Black Orc,3,5,14925064,Seven Circles,Chaos,9,2,0,0,0,0,0,0,0,0,0,0,3
+0039163e,1,Philbo's Phighting Phist,Orc,Duke Christoph,Black Orc,2,0,14925062,Seven Circles,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039163e,1,Philbo's Phighting Phist,Orc,The Knight,Blitzer,4,0,14925060,Seven Circles,Chaos,1,0,0,0,0,0,0,0,0,0,2,0,2
+0039163e,1,Philbo's Phighting Phist,Orc,Earl Saxson of Pomerania,Lineman,2,0,15646619,Seven Circles,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039163e,1,Philbo's Phighting Phist,Orc,Earl Freeman of Oldtree,Lineman,1,0,18356973,Seven Circles,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039163e,1,Philbo's Phighting Phist,Orc,The Pawn,Blitzer,4,0,14925061,Seven Circles,Chaos,8,1,0,0,0,0,0,0,0,0,0,1,5
+0039163e,1,Philbo's Phighting Phist,Orc,The Bishop,Blitzer,4,2,14925058,Seven Circles,Chaos,5,3,1,1,0,0,0,0,0,0,10,0,6
+0039163e,1,Philbo's Phighting Phist,Orc,The Rook II,Blitzer,3,0,16539064,Seven Circles,Chaos,4,0,0,0,0,0,0,0,0,0,0,0,1
+0039163e,1,Philbo's Phighting Phist,Orc,Duke Robb,Black Orc,2,0,14925059,Seven Circles,Chaos,4,2,0,0,0,0,0,0,0,0,0,0,2
+0039163e,1,Philbo's Phighting Phist,Orc,Duke Hans,Black Orc,2,0,14925063,Seven Circles,Chaos,7,0,0,0,0,0,0,0,0,0,0,0,2
+0039163e,1,Philbo's Phighting Phist,Orc,Earl Reaper of Overwatch,Lineman,2,0,15646576,Seven Circles,Chaos,2,0,0,0,0,0,0,0,0,0,0,0,1
+0039163e,1,Philbo's Phighting Phist,Orc,Viceroy Isambard,Thrower,4,0,14925055,Seven Circles,Chaos,3,1,0,0,0,0,0,0,0,0,28,0,3
+0039163e,1,Philbo's Phighting Phist,Orc,Earl Basterd of Wessex,Lineman,2,0,15646575,Seven Circles,Chaos,0,1,0,0,1,0,0,0,0,0,0,0,3
+00391729,1,Treat Kune Do,Wood Elf,Master Daifuku,Treeman,3,5,10617572,Iron Madden,Khemri,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391729,1,Treat Kune Do,Wood Elf,Akorlay,Lineman,2,0,16184699,Iron Madden,Khemri,1,1,0,0,0,0,0,0,0,0,0,0,2
+00391729,1,Treat Kune Do,Wood Elf,Crouching Cake,Catcher,6,6,10793423,Iron Madden,Khemri,4,1,0,0,0,2,0,0,1,0,62,0,12
+00391729,1,Treat Kune Do,Wood Elf,Celfin,Lineman,1,0,16875219,Iron Madden,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391729,1,Treat Kune Do,Wood Elf,Brandon Treat,Wardancer,2,0,15427131,Iron Madden,Khemri,3,0,0,0,0,0,0,0,0,0,0,0,1
+00391729,1,Treat Kune Do,Wood Elf,Naelerd,Lineman,1,0,11,Iron Madden,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391729,1,Treat Kune Do,Wood Elf,Belarda,Lineman,1,0,8,Iron Madden,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391729,1,Treat Kune Do,Wood Elf,Mango Fist,Wardancer,5,5,9838288,Iron Madden,Khemri,9,5,2,1,0,1,0,0,0,0,14,0,12
+00391729,1,Treat Kune Do,Wood Elf,Cinnamon Omega Ultimate,Catcher,1,1,19233988,Iron Madden,Khemri,0,0,0,0,0,0,1,0,0,0,38,0,3
+00391729,1,Treat Kune Do,Wood Elf,Hirnost,Lineman,1,0,10,Iron Madden,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391729,1,Treat Kune Do,Wood Elf,Dinffyn,Lineman,1,0,9,Iron Madden,Khemri,0,1,0,0,0,0,0,0,0,0,0,0,1
+00391729,1,Iron Madden,Khemri,Edorado McBrain,Blitz Ra,4,7,14804585,Treat Kune Do,Wood Elf,11,11,3,1,1,0,0,0,0,0,0,0,15
+00391729,1,Iron Madden,Khemri,Edison Bruce II,Tomb Guardian,1,3,17520199,Treat Kune Do,Wood Elf,1,1,0,0,0,1,0,0,0,0,20,0,6
+00391729,1,Iron Madden,Khemri,Edd Halford,Skeleton,3,0,14804972,Treat Kune Do,Wood Elf,0,2,0,0,0,0,0,0,0,0,0,0,1
+00391729,1,Iron Madden,Khemri,Edgy Edgebourne,Skeleton,3,0,14804768,Treat Kune Do,Wood Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391729,1,Iron Madden,Khemri,Edrian Smith,Tomb Guardian,4,4,14804516,Treat Kune Do,Wood Elf,7,4,0,2,0,0,0,0,0,0,0,0,6
+00391729,1,Iron Madden,Khemri,Eddard Murray,Tomb Guardian,3,0,14805519,Treat Kune Do,Wood Elf,2,1,1,0,0,0,0,0,0,0,0,0,3
+00391729,1,Iron Madden,Khemri,Eddy Killmister,Skeleton,3,0,14804770,Treat Kune Do,Wood Elf,2,4,3,0,0,0,0,0,0,0,0,0,6
+00391729,1,Iron Madden,Khemri,Eduardo Kenney,Blitz Ra,3,2,14841898,Treat Kune Do,Wood Elf,3,2,0,1,1,0,0,0,0,0,0,0,5
+00391729,1,Iron Madden,Khemri,Edday Paul III,Thro Ra,1,0,18425660,Treat Kune Do,Wood Elf,0,0,0,0,0,0,0,0,0,0,26,0,1
+00391729,1,Iron Madden,Khemri,Eddrick Gers,Thro Ra,2,0,14805374,Treat Kune Do,Wood Elf,1,0,0,0,0,0,0,0,0,0,8,0,2
+00391729,1,Iron Madden,Khemri,Eddie Riggs,Tomb Guardian,4,2,14804457,Treat Kune Do,Wood Elf,5,1,0,1,0,0,0,0,0,0,0,0,3
+003918b8,1,Legion VI Ferrata,Chaos,Aries-gor,Beastman,1,5,18962486,The Ordos Incompetus,Brettonian,4,2,0,0,0,0,0,0,0,0,0,0,2
+003918b8,1,Legion VI Ferrata,Chaos,Lucius Vorenus,Chaos Warrior,1,0,18962483,The Ordos Incompetus,Brettonian,9,0,0,0,0,0,0,0,0,0,0,0,2
+003918b8,1,Legion VI Ferrata,Chaos,Aquarius-gor,Beastman,1,0,18962485,The Ordos Incompetus,Brettonian,5,2,0,0,0,0,0,0,0,0,0,0,2
+003918b8,1,Legion VI Ferrata,Chaos,Stephanius Regis,Chaos Warrior,1,0,18962482,The Ordos Incompetus,Brettonian,10,0,0,0,0,0,0,0,0,0,0,0,2
+003918b8,1,Legion VI Ferrata,Chaos,Capricorn-gor,Beastman,1,2,18962487,The Ordos Incompetus,Brettonian,2,1,0,1,0,0,0,0,0,0,16,0,4
+003918b8,1,Legion VI Ferrata,Chaos,Titus Pullo,Chaos Warrior,1,0,18962484,The Ordos Incompetus,Brettonian,12,4,2,0,0,0,0,0,0,0,0,0,7
+003918b8,1,Legion VI Ferrata,Chaos,Scorpio-gor,Beastman,1,0,18962491,The Ordos Incompetus,Brettonian,10,2,0,0,0,0,0,0,0,0,0,1,5
+003918b8,1,Legion VI Ferrata,Chaos,Leo-gor,Beastman,1,0,18962488,The Ordos Incompetus,Brettonian,0,0,0,0,0,0,0,0,0,0,0,0,0
+003918b8,1,Legion VI Ferrata,Chaos, Maximus Decimus,Chaos Warrior,1,0,19080544,The Ordos Incompetus,Brettonian,5,0,0,0,0,0,0,0,0,0,0,0,1
+003918b8,1,Legion VI Ferrata,Chaos,Sagittarius-gor,Beastman,1,0,18962489,The Ordos Incompetus,Brettonian,0,0,0,0,0,0,0,0,0,0,0,0,0
+003918b8,1,Legion VI Ferrata,Chaos,Virgo-gor,Beastman,1,0,18962490,The Ordos Incompetus,Brettonian,5,0,0,0,0,0,0,0,0,0,16,0,2
+003918b8,1,The Ordos Incompetus,Brettonian,Little Doughball,Lineman,1,7,46,Legion VI Ferrata,Chaos,1,1,0,1,0,0,0,0,0,0,0,0,3
+003918b8,1,The Ordos Incompetus,Brettonian,Hughcan Havvit,Blocker,1,0,18279921,Legion VI Ferrata,Chaos,4,0,0,0,0,0,0,0,0,0,0,0,1
+003918b8,1,The Ordos Incompetus,Brettonian,Nieval Drovovitch,Blitzer,1,3,18279829,Legion VI Ferrata,Chaos,10,4,2,0,0,1,0,0,0,0,72,0,11
+003918b8,1,The Ordos Incompetus,Brettonian,Darius,Lineman,1,0,18280053,Legion VI Ferrata,Chaos,6,2,0,0,0,0,0,0,0,0,0,0,3
+003918b8,1,The Ordos Incompetus,Brettonian,Lucius Eberhard,Blocker,2,0,18279918,Legion VI Ferrata,Chaos,3,0,0,0,0,0,0,0,0,0,0,0,1
+003918b8,1,The Ordos Incompetus,Brettonian,Balwin Althaus,Blitzer,2,2,18279827,Legion VI Ferrata,Chaos,12,3,0,1,0,0,0,0,0,0,0,0,6
+003918b8,1,The Ordos Incompetus,Brettonian,Big P,Lineman,1,2,18280054,Legion VI Ferrata,Chaos,3,2,1,1,1,0,0,0,0,0,0,0,6
+003918b8,1,The Ordos Incompetus,Brettonian,Jax,Blocker,1,0,18279919,Legion VI Ferrata,Chaos,7,1,0,0,0,0,0,0,0,0,0,0,3
+003918b8,1,The Ordos Incompetus,Brettonian,Sir Amak Varze,Blitzer,2,0,18279916,Legion VI Ferrata,Chaos,11,1,1,0,0,0,0,0,0,0,0,0,5
+003918b8,1,The Ordos Incompetus,Brettonian,Young Patrick,Lineman,1,0,47,Legion VI Ferrata,Chaos,3,0,0,0,0,0,0,0,0,0,0,0,1
+003918b8,1,The Ordos Incompetus,Brettonian,Little P,Lineman,1,0,18280055,Legion VI Ferrata,Chaos,2,0,0,0,0,0,0,0,0,0,0,0,1
+0039188b,1,Star-Struck,Human,Brucie,Lineman,1,5,17092694,Fear_And_Bloating,Nurgle,2,1,0,0,0,0,0,0,0,0,0,0,2
+0039188b,1,Star-Struck,Human,Paul Crewe,Thrower,2,0,17092688,Fear_And_Bloating,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039188b,1,Star-Struck,Human,Cheeseburger Eddy,Lineman,1,3,17092692,Fear_And_Bloating,Nurgle,2,0,0,0,0,1,0,0,0,0,40,0,5
+0039188b,1,Star-Struck,Human,Torres,Lineman,2,0,17092695,Fear_And_Bloating,Nurgle,7,1,0,0,0,0,0,0,0,0,0,0,3
+0039188b,1,Star-Struck,Human,Bobby Boucher,Blitzer,2,2,17092685,Fear_And_Bloating,Nurgle,5,1,0,1,0,0,0,0,0,0,0,0,3
+0039188b,1,Star-Struck,Human,Battle,Blitzer,1,0,17092690,Fear_And_Bloating,Nurgle,5,2,2,0,0,0,0,0,0,0,10,0,5
+0039188b,1,Star-Struck,Human,Lyle Robideaux The 2nd,Blitzer,1,0,19057789,Fear_And_Bloating,Nurgle,5,2,0,0,0,0,0,0,0,0,0,1,4
+0039188b,1,Star-Struck,Human,Switowski,Lineman,1,0,17092693,Fear_And_Bloating,Nurgle,4,2,0,0,0,0,0,0,0,0,0,1,4
+0039188b,1,Star-Struck,Human,Mama,Ogre,2,0,17092686,Fear_And_Bloating,Nurgle,5,3,2,0,0,0,0,0,0,0,0,0,5
+0039188b,1,Star-Struck,Human,Megget,Lineman,1,0,17092691,Fear_And_Bloating,Nurgle,2,1,0,0,0,0,0,0,0,0,0,0,2
+0039188b,1,Star-Struck,Human,Turley,Blitzer,3,0,17092689,Fear_And_Bloating,Nurgle,8,1,1,0,0,0,0,0,0,0,0,0,4
+0039188b,1,Fear_And_Bloating,Nurgle,Lord Stocco Fatal,Nurgle Warrior,1,5,17491861,Star-Struck,Human,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039188b,1,Fear_And_Bloating,Nurgle,Janus the Obssessive,Rotter,1,0,17491870,Star-Struck,Human,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039188b,1,Fear_And_Bloating,Nurgle,Achaugo Morbid,Nurgle Warrior,1,0,17491860,Star-Struck,Human,4,1,0,0,0,0,0,0,0,0,0,0,2
+0039188b,1,Fear_And_Bloating,Nurgle,Reyan the Anomic,Rotter,1,0,17491866,Star-Struck,Human,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039188b,1,Fear_And_Bloating,Nurgle,Shari Thorn,Rotter,1,0,17491869,Star-Struck,Human,1,0,0,0,0,0,0,0,1,0,0,1,5
+0039188b,1,Fear_And_Bloating,Nurgle,Pimulgors,Pestigor,1,6,18996106,Star-Struck,Human,4,1,0,1,0,1,1,0,0,0,48,1,11
+0039188b,1,Fear_And_Bloating,Nurgle,Kisaruab Gorebile,Nurgle Warrior,2,0,17491863,Star-Struck,Human,9,1,0,0,0,0,0,0,0,0,0,0,3
+0039188b,1,Fear_And_Bloating,Nurgle,Lionel the Disoriented,Rotter,2,0,17491865,Star-Struck,Human,2,1,0,0,0,0,0,0,0,0,0,0,2
+0039188b,1,Fear_And_Bloating,Nurgle,Joe the Stinker,Rotter,1,2,17491867,Star-Struck,Human,1,1,0,1,0,0,0,0,0,0,0,0,3
+0039188b,1,Fear_And_Bloating,Nurgle,Kras-sa,Pestigor,3,2,17491864,Star-Struck,Human,9,3,2,1,0,0,0,0,0,0,0,0,7
+0039188b,1,Fear_And_Bloating,Nurgle,Tratigor,Pestigor,2,0,17654664,Star-Struck,Human,2,0,0,0,0,0,0,0,0,0,0,0,1
+0039188b,1,Fear_And_Bloating,Nurgle,Lord Stocco Scolio,Nurgle Warrior,1,0,17491862,Star-Struck,Human,8,0,0,0,0,0,0,0,0,0,0,0,2
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Tenquaxltz,Skink,2,5,16105975,The Emperor says...,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,4,0,1
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,PLAYER_NAMES_CHAMPION_HOMME_LEZARD,Star Player,1,0,12,The Emperor says...,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Simon Spinosaurus ,Saurus,2,2,14988296,The Emperor says...,Chaos Dwarf,5,2,0,1,0,0,0,0,0,0,0,0,3
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Tyranasaur Ted,Kroxigor,2,0,15387653,The Emperor says...,Chaos Dwarf,6,2,0,0,0,0,0,0,0,0,0,0,3
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Luke Lambeosaur,Skink,3,0,14988302,The Emperor says...,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Stegosaur Sam III,Saurus,1,0,17583307,The Emperor says...,Chaos Dwarf,4,0,0,0,0,0,0,0,0,0,22,0,2
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Anklyosaurus Andy,Saurus,2,0,14988297,The Emperor says...,Chaos Dwarf,4,0,0,0,0,0,0,0,0,0,0,0,1
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Carnotaurus Chris,Saurus,3,0,14988338,The Emperor says...,Chaos Dwarf,6,1,0,0,0,0,0,0,0,0,0,0,3
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Diplodocus Dave,Skink,2,0,15387656,The Emperor says...,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Velociraptor Vinnie II,Skink,2,0,16206934,The Emperor says...,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Triceratop Tim,Saurus,2,0,14988294,The Emperor says...,Chaos Dwarf,10,0,0,0,0,0,0,0,0,0,0,0,2
+00391936,1,Lazy Lounge Lizards UTD,Lizardmen,Brachiosaur Bill II,Saurus,1,0,16207271,The Emperor says...,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391936,1,The Emperor says...,Chaos Dwarf,Do it,Hobgoblin,1,5,19238718,Lazy Lounge Lizards UTD,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391936,1,The Emperor says...,Chaos Dwarf,Use it!,Blocker,3,2,14300463,Lazy Lounge Lizards UTD,Lizardmen,4,2,1,1,1,0,0,0,0,0,0,0,6
+00391936,1,The Emperor says...,Chaos Dwarf,Take your Jedi weapon,Blocker,3,0,14300462,Lazy Lounge Lizards UTD,Lizardmen,4,0,0,0,0,0,0,0,0,0,0,0,1
+00391936,1,The Emperor says...,Chaos Dwarf,Did you ever hear,Hobgoblin,1,0,16607906,Lazy Lounge Lizards UTD,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391936,1,The Emperor says...,Chaos Dwarf,"So Be it, Jedi!",Blocker,2,0,14300461,Lazy Lounge Lizards UTD,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391936,1,The Emperor says...,Chaos Dwarf,Let the Hate,Bull Centaur,5,0,14300457,Lazy Lounge Lizards UTD,Lizardmen,11,2,2,0,0,0,0,0,0,0,0,0,6
+00391936,1,The Emperor says...,Chaos Dwarf,"Good, good",Blocker,4,0,15182621,Lazy Lounge Lizards UTD,Lizardmen,8,0,0,0,0,0,0,0,0,0,0,0,2
+00391936,1,The Emperor says...,Chaos Dwarf,The Tragedy of Darth,Hobgoblin,4,0,14300466,Lazy Lounge Lizards UTD,Lizardmen,6,0,0,0,0,0,0,0,0,0,0,0,2
+00391936,1,The Emperor says...,Chaos Dwarf,Flow through you,Bull Centaur,4,0,14300458,Lazy Lounge Lizards UTD,Lizardmen,4,1,1,0,0,0,0,0,0,0,0,0,3
+00391936,1,The Emperor says...,Chaos Dwarf,The Alliance... will Die,Blocker,3,2,14300460,Lazy Lounge Lizards UTD,Lizardmen,7,2,0,1,1,0,0,0,0,0,0,0,6
+00391936,1,The Emperor says...,Chaos Dwarf,It's not a story,Hobgoblin,1,3,18484723,Lazy Lounge Lizards UTD,Lizardmen,2,1,0,0,0,1,0,0,0,0,46,0,6
+00391936,1,The Emperor says...,Chaos Dwarf,Plagueis the Wise,Hobgoblin,1,0,16952194,Lazy Lounge Lizards UTD,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391936,1,The Emperor says...,Chaos Dwarf,Strike me down with it,Blocker,2,5,16832627,Lazy Lounge Lizards UTD,Lizardmen,3,1,0,1,0,1,0,0,0,0,12,0,7
+00391936,1,The Emperor says...,Chaos Dwarf,I AM THE SENATE,Hobgoblin,2,0,16136745,Lazy Lounge Lizards UTD,Lizardmen,1,3,1,0,0,0,0,0,0,0,0,0,4
+00391956,1,Dazh  Warriors,Kislev Circus,Evgeny Ustinov,Lineman,1,5,19169288,Uncured Pestilence,Skaven,3,0,0,0,0,0,0,0,0,0,0,0,1
+00391956,1,Dazh  Warriors,Kislev Circus,Mikhail Bolshakov,Lineman,1,0,19169293,Uncured Pestilence,Skaven,2,0,0,0,0,0,0,0,0,0,12,0,2
+00391956,1,Dazh  Warriors,Kislev Circus,Nikolay Abramov,Lineman,1,0,19169289,Uncured Pestilence,Skaven,4,1,1,0,0,0,0,0,0,0,0,0,3
+00391956,1,Dazh  Warriors,Kislev Circus,Snow Dancer,Tame Bear,1,4,19169287,Uncured Pestilence,Skaven,10,7,1,2,0,0,0,0,0,0,0,0,9
+00391956,1,Dazh  Warriors,Kislev Circus,Viktor Kurakin,Lineman,1,0,19169292,Uncured Pestilence,Skaven,2,1,0,0,0,0,0,0,0,0,0,0,2
+00391956,1,Dazh  Warriors,Kislev Circus,Boris Voronin,Catcher,1,0,19169297,Uncured Pestilence,Skaven,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391956,1,Dazh  Warriors,Kislev Circus,Boris Chernov,Catcher,1,0,19169296,Uncured Pestilence,Skaven,0,0,0,0,0,0,0,0,0,0,18,0,1
+00391956,1,Dazh  Warriors,Kislev Circus,Konstantin Sadovsky,Lineman,1,0,19169290,Uncured Pestilence,Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391956,1,Dazh  Warriors,Kislev Circus,Nikolay Sokolov,Catcher,1,0,19169295,Uncured Pestilence,Skaven,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391956,1,Dazh  Warriors,Kislev Circus,Viktor Kandinsky,Lineman,1,0,19169294,Uncured Pestilence,Skaven,2,1,0,0,0,0,0,0,0,0,0,0,2
+00391956,1,Dazh  Warriors,Kislev Circus,Nikolay Malykhin,Lineman,1,0,19169291,Uncured Pestilence,Skaven,0,0,0,0,0,0,0,0,0,0,10,0,1
+00391956,1,Uncured Pestilence,Skaven,Antibiotic I,Lineman,1,5,19239906,Dazh  Warriors,Kislev Circus,3,0,0,0,0,0,0,0,0,0,0,0,1
+00391956,1,Uncured Pestilence,Skaven,Antibiotic III,Lineman,1,0,19239908,Dazh  Warriors,Kislev Circus,4,3,2,0,0,0,0,0,0,0,0,0,5
+00391956,1,Uncured Pestilence,Skaven,Antibiotic IV,Lineman,1,0,19239909,Dazh  Warriors,Kislev Circus,5,1,1,0,0,0,0,0,0,0,0,0,3
+00391956,1,Uncured Pestilence,Skaven,Flu,Gutter Runner,1,6,19239902,Dazh  Warriors,Kislev Circus,0,0,0,0,0,2,0,0,0,0,56,0,8
+00391956,1,Uncured Pestilence,Skaven,Alzheimers,Storm Vermin,1,7,19239905,Dazh  Warriors,Kislev Circus,10,4,0,2,0,1,0,0,1,0,12,1,14
+00391956,1,Uncured Pestilence,Skaven,Antibiotic II,Lineman,1,0,19239907,Dazh  Warriors,Kislev Circus,5,2,1,0,0,0,0,0,0,0,0,0,3
+00391956,1,Uncured Pestilence,Skaven,HIV,Gutter Runner,1,4,19239900,Dazh  Warriors,Kislev Circus,0,0,0,0,0,1,1,0,0,0,56,0,7
+00391956,1,Uncured Pestilence,Skaven,Polio,Gutter Runner,1,0,19239901,Dazh  Warriors,Kislev Circus,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391956,1,Uncured Pestilence,Skaven,Epilepsy,Storm Vermin,1,0,19239904,Dazh  Warriors,Kislev Circus,5,2,1,0,0,0,0,0,0,0,0,0,3
+00391956,1,Uncured Pestilence,Skaven,Parkinsons,Thrower,1,0,19239903,Dazh  Warriors,Kislev Circus,1,1,0,0,0,0,0,0,0,0,0,0,2
+00391956,1,Uncured Pestilence,Skaven,Antibiotic V,Lineman,1,0,19239910,Dazh  Warriors,Kislev Circus,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391956,1,Uncured Pestilence,Skaven,Ebola,Gutter Runner,1,0,19239899,Dazh  Warriors,Kislev Circus,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391c0b,1,Gloom & Zoom,Necromantic,Drake,Zombie,1,5,15227347,Necronomics,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391c0b,1,Gloom & Zoom,Necromantic,Bitter Activity,Wight,4,3,11937796,Necronomics,Necromantic,1,0,0,0,0,1,0,0,0,0,38,0,5
+00391c0b,1,Gloom & Zoom,Necromantic,Wolfrider is Dead!,Zombie,1,0,18995709,Necronomics,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391c0b,1,Gloom & Zoom,Necromantic,Quicker and Forebodinger,Werewolf,6,3,13347774,Necronomics,Necromantic,4,0,0,0,0,1,0,0,0,0,68,0,6
+00391c0b,1,Gloom & Zoom,Necromantic,Catatonia Momentum,Wight,5,2,11937839,Necronomics,Necromantic,4,4,1,1,0,0,0,0,0,0,0,0,5
+00391c0b,1,Gloom & Zoom,Necromantic,Borrinnr,Zombie,3,0,13522798,Necronomics,Necromantic,4,1,1,0,0,0,0,0,0,0,0,0,3
+00391c0b,1,Gloom & Zoom,Necromantic,Immediater Anguish,Ghoul,2,0,15263791,Necronomics,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391c0b,1,Gloom & Zoom,Necromantic,Speedo McPessimism,Werewolf,6,4,11937786,Necronomics,Necromantic,17,8,3,2,0,0,0,0,0,0,0,0,13
+00391c0b,1,Gloom & Zoom,Necromantic,Michael the Maimed Jr,Zombie,1,0,16961409,Necronomics,Necromantic,3,0,0,0,0,0,0,0,0,0,0,0,1
+00391c0b,1,Gloom & Zoom,Necromantic,Instanter Regret,Ghoul,2,0,16465593,Necronomics,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391c0b,1,Gloom & Zoom,Necromantic,Hindereder Dejection,Flesh Golem,1,0,15770745,Necronomics,Necromantic,8,2,1,0,0,0,0,0,0,0,0,0,4
+00391c0b,1,Gloom & Zoom,Necromantic,Sluggisher Horrorer,Flesh Golem,1,2,16087196,Necronomics,Necromantic,9,2,0,1,0,0,0,0,0,0,0,0,4
+00391c0b,1,Necronomics,Necromantic,HateMyHair,Werewolf,6,9,10184386,Gloom & Zoom,Necromantic,13,10,3,2,0,0,0,0,0,0,0,0,13
+00391c0b,1,Necronomics,Necromantic,Talcom IV,Wight,3,0,14416508,Gloom & Zoom,Necromantic,3,1,0,0,0,0,0,0,0,0,0,0,2
+00391c0b,1,Necronomics,Necromantic,Grandpa Guile IV,Ghoul,3,3,14947289,Gloom & Zoom,Necromantic,4,1,0,1,0,0,1,0,0,0,58,0,7
+00391c0b,1,Necronomics,Necromantic,Aëthuen,Zombie,2,0,16056990,Gloom & Zoom,Necromantic,4,1,0,0,0,0,0,0,0,0,0,0,2
+00391c0b,1,Necronomics,Necromantic,HorneySoul,Werewolf,4,0,16121022,Gloom & Zoom,Necromantic,0,0,0,0,0,0,0,0,0,0,4,0,1
+00391c0b,1,Necronomics,Necromantic,Chrome II,Wight,2,0,15738749,Gloom & Zoom,Necromantic,2,1,0,0,0,0,0,0,1,0,2,0,5
+00391c0b,1,Necronomics,Necromantic,Bones,Zombie,3,0,9894417,Gloom & Zoom,Necromantic,4,0,0,0,0,0,0,0,0,0,0,0,1
+00391c0b,1,Necronomics,Necromantic,Reasonable Mike,Zombie,1,0,18790057,Gloom & Zoom,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391c0b,1,Necronomics,Necromantic,Frank,Flesh Golem,5,0,9894039,Gloom & Zoom,Necromantic,6,1,1,0,0,0,0,0,0,0,0,0,4
+00391c0b,1,Necronomics,Necromantic,Boneholio III,Zombie,1,0,18069054,Gloom & Zoom,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391c0b,1,Necronomics,Necromantic,Boned II,Zombie,3,0,13828023,Gloom & Zoom,Necromantic,7,0,0,0,0,0,0,0,0,0,0,0,2
+00391d0f,1,Violaceous Violators,Lizardmen,Mazdamun of the Lake,Saurus,1,7,18872721,MJ Dance Squad,Necromantic,8,1,0,1,0,0,0,0,0,0,0,0,4
+00391d0f,1,Violaceous Violators,Lizardmen,Boqkrox of Dawn,Saurus,1,0,18872722,MJ Dance Squad,Necromantic,5,1,0,0,0,0,0,0,0,0,0,0,2
+00391d0f,1,Violaceous Violators,Lizardmen,Tlankoet,Skink,1,0,18872729,MJ Dance Squad,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391d0f,1,Violaceous Violators,Lizardmen,Kroxlantha,Kroxigor,1,4,18872719,MJ Dance Squad,Necromantic,8,2,0,2,0,0,0,0,0,0,0,0,5
+00391d0f,1,Violaceous Violators,Lizardmen,Adohigartla,Saurus,1,0,18872723,MJ Dance Squad,Necromantic,7,3,1,0,0,0,0,0,0,0,0,0,5
+00391d0f,1,Violaceous Violators,Lizardmen,Garuitz,Saurus,1,0,18872720,MJ Dance Squad,Necromantic,6,2,0,0,0,0,0,0,0,0,0,0,3
+00391d0f,1,Violaceous Violators,Lizardmen,Cuaqutah,Saurus,1,0,18872725,MJ Dance Squad,Necromantic,8,1,0,0,0,0,0,0,0,0,0,1,5
+00391d0f,1,Violaceous Violators,Lizardmen,Utecit-tlu,Skink,1,3,18872728,MJ Dance Squad,Necromantic,0,1,0,0,0,1,0,0,0,0,66,0,6
+00391d0f,1,Violaceous Violators,Lizardmen,Hoapaz,Skink,1,0,18872727,MJ Dance Squad,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391d0f,1,Violaceous Violators,Lizardmen,Goqtocltz,Saurus,1,0,18872724,MJ Dance Squad,Necromantic,7,2,1,0,0,0,0,0,0,0,0,0,4
+00391d0f,1,Violaceous Violators,Lizardmen,Conquaconqua of Gold,Skink,1,0,18872726,MJ Dance Squad,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391d0f,1,MJ Dance Squad,Necromantic,Smooth Criminal,Wight,1,5,18998802,Violaceous Violators,Lizardmen,3,1,0,0,0,0,0,0,0,0,0,0,2
+00391d0f,1,MJ Dance Squad,Necromantic,Beat It,Flesh Golem,1,0,18998800,Violaceous Violators,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391d0f,1,MJ Dance Squad,Necromantic,Man in the Mirror,Flesh Golem,1,0,18998810,Violaceous Violators,Lizardmen,5,0,0,0,0,0,0,0,0,0,0,0,1
+00391d0f,1,MJ Dance Squad,Necromantic,The Way you Make me Feel,Zombie,1,0,18998804,Violaceous Violators,Lizardmen,1,1,1,0,0,0,0,0,0,0,0,0,3
+00391d0f,1,MJ Dance Squad,Necromantic,Dirty Diana,Zombie,1,0,18998808,Violaceous Violators,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391d0f,1,MJ Dance Squad,Necromantic,Rock with You,Zombie,1,0,18998805,Violaceous Violators,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391d0f,1,MJ Dance Squad,Necromantic,Don't Stop,Zombie,1,0,18998807,Violaceous Violators,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391d0f,1,MJ Dance Squad,Necromantic,Thriller,Werewolf,1,0,18998798,Violaceous Violators,Lizardmen,5,1,0,0,0,0,0,0,0,0,10,0,3
+00391d0f,1,MJ Dance Squad,Necromantic,Black or Wight,Wight,1,0,18998803,Violaceous Violators,Lizardmen,5,1,0,0,0,0,0,0,0,0,0,0,2
+00391d0f,1,MJ Dance Squad,Necromantic,Billie Jean,Ghoul,1,3,19159688,Violaceous Violators,Lizardmen,0,0,0,0,0,1,0,0,0,0,92,0,5
+00391d0f,1,MJ Dance Squad,Necromantic,Starting Something,Zombie,1,0,18998806,Violaceous Violators,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391cfc,1,Happy Happy Go Go,Goblin,Lexi,Goblin,1,6,18996180,Murderers Row,Necromantic,0,0,0,0,0,0,1,0,0,0,16,0,3
+00391cfc,1,Happy Happy Go Go,Goblin,Hannah,Goblin,1,0,18996168,Murderers Row,Necromantic,0,0,0,0,0,0,0,0,1,0,0,0,2
+00391cfc,1,Happy Happy Go Go,Goblin,Mimzy,Goblin,1,0,18996137,Murderers Row,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391cfc,1,Happy Happy Go Go,Goblin,Heather,Looney,1,0,18996164,Murderers Row,Necromantic,0,1,1,0,0,0,0,0,0,0,0,0,2
+00391cfc,1,Happy Happy Go Go,Goblin,Miss Daisy,Fanatic,1,0,18996135,Murderers Row,Necromantic,8,3,2,0,0,0,0,0,0,0,0,0,6
+00391cfc,1,Happy Happy Go Go,Goblin,Wanda,Bombardier,1,0,18996136,Murderers Row,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391cfc,1,Happy Happy Go Go,Goblin,Anna,Goblin,1,0,18996138,Murderers Row,Necromantic,3,1,0,0,0,0,0,0,0,0,0,0,2
+00391cfc,1,Happy Happy Go Go,Goblin,Laverne,Goblin,1,0,18996165,Murderers Row,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391cfc,1,Happy Happy Go Go,Goblin,Jessica,Goblin,1,0,18996139,Murderers Row,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391cfc,1,Happy Happy Go Go,Goblin,Large Marge,Troll,1,0,18996133,Murderers Row,Necromantic,6,1,0,0,0,0,0,0,0,0,0,0,3
+00391cfc,1,Happy Happy Go Go,Goblin,Trina,Troll,1,0,18996134,Murderers Row,Necromantic,5,2,2,0,0,0,0,0,0,0,0,0,4
+00391cfc,1,Happy Happy Go Go,Goblin,Christina,Goblin,1,0,18996167,Murderers Row,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391cfc,1,Happy Happy Go Go,Goblin,Brittney,Goblin,1,0,18996166,Murderers Row,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391cfc,1,Murderers Row,Necromantic,The Bloody Offenders,Zombie,1,5,18997128,Happy Happy Go Go,Goblin,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391cfc,1,Murderers Row,Necromantic,Ted Bloody,Zombie,1,0,18997131,Happy Happy Go Go,Goblin,1,2,0,0,0,0,0,0,0,0,0,0,2
+00391cfc,1,Murderers Row,Necromantic,Gilles de Raze,Flesh Golem,1,2,18997125,Happy Happy Go Go,Goblin,4,2,1,1,0,0,0,0,0,0,0,0,4
+00391cfc,1,Murderers Row,Necromantic,Jack the Tripper,Zombie,1,0,18997129,Happy Happy Go Go,Goblin,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391cfc,1,Murderers Row,Necromantic,John Wayne Crazy,Ghoul,1,3,18997127,Happy Happy Go Go,Goblin,0,0,0,0,0,1,0,0,0,0,70,0,5
+00391cfc,1,Murderers Row,Necromantic,Gizzard Ramirez,Zombie,1,2,18997132,Happy Happy Go Go,Goblin,4,1,0,1,0,0,0,0,0,0,0,0,3
+00391cfc,1,Murderers Row,Necromantic,Erzsebet Wrathory,Werewolf,1,5,18997122,Happy Happy Go Go,Goblin,5,1,0,1,0,1,0,0,0,0,38,1,9
+00391cfc,1,Murderers Row,Necromantic,Snarls Manson,Wight,1,0,18997124,Happy Happy Go Go,Goblin,10,4,1,0,0,0,0,0,0,0,0,0,5
+00391cfc,1,Murderers Row,Necromantic,Meanie Todd,Flesh Golem,1,0,18997126,Happy Happy Go Go,Goblin,8,1,1,0,0,0,0,0,0,0,0,0,4
+00391cfc,1,Murderers Row,Necromantic,Son of Slam,Wight,1,0,18997123,Happy Happy Go Go,Goblin,7,2,1,0,0,0,0,0,0,0,0,0,4
+00391cfc,1,Murderers Row,Necromantic,Jeffrey Dishonor,Zombie,1,0,18997130,Happy Happy Go Go,Goblin,2,1,0,0,0,0,0,0,0,0,0,0,2
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,Tin Run and Nan Urn It,Runner,2,10,18257093,Dignified Dwarven Dynasty,Chaos Dwarf,4,1,0,1,0,1,0,0,0,0,64,0,8
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,Mood Foe Tote of Doom,Blitzer,1,3,18257092,Dignified Dwarven Dynasty,Chaos Dwarf,10,2,0,0,0,1,0,0,0,0,8,0,7
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,Bob,Lineman,1,0,18257094,Dignified Dwarven Dynasty,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,Racecar,Lineman,1,0,18257097,Dignified Dwarven Dynasty,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,Fandrel,Lineman,1,2,11,Dignified Dwarven Dynasty,Chaos Dwarf,3,2,1,1,0,0,0,0,0,0,0,0,4
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,Bus On No Sub,Lineman,2,0,18257099,Dignified Dwarven Dynasty,Chaos Dwarf,4,0,0,0,0,0,0,0,0,0,0,0,1
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,Smart Rams,Lineman,1,0,18257098,Dignified Dwarven Dynasty,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,El Doon Noodle,Blitzer,1,1,18257091,Dignified Dwarven Dynasty,Chaos Dwarf,4,1,0,0,0,0,1,0,0,0,0,0,4
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,Ufo Tofu,Lineman,1,0,18257096,Dignified Dwarven Dynasty,Chaos Dwarf,2,0,0,0,0,0,0,0,1,0,14,0,4
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,Dark Eel Leek Rad,Blitzer,2,0,18257089,Dignified Dwarven Dynasty,Chaos Dwarf,6,1,1,0,0,0,0,0,0,0,0,0,4
+00391dbf,1,Nuffle Knows Wonk Elf Fun,Dark Elf,Never Odd or Even,Blitzer,1,0,18257090,Dignified Dwarven Dynasty,Chaos Dwarf,9,0,0,0,0,0,0,0,0,0,0,0,2
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,Woodhouse,Hobgoblin,1,5,17074778,Nuffle Knows Wonk Elf Fun,Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,Mike Lord of the Pitch,Blocker,1,4,18763051,Nuffle Knows Wonk Elf Fun,Dark Elf,4,2,0,2,1,0,0,0,0,0,0,0,6
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,GodunkWrzaskun,Hobgoblin,1,5,47,Nuffle Knows Wonk Elf Fun,Dark Elf,3,1,0,1,0,1,0,0,0,0,12,0,7
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,King Karl the Casual,Bull Centaur,1,0,18762928,Nuffle Knows Wonk Elf Fun,Dark Elf,9,0,0,0,0,0,0,0,0,0,26,0,3
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,Sir Roger the Valiant,Blocker,1,0,18763143,Nuffle Knows Wonk Elf Fun,Dark Elf,6,1,1,0,0,0,0,0,0,0,0,0,4
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,CrackButler Billy,Hobgoblin,1,0,17074779,Nuffle Knows Wonk Elf Fun,Dark Elf,2,0,0,0,0,0,0,0,0,0,8,0,2
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,GnashGębostrzęp,Hobgoblin,1,0,46,Nuffle Knows Wonk Elf Fun,Dark Elf,1,0,0,0,0,0,0,0,0,0,4,0,2
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,ArchDuke Batman,Blocker,1,2,18762809,Nuffle Knows Wonk Elf Fun,Dark Elf,4,1,0,1,0,0,0,0,0,0,0,0,3
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,Honorable Huylar the 3rd,Blocker,1,0,17074739,Nuffle Knows Wonk Elf Fun,Dark Elf,6,1,0,0,0,0,0,0,0,0,0,0,3
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,Spency P. Sharp,Hobgoblin,2,0,18762854,Nuffle Knows Wonk Elf Fun,Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391dbf,1,Dignified Dwarven Dynasty,Chaos Dwarf,Our Glorious Leader Bob,Bull Centaur,1,0,18763126,Nuffle Knows Wonk Elf Fun,Dark Elf,6,0,0,0,0,0,0,0,0,0,16,0,3
+00391e03,1,Cenobite the Curb,Chaos,Far'fagors,Beastman,1,5,16119744,Da Secret of My Success,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391e03,1,Cenobite the Curb,Chaos,Tyny Beard,Beastman,2,0,15717407,Da Secret of My Success,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391e03,1,Cenobite the Curb,Chaos,Mu'tigor,Beastman,5,0,10830264,Da Secret of My Success,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391e03,1,Cenobite the Curb,Chaos,Bris'fagor,Beastman,2,0,16119745,Da Secret of My Success,Orc,7,0,0,0,0,0,0,0,0,0,0,0,2
+00391e03,1,Cenobite the Curb,Chaos,Worm Crushspider,Chaos Warrior,4,0,10830271,Da Secret of My Success,Orc,8,0,0,0,0,0,0,0,0,0,0,0,2
+00391e03,1,Cenobite the Curb,Chaos,Brutesinew Spinelip,Chaos Warrior,4,2,10830272,Da Secret of My Success,Orc,12,2,0,1,1,0,0,0,0,0,0,0,7
+00391e03,1,Cenobite the Curb,Chaos,Warey Tail,Beastman,5,3,10830266,Da Secret of My Success,Orc,6,1,0,0,0,1,0,0,2,0,8,0,11
+00391e03,1,Cenobite the Curb,Chaos,Frizfagor,Beastman,3,0,10830268,Da Secret of My Success,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391e03,1,Cenobite the Curb,Chaos,Belmoth Kha Dhy,Chaos Warrior,5,2,10830274,Da Secret of My Success,Orc,11,1,0,1,0,0,0,0,0,0,0,0,5
+00391e03,1,Cenobite the Curb,Chaos,Py'fagor,Beastman,1,0,16825961,Da Secret of My Success,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391e03,1,Cenobite the Curb,Chaos,Granly Mantle,Beastman,4,2,10857774,Da Secret of My Success,Orc,2,1,1,0,0,0,2,0,0,0,36,1,10
+00391e03,1,Cenobite the Curb,Chaos,Quakeflush Ripblue,Chaos Warrior,5,0,10830273,Da Secret of My Success,Orc,8,3,1,0,0,0,0,0,0,0,0,0,5
+00391e03,1,Da Secret of My Success,Orc,Hoopz,Lineman,1,5,17553383,Cenobite the Curb,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391e03,1,Da Secret of My Success,Orc,Never Log In,Goblin,2,0,15559478,Cenobite the Curb,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391e03,1,Da Secret of My Success,Orc,Undock Games,Black Orc,3,0,14939852,Cenobite the Curb,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391e03,1,Da Secret of My Success,Orc,Blind Campin',Blitzer,3,0,14939940,Cenobite the Curb,Chaos,5,1,0,0,0,0,0,0,0,0,2,0,3
+00391e03,1,Da Secret of My Success,Orc,Market Warfare,Blitzer,2,0,16143057,Cenobite the Curb,Chaos,4,1,0,0,0,0,0,0,0,0,0,1,4
+00391e03,1,Da Secret of My Success,Orc,PulsePoc,Thrower,3,3,14939922,Cenobite the Curb,Chaos,0,0,0,0,0,1,0,0,0,0,68,0,5
+00391e03,1,Da Secret of My Success,Orc,Blopsin,Blitzer,3,2,14939924,Cenobite the Curb,Chaos,1,1,0,1,0,0,0,0,0,0,0,0,3
+00391e03,1,Da Secret of My Success,Orc,Blueballs,Troll,1,0,16831109,Cenobite the Curb,Chaos,2,1,1,0,0,0,0,0,0,0,0,0,3
+00391e03,1,Da Secret of My Success,Orc,Deuce Local,Black Orc,1,0,14939921,Cenobite the Curb,Chaos,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391e03,1,Da Secret of My Success,Orc,Solo Vexor,Blitzer,3,0,14939923,Cenobite the Curb,Chaos,2,0,0,0,0,0,0,0,0,0,8,0,2
+00391e03,1,Da Secret of My Success,Orc,Dekatris,Lineman,2,0,14939927,Cenobite the Curb,Chaos,2,0,0,0,0,0,0,0,0,0,0,1,3
+00391e03,1,Da Secret of My Success,Orc,:reblier:,Black Orc,3,0,14939854,Cenobite the Curb,Chaos,5,1,1,0,0,0,0,0,0,0,0,0,3
+00391e03,1,Da Secret of My Success,Orc,Domi Fleet,Black Orc,3,0,14939853,Cenobite the Curb,Chaos,9,1,0,0,0,0,0,0,0,0,0,0,3
+00391f8d,1,Mohawk Masqueraders,Elven Union,Cryptic Craig,Lineman,1,5,19031185,The One True Path,Chaos,3,0,0,0,0,0,0,0,0,0,0,0,1
+00391f8d,1,Mohawk Masqueraders,Elven Union,Donny Darko,Blitzer,1,0,19031180,The One True Path,Chaos,9,1,0,0,0,0,0,0,0,0,0,0,3
+00391f8d,1,Mohawk Masqueraders,Elven Union,Puzzling Pip,Catcher,1,0,19031182,The One True Path,Chaos,0,0,0,0,0,0,0,0,1,0,32,0,3
+00391f8d,1,Mohawk Masqueraders,Elven Union,Mystic Mac,Thrower,1,2,19031181,The One True Path,Chaos,1,0,0,0,0,0,2,0,0,0,10,0,6
+00391f8d,1,Mohawk Masqueraders,Elven Union,Weird Wiley,Lineman,1,0,19031186,The One True Path,Chaos,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391f8d,1,Mohawk Masqueraders,Elven Union,Secret Steve,Lineman,1,0,19031188,The One True Path,Chaos,4,1,0,0,0,0,0,0,0,0,4,0,3
+00391f8d,1,Mohawk Masqueraders,Elven Union,Enigmatic Eli,Catcher,1,3,19031183,The One True Path,Chaos,0,0,0,0,0,1,0,0,1,0,18,0,6
+00391f8d,1,Mohawk Masqueraders,Elven Union,Perplexing Pete,Lineman,1,0,19031184,The One True Path,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391f8d,1,Mohawk Masqueraders,Elven Union,Mysterious Mike,Blitzer,1,2,19031179,The One True Path,Chaos,8,1,0,1,0,0,0,0,0,0,0,0,4
+00391f8d,1,Mohawk Masqueraders,Elven Union,Hidden Harvey,Lineman,1,0,19031187,The One True Path,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391f8d,1,Mohawk Masqueraders,Elven Union,Faceless Frank,Lineman,1,0,19031189,The One True Path,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391f8d,1,The One True Path,Chaos,Fnipper One-Shoe,Chaos Warrior,1,8,19189857,Mohawk Masqueraders,Elven Union,5,3,1,0,0,1,0,0,0,0,30,0,8
+00391f8d,1,The One True Path,Chaos,Sieval,Beastman,1,0,19189861,Mohawk Masqueraders,Elven Union,1,1,0,0,0,0,0,0,0,0,0,0,2
+00391f8d,1,The One True Path,Chaos,Agaeronmae,Beastman,1,0,19189860,Mohawk Masqueraders,Elven Union,0,0,0,0,0,0,0,0,0,0,20,0,1
+00391f8d,1,The One True Path,Chaos,Rasputin,Chaos Warrior,1,0,19189856,Mohawk Masqueraders,Elven Union,2,1,1,0,0,0,0,0,0,0,48,0,4
+00391f8d,1,The One True Path,Chaos,Boss Scrote,Beastman,1,0,19189863,Mohawk Masqueraders,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391f8d,1,The One True Path,Chaos,Anna,Beastman,1,0,19189864,Mohawk Masqueraders,Elven Union,2,1,0,0,0,0,0,0,0,0,0,0,2
+00391f8d,1,The One True Path,Chaos,Dokken,Chaos Warrior,1,4,19189859,Mohawk Masqueraders,Elven Union,5,3,0,2,0,0,0,0,0,0,0,0,5
+00391f8d,1,The One True Path,Chaos,Three Toes,Beastman,1,0,19189866,Mohawk Masqueraders,Elven Union,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391f8d,1,The One True Path,Chaos,Klint,Chaos Warrior,1,0,19189858,Mohawk Masqueraders,Elven Union,6,1,0,0,0,0,0,0,0,0,0,0,3
+00391f8d,1,The One True Path,Chaos,Charlotte,Beastman,1,0,19189862,Mohawk Masqueraders,Elven Union,3,0,0,0,0,0,0,0,0,0,0,0,1
+00391f8d,1,The One True Path,Chaos,Idril,Beastman,1,0,19189865,Mohawk Masqueraders,Elven Union,2,1,1,0,0,0,0,0,0,0,0,0,3
+00391fa0,1,LizardBeasts,Lizardmen,Gex Jr.,Skink,1,5,16887045,Tribu Urbana,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391fa0,1,LizardBeasts,Lizardmen,Tenq of Dawn,Saurus,3,2,12457957,Tribu Urbana,Elven Union,6,4,1,1,0,0,0,0,0,0,0,0,6
+00391fa0,1,LizardBeasts,Lizardmen,Xlaotl,Saurus,2,0,12457958,Tribu Urbana,Elven Union,11,3,2,0,0,0,0,0,0,0,0,0,7
+00391fa0,1,LizardBeasts,Lizardmen,Gengar's Revenge,Saurus,2,0,16021439,Tribu Urbana,Elven Union,3,0,0,0,0,0,0,0,0,0,0,0,1
+00391fa0,1,LizardBeasts,Lizardmen,Mazdahex,Skink,1,0,11,Tribu Urbana,Elven Union,2,3,2,0,0,0,0,0,0,0,0,0,5
+00391fa0,1,LizardBeasts,Lizardmen,Tyra of Chaqua,Saurus,3,0,12457960,Tribu Urbana,Elven Union,6,1,1,0,0,0,0,0,0,0,0,0,4
+00391fa0,1,LizardBeasts,Lizardmen,Tenqlashi,Skink,1,0,16886790,Tribu Urbana,Elven Union,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391fa0,1,LizardBeasts,Lizardmen,Uldaitz,Skink,5,9,12457962,Tribu Urbana,Elven Union,0,0,0,0,0,3,0,0,0,0,102,0,12
+00391fa0,1,LizardBeasts,Lizardmen,Oy of Xlanhuapec,Skink,3,2,13027135,Tribu Urbana,Elven Union,1,1,0,1,0,0,0,0,0,0,16,0,4
+00391fa0,1,LizardBeasts,Lizardmen,Garpek Jr.,Saurus,1,0,16886793,Tribu Urbana,Elven Union,3,0,0,0,0,0,0,0,0,0,0,0,1
+00391fa0,1,LizardBeasts,Lizardmen,Tehekai of the Viper,Skink,3,0,12457963,Tribu Urbana,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391fa0,1,Tribu Urbana,Elven Union,Brujo Teluloth,Lineman,2,5,17428374,LizardBeasts,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+00391fa0,1,Tribu Urbana,Elven Union,"""Exiliado"" Qeros",Lineman,1,0,17428748,LizardBeasts,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391fa0,1,Tribu Urbana,Elven Union,"""Cadaver"" Vebran",Catcher,3,9,17366536,LizardBeasts,Lizardmen,5,0,0,0,0,3,0,0,3,0,54,1,20
+00391fa0,1,Tribu Urbana,Elven Union,"Zorthar ""El Sombrío""",Lineman,1,1,19247776,LizardBeasts,Lizardmen,1,0,0,0,0,0,1,0,0,0,10,0,4
+00391fa0,1,Tribu Urbana,Elven Union,Guarda Zadot,Lineman,1,0,17428885,LizardBeasts,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391fa0,1,Tribu Urbana,Elven Union,"""El Gorila"" Dalkokas",Lineman,1,0,17428749,LizardBeasts,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+00391fa0,1,Tribu Urbana,Elven Union,Forestal Scoltic,Lineman,1,0,17428750,LizardBeasts,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00391fa0,1,Tribu Urbana,Elven Union,"""Nomada"" Zaeroc",Catcher,2,0,17366535,LizardBeasts,Lizardmen,2,1,1,0,0,0,0,0,0,0,0,0,3
+00391fa0,1,Tribu Urbana,Elven Union,Maestro Tazridel,Thrower,2,2,17364501,LizardBeasts,Lizardmen,1,0,0,0,0,0,2,0,0,0,72,0,7
+00391fa0,1,Tribu Urbana,Elven Union,"Nelkeros ""Izote""",Blitzer,1,2,17364503,LizardBeasts,Lizardmen,9,1,0,1,0,0,0,0,0,0,0,0,4
+00391fa0,1,Tribu Urbana,Elven Union,"""El Zorro"" Arlilas",Blitzer,2,0,17364502,LizardBeasts,Lizardmen,5,0,0,0,0,0,0,0,0,0,0,0,1
+00391fa0,1,Tribu Urbana,Elven Union,"""Cria"" Strakic",Lineman,2,0,17428752,LizardBeasts,Lizardmen,5,0,0,0,0,0,0,0,0,0,0,0,1
+0039214f,1,GoldeneGarde,Lizardmen,GodZilla,Kroxigor,1,5,18826157,Mushroom Doped Maniacs,Goblin,4,0,0,0,0,0,0,0,0,0,0,0,1
+0039214f,1,GoldeneGarde,Lizardmen,CallTheApo,Skink,1,0,18826165,Mushroom Doped Maniacs,Goblin,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039214f,1,GoldeneGarde,Lizardmen,AlwaysHungry,Saurus,1,0,18826161,Mushroom Doped Maniacs,Goblin,5,2,1,0,0,0,0,0,0,0,0,1,5
+0039214f,1,GoldeneGarde,Lizardmen,Bloodsurfer,Saurus,1,0,18826162,Mushroom Doped Maniacs,Goblin,5,2,0,0,0,0,0,0,0,0,0,0,2
+0039214f,1,GoldeneGarde,Lizardmen,Dinomite,Saurus,1,2,18826158,Mushroom Doped Maniacs,Goblin,5,1,0,1,0,0,0,0,0,0,0,0,3
+0039214f,1,GoldeneGarde,Lizardmen,Linebreaker,Saurus,1,2,18826160,Mushroom Doped Maniacs,Goblin,5,2,0,1,0,0,0,0,0,0,0,0,3
+0039214f,1,GoldeneGarde,Lizardmen,HolyHorns,Saurus,1,0,18826163,Mushroom Doped Maniacs,Goblin,2,2,2,0,0,0,0,0,0,0,0,0,4
+0039214f,1,GoldeneGarde,Lizardmen,Dobbie,Skink,1,0,18826167,Mushroom Doped Maniacs,Goblin,0,2,1,0,0,0,0,0,0,0,32,0,3
+0039214f,1,GoldeneGarde,Lizardmen,Skullbasher,Saurus,1,0,18826159,Mushroom Doped Maniacs,Goblin,1,0,0,0,0,0,0,0,0,0,6,0,2
+0039214f,1,GoldeneGarde,Lizardmen,BagOgBones,Skink,1,0,18826164,Mushroom Doped Maniacs,Goblin,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039214f,1,GoldeneGarde,Lizardmen,Linedancer,Skink,1,3,18826166,Mushroom Doped Maniacs,Goblin,0,0,0,0,0,1,0,0,0,0,36,0,4
+0039214f,1,Mushroom Doped Maniacs,Goblin,Splosh,Fanatic,1,5,19190743,GoldeneGarde,Lizardmen,6,1,0,0,0,0,0,0,0,0,0,0,3
+0039214f,1,Mushroom Doped Maniacs,Goblin,Kaboom,Bombardier,1,0,19190674,GoldeneGarde,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039214f,1,Mushroom Doped Maniacs,Goblin,Sneakly,Goblin,1,0,19190691,GoldeneGarde,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039214f,1,Mushroom Doped Maniacs,Goblin,Clowny,Pogoer,1,0,19190675,GoldeneGarde,Lizardmen,2,1,0,0,0,0,0,0,0,0,18,0,3
+0039214f,1,Mushroom Doped Maniacs,Goblin,Fwiendly,Goblin,1,0,19190689,GoldeneGarde,Lizardmen,1,1,0,0,0,0,0,0,0,0,0,0,2
+0039214f,1,Mushroom Doped Maniacs,Goblin,Fumbly,Goblin,1,0,19190696,GoldeneGarde,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039214f,1,Mushroom Doped Maniacs,Goblin,Ogly,Goblin,1,0,19190687,GoldeneGarde,Lizardmen,2,1,0,0,0,0,0,0,0,0,0,1,4
+0039214f,1,Mushroom Doped Maniacs,Goblin,Kaptain Tutshdirn,Goblin,1,0,19198722,GoldeneGarde,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039214f,1,Mushroom Doped Maniacs,Goblin,Smelly Poop,Troll,1,0,19190671,GoldeneGarde,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039214f,1,Mushroom Doped Maniacs,Goblin,Piratey,Goblin,1,0,19190690,GoldeneGarde,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039214f,1,Mushroom Doped Maniacs,Goblin,Gitty,Goblin,1,0,19190692,GoldeneGarde,Lizardmen,0,0,0,0,0,0,0,0,0,0,6,0,1
+0039214f,1,Mushroom Doped Maniacs,Goblin,Om Nom,Troll,1,2,19190670,GoldeneGarde,Lizardmen,6,4,2,1,0,0,0,0,0,0,0,0,7
+0039214f,1,Mushroom Doped Maniacs,Goblin,Pwetty,Goblin,1,0,19190688,GoldeneGarde,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039214f,1,Mushroom Doped Maniacs,Goblin,Goofus,Looney,1,0,19190672,GoldeneGarde,Lizardmen,0,2,0,0,0,0,0,0,0,0,0,0,1
+00392337,1,Da Big Mulligans!,Orc,Barry Punched-Lots,Lineman,1,7,19075444,Rockomotive Gitstompers,Amazon,1,2,0,1,0,0,0,0,0,0,0,0,3
+00392337,1,Da Big Mulligans!,Orc,Skipsey,Goblin,1,0,19080792,Rockomotive Gitstompers,Amazon,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392337,1,Da Big Mulligans!,Orc,Murdoc Spinerippa,Black Orc,1,0,19075436,Rockomotive Gitstompers,Amazon,2,0,0,0,0,0,0,0,0,0,0,0,1
+00392337,1,Da Big Mulligans!,Orc,Skramblitz,Blitzer,1,0,19075442,Rockomotive Gitstompers,Amazon,5,0,0,0,0,0,0,0,0,0,0,0,1
+00392337,1,Da Big Mulligans!,Orc,Raknee,Blitzer,2,0,12,Rockomotive Gitstompers,Amazon,11,3,1,0,0,0,0,0,0,0,0,0,6
+00392337,1,Da Big Mulligans!,Orc,Big Ug,Troll,1,0,19075440,Rockomotive Gitstompers,Amazon,4,1,1,0,0,0,0,0,0,0,0,0,3
+00392337,1,Da Big Mulligans!,Orc,My Arm,Blitzer,1,0,19075443,Rockomotive Gitstompers,Amazon,2,0,0,0,0,0,0,0,0,0,38,0,2
+00392337,1,Da Big Mulligans!,Orc,Lil' Ug,Black Orc,1,0,19075439,Rockomotive Gitstompers,Amazon,5,1,0,0,0,0,0,0,0,0,0,1,4
+00392337,1,Da Big Mulligans!,Orc,Boris Kick'd-Lots,Lineman,1,0,19075445,Rockomotive Gitstompers,Amazon,4,1,1,0,0,0,0,0,0,0,0,0,3
+00392337,1,Da Big Mulligans!,Orc,Rookadug,Blitzer,1,2,19075441,Rockomotive Gitstompers,Amazon,5,1,0,1,0,0,0,0,0,0,0,1,5
+00392337,1,Da Big Mulligans!,Orc,Gorshak Goldtoof,Black Orc,1,2,19075437,Rockomotive Gitstompers,Amazon,4,1,0,1,0,0,0,0,0,0,0,0,3
+00392337,1,Da Big Mulligans!,Orc,Borak von 'Eadbutt,Black Orc,1,0,19075438,Rockomotive Gitstompers,Amazon,5,0,0,0,0,0,0,0,0,0,0,0,1
+00392337,1,Rockomotive Gitstompers,Amazon,Jill II,Linewoman,1,5,19077532,Da Big Mulligans!,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1
+00392337,1,Rockomotive Gitstompers,Amazon,Cait Cliffhanger,Catcher,1,0,17490365,Da Big Mulligans!,Orc,2,0,0,0,0,0,0,0,0,0,24,0,2
+00392337,1,Rockomotive Gitstompers,Amazon,Scarlett Stonecrusher,Blitzer,1,0,17490360,Da Big Mulligans!,Orc,8,1,1,0,0,0,0,0,0,0,0,0,4
+00392337,1,Rockomotive Gitstompers,Amazon,Jacy,Linewoman,1,0,17490368,Da Big Mulligans!,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392337,1,Rockomotive Gitstompers,Amazon,Jolie,Linewoman,1,0,17854220,Da Big Mulligans!,Orc,4,0,0,0,0,0,0,0,0,0,0,0,1
+00392337,1,Rockomotive Gitstompers,Amazon,Furiosa,Thrower,2,0,17490359,Da Big Mulligans!,Orc,1,1,1,0,0,0,0,0,0,0,0,0,3
+00392337,1,Rockomotive Gitstompers,Amazon,Reagan Rocksolid,Blitzer,1,3,17490363,Da Big Mulligans!,Orc,2,0,0,0,0,1,0,0,1,0,18,0,7
+00392337,1,Rockomotive Gitstompers,Amazon,Jamie,Linewoman,1,0,17490367,Da Big Mulligans!,Orc,3,1,0,0,0,0,0,0,0,0,0,0,2
+00392337,1,Rockomotive Gitstompers,Amazon,Scylla Stonecold,Catcher,2,0,17490364,Da Big Mulligans!,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1
+00392337,1,Rockomotive Gitstompers,Amazon,Jane,Linewoman,2,0,17490366,Da Big Mulligans!,Orc,4,1,0,0,0,0,0,0,0,0,0,0,2
+00392337,1,Rockomotive Gitstompers,Amazon,Brooke Brickwall,Blitzer,2,1,17490362,Da Big Mulligans!,Orc,5,1,0,0,0,0,1,0,0,0,10,0,5
+00392337,1,Rockomotive Gitstompers,Amazon,Roxanne Rockfist,Blitzer,2,0,17490361,Da Big Mulligans!,Orc,6,2,1,0,0,0,0,0,0,0,0,0,4
+0039266d,1,[REBBL] Brutal Deluxe,Human,Camillo Gozzadini,Ogre,1,7,17208266,Faltering Roughnecks,Elven Union,5,3,1,1,0,0,0,0,0,0,0,0,5
+0039266d,1,[REBBL] Brutal Deluxe,Human,Germanico Ercolani,Blitzer,1,5,17210313,Faltering Roughnecks,Elven Union,8,2,1,1,1,1,0,0,0,0,10,0,11
+0039266d,1,[REBBL] Brutal Deluxe,Human,Aurelio Armi,Thrower,3,3,17208957,Faltering Roughnecks,Elven Union,3,2,0,1,0,0,1,0,0,0,14,0,6
+0039266d,1,[REBBL] Brutal Deluxe,Human,Gironimo Boncompagni,Blitzer,2,0,17210314,Faltering Roughnecks,Elven Union,2,0,0,0,0,0,0,0,0,0,0,0,1
+0039266d,1,[REBBL] Brutal Deluxe,Human,Marcello Malpighi,Lineman,1,0,19069925,Faltering Roughnecks,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039266d,1,[REBBL] Brutal Deluxe,Human,Ippolito Poeti,Blitzer,2,0,17209193,Faltering Roughnecks,Elven Union,6,4,0,0,0,0,0,0,0,0,0,0,4
+0039266d,1,[REBBL] Brutal Deluxe,Human,Alemanno Isolani,Lineman,1,0,17211086,Faltering Roughnecks,Elven Union,1,1,1,0,0,0,0,0,0,0,0,0,3
+0039266d,1,[REBBL] Brutal Deluxe,Human,Alberto Bentivogli,Blitzer,2,4,17208956,Faltering Roughnecks,Elven Union,5,2,0,2,1,0,0,0,0,0,0,0,6
+0039266d,1,[REBBL] Brutal Deluxe,Human,Pietro Asinelli,Catcher,1,0,18496293,Faltering Roughnecks,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039266d,1,[REBBL] Brutal Deluxe,Human,Giovanbattista Sampieri,Catcher,2,0,17208549,Faltering Roughnecks,Elven Union,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039266d,1,[REBBL] Brutal Deluxe,Human,Carlo Ruini,Catcher,3,3,17208548,Faltering Roughnecks,Elven Union,3,0,0,0,0,1,0,0,1,0,100,0,8
+0039266d,1,[REBBL] Brutal Deluxe,Human,Enea Magnani,Lineman,2,0,17211351,Faltering Roughnecks,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039266d,1,Faltering Roughnecks,Elven Union,Agorbaar Aeraeme,Catcher,1,8,19259367,[REBBL] Brutal Deluxe,Human,3,1,1,0,0,1,0,0,1,0,32,0,9
+0039266d,1,Faltering Roughnecks,Elven Union,Kailduil Falanae,Catcher,2,3,17415339,[REBBL] Brutal Deluxe,Human,4,0,0,0,0,1,0,0,1,0,10,0,7
+0039266d,1,Faltering Roughnecks,Elven Union,Taldagdorren Larentholial,Lineman,1,2,17415344,[REBBL] Brutal Deluxe,Human,1,1,0,1,0,0,0,0,0,0,0,0,3
+0039266d,1,Faltering Roughnecks,Elven Union,Calmornon Augglinarin,Lineman,1,0,17415346,[REBBL] Brutal Deluxe,Human,3,0,0,0,0,0,0,0,0,0,0,0,1
+0039266d,1,Faltering Roughnecks,Elven Union,Overgalad Lassraielen,Blitzer,2,0,17415338,[REBBL] Brutal Deluxe,Human,4,0,0,0,0,0,0,0,0,0,0,0,1
+0039266d,1,Faltering Roughnecks,Elven Union,Rochenbund Galonlinde,Lineman,2,0,17415345,[REBBL] Brutal Deluxe,Human,5,0,0,0,0,0,0,0,0,0,0,0,1
+0039266d,1,Faltering Roughnecks,Elven Union,Emerdor Cromviel,Thrower,2,2,17415341,[REBBL] Brutal Deluxe,Human,5,2,0,0,0,0,2,0,0,0,24,0,7
+0039266d,1,Faltering Roughnecks,Elven Union,Verdur Shardragiel,Blitzer,1,0,17415337,[REBBL] Brutal Deluxe,Human,7,2,0,0,0,0,0,0,0,0,0,0,3
+0039266d,1,Faltering Roughnecks,Elven Union,Imthoron Maalonel,Lineman,1,0,17415342,[REBBL] Brutal Deluxe,Human,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039266d,1,Faltering Roughnecks,Elven Union,Barsidhdon Malthaldren,Lineman,1,0,17415347,[REBBL] Brutal Deluxe,Human,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039266d,1,Faltering Roughnecks,Elven Union,Anthnibien Elenelwa,Lineman,1,0,17415343,[REBBL] Brutal Deluxe,Human,1,1,1,0,0,0,0,0,0,0,0,0,3
+0039266d,1,Faltering Roughnecks,Elven Union,Menanonon Shaladeth,Catcher,2,0,17415340,[REBBL] Brutal Deluxe,Human,1,1,0,0,0,0,0,0,0,0,0,0,2
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,Bashful,Blocker,1,5,17100394,Bane of the Living,Undead,3,1,0,0,0,0,0,0,0,0,0,0,2
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,Grumpy,Blocker,2,0,17100395,Bane of the Living,Undead,9,2,1,0,0,0,0,0,0,0,0,0,4
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,Dopey,Blocker,1,0,17100396,Bane of the Living,Undead,3,0,0,0,0,0,0,0,0,0,0,0,1
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,Seduzt Bonesnapper,Hobgoblin,1,0,10,Bane of the Living,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,Happy,Blocker,1,2,17100391,Bane of the Living,Undead,3,2,0,1,0,0,0,0,0,0,0,0,3
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,Sleepy,Blocker,2,0,17100393,Bane of the Living,Undead,2,1,0,0,0,0,0,0,0,0,0,0,2
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,The Evil Queen,Hobgoblin,2,0,17619520,Bane of the Living,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,PLAYER_NAMES_CHAMPION_NOBBLA_FALLBACK,Unknown playertype,1,0,12,Bane of the Living,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,Gdeb Evilball,Hobgoblin,1,0,11,Bane of the Living,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,Snow,Bull Centaur,3,0,17100389,Bane of the Living,Undead,6,1,0,0,0,0,0,0,0,0,0,0,3
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,White,Bull Centaur,2,7,17100390,Bane of the Living,Undead,7,2,0,2,0,1,0,0,0,0,32,0,9
+0039288f,1,Snow White & the 6 Chorfs,Chaos Dwarf,Sneezy II,Blocker,1,0,18983613,Bane of the Living,Undead,3,0,0,0,0,0,0,0,0,0,0,0,1
+0039288f,1,Bane of the Living,Undead,Edmond Vigor,Zombie,1,5,15290527,Snow White & the 6 Chorfs,Chaos Dwarf,3,0,0,0,0,0,0,0,0,0,0,0,1
+0039288f,1,Bane of the Living,Undead,Casketchewer,Ghoul,1,0,19197704,Snow White & the 6 Chorfs,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,6,0,1
+0039288f,1,Bane of the Living,Undead,Ivan the Cold-hearted,Wight,3,2,15290522,Snow White & the 6 Chorfs,Chaos Dwarf,2,2,0,1,0,0,0,0,0,0,0,0,3
+0039288f,1,Bane of the Living,Undead,Ramtu the Fourth,Mummy,3,0,15290519,Snow White & the 6 Chorfs,Chaos Dwarf,6,1,0,0,0,0,0,0,0,0,0,0,3
+0039288f,1,Bane of the Living,Undead,Herk the Scavenger,Zombie,2,0,15290526,Snow White & the 6 Chorfs,Chaos Dwarf,0,1,0,0,0,0,0,0,0,0,0,0,1
+0039288f,1,Bane of the Living,Undead,Cronar the First,Mummy,3,4,15290520,Snow White & the 6 Chorfs,Chaos Dwarf,7,3,0,2,0,0,0,0,0,0,0,0,6
+0039288f,1,Bane of the Living,Undead,Gerhart the Dead Jester,Zombie,2,0,16436331,Snow White & the 6 Chorfs,Chaos Dwarf,8,0,0,0,0,0,0,0,0,0,0,0,2
+0039288f,1,Bane of the Living,Undead,Conrad the Mean,Wight,2,1,16770202,Snow White & the 6 Chorfs,Chaos Dwarf,6,2,1,0,0,0,1,0,0,0,20,0,7
+0039288f,1,Bane of the Living,Undead,Virigard the Vanguard,Zombie,2,0,15683007,Snow White & the 6 Chorfs,Chaos Dwarf,6,1,0,0,0,0,0,0,1,0,0,0,5
+0039288f,1,Bane of the Living,Undead,Virigard the Revived,Zombie,1,0,18744117,Snow White & the 6 Chorfs,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039288f,1,Bane of the Living,Undead,Quintus Splinter,Zombie,2,2,15290528,Snow White & the 6 Chorfs,Chaos Dwarf,10,1,0,1,0,0,0,0,0,0,0,0,4
+0039288f,1,Bane of the Living,Undead,Titus the Dead Jester,Zombie,2,0,16266815,Snow White & the 6 Chorfs,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039288f,1,Bane of the Living,Undead,Ribchewer,Ghoul,4,0,15290523,Snow White & the 6 Chorfs,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039288f,1,Bane of the Living,Undead,Carrionsnatcher,Ghoul,3,0,15290524,Snow White & the 6 Chorfs,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+003929ce,1,New Year Norse,Norse,1900,Lineman,3,5,12248363,The Booze Cruise,Dwarf,2,0,0,0,0,0,0,0,0,0,0,0,1
+003929ce,1,New Year Norse,Norse,777,Lineman,1,0,17071836,The Booze Cruise,Dwarf,2,0,0,0,0,0,0,0,0,0,0,0,1
+003929ce,1,New Year Norse,Norse,1788,Lineman,1,0,15803606,The Booze Cruise,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+003929ce,1,New Year Norse,Norse,759,Lineman,2,0,14251175,The Booze Cruise,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+003929ce,1,New Year Norse,Norse,2000,Ulfwerener,2,0,12248356,The Booze Cruise,Dwarf,3,0,0,0,0,0,0,0,0,0,0,0,1
+003929ce,1,New Year Norse,Norse,2008,Runner,4,0,13190599,The Booze Cruise,Dwarf,1,1,0,0,0,0,0,0,0,0,40,0,3
+003929ce,1,New Year Norse,Norse,300,Lineman,5,0,12248362,The Booze Cruise,Dwarf,9,0,0,0,0,0,0,0,0,0,0,0,2
+003929ce,1,New Year Norse,Norse,7,Lineman,1,0,15641672,The Booze Cruise,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+003929ce,1,New Year Norse,Norse,1945,Berserker,2,0,16428242,The Booze Cruise,Dwarf,6,1,0,0,0,0,0,0,0,0,0,0,3
+003929ce,1,New Year Norse,Norse,-9,Lineman,5,0,12248364,The Booze Cruise,Dwarf,7,0,0,0,0,0,0,0,0,0,0,0,2
+003929ce,1,New Year Norse,Norse,2012,Ulfwerener,4,0,12248355,The Booze Cruise,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+003929ce,1,New Year Norse,Norse,2016,Yhetee,6,2,12248354,The Booze Cruise,Dwarf,14,6,2,1,0,0,0,0,0,0,0,1,11
+003929ce,1,New Year Norse,Norse,42,Lineman,2,0,14413962,The Booze Cruise,Dwarf,3,0,0,0,0,0,0,0,0,0,0,0,1
+003929ce,1,New Year Norse,Norse,1995,Berserker,5,0,12477325,The Booze Cruise,Dwarf,6,2,0,0,0,0,0,0,0,0,10,0,4
+003929ce,1,The Booze Cruise,Dwarf,Christina Ale-guilera,Blitzer,5,5,9914938,New Year Norse,Norse,4,0,0,0,0,0,0,0,0,0,0,0,1
+003929ce,1,The Booze Cruise,Dwarf,Daft Drunk III,Longbeard,2,0,16809679,New Year Norse,Norse,5,2,0,0,0,0,0,0,0,0,0,0,2
+003929ce,1,The Booze Cruise,Dwarf,Nikolai Rumsky-Korsakov,Longbeard,1,2,16811431,New Year Norse,Norse,3,1,0,1,0,0,0,0,0,0,0,0,3
+003929ce,1,The Booze Cruise,Dwarf,PLAYER_NAMES_CHAMPION_BARIK,Star Player,1,0,49,New Year Norse,Norse,0,0,0,0,0,0,0,0,0,0,0,0,0
+003929ce,1,The Booze Cruise,Dwarf,Snoop Bock,Longbeard,4,2,9915111,New Year Norse,Norse,5,1,0,1,1,0,0,0,0,0,0,1,7
+003929ce,1,The Booze Cruise,Dwarf,Wolfgang AmaDosXX Mozart,Blitzer,5,0,9914939,New Year Norse,Norse,3,2,1,0,0,0,0,0,0,0,0,0,3
+003929ce,1,The Booze Cruise,Dwarf,Corrinne Baileys Rae,Runner,3,2,16451132,New Year Norse,Norse,4,1,0,1,0,0,0,0,0,0,30,0,4
+003929ce,1,The Booze Cruise,Dwarf,Frank Sapporonatra Jr.,Troll Slayer,2,0,15509392,New Year Norse,Norse,5,1,0,0,0,0,0,0,0,0,0,0,2
+003929ce,1,The Booze Cruise,Dwarf,Nat King Coors III,Longbeard,2,0,15910915,New Year Norse,Norse,0,0,0,0,0,0,0,0,0,0,0,0,0
+003929ce,1,The Booze Cruise,Dwarf,Just Imbiber,Longbeard,1,0,16143478,New Year Norse,Norse,1,0,0,0,0,0,0,0,0,0,0,0,1
+003929ce,1,The Booze Cruise,Dwarf,Adam Lambic III,Runner,2,3,16809666,New Year Norse,Norse,0,0,0,0,0,1,0,0,0,0,68,0,5
+003929ce,1,The Booze Cruise,Dwarf,Tears for Beers,Troll Slayer,6,0,9914937,New Year Norse,Norse,9,11,3,0,0,0,0,0,0,0,0,0,11
+003929ce,1,The Booze Cruise,Dwarf,Dean Martini,Longbeard,5,0,12563821,New Year Norse,Norse,9,3,2,0,0,0,0,0,0,0,0,0,6
+00392b81,1,Sidestreet Chaps,Dark Elf,Pecadil Ornery,Lineman,1,6,18352473,Murderland Plague Flies,Nurgle,0,0,0,0,0,0,1,0,0,0,2,0,3
+00392b81,1,Sidestreet Chaps,Dark Elf,Lazyplum Fairywings,Blitzer,1,0,18352465,Murderland Plague Flies,Nurgle,2,0,0,0,0,0,0,0,1,0,0,0,3
+00392b81,1,Sidestreet Chaps,Dark Elf,Charm Bracelet,Runner,2,0,18352468,Murderland Plague Flies,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392b81,1,Sidestreet Chaps,Dark Elf,Bunny Shyheart,Blitzer,1,0,18352464,Murderland Plague Flies,Nurgle,5,1,1,0,0,0,0,0,0,0,0,0,3
+00392b81,1,Sidestreet Chaps,Dark Elf,Wilbador Lazenby,Blitzer,1,0,18352466,Murderland Plague Flies,Nurgle,5,0,0,0,0,0,0,0,0,0,0,0,1
+00392b81,1,Sidestreet Chaps,Dark Elf,Headgem Truevision,Lineman,1,0,18352471,Murderland Plague Flies,Nurgle,4,1,0,0,0,0,0,0,0,0,0,0,2
+00392b81,1,Sidestreet Chaps,Dark Elf,Excel Proficient,Lineman,1,0,18352469,Murderland Plague Flies,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1
+00392b81,1,Sidestreet Chaps,Dark Elf,Sockhands Puppetmaster,Lineman,1,0,18352472,Murderland Plague Flies,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1
+00392b81,1,Sidestreet Chaps,Dark Elf,Doth Protest,Blitzer,1,3,18352467,Murderland Plague Flies,Nurgle,3,0,0,0,0,1,0,0,0,0,66,0,6
+00392b81,1,Sidestreet Chaps,Dark Elf,Optimal Touching,Lineman,1,0,18352470,Murderland Plague Flies,Nurgle,1,1,1,0,0,0,0,0,0,0,0,0,3
+00392b81,1,Sidestreet Chaps,Dark Elf,Smokeraptor,Lineman,1,0,18352474,Murderland Plague Flies,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1
+00392b81,1,Murderland Plague Flies,Nurgle,Eb'DONTTOUCHTHIS'ola,Nurgle Warrior,1,5,19066965,Sidestreet Chaps,Dark Elf,7,1,0,0,0,0,0,0,0,0,0,0,3
+00392b81,1,Murderland Plague Flies,Nurgle,The Handler,Rotter,1,0,19067008,Sidestreet Chaps,Dark Elf,1,2,1,0,0,0,0,0,0,0,4,0,4
+00392b81,1,Murderland Plague Flies,Nurgle,"Skreek ""The Handsy""",Pestigor,1,0,19066967,Sidestreet Chaps,Dark Elf,0,0,0,0,0,0,0,0,0,0,24,0,1
+00392b81,1,Murderland Plague Flies,Nurgle,Zeke A Zyrus,Nurgle Warrior,1,0,19066964,Sidestreet Chaps,Dark Elf,7,1,0,0,0,0,0,0,0,0,0,1,5
+00392b81,1,Murderland Plague Flies,Nurgle,Art's #1 fan,Rotter,1,2,19067006,Sidestreet Chaps,Dark Elf,2,2,0,1,0,0,0,0,0,0,0,0,3
+00392b81,1,Murderland Plague Flies,Nurgle,"Art ""The Heart"" Cad",Nurgle Warrior,1,0,19066966,Sidestreet Chaps,Dark Elf,9,2,0,0,0,0,0,0,0,0,0,0,3
+00392b81,1,Murderland Plague Flies,Nurgle,"Mel ""redshirt""",Rotter,1,0,19067010,Sidestreet Chaps,Dark Elf,3,2,1,0,0,0,0,0,0,0,0,0,3
+00392b81,1,Murderland Plague Flies,Nurgle,"Stu ""The Flu""",Nurgle Warrior,1,0,19066963,Sidestreet Chaps,Dark Elf,6,0,0,0,0,0,0,0,0,0,0,0,2
+00392b81,1,Murderland Plague Flies,Nurgle,Sweet Release,Rotter,1,0,19067007,Sidestreet Chaps,Dark Elf,1,1,0,0,0,0,0,0,0,0,0,0,2
+00392b81,1,Murderland Plague Flies,Nurgle,Lit'Earl Li Can'Cer,Beast of Nurgle,1,0,19066962,Sidestreet Chaps,Dark Elf,8,0,0,0,0,0,0,0,0,0,0,0,2
+00392b81,1,Murderland Plague Flies,Nurgle,"Jonas ""The Lucky""",Rotter,1,0,19067009,Sidestreet Chaps,Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1
+00392e34,1,Dimension C-137,Undead,Pale Face,Skeleton,3,5,9766793,Skinky Island Boiz,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+00392e34,1,Dimension C-137,Undead,Rick,Mummy,3,0,15016987,Skinky Island Boiz,Lizardmen,9,2,2,0,0,0,0,0,0,0,0,0,5
+00392e34,1,Dimension C-137,Undead,Clayton,Zombie,1,0,14,Skinky Island Boiz,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392e34,1,Dimension C-137,Undead,Gone with the Sins,Ghoul,4,0,9825812,Skinky Island Boiz,Lizardmen,2,0,0,0,0,0,0,0,0,0,8,0,2
+00392e34,1,Dimension C-137,Undead,Beth,Ghoul,3,3,15016991,Skinky Island Boiz,Lizardmen,1,1,0,0,0,1,0,0,0,0,62,0,7
+00392e34,1,Dimension C-137,Undead,Mr Poopybuttwhole,Zombie,1,0,16961905,Skinky Island Boiz,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+00392e34,1,Dimension C-137,Undead,Summer,Ghoul,3,0,15016992,Skinky Island Boiz,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+00392e34,1,Dimension C-137,Undead,Mr. Meeseeks,Skeleton,1,0,16257311,Skinky Island Boiz,Lizardmen,1,2,0,0,1,0,0,0,0,0,0,0,4
+00392e34,1,Dimension C-137,Undead,Morty,Mummy,3,0,15016988,Skinky Island Boiz,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+00392e34,1,Dimension C-137,Undead,Blim Blam the Klorblok,Zombie,1,0,16257315,Skinky Island Boiz,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00392e34,1,Dimension C-137,Undead,Jerry,Ghoul,4,0,15016993,Skinky Island Boiz,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+00392e34,1,Dimension C-137,Undead,Krombopulos Michael,Zombie,3,0,15016997,Skinky Island Boiz,Lizardmen,0,3,0,0,0,0,0,0,0,0,0,0,2
+00392e34,1,Dimension C-137,Undead,Birdperson,Wight,4,0,15016990,Skinky Island Boiz,Lizardmen,3,0,0,0,0,0,0,0,0,0,0,0,1
+00392e34,1,Dimension C-137,Undead,Scary Terry,Wight,4,4,15016989,Skinky Island Boiz,Lizardmen,11,5,2,2,0,0,0,0,0,0,0,0,10
+00392e34,1,Skinky Island Boiz,Lizardmen,Bruiser,Saurus,3,5,14971204,Dimension C-137,Undead,11,3,0,0,0,0,0,0,0,0,0,0,5
+00392e34,1,Skinky Island Boiz,Lizardmen,Duke,Kroxigor,3,0,14985755,Dimension C-137,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392e34,1,Skinky Island Boiz,Lizardmen,Trent,Skink,3,0,14971212,Dimension C-137,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392e34,1,Skinky Island Boiz,Lizardmen,Flint,Saurus,4,0,14971209,Dimension C-137,Undead,5,1,0,0,0,0,0,0,0,0,0,1,4
+00392e34,1,Skinky Island Boiz,Lizardmen,Nox III,Saurus,1,0,19064899,Dimension C-137,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392e34,1,Skinky Island Boiz,Lizardmen,Clayton,Saurus,2,0,14971205,Dimension C-137,Undead,10,1,0,0,0,0,0,0,0,0,0,0,3
+00392e34,1,Skinky Island Boiz,Lizardmen,Terra,Skink,2,0,16948189,Dimension C-137,Undead,0,1,0,0,0,0,0,0,0,0,0,0,1
+00392e34,1,Skinky Island Boiz,Lizardmen,Scorn II,Skink,2,3,16160744,Dimension C-137,Undead,0,0,0,0,0,1,0,0,0,0,64,0,5
+00392e34,1,Skinky Island Boiz,Lizardmen,PLAYER_NAMES_CHAMPION_HOMME_LEZARD,Star Player,1,0,48,Dimension C-137,Undead,4,1,1,0,0,0,0,0,0,0,0,1,5
+00392e34,1,Skinky Island Boiz,Lizardmen,Pearce,Skink,2,0,15651539,Dimension C-137,Undead,0,0,0,0,0,0,0,0,0,0,16,0,1
+00392e34,1,Skinky Island Boiz,Lizardmen,Spritz,Saurus,2,0,14971208,Dimension C-137,Undead,7,2,2,0,0,0,0,0,0,0,0,0,5
+00392e34,1,Skinky Island Boiz,Lizardmen,Vergil II,Saurus,3,0,15652525,Dimension C-137,Undead,9,5,1,0,0,0,0,0,0,0,0,0,6
+00392e85,1,The Woods of Holly,Dark Elf,Snoop Elf,Lineman,1,5,4619552,Maximum Ogrekill,Ogre,3,0,0,0,0,0,0,0,0,0,0,0,1
+00392e85,1,The Woods of Holly,Dark Elf,Eminelf,Lineman,1,0,4619553,Maximum Ogrekill,Ogre,0,1,1,0,0,0,0,0,0,0,0,0,2
+00392e85,1,The Woods of Holly,Dark Elf,Ryan Renelf,Lineman,1,0,4619556,Maximum Ogrekill,Ogre,3,0,0,0,0,0,0,0,0,0,0,0,1
+00392e85,1,The Woods of Holly,Dark Elf,Elfton John,Blitzer,1,3,4619549,Maximum Ogrekill,Ogre,6,2,0,0,0,1,0,0,2,0,28,0,11
+00392e85,1,The Woods of Holly,Dark Elf,Christelfer Nolan,Blitzer,1,2,18967672,Maximum Ogrekill,Ogre,5,2,0,1,0,0,0,0,0,0,0,0,3
+00392e85,1,The Woods of Holly,Dark Elf,Shia LaBelf,Lineman,1,0,4619671,Maximum Ogrekill,Ogre,2,0,0,0,0,0,0,0,0,0,0,0,1
+00392e85,1,The Woods of Holly,Dark Elf,Elfvis Presly,Runner,1,1,4619547,Maximum Ogrekill,Ogre,1,0,0,0,0,0,1,0,0,0,12,0,4
+00392e85,1,The Woods of Holly,Dark Elf,Leonardo Dicaprielf,Blitzer,1,0,4619548,Maximum Ogrekill,Ogre,6,1,1,0,0,0,0,0,0,0,6,1,7
+00392e85,1,The Woods of Holly,Dark Elf,Ozzy Elfbourne,Lineman,2,3,4619554,Maximum Ogrekill,Ogre,3,2,1,1,0,0,1,0,0,0,2,0,7
+00392e85,1,The Woods of Holly,Dark Elf,Vin Dieself,Blitzer,1,0,4619550,Maximum Ogrekill,Ogre,3,0,0,0,0,0,0,0,0,0,0,0,1
+00392e85,1,The Woods of Holly,Dark Elf,Arnold Elfenegger,Lineman,1,0,4619555,Maximum Ogrekill,Ogre,4,0,0,0,0,0,0,0,0,0,0,0,1
+00392e85,1,Maximum Ogrekill,Ogre,Insert Ogre Pun Here,Ogre,1,5,18198389,The Woods of Holly,Dark Elf,6,2,1,0,0,0,0,0,0,0,0,1,6
+00392e85,1,Maximum Ogrekill,Ogre,Ogre the Top,Ogre,1,0,18198387,The Woods of Holly,Dark Elf,9,2,0,0,0,0,0,0,0,0,0,0,3
+00392e85,1,Maximum Ogrekill,Ogre,Ogre the Rainbow,Ogre,1,0,18198385,The Woods of Holly,Dark Elf,0,0,0,0,0,0,0,0,0,0,20,0,1
+00392e85,1,Maximum Ogrekill,Ogre,Ogre the Cuckoo's Nest,Ogre,2,2,18198384,The Woods of Holly,Dark Elf,12,3,2,1,0,0,0,0,0,0,0,0,8
+00392e85,1,Maximum Ogrekill,Ogre,Dubgnoblarwithmyheadman,Gnoblar,2,0,18198392,The Woods of Holly,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392e85,1,Maximum Ogrekill,Ogre,Gnoblarney Stone,Gnoblar,1,0,18198396,The Woods of Holly,Dark Elf,0,1,0,0,0,0,0,0,0,0,0,0,1
+00392e85,1,Maximum Ogrekill,Ogre,Turkey Says Gnobl Gnobl,Gnoblar,1,0,18711957,The Woods of Holly,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392e85,1,Maximum Ogrekill,Ogre,Gnoblar and Grill,Gnoblar,1,0,18198393,The Woods of Holly,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392e85,1,Maximum Ogrekill,Ogre,Gnoblar Puns are Hard,Gnoblar,2,0,18198394,The Woods of Holly,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392e85,1,Maximum Ogrekill,Ogre,Gnobl Intentions,Gnoblar,1,0,18198390,The Woods of Holly,Dark Elf,0,1,0,0,0,0,0,0,0,0,6,0,2
+00392e85,1,Maximum Ogrekill,Ogre,Gnoble Savage,Gnoblar,1,0,18198395,The Woods of Holly,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392e85,1,Maximum Ogrekill,Ogre,Get Ogre Here!,Ogre,2,0,18198386,The Woods of Holly,Dark Elf,9,1,0,0,0,0,0,0,0,0,0,0,3
+00392fa9,1,Brutal Geometry,Nurgle,Juge Winchester,Rotter,1,7,18444304,Snot Battery,Ogre,2,1,0,1,0,0,0,0,0,0,0,0,3
+00392fa9,1,Brutal Geometry,Nurgle,Exterminating Cone,Rotter,1,0,18226961,Snot Battery,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392fa9,1,Brutal Geometry,Nurgle,Murdering Cylinder,Rotter,1,0,18226958,Snot Battery,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392fa9,1,Brutal Geometry,Nurgle,Slaughtering Circle,Pestigor,2,0,18226957,Snot Battery,Ogre,1,0,0,0,0,0,0,0,0,0,36,0,2
+00392fa9,1,Brutal Geometry,Nurgle,Smothering Sphere,Rotter,1,0,18226960,Snot Battery,Ogre,0,0,0,0,0,0,0,0,1,0,0,0,2
+00392fa9,1,Brutal Geometry,Nurgle,Polygon of Mutilation,Beast of Nurgle,1,6,18226952,Snot Battery,Ogre,7,3,0,3,1,0,0,0,0,0,0,0,9
+00392fa9,1,Brutal Geometry,Nurgle,Box of Pain,Nurgle Warrior,1,4,18226953,Snot Battery,Ogre,4,1,0,0,0,1,1,0,0,0,12,0,8
+00392fa9,1,Brutal Geometry,Nurgle,Smashing Square,Nurgle Warrior,1,0,18226955,Snot Battery,Ogre,5,3,0,0,0,0,0,0,0,0,0,0,3
+00392fa9,1,Brutal Geometry,Nurgle,Maiming Margin,Nurgle Warrior,2,0,18226956,Snot Battery,Ogre,11,5,2,0,0,0,0,0,0,0,0,0,8
+00392fa9,1,Brutal Geometry,Nurgle,Stabbing Vector,Nurgle Warrior,1,0,18226954,Snot Battery,Ogre,4,3,1,0,0,0,0,0,0,0,0,0,4
+00392fa9,1,Brutal Geometry,Nurgle,Obliterating Octagon,Rotter,1,0,18226959,Snot Battery,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392fa9,1,Snot Battery,Ogre,Gavin Grenade,Gnoblar,1,5,18139481,Brutal Geometry,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392fa9,1,Snot Battery,Ogre,Benjamin Blank,Gnoblar,1,0,18139480,Brutal Geometry,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392fa9,1,Snot Battery,Ogre,Rodney Rocket,Gnoblar,1,0,18139477,Brutal Geometry,Nurgle,2,0,0,0,0,0,0,0,0,0,0,1,3
+00392fa9,1,Snot Battery,Ogre,Bazza Ballista,Ogre,1,2,18139474,Brutal Geometry,Nurgle,5,2,1,1,0,0,0,0,0,0,0,0,4
+00392fa9,1,Snot Battery,Ogre,Syd Scatter,Gnoblar,2,3,18788983,Brutal Geometry,Nurgle,0,0,0,0,0,1,0,0,0,0,14,0,4
+00392fa9,1,Snot Battery,Ogre,Simon Shell,Gnoblar,1,0,18139484,Brutal Geometry,Nurgle,1,1,0,0,0,0,0,0,0,0,0,0,2
+00392fa9,1,Snot Battery,Ogre,Huxtable Hollow-Point,Gnoblar,1,0,18139478,Brutal Geometry,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392fa9,1,Snot Battery,Ogre,Peter Pellet,Gnoblar,1,0,18139476,Brutal Geometry,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392fa9,1,Snot Battery,Ogre,Henry O'Hurler,Ogre,2,0,18139473,Brutal Geometry,Nurgle,5,1,0,0,0,0,0,0,0,0,0,0,2
+00392fa9,1,Snot Battery,Ogre,Ally Ball,Gnoblar,1,0,18139485,Brutal Geometry,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392fa9,1,Snot Battery,Ogre,Larry Da Launcher,Ogre,1,0,18139472,Brutal Geometry,Nurgle,5,1,0,0,0,0,0,0,0,0,0,1,4
+00392fa9,1,Snot Battery,Ogre,Billy Bazooka,Ogre,2,4,18139475,Brutal Geometry,Nurgle,6,2,0,2,1,0,0,0,0,0,0,0,7
+00392fa9,1,Snot Battery,Ogre,Xob Shoebrush,Gnoblar,1,0,19087298,Brutal Geometry,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392fa9,1,Snot Battery,Ogre,Ade Armor-Piercing,Gnoblar,1,3,18599209,Brutal Geometry,Nurgle,0,0,0,0,0,1,0,0,0,0,40,0,4
+00392f5f,1,Dead Wrestler's Society,Lizardmen,"""Macho Man"" Randy Savage",Saurus,1,5,7011398,The Revenge of the Franks,Orc,6,0,0,0,0,0,0,0,0,0,0,0,2
+00392f5f,1,Dead Wrestler's Society,Lizardmen,Road Warrior Hawk,Saurus,1,0,7011396,The Revenge of the Franks,Orc,7,0,0,0,0,0,0,0,0,0,0,0,2
+00392f5f,1,Dead Wrestler's Society,Lizardmen,Mr. Perfect,Skink,1,0,7011402,The Revenge of the Franks,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392f5f,1,Dead Wrestler's Society,Lizardmen,The Blue Blazer,Skink,1,0,18995186,The Revenge of the Franks,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+00392f5f,1,Dead Wrestler's Society,Lizardmen,"""Captain"" Lou Albano",Saurus,1,0,7011311,The Revenge of the Franks,Orc,5,0,0,0,0,0,0,0,0,0,0,0,1
+00392f5f,1,Dead Wrestler's Society,Lizardmen,The British Bulldog,Skink,1,0,7011404,The Revenge of the Franks,Orc,0,0,0,0,0,0,0,0,0,0,12,0,1
+00392f5f,1,Dead Wrestler's Society,Lizardmen,Umaga,Saurus,1,0,7011312,The Revenge of the Franks,Orc,11,2,0,0,0,0,0,0,0,0,0,0,4
+00392f5f,1,Dead Wrestler's Society,Lizardmen,The Ultimate Warrior,Saurus,1,0,18994757,The Revenge of the Franks,Orc,10,0,0,0,0,0,0,0,0,0,0,0,2
+00392f5f,1,Dead Wrestler's Society,Lizardmen,Eddie Guerrero,Skink,2,0,7011400,The Revenge of the Franks,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1
+00392f5f,1,Dead Wrestler's Society,Lizardmen,Killer Kowalski,Saurus,1,0,7011399,The Revenge of the Franks,Orc,11,2,0,0,0,0,0,0,0,0,0,0,4
+00392f5f,1,Dead Wrestler's Society,Lizardmen,Crash Holly,Skink,2,0,7011403,The Revenge of the Franks,Orc,1,0,0,0,0,0,0,0,0,0,14,0,2
+00392f5f,1,The Revenge of the Franks,Orc,Fist Rockbone,Blitzer,1,8,17431923,Dead Wrestler's Society,Lizardmen,3,1,0,0,0,1,0,0,0,0,42,0,6
+00392f5f,1,The Revenge of the Franks,Orc,Chum Bunglesnout,Lineman,1,0,17432119,Dead Wrestler's Society,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00392f5f,1,The Revenge of the Franks,Orc,Hack Blowfist,Blitzer,2,4,17431921,Dead Wrestler's Society,Lizardmen,8,2,0,2,0,0,0,0,0,0,2,1,8
+00392f5f,1,The Revenge of the Franks,Orc,Buck Plankchest,Black Orc,3,2,17432114,Dead Wrestler's Society,Lizardmen,6,2,0,1,0,0,0,0,0,0,0,0,4
+00392f5f,1,The Revenge of the Franks,Orc,Roll Fizzlebeef,Blitzer,2,0,17774830,Dead Wrestler's Society,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1
+00392f5f,1,The Revenge of the Franks,Orc,Stump Chunkman,Lineman,1,0,17432117,Dead Wrestler's Society,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1
+00392f5f,1,The Revenge of the Franks,Orc,Rip Steakface,Black Orc,1,0,17431924,Dead Wrestler's Society,Lizardmen,5,0,0,0,0,0,0,0,0,0,0,0,1
+00392f5f,1,The Revenge of the Franks,Orc,Butch Deadlift,Black Orc,1,0,17432116,Dead Wrestler's Society,Lizardmen,3,0,0,0,0,0,0,0,0,0,0,0,1
+00392f5f,1,The Revenge of the Franks,Orc,Bob Johnson,Blitzer,2,3,17431920,Dead Wrestler's Society,Lizardmen,6,1,0,0,0,1,0,0,0,0,42,0,7
+00392f5f,1,The Revenge of the Franks,Orc,Bolt Vanderhuge,Black Orc,1,0,17432115,Dead Wrestler's Society,Lizardmen,6,1,0,0,0,0,0,0,0,0,0,0,3
+00392f5f,1,The Revenge of the Franks,Orc,Lump Beefbroth,Lineman,1,0,17432118,Dead Wrestler's Society,Lizardmen,5,0,0,0,0,0,0,0,0,0,0,0,1
+0039302c,1,Oil Miners,Dwarf,Krist Russel,Longbeard,3,5,15847316,Live Tree or Die Hard,Wood Elf,3,1,1,0,0,0,0,0,0,0,0,0,3
+0039302c,1,Oil Miners,Dwarf,The Nuge,Longbeard,3,2,15391620,Live Tree or Die Hard,Wood Elf,7,3,1,1,0,0,0,0,0,0,0,0,6
+0039302c,1,Oil Miners,Dwarf,Conir Son of McDavid,Runner,3,0,15391615,Live Tree or Die Hard,Wood Elf,0,0,0,0,0,0,0,0,0,0,22,0,1
+0039302c,1,Oil Miners,Dwarf,Nursil,Longbeard,1,0,17821793,Live Tree or Die Hard,Wood Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039302c,1,Oil Miners,Dwarf,Patik Maroon-Troll,Troll Slayer,2,0,15391613,Live Tree or Die Hard,Wood Elf,4,0,0,0,0,0,0,0,0,0,0,0,1
+0039302c,1,Oil Miners,Dwarf,Jordir Eberle,Runner,5,3,15391616,Live Tree or Die Hard,Wood Elf,1,0,0,0,0,1,0,0,0,0,36,0,5
+0039302c,1,Oil Miners,Dwarf,Opal Kleffbomb,Longbeard,2,0,15391622,Live Tree or Die Hard,Wood Elf,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039302c,1,Oil Miners,Dwarf,The Zamboni,Deathroller,2,0,16073938,Live Tree or Die Hard,Wood Elf,6,2,1,0,0,0,0,0,0,0,0,0,4
+0039302c,1,Oil Miners,Dwarf,Larson,Longbeard,3,0,15391623,Live Tree or Die Hard,Wood Elf,4,2,1,0,0,0,0,0,0,0,0,0,3
+0039302c,1,Oil Miners,Dwarf,Milan Luich-Troll,Troll Slayer,4,6,15391614,Live Tree or Die Hard,Wood Elf,12,8,0,3,0,0,0,0,0,0,0,0,10
+0039302c,1,Oil Miners,Dwarf,Anvil Sekera,Longbeard,3,0,15391621,Live Tree or Die Hard,Wood Elf,3,1,0,0,0,0,0,0,0,0,0,0,2
+0039302c,1,Oil Miners,Dwarf,Doctor Drai,Blitzer,2,0,15391618,Live Tree or Die Hard,Wood Elf,5,1,1,0,0,0,0,0,0,0,0,0,3
+0039302c,1,Live Tree or Die Hard,Wood Elf,General Joseph Colton,Lineman,2,5,11938074,Oil Miners,Dwarf,0,1,0,0,0,0,0,0,0,0,0,0,1
+0039302c,1,Live Tree or Die Hard,Wood Elf,"Jimmy ""The Tulip""Tudeski",Lineman,3,0,11938071,Oil Miners,Dwarf,8,0,0,0,0,0,0,0,0,0,0,0,2
+0039302c,1,Live Tree or Die Hard,Wood Elf,Korben Dallas II,Thrower,3,2,16382486,Oil Miners,Dwarf,4,0,0,0,0,0,2,0,0,0,22,0,6
+0039302c,1,Live Tree or Die Hard,Wood Elf,Ballalu,Lineman,1,0,47,Oil Miners,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039302c,1,Live Tree or Die Hard,Wood Elf,Butch Coolidge,Wardancer,3,0,11938066,Oil Miners,Dwarf,10,1,1,0,0,0,0,0,1,0,10,0,7
+0039302c,1,Live Tree or Die Hard,Wood Elf,John Hartigan,Lineman,4,0,11938073,Oil Miners,Dwarf,1,1,0,0,0,0,0,0,0,0,0,0,2
+0039302c,1,Live Tree or Die Hard,Wood Elf,David Dunn,Catcher,4,0,16175898,Oil Miners,Dwarf,0,0,0,0,0,0,0,0,1,0,16,0,3
+0039302c,1,Live Tree or Die Hard,Wood Elf,John McClane IV,Wardancer,1,8,19092373,Oil Miners,Dwarf,7,2,0,1,1,2,0,0,0,0,34,0,13
+0039302c,1,Live Tree or Die Hard,Wood Elf,Goodkat,Catcher,4,0,14532475,Oil Miners,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039302c,1,Live Tree or Die Hard,Wood Elf,Jimmy Monroe,Lineman,2,2,15492789,Oil Miners,Dwarf,4,4,0,1,0,0,0,0,0,0,0,0,4
+0039302c,1,Live Tree or Die Hard,Wood Elf,Frank Moses II,Lineman,1,0,16999510,Oil Miners,Dwarf,1,1,0,0,0,0,0,0,0,0,0,0,2
+003931bf,1,Felwithe's Koada'Dal,High Elf,Mithaniel Marr,Blitzer,2,5,15922976,Culinary Delights v2,Chaos,4,0,0,0,0,0,0,0,0,0,0,0,1
+003931bf,1,Felwithe's Koada'Dal,High Elf,Prexus,Lineman,2,2,15679701,Culinary Delights v2,Chaos,1,0,0,0,0,0,0,0,0,1,2,0,7
+003931bf,1,Felwithe's Koada'Dal,High Elf,Rallos Zek,Lineman,3,2,15679698,Culinary Delights v2,Chaos,7,2,0,1,0,0,0,0,0,0,0,0,4
+003931bf,1,Felwithe's Koada'Dal,High Elf,Innoruuk,Lineman,2,0,15679697,Culinary Delights v2,Chaos,1,0,0,0,0,0,0,0,1,0,14,0,4
+003931bf,1,Felwithe's Koada'Dal,High Elf,Quellious,Thrower,2,0,16260385,Culinary Delights v2,Chaos,7,2,1,0,0,0,0,0,0,0,0,0,4
+003931bf,1,Felwithe's Koada'Dal,High Elf,Karana,Blitzer,3,0,15679660,Culinary Delights v2,Chaos,7,1,0,0,0,0,0,0,0,0,0,0,3
+003931bf,1,Felwithe's Koada'Dal,High Elf,Erolissi Marr,Catcher,3,0,16162372,Culinary Delights v2,Chaos,6,1,0,0,0,0,0,0,0,0,0,0,3
+003931bf,1,Felwithe's Koada'Dal,High Elf,Menanornion Kevatononel,Lineman,1,0,11,Culinary Delights v2,Chaos,3,1,0,0,0,0,0,0,1,0,0,0,4
+003931bf,1,Felwithe's Koada'Dal,High Elf,Solusek Ro,Thrower,4,2,15679661,Culinary Delights v2,Chaos,2,0,0,0,0,0,2,0,0,0,30,0,6
+003931bf,1,Felwithe's Koada'Dal,High Elf,The Tribunal,Lineman,1,0,15679699,Culinary Delights v2,Chaos,4,0,0,0,0,0,0,0,0,0,0,0,1
+003931bf,1,Felwithe's Koada'Dal,High Elf,Brell Serilis,Lineman,3,0,15679694,Culinary Delights v2,Chaos,2,0,0,0,0,0,0,0,0,0,0,0,1
+003931bf,1,Culinary Delights v2,Chaos,Feta,Beastman,1,5,16949301,Felwithe's Koada'Dal,High Elf,3,0,0,0,0,0,0,0,0,0,0,0,1
+003931bf,1,Culinary Delights v2,Chaos,Tullyboy,Beastman,2,0,15659691,Felwithe's Koada'Dal,High Elf,1,0,0,0,0,0,0,0,0,0,30,0,2
+003931bf,1,Culinary Delights v2,Chaos,Tongseng,Chaos Warrior,3,0,15659687,Felwithe's Koada'Dal,High Elf,6,0,0,0,0,0,0,0,0,0,0,0,2
+003931bf,1,Culinary Delights v2,Chaos,Pantysgawn,Beastman,2,0,15659689,Felwithe's Koada'Dal,High Elf,1,0,0,0,0,0,0,0,0,0,8,0,2
+003931bf,1,Culinary Delights v2,Chaos,Garrotxa,Beastman,2,0,15659692,Felwithe's Koada'Dal,High Elf,5,0,0,0,0,0,0,0,0,0,0,0,1
+003931bf,1,Culinary Delights v2,Chaos,Alpicrème,Beastman,1,0,17017289,Felwithe's Koada'Dal,High Elf,3,0,0,0,0,0,0,0,0,0,0,0,1
+003931bf,1,Culinary Delights v2,Chaos,Corleggy,Beastman,1,0,19142584,Felwithe's Koada'Dal,High Elf,2,0,0,0,0,0,0,0,0,0,0,0,1
+003931bf,1,Culinary Delights v2,Chaos,Ticklemore,Beastman,1,0,16677895,Felwithe's Koada'Dal,High Elf,1,1,1,0,0,0,0,0,0,0,8,0,4
+003931bf,1,Culinary Delights v2,Chaos,Birria,Chaos Warrior,2,2,15659688,Felwithe's Koada'Dal,High Elf,4,2,0,1,0,0,0,0,0,0,26,0,4
+003931bf,1,Culinary Delights v2,Chaos,Shosha,Beastman,3,0,15659690,Felwithe's Koada'Dal,High Elf,3,0,0,0,0,0,0,0,0,0,0,0,1
+003931bf,1,Culinary Delights v2,Chaos,Dhansak,Chaos Warrior,3,0,15659685,Felwithe's Koada'Dal,High Elf,6,1,0,0,0,0,0,0,0,0,0,0,3
+003931f4,1,Ulthuan Sea Serpents,High Elf,Erugoldur Gwavathar,Lineman,1,5,18993005,Snicker-Snack,Amazon,6,0,0,0,0,0,0,0,0,0,0,0,2
+003931f4,1,Ulthuan Sea Serpents,High Elf,Veryarathion Taldilinryl,Lineman,1,0,18993012,Snicker-Snack,Amazon,4,0,0,0,0,0,0,0,0,0,0,0,1
+003931f4,1,Ulthuan Sea Serpents,High Elf,Nimphenien Aldaloth,Thrower,1,1,18993015,Snicker-Snack,Amazon,1,0,0,0,0,0,1,0,0,0,22,0,4
+003931f4,1,Ulthuan Sea Serpents,High Elf,Horthborn Vanval,Blitzer,1,0,18993013,Snicker-Snack,Amazon,1,0,0,0,0,0,0,0,1,0,12,0,4
+003931f4,1,Ulthuan Sea Serpents,High Elf,Rildion Augdirdar,Lineman,1,0,18993008,Snicker-Snack,Amazon,2,0,0,0,0,0,0,0,0,0,0,0,1
+003931f4,1,Ulthuan Sea Serpents,High Elf,Menanornion Cudhrinion,Lineman,1,0,18993011,Snicker-Snack,Amazon,2,0,0,0,0,0,0,0,0,0,0,0,1
+003931f4,1,Ulthuan Sea Serpents,High Elf,Nesantdon Neltaelen,Lineman,1,0,18993006,Snicker-Snack,Amazon,1,0,0,0,0,0,0,0,0,0,0,0,1
+003931f4,1,Ulthuan Sea Serpents,High Elf,Eitimonion Roloelon,Lineman,1,0,18993009,Snicker-Snack,Amazon,2,0,0,0,0,0,0,0,0,0,0,0,1
+003931f4,1,Ulthuan Sea Serpents,High Elf,Rission Kavavanlhûn,Lineman,1,0,18993010,Snicker-Snack,Amazon,1,1,0,0,0,0,0,0,0,0,0,0,2
+003931f4,1,Ulthuan Sea Serpents,High Elf,Daugorathion Hadilinas,Lineman,1,2,18993007,Snicker-Snack,Amazon,4,1,0,1,0,0,0,0,0,0,0,0,3
+003931f4,1,Ulthuan Sea Serpents,High Elf,Menanornion Talaneth,Blitzer,1,0,18993014,Snicker-Snack,Amazon,7,1,0,0,0,0,0,0,0,0,0,0,3
+003931f4,1,Snicker-Snack,Amazon,Queen of Hearts,Linewoman,1,6,18996829,Ulthuan Sea Serpents,High Elf,1,0,0,0,0,0,1,0,0,0,8,0,4
+003931f4,1,Snicker-Snack,Amazon,Caterpillar,Linewoman,1,2,18996831,Ulthuan Sea Serpents,High Elf,5,3,2,1,0,0,0,0,0,0,0,0,6
+003931f4,1,Snicker-Snack,Amazon,Tweedledee,Blitzer,1,3,18996823,Ulthuan Sea Serpents,High Elf,7,1,0,0,0,1,0,0,1,0,10,1,11
+003931f4,1,Snicker-Snack,Amazon,March Hare,Linewoman,1,0,18996830,Ulthuan Sea Serpents,High Elf,6,1,1,0,0,0,0,0,0,0,0,1,6
+003931f4,1,Snicker-Snack,Amazon,Tweedledum,Blitzer,1,3,18996825,Ulthuan Sea Serpents,High Elf,4,1,0,0,0,1,0,0,0,0,48,0,6
+003931f4,1,Snicker-Snack,Amazon,Mad Hatter,Blitzer,1,2,18996826,Ulthuan Sea Serpents,High Elf,6,3,0,1,0,0,0,0,0,0,0,0,5
+003931f4,1,Snicker-Snack,Amazon,A Dodo,Linewoman,1,0,18996833,Ulthuan Sea Serpents,High Elf,3,1,0,0,0,0,0,0,0,0,0,0,2
+003931f4,1,Snicker-Snack,Amazon,Mock Turtle,Linewoman,1,0,18996832,Ulthuan Sea Serpents,High Elf,2,0,0,0,0,0,0,0,0,0,36,1,4
+003931f4,1,Snicker-Snack,Amazon,Alice,Thrower,1,0,18996828,Ulthuan Sea Serpents,High Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+003931f4,1,Snicker-Snack,Amazon,The Cheshire Cat,Catcher,1,0,18996827,Ulthuan Sea Serpents,High Elf,5,1,0,0,0,0,0,0,0,0,0,0,2
+003931f4,1,Snicker-Snack,Amazon,The White Rabbit,Blitzer,1,3,18996824,Ulthuan Sea Serpents,High Elf,11,0,0,0,0,1,0,0,0,0,2,0,7
+003932fc,1,Dead MMOn Walking,Dark Elf,The Matrix Online,Lineman,1,5,19109469,Bitten Heroes,Vampire,4,1,0,0,0,0,0,0,0,0,4,0,3
+003932fc,1,Dead MMOn Walking,Dark Elf,APB: Reloaded,Lineman,1,0,19109465,Bitten Heroes,Vampire,4,0,0,0,0,0,0,0,0,0,0,0,1
+003932fc,1,Dead MMOn Walking,Dark Elf,City Of Heroes,Lineman,1,3,19109466,Bitten Heroes,Vampire,3,0,0,0,0,1,0,0,1,0,0,0,6
+003932fc,1,Dead MMOn Walking,Dark Elf,Aion,Lineman,1,0,19109470,Bitten Heroes,Vampire,2,0,0,0,0,0,0,0,0,0,20,0,2
+003932fc,1,Dead MMOn Walking,Dark Elf,Star Wars Galaxies,Blitzer,1,0,19109463,Bitten Heroes,Vampire,3,0,0,0,0,0,0,0,0,0,0,0,1
+003932fc,1,Dead MMOn Walking,Dark Elf,Warhammer Online,Witch Elf,1,0,19109464,Bitten Heroes,Vampire,2,1,0,0,0,0,0,0,0,0,0,0,2
+003932fc,1,Dead MMOn Walking,Dark Elf,Vanguard,Blitzer,1,1,19109462,Bitten Heroes,Vampire,4,1,0,0,0,0,1,0,0,0,14,0,5
+003932fc,1,Dead MMOn Walking,Dark Elf,Tabula Rasa,Lineman,1,0,19109468,Bitten Heroes,Vampire,2,0,0,0,0,0,0,0,0,0,0,0,1
+003932fc,1,Dead MMOn Walking,Dark Elf,Hellgate: London,Lineman,1,0,19109467,Bitten Heroes,Vampire,2,0,0,0,0,0,0,0,0,0,0,0,1
+003932fc,1,Dead MMOn Walking,Dark Elf,WildStar,Lineman,1,3,19109471,Bitten Heroes,Vampire,0,0,0,0,0,1,0,0,0,0,30,0,4
+003932fc,1,Dead MMOn Walking,Dark Elf,Age Of Conan,Blitzer,1,0,19109461,Bitten Heroes,Vampire,9,0,0,0,0,0,0,0,0,0,0,0,2
+003932fc,1,Bitten Heroes,Vampire,Quicksaliva,Thrall,1,5,17325681,Dead MMOn Walking,Dark Elf,4,1,1,0,0,0,0,0,0,0,0,0,3
+003932fc,1,Bitten Heroes,Vampire,T-800,Thrall,1,0,17325678,Dead MMOn Walking,Dark Elf,5,0,0,0,0,0,0,0,0,0,0,0,1
+003932fc,1,Bitten Heroes,Vampire,James Bonded,Thrall,1,0,17325679,Dead MMOn Walking,Dark Elf,3,1,0,0,0,0,0,0,0,0,0,0,2
+003932fc,1,Bitten Heroes,Vampire,Marty McBite,Vampire,1,3,17513858,Dead MMOn Walking,Dark Elf,1,2,0,0,0,1,0,0,0,0,0,0,5
+003932fc,1,Bitten Heroes,Vampire,The Scarlett Itch,Thrall,2,0,17325677,Dead MMOn Walking,Dark Elf,4,2,0,0,1,0,0,0,0,0,0,1,6
+003932fc,1,Bitten Heroes,Vampire,Hairy Porter,Thrall,1,0,17325684,Dead MMOn Walking,Dark Elf,3,1,0,0,0,0,0,0,0,0,10,1,5
+003932fc,1,Bitten Heroes,Vampire,Batman (Duh),Vampire,2,2,17325674,Dead MMOn Walking,Dark Elf,12,6,3,1,0,0,0,0,0,0,0,0,10
+003932fc,1,Bitten Heroes,Vampire,Snacktin Kirk,Thrall,1,0,17513859,Dead MMOn Walking,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+003932fc,1,Bitten Heroes,Vampire,Snack Goku,Thrall,1,0,18788705,Dead MMOn Walking,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+003932fc,1,Bitten Heroes,Vampire,Count America,Vampire,2,0,17325673,Dead MMOn Walking,Dark Elf,3,2,1,0,0,0,0,0,0,0,24,1,6
+003932fc,1,Bitten Heroes,Vampire,(High in) Ironman,Thrall,1,0,17325676,Dead MMOn Walking,Dark Elf,5,2,1,0,0,0,0,0,0,0,0,0,3
+003932fc,1,Bitten Heroes,Vampire,Doctor Doomed,Thrall,1,0,17325683,Dead MMOn Walking,Dark Elf,4,0,0,0,0,0,0,0,0,0,0,0,1
+003932fc,1,Bitten Heroes,Vampire,The Flesh,Thrall,1,0,17325682,Dead MMOn Walking,Dark Elf,4,0,0,0,0,0,0,0,0,0,0,0,1
+0039333e,1,Shadowhill Cowboys,Dark Elf,Glorthil,Lineman,1,5,17064766,The Astrorkz,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039333e,1,Shadowhill Cowboys,Dark Elf,Nenhor,Lineman,3,1,13136820,The Astrorkz,Orc,1,0,0,0,0,0,1,4,1,0,12,0,7
+0039333e,1,Shadowhill Cowboys,Dark Elf,Mendar,Blitzer,3,0,15680676,The Astrorkz,Orc,6,1,1,0,0,0,0,0,0,0,42,0,5
+0039333e,1,Shadowhill Cowboys,Dark Elf,Riannfin,Blitzer,5,0,10367246,The Astrorkz,Orc,2,0,0,0,0,0,0,0,1,0,4,0,4
+0039333e,1,Shadowhill Cowboys,Dark Elf,Rynnear,Runner,6,1,8972538,The Astrorkz,Orc,0,0,0,0,0,0,1,0,0,0,0,0,2
+0039333e,1,Shadowhill Cowboys,Dark Elf,Anmael,Lineman,1,0,16073239,The Astrorkz,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039333e,1,Shadowhill Cowboys,Dark Elf,Althdar,Lineman,1,0,11,The Astrorkz,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039333e,1,Shadowhill Cowboys,Dark Elf,Maris,Lineman,1,0,18939001,The Astrorkz,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039333e,1,Shadowhill Cowboys,Dark Elf,Marnaen,Blitzer,1,1,17064752,The Astrorkz,Orc,2,0,0,0,0,0,1,0,0,0,4,0,4
+0039333e,1,Shadowhill Cowboys,Dark Elf,Ruthsoniella,Witch Elf,6,0,8939223,The Astrorkz,Orc,14,1,0,0,0,0,0,0,0,0,0,0,4
+0039333e,1,Shadowhill Cowboys,Dark Elf,Hasbean,Blitzer,3,3,16208018,The Astrorkz,Orc,2,0,0,0,0,1,0,0,1,0,30,0,7
+0039333e,1,The Astrorkz,Orc,Galileo,Blitzer,4,5,9801183,Shadowhill Cowboys,Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039333e,1,The Astrorkz,Orc,Copernicus,Black Orc,4,0,9801179,Shadowhill Cowboys,Dark Elf,6,1,0,0,0,0,0,0,0,0,0,0,3
+0039333e,1,The Astrorkz,Orc,Newton,Black Orc,4,2,9801182,Shadowhill Cowboys,Dark Elf,5,3,1,1,0,0,0,0,0,0,0,0,5
+0039333e,1,The Astrorkz,Orc,Armstrong,Thrower,6,5,9801213,Shadowhill Cowboys,Dark Elf,2,2,0,1,0,1,0,0,0,0,56,0,8
+0039333e,1,The Astrorkz,Orc,Collins the 5th,Lineman,1,0,17804739,Shadowhill Cowboys,Dark Elf,3,1,0,0,0,0,0,0,0,0,0,0,2
+0039333e,1,The Astrorkz,Orc,Hubble the 2nd,Blitzer,4,5,15604621,Shadowhill Cowboys,Dark Elf,6,4,3,1,0,1,0,0,0,0,4,0,12
+0039333e,1,The Astrorkz,Orc,Sagan the 3rd,Blitzer,3,0,15456555,Shadowhill Cowboys,Dark Elf,2,0,0,0,0,0,0,0,0,0,0,0,1
+0039333e,1,The Astrorkz,Orc,Aldrin the 5th,Lineman,1,0,18411961,Shadowhill Cowboys,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039333e,1,The Astrorkz,Orc,Brahe the 2nd,Blitzer,5,4,9842673,Shadowhill Cowboys,Dark Elf,6,3,1,1,0,0,0,0,0,1,20,0,12
+0039333e,1,The Astrorkz,Orc,Sputnik II,Goblin,1,0,18891777,Shadowhill Cowboys,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039333e,1,The Astrorkz,Orc,Einstein,Troll,3,0,10012601,Shadowhill Cowboys,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039333e,1,The Astrorkz,Orc,Ptolemy the 3rd,Black Orc,2,0,14404815,Shadowhill Cowboys,Dark Elf,4,2,0,0,0,0,0,0,0,0,0,0,2
+0039338d,1,Avenging Murderwolves ,Norse,Thorisin,Runner,1,7,17341300,Scholars of Ogrehampshire,Ogre,5,4,0,1,0,0,0,0,0,0,0,0,4
+0039338d,1,Avenging Murderwolves ,Norse,Snowball,Yhetee,1,0,19277059,Scholars of Ogrehampshire,Ogre,8,4,1,0,0,0,0,0,0,0,0,0,5
+0039338d,1,Avenging Murderwolves ,Norse,Rolf Hammerfir,Lineman,1,2,17341790,Scholars of Ogrehampshire,Ogre,1,1,0,1,0,0,0,0,0,0,0,0,3
+0039338d,1,Avenging Murderwolves ,Norse,Lars Breitson,Lineman,1,3,17341355,Scholars of Ogrehampshire,Ogre,2,0,0,0,0,1,0,0,1,0,26,0,7
+0039338d,1,Avenging Murderwolves ,Norse,Warhund,Ulfwerener,1,0,17341066,Scholars of Ogrehampshire,Ogre,8,3,1,0,0,0,0,0,0,0,0,2,9
+0039338d,1,Avenging Murderwolves ,Norse,Snorri Skaranger,Lineman,1,0,17341456,Scholars of Ogrehampshire,Ogre,1,0,0,0,0,0,0,0,0,0,0,0,1
+0039338d,1,Avenging Murderwolves ,Norse,Ulmheart,Ulfwerener,1,0,17341067,Scholars of Ogrehampshire,Ogre,6,2,1,0,0,0,0,0,0,0,0,0,4
+0039338d,1,Avenging Murderwolves ,Norse,Sven Marenson,Lineman,1,3,17341354,Scholars of Ogrehampshire,Ogre,0,0,0,0,0,1,0,0,0,0,26,0,4
+0039338d,1,Avenging Murderwolves ,Norse,Halfdane,Berserker,2,0,17341169,Scholars of Ogrehampshire,Ogre,5,1,0,0,0,0,0,0,0,0,0,0,2
+0039338d,1,Avenging Murderwolves ,Norse,Egil Timberheart,Lineman,1,1,17341997,Scholars of Ogrehampshire,Ogre,1,0,0,0,0,0,1,0,0,0,24,0,4
+0039338d,1,Avenging Murderwolves ,Norse,Harvik Jondallen,Lineman,1,0,17341353,Scholars of Ogrehampshire,Ogre,2,0,0,0,0,0,0,0,0,0,12,0,2
+0039338d,1,Avenging Murderwolves ,Norse,Greldik,Berserker,2,2,17341168,Scholars of Ogrehampshire,Ogre,1,1,0,1,0,0,0,0,0,0,0,0,3
+0039338d,1,Scholars of Ogrehampshire,Ogre,PLAYER_NAMES_CHAMPION_NOBBLA_FALLBACK,Unknown playertype,1,5,48,Avenging Murderwolves ,Norse,0,1,0,0,0,0,0,0,0,0,0,0,1
+0039338d,1,Scholars of Ogrehampshire,Ogre,Prof. Prometheus,Ogre,1,0,17179293,Avenging Murderwolves ,Norse,11,6,2,0,0,0,0,0,0,0,0,0,8
+0039338d,1,Scholars of Ogrehampshire,Ogre,Esteemed Eleron,Ogre,1,2,17179806,Avenging Murderwolves ,Norse,7,4,0,1,0,0,0,0,0,0,0,0,5
+0039338d,1,Scholars of Ogrehampshire,Ogre,Yob,Gnoblar,1,3,17177855,Avenging Murderwolves ,Norse,0,0,0,0,0,1,0,0,0,0,20,0,4
+0039338d,1,Scholars of Ogrehampshire,Ogre,Reginald Bonefist,Ogre,1,0,17179974,Avenging Murderwolves ,Norse,8,2,1,0,0,0,0,0,0,0,0,0,4
+0039338d,1,Scholars of Ogrehampshire,Ogre,Pikey,Gnoblar,1,0,17177856,Avenging Murderwolves ,Norse,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039338d,1,Scholars of Ogrehampshire,Ogre,Working Class,Gnoblar,1,0,17177857,Avenging Murderwolves ,Norse,0,0,0,0,0,0,0,0,0,0,0,0,0
+0039338d,1,Scholars of Ogrehampshire,Ogre,Commoner,Gnoblar,1,0,17177862,Avenging Murderwolves ,Norse,0,0,0,0,0,0,0,0,0,0,2,0,1
+0039338d,1,Scholars of Ogrehampshire,Ogre,WIlhelm the Wise,Ogre,1,0,17179291,Avenging Murderwolves ,Norse,6,0,0,0,0,0,0,0,0,0,18,0,3
+0039338d,1,Scholars of Ogrehampshire,Ogre,Rabble,Gnoblar,1,0,17177861,Avenging Murderwolves ,Norse,2,0,0,0,0,0,0,0,0,0,8,0,2
+0039338d,1,Scholars of Ogrehampshire,Ogre,Sir Ichibald,Ogre,1,2,17179807,Avenging Murderwolves ,Norse,9,5,2,1,0,0,0,0,0,0,0,0,8
+0039338d,1,Scholars of Ogrehampshire,Ogre,Chav,Gnoblar,1,0,17177854,Avenging Murderwolves ,Norse,0,0,0,0,0,0,0,0,0,0,0,0,0
+003933bf,1,Barak Varr Voyagers,Dwarf,Okegrin Battlebreaker,Troll Slayer,1,5,16989176,Tooth And Fist,Necromantic,9,1,0,0,0,0,0,0,0,0,0,0,3
+003933bf,1,Barak Varr Voyagers,Dwarf,Arbon Leadcrest,Longbeard,1,3,16989213,Tooth And Fist,Necromantic,7,1,0,0,0,1,0,0,0,0,20,0,7
+003933bf,1,Barak Varr Voyagers,Dwarf,Grenrargog Goldhand,Runner,1,0,16989180,Tooth And Fist,Necromantic,0,0,0,0,0,0,0,0,0,0,42,0,1
+003933bf,1,Barak Varr Voyagers,Dwarf,Grurber Cinderrage,Blitzer,2,2,16989178,Tooth And Fist,Necromantic,7,3,0,1,0,0,0,0,0,0,0,0,5
+003933bf,1,Barak Varr Voyagers,Dwarf,Droadidroad Bluntbuster,Blitzer,1,0,16989177,Tooth And Fist,Necromantic,4,1,1,0,0,0,0,0,0,0,0,0,3
+003933bf,1,Barak Varr Voyagers,Dwarf,Vordondat Flameforged,Longbeard,1,0,16989185,Tooth And Fist,Necromantic,7,1,0,0,0,0,0,0,0,0,0,0,3
+003933bf,1,Barak Varr Voyagers,Dwarf,Regnim Grimforce,Troll Slayer,2,6,16989175,Tooth And Fist,Necromantic,11,3,0,3,0,0,0,0,0,0,0,0,8
+003933bf,1,Barak Varr Voyagers,Dwarf,Trathid Onyxbelly,Longbeard,1,0,16989194,Tooth And Fist,Necromantic,4,1,0,0,0,0,0,0,0,0,0,0,2
+003933bf,1,Barak Varr Voyagers,Dwarf,Nugom Copperchest,Longbeard,1,0,16989228,Tooth And Fist,Necromantic,5,1,0,0,0,0,0,0,0,0,0,0,2
+003933bf,1,Barak Varr Voyagers,Dwarf,Brairaurd Ingotgrip,Runner,2,0,16989179,Tooth And Fist,Necromantic,1,0,0,0,0,0,0,0,0,0,20,0,2
+003933bf,1,Barak Varr Voyagers,Dwarf,Srotrugg Steelgrog,Longbeard,2,0,16989186,Tooth And Fist,Necromantic,3,1,0,0,0,0,0,0,0,0,0,0,2
+003933bf,1,Tooth And Fist,Necromantic,Krimlarg Paws,Werewolf,1,8,17933912,Barak Varr Voyagers,Dwarf,5,2,0,0,0,1,0,0,0,0,56,0,7
+003933bf,1,Tooth And Fist,Necromantic,Rigor Cain,Zombie,1,0,17933918,Barak Varr Voyagers,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+003933bf,1,Tooth And Fist,Necromantic,Growarg Redclaws,Werewolf,1,2,17933911,Barak Varr Voyagers,Dwarf,6,2,0,1,0,0,0,0,0,0,0,0,4
+003933bf,1,Tooth And Fist,Necromantic,Titus the Anatomist,Zombie,1,0,17933917,Barak Varr Voyagers,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1
+003933bf,1,Tooth And Fist,Necromantic,Sextus the Troublemaker,Zombie,1,0,17933920,Barak Varr Voyagers,Dwarf,3,1,0,0,0,0,0,0,0,0,0,0,2
+003933bf,1,Tooth And Fist,Necromantic,Limbchewer,Ghoul,2,3,17933915,Barak Varr Voyagers,Dwarf,0,0,0,0,0,1,0,0,0,0,46,0,4
+003933bf,1,Tooth And Fist,Necromantic,Ulric the Predator,Wight,1,0,17933913,Barak Varr Voyagers,Dwarf,5,0,0,0,0,0,0,0,0,0,0,0,1
+003933bf,1,Tooth And Fist,Necromantic,Sextus Bonez,Zombie,1,0,17933919,Barak Varr Voyagers,Dwarf,3,0,0,0,0,0,0,0,0,0,0,0,1
+003933bf,1,Tooth And Fist,Necromantic,Cootie the Mouldering,Flesh Golem,1,0,17933921,Barak Varr Voyagers,Dwarf,3,0,0,0,0,0,0,0,0,0,0,0,1
+003933bf,1,Tooth And Fist,Necromantic,Pebbleflayer,Ghoul,2,0,17933916,Barak Varr Voyagers,Dwarf,6,0,0,0,0,0,0,0,0,0,0,0,2
+003933bf,1,Tooth And Fist,Necromantic,Perry,Flesh Golem,1,0,18843403,Barak Varr Voyagers,Dwarf,4,1,0,0,0,0,0,0,0,0,0,0,2
+003933bf,1,Tooth And Fist,Necromantic,Vlad the Hero,Wight,1,0,17933914,Barak Varr Voyagers,Dwarf,2,1,0,0,0,0,0,0,0,0,0,0,2
+003934d1,1,Raskin Bobbins,Nurgle,M&Ms,Rotter,1,5,18968276,Flinging Fun,Halfling,0,0,0,0,0,0,0,0,0,0,0,0,0
+003934d1,1,Raskin Bobbins,Nurgle,Cookie Dough,Rotter,1,0,18968275,Flinging Fun,Halfling,6,0,0,0,0,0,0,0,0,0,0,0,2
+003934d1,1,Raskin Bobbins,Nurgle,Chocolate Chip,Rotter,1,0,18968272,Flinging Fun,Halfling,7,1,0,0,0,0,0,0,0,0,0,2,7
+003934d1,1,Raskin Bobbins,Nurgle,Peanut Butter Cup,Nurgle Warrior,1,0,18968267,Flinging Fun,Halfling,5,0,0,0,0,0,0,0,0,0,0,0,1
+003934d1,1,Raskin Bobbins,Nurgle,Moose Tracks,Rotter,1,0,18968273,Flinging Fun,Halfling,4,0,0,0,0,0,0,0,0,0,0,0,1
+003934d1,1,Raskin Bobbins,Nurgle,French Vanilla,Pestigor,1,3,18968271,Flinging Fun,Halfling,4,1,1,0,0,1,0,0,0,0,30,0,7
+003934d1,1,Raskin Bobbins,Nurgle,Rocky Road,Beast of Nurgle,1,0,18968266,Flinging Fun,Halfling,4,1,0,0,0,0,0,0,0,0,0,0,2
+003934d1,1,Raskin Bobbins,Nurgle,Neopolitan,Rotter,1,0,18968274,Flinging Fun,Halfling,0,0,0,0,0,0,0,0,0,0,0,0,0
+003934d1,1,Raskin Bobbins,Nurgle,Banana,Nurgle Warrior,1,0,18968268,Flinging Fun,Halfling,9,2,2,0,0,0,0,0,0,0,0,0,5
+003934d1,1,Raskin Bobbins,Nurgle,Coffee,Nurgle Warrior,1,2,18968270,Flinging Fun,Halfling,5,3,0,1,1,0,0,0,0,0,0,0,6
+003934d1,1,Raskin Bobbins,Nurgle,Fudge Brownie,Nurgle Warrior,1,0,18968269,Flinging Fun,Halfling,6,0,0,0,0,0,0,0,0,0,0,0,2
+003934d1,1,Flinging Fun,Halfling,Falco Tomato,Halfling,1,5,17255449,Raskin Bobbins,Nurgle,0,0,0,0,0,0,0,0,0,0,10,0,1
+003934d1,1,Flinging Fun,Halfling,Wilcome Heathertoe,Halfling,1,0,17255454,Raskin Bobbins,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+003934d1,1,Flinging Fun,Halfling,PLAYER_NAMES_CHAMPION_DEEPROOTSTRONGBRANCH,Unknown playertype,1,2,51,Raskin Bobbins,Nurgle,13,4,0,1,0,0,0,0,0,0,0,0,6
+003934d1,1,Flinging Fun,Halfling,Bob Tealeaf,Halfling,1,0,17255453,Raskin Bobbins,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+003934d1,1,Flinging Fun,Halfling,Polo Forkson,Halfling,1,0,17255446,Raskin Bobbins,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1
+003934d1,1,Flinging Fun,Halfling,Griffo Highhilll,Halfling,1,0,17255455,Raskin Bobbins,Nurgle,1,0,0,0,0,0,0,0,0,0,0,1,3
+003934d1,1,Flinging Fun,Halfling,Griffo Heathertoe,Halfling,1,0,17255452,Raskin Bobbins,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+003934d1,1,Flinging Fun,Halfling,Falco Clubfoot,Halfling,1,0,17255444,Raskin Bobbins,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+003934d1,1,Flinging Fun,Halfling,Ponto Weatherbee,Halfling,1,0,17255447,Raskin Bobbins,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+003934d1,1,Flinging Fun,Halfling,Willow Longwinded,Treeman,1,2,17255442,Raskin Bobbins,Nurgle,8,3,0,1,1,0,0,0,0,0,0,0,7
+003934d1,1,Flinging Fun,Halfling,Lotho Cotton,Halfling,1,0,17255448,Raskin Bobbins,Nurgle,2,1,0,0,0,0,0,0,0,0,0,0,2
+003934d1,1,Flinging Fun,Halfling,Deeproot Shakewood,Treeman,1,2,17255443,Raskin Bobbins,Nurgle,4,1,0,1,1,0,0,0,0,0,0,0,5
+003934d1,1,Flinging Fun,Halfling,Dudo Forkson,Halfling,1,0,17255450,Raskin Bobbins,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1
+003934d1,1,Flinging Fun,Halfling,Bungo Broccoli,Halfling,1,0,17255445,Raskin Bobbins,Nurgle,0,1,0,0,0,0,0,0,0,0,10,0,2
+003934d1,1,Flinging Fun,Halfling,Ponto Hamond,Halfling,1,0,17255451,Raskin Bobbins,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1
