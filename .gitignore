@@ -4,3 +4,4 @@
 .Ruserdata
 ./data/last_game.uuid
 ./data/player_stats.csv
+*.DS_Store
