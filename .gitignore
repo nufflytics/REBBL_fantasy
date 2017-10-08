@@ -2,4 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-data/*
+./data/last_game.uuid
+./data/player_stats.csv
