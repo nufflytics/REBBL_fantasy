@@ -8,7 +8,8 @@ library(shiny)
 library(shinydashboard)
 library(DT)
 
-dashboardPage(skin="black",
+dashboardPage(title = "REBBL Fantasy League",
+              skin="black",
               dashboardHeader(title = span(tagList(a(href="https://www.reddit.com/r/rebbl", img(src = "img/ReBBL_logo_800px_72dpi.png", width = "70px")),"Fantasy"))),
               dashboardSidebar(
                 sidebarMenu(
@@ -24,18 +25,21 @@ dashboardPage(skin="black",
                   tabItem(tabName = "leaderboard",
                           fluidRow(
                             box(
-                            title = "Current Standings",
-                            width = 12,
-                            DT::dataTableOutput("leaderboard")
-                          ),
-                          box(
-                            width = 6,
-                            plotOutput("weekly_bars")
-                          ),
-                          box(
-                            width = 6,
-                            plotOutput("weekly_lines")
-                          )
+                              title = "Current Standings",
+                              width = 12,
+                              DT::dataTableOutput("leaderboard")
+                            ),
+                            conditionalPanel(
+                              "input.leaderboard_rows_selected != ''",
+                              box(
+                                width = 6,
+                                plotOutput("weekly_bars")
+                              ),
+                              box(
+                                width = 6,
+                                plotOutput("weekly_lines")
+                              )
+                            )
                           )
                   ),
                   
@@ -53,7 +57,7 @@ dashboardPage(skin="black",
                               width = 6,
                               height = 100,
                               numericInput("selected_round", NULL, 1, min = 1, max = 13, step = 1)
-                              )
+                            )
                           ),
                           fluidRow(
                             box(
