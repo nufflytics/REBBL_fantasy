@@ -63,10 +63,13 @@ shinyServer(function(input, output, session) {
       ungroup %>% 
       filter(Coach %in% coaches) %>% 
       mutate(Coach = factor(Coach, levels=coaches)) %>% 
-      ggplot(aes(x=Round, y = cum_points, fill = Coach)) +
+      ggplot(aes(x=Round, y = FP, fill = Coach)) +
       geom_bar(position = "dodge", stat = "identity") +
       scale_fill_brewer(palette="Paired") +
-      ylab("Points")
+      ylab("Points") +
+      scale_x_continuous(breaks = 1:max(weekly_points$Round)) +
+      theme_nufflytics() +
+      ggtitle("Points per week")
   })
   
   output$weekly_lines <- renderPlot({
@@ -74,15 +77,19 @@ shinyServer(function(input, output, session) {
     
     coaches = leaders[input$leaderboard_rows_selected,]$Coach
     weekly_points %>% 
-      ungroup %>% 
       mutate(cum_points = cumsum(FP)) %>% 
+      ungroup %>% 
       filter(Coach %in% coaches) %>% 
       mutate(Coach = factor(Coach, levels=coaches)) %>% 
-      ggplot(aes(x=Round, y = FP, colour = Coach)) +
-      geom_point() +
-      geom_line() +
+      ggplot(aes(x=Round, y = cum_points, colour = Coach)) +
+      geom_point(size = 2, alpha = 0.8) +
+      geom_line(size = 1.2, alpha = 0.8) +
       scale_colour_brewer(palette="Paired") +
-      ylab("Points")
+      ylab("Points") +
+      scale_y_continuous(limits = c(0,NA)) +
+      scale_x_continuous(breaks = 1:max(weekly_points$Round)) +
+      theme_nufflytics() +
+      ggtitle("Cumulative points")
   })
   
   #Teams tab ------
