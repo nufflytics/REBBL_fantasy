@@ -9,6 +9,7 @@ library(shiny)
 library(tidyverse)
 library(DT)
 library(lubridate)
+library(nufflytics)
 
 start_time = lubridate::dmy_hm("051017 0000", tz = "EST")
 
@@ -62,7 +63,7 @@ shinyServer(function(input, output, session) {
       ungroup %>% 
       filter(Coach %in% coaches) %>% 
       mutate(Coach = factor(Coach, levels=coaches)) %>% 
-      ggplot(aes(x=Round, y = FP, fill = Coach)) +
+      ggplot(aes(x=Round, y = cum_points, fill = Coach)) +
       geom_bar(position = "dodge", stat = "identity") +
       scale_fill_brewer(palette="Paired") +
       ylab("Points")
@@ -74,6 +75,7 @@ shinyServer(function(input, output, session) {
     coaches = leaders[input$leaderboard_rows_selected,]$Coach
     weekly_points %>% 
       ungroup %>% 
+      mutate(cum_points = cumsum(FP)) %>% 
       filter(Coach %in% coaches) %>% 
       mutate(Coach = factor(Coach, levels=coaches)) %>% 
       ggplot(aes(x=Round, y = FP, colour = Coach)) +
