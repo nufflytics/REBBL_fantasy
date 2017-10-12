@@ -20,6 +20,7 @@ dashboardPage(title = "REBBL Fantasy League",
                 )
               ),
               dashboardBody(
+                shiny::includeCSS("/css/google-font.css"),
                 tabItems(
                   # Leaderboard content ----
                   tabItem(tabName = "leaderboard",
