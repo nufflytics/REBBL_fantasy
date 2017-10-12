@@ -9,8 +9,7 @@ library(shiny)
 library(tidyverse)
 library(DT)
 library(lubridate)
-library(nufflytics)
-extrafont::loadfonts(quiet = T)
+library(hrbrthemes)
 
 start_time = lubridate::dmy_hm("051017 0000", tz = "EST")
 
@@ -20,6 +19,9 @@ stats <- read_csv("data/player_stats.csv") %>% filter(!Type %in% c("Star Player"
 
 points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
 
+theme_fantasy <- function() {
+  theme_ipsum_rc(base_size = 12, axis_title_just = "m", axis_title_size = 14, grid = "Yy") + theme(legend.position = "bottom")
+}
 
 
 shinyServer(function(input, output, session) {
@@ -71,7 +73,7 @@ shinyServer(function(input, output, session) {
       scale_fill_brewer(palette="Paired") +
       ylab("Points") +
       scale_x_continuous(breaks = 1:max(weekly_points$Round)) +
-      theme_nufflytics() +
+      theme_fantasy() +
       ggtitle("Points per week")
   })
   
@@ -91,7 +93,7 @@ shinyServer(function(input, output, session) {
       ylab("Points") +
       scale_y_continuous(limits = c(0,NA)) +
       scale_x_continuous(breaks = 1:max(weekly_points$Round)) +
-      theme_nufflytics() +
+      theme_fantasy() +
       ggtitle("Cumulative points")
   })
   
@@ -177,7 +179,7 @@ shinyServer(function(input, output, session) {
     player_points %>% 
       ggplot(aes(x=Round,y=FP)) +
       geom_bar(stat="identity") +
-      theme_nufflytics() +
+      theme_fantasy() +
       ggtitle(summarised_stats[input$stats_table_rows_selected,]$Name) +
       scale_x_continuous(breaks = 1:max(player_points$Round), labels = player_points$Opponent) +
       ylab("Points") +
