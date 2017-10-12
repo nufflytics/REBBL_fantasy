@@ -10,6 +10,7 @@ library(tidyverse)
 library(DT)
 library(lubridate)
 library(nufflytics)
+extrafont::loadfonts(quiet = T)
 
 start_time = lubridate::dmy_hm("051017 0000", tz = "EST")
 
@@ -22,6 +23,8 @@ points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type",
 
 
 shinyServer(function(input, output, session) {
+  session$allowReconnect(TRUE)
+  
   #General data -----
   gameweek = difftime(now("UTC"), start_time, units = "weeks") %>% ceiling()
   
