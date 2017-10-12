@@ -131,12 +131,12 @@ shinyServer(function(input, output, session) {
   
   #Stats tab ---------
   summarised_stats <- stats %>% 
-    group_by(Name,Race,Type) %>% #add playerID when using real data
+    group_by(Name,Team,Race,Type,playerID) %>% #add playerID when using real data
     summarise(Games = n(), Points = mean(FP), BLK = mean(BLK), AVBr = mean(AVBr), KO = mean(KO), CAS = mean(CAS), Kills = mean(Kills), TD = mean(TD)) %>% 
     arrange(desc(Points))
   
   output$stats_table <- DT::renderDataTable(
-    DT::datatable(summarised_stats,
+    DT::datatable(summarised_stats %>% select(-playerID),
                   options = list(
                     lengthMenu = c(5,10,20,50),
                     pageLength = 10,
@@ -152,7 +152,7 @@ shinyServer(function(input, output, session) {
     validate(need(input$stats_table_rows_selected, message = F))
     
     best_match = stats %>%  
-      filter(Name %in% summarised_stats[input$stats_table_rows_selected,]$Name) %>% 
+      filter(playerID %in% summarised_stats[input$stats_table_rows_selected,]$playerID) %>% 
       filter(FP == max(FP)) # separate filter to not filter on global max points
     
     infoBox(
@@ -167,17 +167,26 @@ shinyServer(function(input, output, session) {
   output$points_bar_stats <- renderPlot({
     validate(need(input$stats_table_rows_selected, message = F))
     
-    stats %>%  
-      filter(Name %in% summarised_stats[input$stats_table_rows_selected,]$Name) %>% 
-      .$FP %>% 
-      barplot()
+    player_points <- stats %>%  
+      filter(playerID %in% summarised_stats[input$stats_table_rows_selected,]$playerID) %>%
+      arrange(Round)
+    
+    player_points %>% 
+      ggplot(aes(x=Round,y=FP)) +
+      geom_bar(stat="identity") +
+      theme_nufflytics() +
+      ggtitle(summarised_stats[input$stats_table_rows_selected,]$Name) +
+      scale_x_continuous(breaks = 1:max(player_points$Round), labels = player_points$Opponent) +
+      ylab("Points") +
+      xlab("Opponent") +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
   })
   
   output$worst_game_stats <- renderInfoBox({
     validate(need(input$stats_table_rows_selected, message = F))
     
     worst_match = stats %>%  
-      filter(Name %in% summarised_stats[input$stats_table_rows_selected,]$Name) %>% 
+      filter(playerID %in% summarised_stats[input$stats_table_rows_selected,]$playerID) %>% 
       filter(FP == min(FP)) 
     
     infoBox(
