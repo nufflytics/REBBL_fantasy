@@ -13,19 +13,18 @@ library(hrbrthemes)
 
 start_time = lubridate::dmy_hm("051017 0000", tz = "EST")
 
-teams <- read_csv("data/fantasy_teams.csv") %>% mutate(Race = stringr::str_replace_all(Race, "_"," "))
-
-stats <- read_csv("data/player_stats.csv") %>% filter(!Type %in% c("Star Player", "Unknown playertype"))
-
-points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
-
 theme_fantasy <- function() {
   theme_ipsum_rc(base_size = 12, axis_title_just = "m", axis_title_size = 14, grid = "Yy") + theme(legend.position = "bottom")
 }
 
 
 shinyServer(function(input, output, session) {
+  #Setup ------
   session$allowReconnect(TRUE)
+  teams <- read_csv("data/fantasy_teams.csv") %>% mutate(Race = stringr::str_replace_all(Race, "_"," "))
+  stats <- read_csv("data/player_stats.csv") %>% filter(!Type %in% c("Star Player", "Unknown playertype"))
+  points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
+  
   
   #General data -----
   gameweek = difftime(now("UTC"), start_time, units = "weeks") %>% ceiling()
