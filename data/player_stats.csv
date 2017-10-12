@@ -4030,3 +4030,51 @@ match_uuid,Round,Team,Race,Name,Type,Level,SPP_gain,playerID,Opponent,Opponent_R
 0039a02e,2,Legion VI Ferrata,Chaos,PLAYER_NAMES_CHAMPION_CHAOS,Star Player,1,2,48,We Doin' Flips N Sh*t!,Kislev Circus,13,3,0,1,0,0,0,0,0,0,0,0,6
 0039a02e,2,Legion VI Ferrata,Chaos,Lucius Vorenus,Chaos Warrior,1,1,18962483,We Doin' Flips N Sh*t!,Kislev Circus,2,0,0,0,0,0,1,0,0,0,0,0,3
 0039a02e,2,Legion VI Ferrata,Chaos,Titus Pullo,Chaos Warrior,1,0,18962484,We Doin' Flips N Sh*t!,Kislev Circus,4,1,1,0,0,0,0,0,0,0,0,0,3
+00395628,1,Tragedy + Time,Nurgle,Davv,Rotter,1,0,19238547,High Fivers,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00395628,1,Tragedy + Time,Nurgle,Achtung Hollowgut,Nurgle Warrior,1,0,19238538,High Fivers,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00395628,1,Tragedy + Time,Nurgle,Nump,Rotter,1,0,19238545,High Fivers,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,Tragedy + Time,Nurgle,Guulmaph Wetsock,Nurgle Warrior,1,0,19238540,High Fivers,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,Tragedy + Time,Nurgle,Quejuu Slicken,Nurgle Warrior,1,0,19238541,High Fivers,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,Tragedy + Time,Nurgle,Shplee the Defenestrator,Pestigor,1,0,19238542,High Fivers,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1
+00395628,1,Tragedy + Time,Nurgle,God?,Beast of Nurgle,1,0,19238537,High Fivers,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,Tragedy + Time,Nurgle,Joff,Rotter,1,0,19238544,High Fivers,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1
+00395628,1,Tragedy + Time,Nurgle,Molff,Rotter,1,0,19238546,High Fivers,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,Tragedy + Time,Nurgle,Smagx the Saccharine,Nurgle Warrior,1,0,19238539,High Fivers,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1
+00395628,1,Tragedy + Time,Nurgle,Gurk,Rotter,1,0,19238543,High Fivers,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,High Fivers,Necromantic,Rein Theoderic,Zombie,1,5,18496188,Tragedy + Time,Nurgle,0,0,0,0,0,1,0,0,0,0,0,0,3
+00395628,1,High Fivers,Necromantic,Al Bundy,Werewolf,3,7,17106529,Tragedy + Time,Nurgle,5,3,0,1,0,0,0,0,0,0,0,0,4
+00395628,1,High Fivers,Necromantic,Julien Diagnoses,Zombie,1,0,17108338,Tragedy + Time,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,High Fivers,Necromantic,Scar,Ghoul,1,0,19134192,Tragedy + Time,Nurgle,0,0,0,0,0,0,0,0,0,0,8,0,1
+00395628,1,High Fivers,Necromantic,Candace,Zombie,1,0,18173304,Tragedy + Time,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,High Fivers,Necromantic,Frankenstein,Flesh Golem,1,0,17108334,Tragedy + Time,Nurgle,2,0,0,0,0,0,0,0,0,0,0,0,1
+00395628,1,High Fivers,Necromantic,Gerhart the Revived,Zombie,1,0,17108339,Tragedy + Time,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,High Fivers,Necromantic,Marcus Cain,Zombie,1,0,17108340,Tragedy + Time,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,High Fivers,Necromantic,Bud Bundy,Werewolf,2,0,18496253,Tragedy + Time,Nurgle,2,0,0,0,0,0,0,0,0,0,0,0,1
+00395628,1,High Fivers,Necromantic,Bobby Hill,Wight,2,0,18068239,Tragedy + Time,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1
+00395628,1,High Fivers,Necromantic,Lurch,Flesh Golem,2,0,18068360,Tragedy + Time,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395628,1,High Fivers,Necromantic,Hank Hill,Wight,1,0,17108332,Tragedy + Time,Nurgle,1,1,1,0,0,0,0,0,0,0,0,0,3
+00395a72,1,Bay Area Butchers,Human,Buckner,Ogre,4,0,9745251,Capital Rats,Skaven,3,2,1,0,0,0,0,0,0,0,0,0,3
+00395a72,1,Bay Area Butchers,Human,Bowman,Blitzer,6,0,9745252,Capital Rats,Skaven,7,7,3,0,0,0,0,0,0,0,0,0,9
+00395a72,1,Bay Area Butchers,Human,Tank,Lineman,3,0,9745262,Capital Rats,Skaven,2,2,1,0,0,0,0,0,0,0,0,0,3
+00395a72,1,Bay Area Butchers,Human,Foster,Lineman,1,0,18349065,Capital Rats,Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1
+00395a72,1,Bay Area Butchers,Human,Solomon Thomas,Lineman,1,0,15537707,Capital Rats,Skaven,2,1,0,0,0,0,0,0,0,0,0,0,2
+00395a72,1,Bay Area Butchers,Human,Brooks,Blitzer,2,2,14492499,Capital Rats,Skaven,6,2,0,1,0,0,0,0,0,0,0,0,4
+00395a72,1,Bay Area Butchers,Human,Hyde II,Blitzer,3,0,10214573,Capital Rats,Skaven,2,1,0,0,0,0,0,0,0,0,0,0,2
+00395a72,1,Bay Area Butchers,Human,Lynch,Blitzer,6,1,9745255,Capital Rats,Skaven,3,0,0,0,0,0,1,0,0,0,18,0,4
+00395a72,1,Bay Area Butchers,Human,Garnett,Lineman,3,0,12385113,Capital Rats,Skaven,6,1,1,0,0,0,0,0,0,0,0,0,4
+00395a72,1,Bay Area Butchers,Human,Jerry Rice,Catcher,3,0,15943576,Capital Rats,Skaven,0,0,0,0,0,0,0,0,2,0,0,0,4
+00395a72,1,Bay Area Butchers,Human,Montana,Thrower,5,2,11431283,Capital Rats,Skaven,1,0,0,0,0,0,2,0,0,0,24,0,6
+00395a72,1,Bay Area Butchers,Human,Torrey,Catcher,6,3,9745259,Capital Rats,Skaven,0,0,0,0,0,1,0,0,1,0,32,0,6
+00395a72,1,Capital Rats,Skaven,W Entsch the Second,Lineman,1,5,16093210,Bay Area Butchers,Human,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395a72,1,Capital Rats,Skaven,P Costello,Gutter Runner,6,8,9791529,Bay Area Butchers,Human,1,0,0,0,0,1,0,0,0,0,26,0,5
+00395a72,1,Capital Rats,Skaven,"B ""Chopper"" Bishop",Gutter Runner,6,6,11732866,Bay Area Butchers,Human,2,1,0,0,0,2,0,0,2,0,42,0,13
+00395a72,1,Capital Rats,Skaven,"M ""Digital"" Fifield",Lineman,1,0,17876872,Bay Area Butchers,Human,1,0,0,0,0,0,0,0,0,0,0,0,1
+00395a72,1,Capital Rats,Skaven,M Turnbull,Storm Vermin,6,6,9791527,Bay Area Butchers,Human,7,3,0,3,0,0,0,0,0,0,0,0,7
+00395a72,1,Capital Rats,Skaven,A Wall the Third,Lineman,1,0,15097207,Bay Area Butchers,Human,2,1,1,0,0,0,0,0,0,0,0,0,3
+00395a72,1,Capital Rats,Skaven,"A ""spittle"" Jones",Lineman,1,0,18871469,Bay Area Butchers,Human,2,2,0,0,0,0,0,0,0,0,0,0,2
+00395a72,1,Capital Rats,Skaven,C Bernadi,Gutter Runner,5,1,9791530,Bay Area Butchers,Human,0,0,0,0,0,0,1,0,0,0,0,0,2
+00395a72,1,Capital Rats,Skaven,A Bolt the Turd,Lineman,2,0,16093212,Bay Area Butchers,Human,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395a72,1,Capital Rats,Skaven,T Abbott,Thrower,5,1,9791526,Bay Area Butchers,Human,2,1,0,0,0,0,1,0,0,0,18,0,5
+00395a72,1,Capital Rats,Skaven,"J ""Stare"" Bishop 5th",Lineman,2,0,15777903,Bay Area Butchers,Human,0,0,0,0,0,0,0,0,0,0,0,0,0
+00395a72,1,Capital Rats,Skaven,"R ""prejudice"" Hadley",Lineman,1,0,16664533,Bay Area Butchers,Human,1,0,0,0,0,0,0,0,0,0,0,0,1
+00395a72,1,Capital Rats,Skaven,S Morrison 3rd,Gutter Runner,3,0,16575030,Bay Area Butchers,Human,2,0,0,0,0,0,0,0,0,0,0,0,1
