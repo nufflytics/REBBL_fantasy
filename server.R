@@ -146,13 +146,15 @@ shinyServer(function(input, output, session) {
     summarise(Games = n(), Points = mean(FP), BLK = mean(BLK), AVBr = mean(AVBr), KO = mean(KO), CAS = mean(CAS), Kills = mean(Kills), TD = mean(TD), Pass = mean(Pass), `Pass(m)` = mean(Pass_m), Catch = mean(Catch), Int = mean(Int), `Carry(m)` = mean(Carry_m), Surf = mean(Surf)) %>% 
     arrange(desc(Points))
   
+  sorted_stats <- stats %>% arrange(desc(FP))
+  
   #reactive values
   stats_selected_player <- reactive({
     validate(need(input$stats_tab, message = F))
     switch(
       input$stats_tab,
       "Averaged" = summarised_stats[input$averaged_stats_table_rows_selected,],
-      "All" = stats[input$stats_table_rows_selected,],
+      "All" = sorted_stats[input$stats_table_rows_selected,],
       NULL
     )
   })
@@ -183,7 +185,8 @@ shinyServer(function(input, output, session) {
   )
   
   output$stats_table <- DT::renderDataTable(
-    DT::datatable(stats %>% select(Region, Name, Team, Race, Type, Round, Points = "FP", BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf),
+    DT::datatable(sorted_stats %>% 
+                    select(Region, Name, Team, Race, Type, Round, Points = "FP", BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf),
                   extensions = "Scroller",
                   options = list(
                     dom = 'tip',
