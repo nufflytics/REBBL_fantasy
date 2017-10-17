@@ -53,15 +53,16 @@ shinyServer(function(input, output, session) {
   
   leaders <- weekly_points %>% summarise(Points = sum(FP)) %>% arrange(desc(Points))
   
-  output$leaderboard <- renderDataTable(
-    leaders,
+  output$leaderboard <- DT::renderDataTable(
+    DT::datatable(leaders,
     options = list(
       pageLength = 100,
       dom = 't',
-      class = 'compact',
-      selected = "all"
+      class = 'compact'
     ),
-    rownames = FALSE
+    rownames = FALSE,
+    selection = list(mode = "multiple", selected = 1:4)
+  )
   )
   
   output$weekly_bars <- renderPlot({
