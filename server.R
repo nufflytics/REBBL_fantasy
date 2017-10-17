@@ -26,7 +26,7 @@ shinyServer(function(input, output, session) {
   costs <- read_csv("data/costs.csv")
   regions <- read_csv("data/regions.csv")
   
-  stats <- stats %>% left_join(regions)
+  stats <- stats %>% left_join(regions) %>% left_join(costs) %>% mutate(`Total Cost` = Cost + (Level-1)*10)
   
   points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
   
@@ -44,14 +44,17 @@ shinyServer(function(input, output, session) {
   
   weekly_points <- points %>% 
     group_by(Coach, Round) %>% 
-    filter(!is.na(FP)) %>% 
     mutate(
       FP = ifelse( Special %in% c("c"), 2*FP, FP), # Double captain's points
-      FP = ifelse( Special %in% c("r") & max(row_number() > 11), 0, FP) # Remove reserve's points if more than 11 points recorded
-    ) %>% 
-    summarise(FP = sum(FP))
+      FP = ifelse( Special %in% c("r") & max(row_number() > 11) & !is.na(FP), 0, FP) # Remove reserve's points if more than 11 points recorded
+    )  %>% 
+    select(Coach,Round,Player,FP,`Total Cost`) %>% 
+    summarise(Tot_points = sum(FP, na.rm=T), played = sum(!is.na(FP)), cost = sum(`Total Cost`, na.rm=T), team_size = n()) %>% 
+    mutate(PCR = cost/Tot_points)
   
-  leaders <- weekly_points %>% summarise(Points = sum(FP)) %>% arrange(desc(Points))
+  leaders <- weekly_points %>% 
+    summarise(`Scoring players this gameweek` = paste0(played[gameweek],"/",team_size[gameweek]), `Team Efficiency` = sum(PCR, na.rm=T), Points = sum(Tot_points)) %>% 
+    arrange(desc(Points))
   
   output$leaderboard <- DT::renderDataTable(
     DT::datatable(leaders,
@@ -62,7 +65,7 @@ shinyServer(function(input, output, session) {
     ),
     rownames = FALSE,
     selection = list(mode = "multiple", selected = 1:4)
-  )
+  ) %>% DT::formatRound(3)
   )
   
   output$weekly_bars <- renderPlot({
@@ -73,7 +76,7 @@ shinyServer(function(input, output, session) {
       ungroup %>% 
       filter(Coach %in% coaches) %>% 
       mutate(Coach = factor(Coach, levels=coaches)) %>% 
-      ggplot(aes(x=Round, y = FP, fill = Coach)) +
+      ggplot(aes(x=Round, y = Tot_points, fill = Coach)) +
       geom_bar(position = "dodge", stat = "identity") +
       scale_fill_brewer(palette="Paired") +
       ylab("Points") +
@@ -87,7 +90,7 @@ shinyServer(function(input, output, session) {
     
     coaches = leaders[input$leaderboard_rows_selected,]$Coach
     weekly_points %>% 
-      mutate(cum_points = cumsum(FP)) %>% 
+      mutate(cum_points = cumsum(Tot_points)) %>% 
       ungroup %>% 
       filter(Coach %in% coaches) %>% 
       mutate(Coach = factor(Coach, levels=coaches)) %>% 
