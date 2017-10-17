@@ -71,17 +71,19 @@ dashboardPage(title = "REBBL Fantasy League",
                   # Third tab content 
                   tabItem(tabName = "stats",
                           fluidRow(
-                            box(
-                              title = "Averaged statistics",
+                            tabBox(
+                              title = "Player statistics",
+                              id = "stats_tab",
                               width = 12,
-                              collapsible = T,
-                              DT::dataTableOutput("stats_table")
+                              selected = "Averaged",
+                              tabPanel("Averaged", DT::dataTableOutput("averaged_stats_table")),
+                              tabPanel("All", DT::dataTableOutput("stats_table"))
                             )
                           ),
                           fluidRow(
                             infoBoxOutput("best_game_stats", width = 3),
                             conditionalPanel(
-                              "input.stats_table_rows_selected != ''",
+                              "(input.stats_tab == 'Averaged' & input.averaged_stats_table_rows_selected != '') | (input.stats_tab == 'All' & input.stats_table_rows_selected != '')",
                               box(
                                 width = 6,
                                 title = "Week by week",
