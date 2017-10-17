@@ -80,7 +80,7 @@ shinyServer(function(input, output, session) {
       geom_bar(position = "dodge", stat = "identity") +
       scale_fill_brewer(palette="Paired") +
       ylab("Points") +
-      scale_x_continuous(breaks = 1:max(weekly_points$Round)) +
+      scale_x_continuous(breaks = 1:max(weekly_points %>% filter(!is.na(Tot_points)) %>% .$Round)) +
       theme_fantasy() +
       ggtitle("Points per week")
   })
@@ -100,7 +100,7 @@ shinyServer(function(input, output, session) {
       scale_colour_brewer(palette="Paired") +
       ylab("Points") +
       scale_y_continuous(limits = c(0,NA)) +
-      scale_x_continuous(breaks = 1:max(weekly_points$Round)) +
+      scale_x_continuous(breaks = 1:max(weekly_points %>% filter(!is.na(Tot_points)) %>% .$Round)) +
       theme_fantasy() +
       ggtitle("Cumulative points")
   })
