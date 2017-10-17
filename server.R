@@ -74,13 +74,13 @@ shinyServer(function(input, output, session) {
     coaches = leaders[input$leaderboard_rows_selected,]$Coach
     weekly_points %>% 
       ungroup %>% 
-      filter(Coach %in% coaches) %>% 
+      filter(Coach %in% coaches, played > 0) %>% 
       mutate(Coach = factor(Coach, levels=coaches)) %>% 
       ggplot(aes(x=Round, y = Tot_points, fill = Coach)) +
       geom_bar(position = "dodge", stat = "identity") +
       scale_fill_brewer(palette="Paired") +
       ylab("Points") +
-      scale_x_continuous(breaks = 1:max(weekly_points %>% filter(!is.na(Tot_points)) %>% .$Round)) +
+      scale_x_continuous(breaks = 1:max(weekly_points$Round)) +
       theme_fantasy() +
       ggtitle("Points per week")
   })
@@ -92,7 +92,7 @@ shinyServer(function(input, output, session) {
     weekly_points %>% 
       mutate(cum_points = cumsum(Tot_points)) %>% 
       ungroup %>% 
-      filter(Coach %in% coaches) %>% 
+      filter(Coach %in% coaches, played > 0) %>% 
       mutate(Coach = factor(Coach, levels=coaches)) %>% 
       ggplot(aes(x=Round, y = cum_points, colour = Coach)) +
       geom_point(size = 2, alpha = 0.8) +
@@ -100,7 +100,7 @@ shinyServer(function(input, output, session) {
       scale_colour_brewer(palette="Paired") +
       ylab("Points") +
       scale_y_continuous(limits = c(0,NA)) +
-      scale_x_continuous(breaks = 1:max(weekly_points %>% filter(!is.na(Tot_points)) %>% .$Round)) +
+      scale_x_continuous(breaks = 1:max(weekly_points$Round)) +
       theme_fantasy() +
       ggtitle("Cumulative points")
   })
