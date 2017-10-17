@@ -23,6 +23,11 @@ shinyServer(function(input, output, session) {
   session$allowReconnect(TRUE)
   teams <- read_csv("data/fantasy_teams.csv") %>% mutate(Race = stringr::str_replace_all(Race, "_"," "))
   stats <- read_csv("data/player_stats.csv") %>% filter(!Type %in% c("Star Player", "Unknown playertype"))
+  costs <- read_csv("data/costs.csv")
+  regions <- read_csv("data/regions.csv")
+  
+  stats <- stats %>% left_join(regions)
+  
   points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
   
   
@@ -33,7 +38,7 @@ shinyServer(function(input, output, session) {
     input$tabs,
     updateNumericInput(session, "selected_round", value = as.numeric(gameweek)),
     once = T
-    )
+  )
   
   #Leaderboard tab ------
   
@@ -43,7 +48,7 @@ shinyServer(function(input, output, session) {
     mutate(
       FP = ifelse( Special %in% c("c"), 2*FP, FP), # Double captain's points
       FP = ifelse( Special %in% c("r") & max(row_number() > 11), 0, FP) # Remove reserve's points if more than 11 points recorded
-      ) %>% 
+    ) %>% 
     summarise(FP = sum(FP))
   
   leaders <- weekly_points %>% summarise(Points = sum(FP)) %>% arrange(desc(Points))
@@ -105,22 +110,22 @@ shinyServer(function(input, output, session) {
   output$team_name <- renderUI(h3(filter(teams,Coach == input$selected_coach) %>% .$FTeam %>% unique))
   
   team_table <- reactive({points %>% 
-    filter(Round == input$selected_round) %>% 
-    filter(Coach == input$selected_coach) %>% 
-    select(Special,Player:Type, Points = FP) %>% 
-    mutate(Special = ifelse(
-      Special == "c", 
-      "<i class='fa fa-copyright' title='Captain'></i>",
-      ifelse(
-        Special=="r", 
-        "<i class='fa fa-registered' title='Reserve'></i>", 
-        NA
+      filter(Round == input$selected_round) %>% 
+      filter(Coach == input$selected_coach) %>% 
+      select(Special,Player:Type, Points = FP) %>% 
+      mutate(Special = ifelse(
+        Special == "c", 
+        "<i class='fa fa-copyright' title='Captain'></i>",
+        ifelse(
+          Special=="r", 
+          "<i class='fa fa-registered' title='Reserve'></i>", 
+          NA
+        )
       )
-    )
-    )
+      )
   })
   output$team_summary <- DT::renderDataTable(
-   team_table(),
+    team_table(),
     options = list(
       pageLength = 100,
       dom = 't',
@@ -134,29 +139,72 @@ shinyServer(function(input, output, session) {
   
   
   #Stats tab ---------
-  summarised_stats <- stats %>% 
-    group_by(Name,Team,Race,Type,playerID) %>% #add playerID when using real data
-    summarise(Games = n(), Points = mean(FP), BLK = mean(BLK), AVBr = mean(AVBr), KO = mean(KO), CAS = mean(CAS), Kills = mean(Kills), TD = mean(TD)) %>% 
+  
+  #data setup
+  summarised_stats <- stats %>%
+    group_by(Region, Name, Team, Race, Type, playerID) %>% 
+    summarise(Games = n(), Points = mean(FP), BLK = mean(BLK), AVBr = mean(AVBr), KO = mean(KO), CAS = mean(CAS), Kills = mean(Kills), TD = mean(TD), Pass = mean(Pass), `Pass(m)` = mean(Pass_m), Catch = mean(Catch), Int = mean(Int), `Carry(m)` = mean(Carry_m), Surf = mean(Surf)) %>% 
     arrange(desc(Points))
   
-  output$stats_table <- DT::renderDataTable(
+  #reactive values
+  stats_selected_player <- reactive({
+    validate(need(input$stats_tab, message = F))
+    switch(
+      input$stats_tab,
+      "Averaged" = summarised_stats[input$averaged_stats_table_rows_selected,],
+      "All" = stats[input$stats_table_rows_selected,],
+      NULL
+    )
+  })
+  
+  stats_selected_current_tab <- reactive({
+    validate(need(input$stats_tab, message = F))
+    switch(
+      input$stats_tab,
+      "Averaged" = length(input$averaged_stats_table_rows_selected)>0,
+      "All" = length(input$stats_table_rows_selected)>0,
+      NULL
+    )
+  })
+  
+  output$averaged_stats_table <- DT::renderDataTable(
     DT::datatable(summarised_stats %>% select(-playerID),
+                  extensions = "Scroller",
                   options = list(
-                    lengthMenu = c(5,10,20,50),
-                    pageLength = 10,
-                    dom = 'ltp'
+                    dom = 'tip',
+                    scrollX = TRUE,
+                    scrollY = 300,
+                    scroller= list(loadingIndicator = TRUE)
                   ),
                   selection = "single",
                   filter = "top",
                   rownames = F
-    ) %>% DT::formatRound(5:11)
+    ) %>% DT::formatRound(7:19)
+  )
+  
+  output$stats_table <- DT::renderDataTable(
+    DT::datatable(stats %>% select(Region, Name, Team, Race, Type, Round, Points = "FP", BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf),
+                  extensions = "Scroller",
+                  options = list(
+                    dom = 'tip',
+                    scrollX = TRUE,
+                    scrollY = 300,
+                    scroller= list(loadingIndicator = TRUE)
+                  ),
+                  selection = "single",
+                  filter = "top",
+                  rownames = F
+    )
   )
   
   output$best_game_stats <- renderInfoBox({
-    validate(need(input$stats_table_rows_selected, message = F))
+    validate(
+      need(stats_selected_player(), message = F),
+      need(stats_selected_current_tab(), message = F)
+    )
     
     best_match = stats %>%  
-      filter(playerID %in% summarised_stats[input$stats_table_rows_selected,]$playerID) %>% 
+      filter(playerID == stats_selected_player()$playerID, Name == stats_selected_player()$Name) %>% 
       filter(FP == max(FP)) # separate filter to not filter on global max points
     
     infoBox(
@@ -169,17 +217,23 @@ shinyServer(function(input, output, session) {
   })
   
   output$points_bar_stats <- renderPlot({
-    validate(need(input$stats_table_rows_selected, message = F))
+    validate(
+      need(stats_selected_player(), message = F),
+      need(stats_selected_current_tab(), message = F)
+    )
     
+    #Add data for weeks where the player didn't play
     player_points <- stats %>%  
-      filter(playerID %in% summarised_stats[input$stats_table_rows_selected,]$playerID) %>%
-      arrange(Round)
+      filter(playerID == stats_selected_player()$playerID, Name == stats_selected_player()$Name) %>%
+      arrange(Round) %>% 
+      right_join(data.frame(Round = 1:max(.$Round))) %>% 
+      replace_na(replace = list(Opponent = "DNP", FP = 0))
     
     player_points %>% 
       ggplot(aes(x=Round,y=FP)) +
       geom_bar(stat="identity") +
       theme_fantasy() +
-      ggtitle(summarised_stats[input$stats_table_rows_selected,]$Name) +
+      ggtitle(stats_selected_player()$Name) +
       scale_x_continuous(breaks = 1:max(player_points$Round), labels = player_points$Opponent) +
       ylab("Points") +
       xlab("Opponent") +
@@ -187,10 +241,13 @@ shinyServer(function(input, output, session) {
   })
   
   output$worst_game_stats <- renderInfoBox({
-    validate(need(input$stats_table_rows_selected, message = F))
+    validate(
+      need(stats_selected_player(), message = F),
+      need(stats_selected_current_tab(), message = F)
+    )
     
     worst_match = stats %>%  
-      filter(playerID %in% summarised_stats[input$stats_table_rows_selected,]$playerID) %>% 
+      filter(playerID == stats_selected_player()$playerID, Name == stats_selected_player()$Name) %>% 
       filter(FP == min(FP)) 
     
     infoBox(
@@ -201,4 +258,6 @@ shinyServer(function(input, output, session) {
       color="red"
     )
   })
+  
+  #output$debug = renderText(c(stats_selected_player()$Name, stats_selected_player()$playerID,input$stats_tab, stats_selected_current_tab()))
 })
