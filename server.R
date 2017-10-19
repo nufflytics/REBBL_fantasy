@@ -50,7 +50,7 @@ shinyServer(function(input, output, session) {
     )  %>% 
     select(Coach,Round,Player,FP,`Total Cost`) %>% 
     summarise(Tot_points = sum(FP, na.rm=T), played = sum(!is.na(FP)), cost = sum(`Total Cost`, na.rm=T), team_size = n()) %>% 
-    mutate(PCR = cost/Tot_points)
+    mutate(PCR = Tot_points*10/cost)
   
   leaders <- weekly_points %>% 
     summarise(`Scoring players this gameweek` = paste0(played[gameweek],"/",team_size[gameweek]), `Team Efficiency` = sum(PCR, na.rm=T), Points = sum(Tot_points)) %>% 
@@ -116,7 +116,7 @@ shinyServer(function(input, output, session) {
   team_table <- reactive({points %>% 
       filter(Round == input$selected_round) %>% 
       filter(Coach == input$selected_coach) %>% 
-      select(Special,Player:Type, Points = FP) %>% 
+      select(Special,Player:Type,Cost = `Total Cost`, Points = FP) %>% 
       mutate(Special = ifelse(
         Special == "c", 
         "<i class='fa fa-copyright' title='Captain'></i>",
@@ -125,11 +125,12 @@ shinyServer(function(input, output, session) {
           "<i class='fa fa-registered' title='Reserve'></i>", 
           NA
         )
-      )
+      ),
+      `Player efficiency` = Points*10/Cost 
       )
   })
   output$team_summary <- DT::renderDataTable(
-    team_table(),
+    DT::datatable(team_table(),
     options = list(
       pageLength = 100,
       dom = 't',
@@ -139,6 +140,7 @@ shinyServer(function(input, output, session) {
     colnames = c(" " = "Special"),
     escape = FALSE,
     selection = "single"
+  ) %>% DT::formatRound(8)
   )
   
   
@@ -147,7 +149,7 @@ shinyServer(function(input, output, session) {
   #data setup
   summarised_stats <- stats %>%
     group_by(Region, Name, Team, Race, Type, playerID) %>% 
-    summarise(Games = n(), Points = mean(FP), BLK = mean(BLK), AVBr = mean(AVBr), KO = mean(KO), CAS = mean(CAS), Kills = mean(Kills), TD = mean(TD), Pass = mean(Pass), `Pass(m)` = mean(Pass_m), Catch = mean(Catch), Int = mean(Int), `Carry(m)` = mean(Carry_m), Surf = mean(Surf)) %>% 
+    summarise(`Current Cost` = last(`Total Cost`), Games = n(), Points = mean(FP), BLK = mean(BLK), AVBr = mean(AVBr), KO = mean(KO), CAS = mean(CAS), Kills = mean(Kills), TD = mean(TD), Pass = mean(Pass), `Pass(m)` = mean(Pass_m), Catch = mean(Catch), Int = mean(Int), `Carry(m)` = mean(Carry_m), Surf = mean(Surf)) %>% 
     arrange(desc(Points))
   
   sorted_stats <- stats %>% arrange(desc(FP))
@@ -185,12 +187,12 @@ shinyServer(function(input, output, session) {
                   selection = "single",
                   filter = "top",
                   rownames = F
-    ) %>% DT::formatRound(7:19)
+    ) %>% DT::formatRound(8:19)
   )
   
   output$stats_table <- DT::renderDataTable(
     DT::datatable(sorted_stats %>% 
-                    select(Region, Name, Team, Race, Type, Round, Points = "FP", BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf),
+                    select(Region, Name, Team, Race, Type, Round, Cost = `Total Cost`, Points = "FP", BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf),
                   extensions = "Scroller",
                   options = list(
                     dom = 'tip',
