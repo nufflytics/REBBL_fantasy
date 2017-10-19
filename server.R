@@ -26,7 +26,7 @@ shinyServer(function(input, output, session) {
   costs <- read_csv("data/costs.csv")
   regions <- read_csv("data/regions.csv")
   
-  stats <- stats %>% left_join(regions) %>% left_join(costs) %>% mutate(`Total Cost` = Cost + (Level-1)*10)
+  stats <- stats %>% left_join(regions) %>% left_join(costs) %>% mutate(`Total Cost` = Cost + (Level-1)*10, Efficiency = FP*10/`Total Cost`)
   
   points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
   
@@ -149,7 +149,7 @@ shinyServer(function(input, output, session) {
   #data setup
   summarised_stats <- stats %>%
     group_by(Region, Name, Team, Race, Type, playerID) %>% 
-    summarise(`Current Cost` = last(`Total Cost`), Games = n(), Points = mean(FP), BLK = mean(BLK), AVBr = mean(AVBr), KO = mean(KO), CAS = mean(CAS), Kills = mean(Kills), TD = mean(TD), Pass = mean(Pass), `Pass(m)` = mean(Pass_m), Catch = mean(Catch), Int = mean(Int), `Carry(m)` = mean(Carry_m), Surf = mean(Surf)) %>% 
+    summarise(Cost = last(`Total Cost`), Games = n(), Points = mean(FP), Efficiency = mean(Efficiency), BLK = mean(BLK), AVBr = mean(AVBr), KO = mean(KO), CAS = mean(CAS), Kills = mean(Kills), TD = mean(TD), Pass = mean(Pass), `Pass(m)` = mean(Pass_m), Catch = mean(Catch), Int = mean(Int), `Carry(m)` = mean(Carry_m), Surf = mean(Surf)) %>% 
     arrange(desc(Points))
   
   sorted_stats <- stats %>% arrange(desc(FP))
@@ -187,12 +187,12 @@ shinyServer(function(input, output, session) {
                   selection = "single",
                   filter = "top",
                   rownames = F
-    ) %>% DT::formatRound(8:19)
+    ) %>% DT::formatRound(8:21)
   )
   
   output$stats_table <- DT::renderDataTable(
     DT::datatable(sorted_stats %>% 
-                    select(Region, Name, Team, Race, Type, Round, Cost = `Total Cost`, Points = "FP", BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf),
+                    select(Region, Name, Team, Race, Type, Round, Cost = `Total Cost`, Points = "FP", Efficiency, BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf),
                   extensions = "Scroller",
                   options = list(
                     dom = 'tip',
@@ -203,7 +203,7 @@ shinyServer(function(input, output, session) {
                   selection = "single",
                   filter = "top",
                   rownames = F
-    )
+    ) %>% DT::formatRound(10)
   )
   
   output$best_game_stats <- renderInfoBox({
