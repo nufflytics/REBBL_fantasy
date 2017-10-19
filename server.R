@@ -11,7 +11,7 @@ library(DT)
 library(lubridate)
 library(hrbrthemes)
 
-start_time = lubridate::dmy_hm("051017 0000", tz = "EST")
+start_time = lubridate::dmy_hm("051017 0000", tz = "UTC")
 
 theme_fantasy <- function() {
   theme_ipsum_rc(base_size = 12, axis_title_just = "m", axis_title_size = 14, grid = "Yy") + theme(legend.position = "bottom")
