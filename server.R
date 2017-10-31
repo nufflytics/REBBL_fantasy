@@ -203,7 +203,7 @@ shinyServer(function(input, output, session) {
                   selection = "single",
                   filter = "top",
                   rownames = F
-    ) %>% DT::formatRound(10)
+    ) %>% DT::formatRound(9)
   )
   
   output$best_game_stats <- renderInfoBox({
