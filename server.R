@@ -22,9 +22,9 @@ shinyServer(function(input, output, session) {
   #Setup ------
   session$allowReconnect(TRUE)
   teams <- read_csv("data/fantasy_teams.csv") %>% mutate(Race = stringr::str_replace_all(Race, "_"," "))
-  stats <- read_csv("data/player_stats.csv") %>% filter(!Type %in% c("Star Player", "Unknown playertype"))
+  stats <- read_csv("data/S8_player_stats.csv") %>% filter(!Type %in% c("Star Player", "Unknown playertype"))
   costs <- read_csv("data/costs.csv")
-  regions <- read_csv("data/regions.csv")
+  regions <- read_csv("data/S8_regions.csv")
   
   stats <- stats %>% left_join(regions) %>% left_join(costs) %>% mutate(`Total Cost` = Cost + (Level-1)*10, Efficiency = FP*10/`Total Cost`)
   
