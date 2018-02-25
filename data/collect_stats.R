@@ -6,36 +6,64 @@ suppressMessages(require(rvest))
 suppressMessages(require(stringr))
 suppressMessages(require(nufflytics))
 
-#load webhook info and API calls from file
-load("api.Rda")
-load("RFBBL_parameters.Rda")
+api_key <- readRDS("api.key")
 last_game = read_file("last_game.uuid")
+leagues <- c("REBBL - Big O", "REBBL - Gman", "REBBL - REL")
 
-get_league_data <- function(league_response) {
-  response_content <- content(league_response) 
-  
-  #Parse basic table information
-  league_games <- response_content %>% 
-    html_table %>% 
-    extract2(1) %>% # Get first html table in response
-    set_colnames(c("comp","round","h_coach","h_team","h_img","score","a_img","a_team","a_coach")) %>% 
-    separate(score,c("h_score","a_score")) %>% 
-    filter(a_coach != "Coach 2")
-  
-  if(nrow(league_games)==0) return(NULL) # No games, don't process further
-  
-  #Add uuids from the [data] attribute of html nodes
-  league_games$uuid <- response_content %>% 
-    html_nodes("[data]") %>% 
-    html_attr("data") %>% 
-    magrittr::extract(seq(1,length(.),by=10)) %>% # have the uuid listed 10 times per table row, so just take one
-    str_replace_all("^1[012]","") # strip initial 1<platform_code> from uuid so unrecorded games have ID = 0
-  
-  # add numeric ID for easy comparison and remove concedes (a_score is NA after above processing)
-  league_games %>% 
-    mutate(ID = strtoi(uuid, base = 16)) #%>% 
-  #filter(!is.na(a_score))
+get_contests <- function(league_name) {
+  api_contests(api_key, league_name, status = "played", limit = 2000)$upcoming_matches %>% 
+    map_dfr(
+      ~data.frame(uuid = .$match_uuid, id = .$match_id, round = .$round)
+      ) %>% 
+    filter(id > uuid_to_id(last_game))
 }
+
+matches <- map_dfr(leagues, get_contests)
+
+#load webhook info and API calls from file
+# load("api.Rda")
+# load("RFBBL_parameters.Rda")
+
+uuid_to_id <- function(uuid) {
+  if(is.na(uuid)) return(0)
+  uuid %>% str_sub(3) %>% as.hexmode() %>% as.integer()
+}
+
+id_to_uuid <- function(id, platform) {
+  pcode <- switch(platform,
+                  "pc" = "10",
+                  "ps4" = "11",
+                  "xb1" = "12"
+  )
+  
+  paste0(pcode, id %>% as.hexmode() %>% format(width = 8))
+}
+
+# get_league_data <- function(league_response) {
+#   response_content <- content(league_response) 
+#   
+#   #Parse basic table information
+#   league_games <- response_content %>% 
+#     html_table %>% 
+#     extract2(1) %>% # Get first html table in response
+#     set_colnames(c("comp","round","h_coach","h_team","h_img","score","a_img","a_team","a_coach")) %>% 
+#     separate(score,c("h_score","a_score")) %>% 
+#     filter(a_coach != "Coach 2")
+#   
+#   if(nrow(league_games)==0) return(NULL) # No games, don't process further
+#   
+#   #Add uuids from the [data] attribute of html nodes
+#   league_games$uuid <- response_content %>% 
+#     html_nodes("[data]") %>% 
+#     html_attr("data") %>% 
+#     magrittr::extract(seq(1,length(.),by=10)) %>% # have the uuid listed 10 times per table row, so just take one
+#     str_replace_all("^1[012]","") # strip initial 1<platform_code> from uuid so unrecorded games have ID = 0
+#   
+#   # add numeric ID for easy comparison and remove concedes (a_score is NA after above processing)
+#   league_games %>% 
+#     mutate(ID = strtoi(uuid, base = 16)) #%>% 
+#   #filter(!is.na(a_score))
+# }
 
 calc_FP <- function(player_result, own_race, own_team, opp_race, opp_team, round, uuid) {
   data_frame(
@@ -88,17 +116,17 @@ match_FP <- function(uuid, round) {
 }
 
 #Get data for leagues
-league_html_response <- map2(league_search_strings, platform, api_query)
+# league_html_response <- map2(league_search_strings, platform, api_query)
 
-league_data <- map(league_html_response, ~ map_df(.,get_league_data)) %>% bind_rows(.id = "League")
+# league_data <- map(league_html_response, ~ map_df(.,get_league_data)) %>% bind_rows(.id = "League")
 
-new_games <- league_data %>% filter(ID> strtoi(last_game, base=16))
+# new_games <- league_data %>% filter(ID> strtoi(last_game, base=16))
 
 #Calculate fantasy stats
 
-new_stats <- map2_df(new_games$uuid, new_games$round, match_FP)
+new_stats <- map2_df(matches$uuid, matches$round, match_FP)
 
 #Write new stats and update last recorded game
-write_csv(new_stats, "player_stats.csv", append = TRUE)
+write_csv(new_stats, "S8_player_stats.csv", append = TRUE)
 
-write_file(filter(league_data, ID == max(ID))$uuid,"last_game.uuid")
+write_file(filter(matches, id == max(id))$uuid,"last_game.uuid")
