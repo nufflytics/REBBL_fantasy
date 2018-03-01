@@ -10,6 +10,11 @@ api_key <- readRDS("api.key")
 last_game = read_file("last_game.uuid")
 leagues <- c("REBBL - Big O", "REBBL - Gman", "REBBL - REL")
 
+uuid_to_id <- function(uuid) {
+  if(is.na(uuid)) return(0)
+  uuid %>% str_sub(3) %>% as.hexmode() %>% as.integer()
+}
+
 get_contests <- function(league_name) {
   api_contests(api_key, league_name, status = "played", limit = 2000)$upcoming_matches %>% 
     map_dfr(
@@ -24,20 +29,6 @@ matches <- map_dfr(leagues, get_contests)
 # load("api.Rda")
 # load("RFBBL_parameters.Rda")
 
-uuid_to_id <- function(uuid) {
-  if(is.na(uuid)) return(0)
-  uuid %>% str_sub(3) %>% as.hexmode() %>% as.integer()
-}
-
-id_to_uuid <- function(id, platform) {
-  pcode <- switch(platform,
-                  "pc" = "10",
-                  "ps4" = "11",
-                  "xb1" = "12"
-  )
-  
-  paste0(pcode, id %>% as.hexmode() %>% format(width = 8))
-}
 
 # get_league_data <- function(league_response) {
 #   response_content <- content(league_response) 
