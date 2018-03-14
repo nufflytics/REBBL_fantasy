@@ -120,4 +120,6 @@ new_stats <- map2_df(matches$uuid, matches$round, match_FP)
 #Write new stats and update last recorded game
 write_csv(new_stats, "S8_player_stats.csv", append = TRUE)
 
-write_file(filter(matches, id == max(id))$uuid,"last_game.uuid")
+if(nrow(new_stats) > 0) {
+  write_file(filter(matches, id == max(id))$uuid,"last_game.uuid")
+  }
