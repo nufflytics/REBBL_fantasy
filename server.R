@@ -10,6 +10,7 @@ library(tidyverse)
 library(DT)
 library(lubridate)
 library(hrbrthemes)
+library(bcrypt)
 
 start_time = lubridate::dmy_hm("051017 0000", tz = "UTC")
 
@@ -21,6 +22,7 @@ theme_fantasy <- function() {
 shinyServer(function(input, output, session) {
   #Setup ------
   session$allowReconnect(TRUE)
+  coaches <- read_lines("data/coaches.txt")
   teams <- read_csv("data/fantasy_teams.csv") %>% mutate(Race = stringr::str_replace_all(Race, "_"," "))
   stats <- read_csv("data/S8_player_stats.csv") %>% filter(!Type %in% c("Star Player", "Unknown playertype"))
   costs <- read_csv("data/costs.csv")
@@ -30,6 +32,58 @@ shinyServer(function(input, output, session) {
   
   points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
   
+  #Login stuff ------
+  user = reactiveVal("")
+  pwd_err <- reactiveVal()
+  
+  output$username <- renderText(user())
+  output$pwd_err <- renderText(pwd_err())
+  observeEvent(input$login, {
+    if(user() != "") {
+      user("")
+      pwd_err(NULL)
+      updateActionButton(session, "login", icon = icon("user-o", class = "fa-lg fa-fw"))
+    } else {
+      showModal(modalDialog(
+        title = "Login",
+        selectizeInput("bb2_coach","BB2 coach name", choices = c("Select Coach" = "", coaches), multiple=F, selected = NA),
+        passwordInput("pwd", "Password"),
+        textOutput("pwd_err", inline=T),
+        footer = tagList(modalButton("Cancel", icon = icon("ban")),actionButton("login_btn", "Login", icon = icon("user")))
+      )) 
+    }
+  })
+  
+  observeEvent(input$login_btn, {
+    pwd_err(NULL)
+    coach <- isolate(input$bb2_coach)
+    pass <- isolate(input$pwd)
+    
+    check = read_csv("data/login.csv") %>% filter(user == coach) %>% .$pwd
+    
+    #new user
+    if(is_empty(check)) {
+      if(pass != "") {
+        d = data_frame(user = coach, pwd = bcrypt::hashpw(pass, gensalt(12)))
+        write_csv(d , "data/login.csv", append = T)
+        user(input$bb2_coach)
+        removeModal()
+      } else{
+        pwd_err("Please choose a password to create a team")
+      }
+    } else {
+      #check pwd
+      if(bcrypt::checkpw(input$pwd, check)) {
+        user(coach)
+        pwd_err(NULL)
+        removeModal()
+      } else {
+        updateTextInput(session, "pwd", value = "")
+        pwd_err("Incorrect password, please try again.")
+      }  
+    }
+    updateActionButton(session, "login", icon = icon(ifelse(user()=="","user-o","user"), class = "fa-lg fa-fw"))
+  })
   
   #General data -----
   gameweek = difftime(now("UTC"), start_time, units = "weeks") %>% ceiling()
@@ -58,14 +112,14 @@ shinyServer(function(input, output, session) {
   
   output$leaderboard <- DT::renderDataTable(
     DT::datatable(leaders,
-    options = list(
-      pageLength = 100,
-      dom = 't',
-      class = 'compact'
-    ),
-    rownames = FALSE,
-    selection = list(mode = "multiple", selected = 1:4)
-  ) %>% DT::formatRound(3)
+                  options = list(
+                    pageLength = 100,
+                    dom = 't',
+                    class = 'compact'
+                  ),
+                  rownames = FALSE,
+                  selection = list(mode = "multiple", selected = 1:4)
+    ) %>% DT::formatRound(3)
   )
   
   output$weekly_bars <- renderPlot({
@@ -131,16 +185,16 @@ shinyServer(function(input, output, session) {
   })
   output$team_summary <- DT::renderDataTable(
     DT::datatable(team_table(),
-    options = list(
-      pageLength = 100,
-      dom = 't',
-      class = 'compact'
-    ),
-    rownames = FALSE,
-    colnames = c(" " = "Special"),
-    escape = FALSE,
-    selection = "single"
-  ) %>% DT::formatRound(8)
+                  options = list(
+                    pageLength = 100,
+                    dom = 't',
+                    class = 'compact'
+                  ),
+                  rownames = FALSE,
+                  colnames = c(" " = "Special"),
+                  escape = FALSE,
+                  selection = "single"
+    ) %>% DT::formatRound(8)
   )
   
   
