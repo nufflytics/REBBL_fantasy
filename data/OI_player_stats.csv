@@ -1,0 +1,1191 @@
+match_uuid,league,comp,Round,Team,Race,Name,Type,Level,SPP_gain,playerID,Opponent,Opponent_Race,BLK,AVBr,KO,CAS,Kills,TD,Pass,Pass_m,Catch,Int,Carry_m,Surf,FP,old_injuries,new_injuries
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Unnrgrímr,Runner,1,8,25263191,X-Men in Tights,Nurgle,0,0,0,0,0,1,0,0,0,0,46,0,4,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Sigurôrveig,Berserker,1,0,25263176,X-Men in Tights,Nurgle,6,0,0,0,0,0,0,0,0,0,0,1,4,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Borit the Crazed,Berserker,1,0,25263189,X-Men in Tights,Nurgle,5,1,1,0,0,0,0,0,0,0,24,0,4,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Mördbera,Lineman,1,0,25263171,X-Men in Tights,Nurgle,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Grettir Gunnbiôrn,Lineman,1,0,25263170,X-Men in Tights,Nurgle,3,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Borit the Stout,Lineman,1,0,25263175,X-Men in Tights,Nurgle,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Ófeigr Kormák,Lineman,2,2,25263174,X-Men in Tights,Nurgle,8,3,0,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Rognvaldr Ulvarson,Ulfwerener,1,0,25898933,X-Men in Tights,Nurgle,8,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Ketillfiâr,Lineman,1,0,0,X-Men in Tights,Nurgle,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Úlfrdór,Lineman,1,0,25263173,X-Men in Tights,Nurgle,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,"Overpowered, Underdressed",Norse,Rakr Úlfhedinn,Ulfwerener,2,0,25263190,X-Men in Tights,Nurgle,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,A Longshot in the Dark,Rotter,1,5,25257994,"Overpowered, Underdressed",Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,Cluelessus,Beast Of Nurgle,2,0,25257985,"Overpowered, Underdressed",Nurgle,6,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,Banshee's Out of Control,Rotter,1,0,25257991,"Overpowered, Underdressed",Nurgle,2,0,0,0,0,0,0,0,0,0,0,1,3,BH,BH
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,Who's that Marvel Girl?,Nurgle Warrior,1,2,25257989,"Overpowered, Underdressed",Nurgle,4,2,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,Warlock of the Roses,Rotter,1,0,25257993,"Overpowered, Underdressed",Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,"Dude, where's my Darwin?",Rotter,1,0,25257995,"Overpowered, Underdressed",Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,Some Like it Sunspot,Pestigor,1,3,25753285,"Overpowered, Underdressed",Nurgle,6,2,0,0,0,1,0,0,0,0,40,0,7,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,Karl the Putrefier,Rotter,1,0,0,"Overpowered, Underdressed",Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,Teenwolverine,Pestigor,2,0,25257990,"Overpowered, Underdressed",Nurgle,11,0,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,Nightcrawler @ the Opera,Nurgle Warrior,1,0,25257987,"Overpowered, Underdressed",Nurgle,7,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bbba6,Greenhorn Cup,Game 9,1,X-Men in Tights,Nurgle,The Nutty Professor X,Nurgle Warrior,1,0,25257986,"Overpowered, Underdressed",Nurgle,11,0,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,Rocco,Saurus,1,5,25319912,Tiny Long Tailed Bears,Skaven,7,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,"Noah ""Il Duce""",Kroxigor,1,5,25319913,Tiny Long Tailed Bears,Skaven,12,6,2,1,1,1,0,0,0,0,6,0,15,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,Romeo,Skink,1,3,25319917,Tiny Long Tailed Bears,Skaven,0,0,0,0,0,1,0,0,0,0,26,0,4,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,Dolly,Skink,1,0,25319914,Tiny Long Tailed Bears,Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,Bloom,Skink,1,0,25319918,Tiny Long Tailed Bears,Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,Kuntsler,Skink,1,0,25319919,Tiny Long Tailed Bears,Skaven,0,0,0,0,0,0,0,0,0,0,6,0,1,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,Duffy,Skink,2,3,25319915,Tiny Long Tailed Bears,Skaven,0,0,0,0,0,1,0,0,0,0,38,0,4,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,Murphy,Saurus,1,0,25319911,Tiny Long Tailed Bears,Skaven,5,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,Smecker,Saurus,1,0,25319909,Tiny Long Tailed Bears,Skaven,5,3,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,Connor,Saurus,1,6,25319910,Tiny Long Tailed Bears,Skaven,8,7,2,3,0,0,0,0,0,0,0,0,11,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,The Boondock Skinks,Lizardmen,Greenly,Skink,1,0,25319920,Tiny Long Tailed Bears,Skaven,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Minhj,Thrower,1,5,25249154,The Boondock Skinks,Skaven,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Deecut,Lineman,1,2,25249151,The Boondock Skinks,Skaven,6,3,1,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Minintro Gnaw,Lineman,1,0,0,The Boondock Skinks,Skaven,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Jumbable Nibbler,Lineman,1,0,25249157,The Boondock Skinks,Skaven,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Knertk,Lineman,1,2,0,The Boondock Skinks,Skaven,3,2,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Corpych,Gutter Runner,2,0,25249153,The Boondock Skinks,Skaven,0,0,0,0,0,0,0,0,0,0,14,0,1,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Finyz,Lineman,1,0,25249155,The Boondock Skinks,Skaven,5,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Knerkch,Lineman,1,0,25249159,The Boondock Skinks,Skaven,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Deeit,Blitzer,1,0,25249148,The Boondock Skinks,Skaven,16,1,0,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Chirintro Gnaw,Lineman,1,0,25249156,The Boondock Skinks,Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,Dead
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Obsciik,Gutter Runner,1,0,25830200,The Boondock Skinks,Skaven,0,0,0,0,0,0,0,0,0,0,16,0,1,NA,NA
+10004bb7f3,Greenhorn Cup,Game 8,1,Tiny Long Tailed Bears,Skaven,Lashyk,Lineman,1,0,25249150,The Boondock Skinks,Skaven,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Gaten Mataratzzo,Gutter Runner,2,5,25133137,[REBBL] Brutalia,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Pwytk,Gutter Runner,2,0,25284790,[REBBL] Brutalia,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Gregg Skulkin,Lineman,1,0,25133143,[REBBL] Brutalia,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Churly Beaton,Rat Ogre,2,3,25133139,[REBBL] Brutalia,Dwarf,12,2,0,0,0,1,0,0,0,0,14,0,8,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Millie Probably Down,Gutter Runner,2,3,25133141,[REBBL] Brutalia,Dwarf,1,0,0,0,0,1,0,0,0,0,32,0,5,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Caleb McFallin,Gutter Runner,1,0,25133142,[REBBL] Brutalia,Dwarf,0,0,0,0,0,0,0,0,0,0,18,0,1,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,CPOMB Holland,Blitzer,2,0,25133136,[REBBL] Brutalia,Dwarf,8,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Natalia Die-er,Lineman,1,0,25133140,[REBBL] Brutalia,Dwarf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Hairy Styles,Blitzer,1,0,25133135,[REBBL] Brutalia,Dwarf,8,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Daftly Keening,Lineman,1,0,25133144,[REBBL] Brutalia,Dwarf,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Furrah Abraham,Lineman,1,2,25808261,[REBBL] Brutalia,Dwarf,3,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,Rats Against Teen Stars,Skaven,Billow Shields,Lineman,2,0,25133145,[REBBL] Brutalia,Dwarf,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Baylor il Maglio,Runner,1,5,25842490,Rats Against Teen Stars,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Burin,Blocker,1,2,25844206,Rats Against Teen Stars,Dwarf,4,2,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Ulysses RocciaDura,Blitzer,2,0,25103794,Rats Against Teen Stars,Dwarf,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Ekrund RunaNera,Runner,2,3,25103721,Rats Against Teen Stars,Dwarf,3,1,0,0,0,1,0,0,0,0,62,0,7,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Faldurn,Blocker,1,2,25103464,Rats Against Teen Stars,Dwarf,6,2,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Achilles Mazzanera,Blitzer,2,0,25246928,Rats Against Teen Stars,Dwarf,7,4,1,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Athos,Blocker,1,0,25103632,Rats Against Teen Stars,Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Dawi il Sanguinario,Troll Slayer,1,0,25103684,Rats Against Teen Stars,Dwarf,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Hrun il Rosso,Troll Slayer,1,0,25103561,Rats Against Teen Stars,Dwarf,7,3,2,0,0,0,0,0,0,0,0,0,6,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Svanstuka,Blocker,1,0,25103433,Rats Against Teen Stars,Dwarf,2,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb6f6,Greenhorn Cup,Game 6,1,[REBBL] Brutalia,Dwarf,Forgiarune,Blocker,1,0,25103465,Rats Against Teen Stars,Dwarf,6,4,0,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Small monkey parts,Linewoman,1,5,25233108,Infernal Rage,Chaos,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Blue Metal Guy,Thrower,2,0,25233027,Infernal Rage,Chaos,0,0,0,0,0,0,0,0,0,0,24,0,1,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Shiny Guy,Linewoman,1,0,25233109,Infernal Rage,Chaos,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Zack,Linewoman,1,2,25233106,Infernal Rage,Chaos,2,2,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Mystics,Blitzer,1,0,25233031,Infernal Rage,Chaos,7,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Three Good Fighters,Linewoman,1,0,25233107,Infernal Rage,Chaos,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Porkshorts,Catcher,1,0,26036515,Infernal Rage,Chaos,2,0,0,0,0,0,0,0,1,0,10,0,4,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Knight Dude,Linewoman,1,0,25233110,Infernal Rage,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Rumblebug Boy,Blitzer,1,1,25233030,Infernal Rage,Chaos,6,0,0,0,0,0,1,2,0,0,2,0,6,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,One Hundred Thirty,Blitzer,1,0,25233032,Infernal Rage,Chaos,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Cakenbake,Blitzer,2,0,25233029,Infernal Rage,Chaos,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,MNG
+10004babc8,Greenhorn Cup,Game 16,1,RaBBL Leader People,Amazon,Squaggles,Catcher,1,0,25233028,Infernal Rage,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,Pi'fagors,Beastman,2,5,25225668,RaBBL Leader People,Chaos,10,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,Brutesinew Grosspinch,Warrior,1,2,25225666,RaBBL Leader People,Chaos,6,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,Prick-mulgors,Beastman,2,3,25225673,RaBBL Leader People,Chaos,2,1,1,0,0,1,0,0,0,0,38,0,7,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,San-mulgor,Beastman,1,0,25225674,RaBBL Leader People,Chaos,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,Nyth Taos Luy'y,Warrior,1,0,25225667,RaBBL Leader People,Chaos,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,Spraly Muzzle,Beastman,2,2,25225669,RaBBL Leader People,Chaos,7,1,0,1,0,0,0,0,0,0,0,1,6,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,Tro'gors,Beastman,1,0,25225672,RaBBL Leader People,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,Gishfy Claw,Beastman,1,0,26038783,RaBBL Leader People,Chaos,4,0,0,0,0,0,0,0,0,0,0,1,3,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,Kah Taos Luy'y,Warrior,1,0,25225664,RaBBL Leader People,Chaos,7,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,Craer Fur,Beastman,1,3,25225670,RaBBL Leader People,Chaos,2,0,0,0,0,1,0,0,0,0,34,0,5,NA,NA
+10004babc8,Greenhorn Cup,Game 16,1,Infernal Rage,Chaos,Ghyran Kha Dhy,Warrior,1,0,25225665,RaBBL Leader People,Chaos,6,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Alyan Undomiel,Lineman,1,5,25143799,The Bonehead Bunch,Ogre,1,0,0,0,0,0,0,0,1,0,18,0,4,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Mátanefindir Faerondalan,Lineman,2,0,25143795,The Bonehead Bunch,Ogre,1,1,0,0,0,0,0,0,1,0,24,0,5,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Nimphenien Galonren,Catcher,2,2,25226288,The Bonehead Bunch,Ogre,2,1,0,1,0,0,0,0,0,0,2,0,4,NA,BH
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Tharranduil Elerdel,Blitzer,1,2,25143791,The Bonehead Bunch,Ogre,13,7,2,1,0,0,0,0,0,0,0,1,12,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Morimcan Noroeme,Thrower,2,1,25143789,The Bonehead Bunch,Ogre,0,0,0,0,0,0,1,4,0,0,24,0,4,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Thargolion Aldaren,Lineman,1,0,0,The Bonehead Bunch,Ogre,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Horthborn Gwavathar,Catcher,2,0,25226287,The Bonehead Bunch,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Verwarthil Kevatononel,Lineman,1,0,25143797,The Bonehead Bunch,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Lanlaithion Undomiel,Blitzer,1,1,25143790,The Bonehead Bunch,Ogre,4,1,1,0,0,0,1,4,0,0,14,0,7,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Arcaunar Taldilinryl,Lineman,1,0,25143794,The Bonehead Bunch,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,Bloody Mary Queens,High Elf,Eitimonion Elenelon,Lineman,1,0,25143796,The Bonehead Bunch,Ogre,1,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,Big Willy,Ogre,2,7,24851268,Bloody Mary Queens,Ogre,6,3,0,1,0,0,0,0,0,0,10,1,8,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,MeySea,Ogre,1,0,24851267,Bloody Mary Queens,Ogre,11,4,2,0,0,0,0,0,0,0,0,0,7,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,Roger,Gnoblar,1,0,24851274,Bloody Mary Queens,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,Bill,Gnoblar,1,0,24851272,Bloody Mary Queens,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,Wilfred,Gnoblar,1,0,24851273,Bloody Mary Queens,Ogre,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,Kelleme Mad,Gnoblar,1,0,0,Bloody Mary Queens,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,Big Dave,Ogre,1,2,24851266,Bloody Mary Queens,Ogre,9,3,1,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,Kevin,Gnoblar,1,0,24851275,Bloody Mary Queens,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,Geb Gormless,Ogre,1,0,24851265,Bloody Mary Queens,Ogre,8,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,Bob,Gnoblar,2,0,24851271,Bloody Mary Queens,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba8f8,Greenhorn Cup,Game 19,1,The Bonehead Bunch,Ogre,John,Gnoblar,1,0,24851269,Bloody Mary Queens,Ogre,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,Tricia Aqhyah Ugu'y,Warrior,1,5,25227818,Az-Karak Axegrinders,Dwarf,3,1,0,0,0,0,0,0,0,0,6,0,3,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,San'tigor,Beastman,1,0,25227813,Az-Karak Axegrinders,Dwarf,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,Dhaos Coldrotten,Warrior,1,0,25227820,Az-Karak Axegrinders,Dwarf,7,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,Yel'mulgors,Beastman,1,2,25227812,Az-Karak Axegrinders,Dwarf,2,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,Clawichor Vilemucus,Warrior,1,0,25227819,Az-Karak Axegrinders,Dwarf,9,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,Phaos Kha Dhy,Warrior,1,0,25227817,Az-Karak Axegrinders,Dwarf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,Spra-gors,Beastman,1,0,25227810,Az-Karak Axegrinders,Dwarf,1,0,0,0,0,0,0,0,1,0,12,0,4,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,Bristigor,Beastman,1,0,25227811,Az-Karak Axegrinders,Dwarf,3,0,0,0,0,0,0,0,0,0,12,0,2,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,Tratigor,Beastman,2,0,25692419,Az-Karak Axegrinders,Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,Farg Paw,Beastman,1,4,25227815,Az-Karak Axegrinders,Dwarf,0,0,0,0,0,1,1,6,0,0,54,0,8,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Calm Warriors,Chaos,Waley Tail,Beastman,1,0,25227816,Az-Karak Axegrinders,Dwarf,7,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Thorag Nosebiter,Troll Slayer,1,7,25212359,Calm Warriors,Dwarf,4,1,0,1,0,0,0,0,0,0,0,0,3,NA,BH
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Forri Facecracker,Blocker,2,0,25212369,Calm Warriors,Dwarf,6,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Huln Headbutter,Blocker,1,0,25212368,Calm Warriors,Dwarf,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Classic Larry,Runner,1,1,25212364,Calm Warriors,Dwarf,1,0,0,0,0,0,1,4,0,0,44,0,5,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Mad-Eyes Mulligan,Runner,2,3,25212363,Calm Warriors,Dwarf,2,0,0,0,0,1,0,0,1,0,40,0,7,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Surly Sully,Blitzer,1,0,25212362,Calm Warriors,Dwarf,7,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Vallak,Blocker,1,0,0,Calm Warriors,Dwarf,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Sudsy Alechugger,Blocker,1,0,25212365,Calm Warriors,Dwarf,9,3,1,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Savage Randy,Blocker,1,2,25212367,Calm Warriors,Dwarf,6,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Ol' Ironeye,Blitzer,2,0,25212361,Calm Warriors,Dwarf,5,3,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba88a,Greenhorn Cup,Game 11,1,Az-Karak Axegrinders,Dwarf,Gnari Kneecapper,Troll Slayer,1,0,25212360,Calm Warriors,Dwarf,11,1,0,0,0,0,0,0,0,0,0,1,6,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Horse 2,Lineman,1,5,25453513,Morkz Mashaz,Orc,4,0,0,0,0,0,0,0,0,0,10,0,2,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Horse 4,Lineman,1,0,25453515,Morkz Mashaz,Orc,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,-AV
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Horse 5,Lineman,1,0,25800781,Morkz Mashaz,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Horse 1,Lineman,1,0,25453512,Morkz Mashaz,Orc,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Jeff,Blocker,1,0,25453509,Morkz Mashaz,Orc,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Horse 3,Lineman,1,0,25453514,Morkz Mashaz,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Thomas,Blocker,1,0,25453510,Morkz Mashaz,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,King Arthur,Blitzer,2,3,25453507,Morkz Mashaz,Orc,2,0,0,0,0,1,0,0,0,0,26,0,5,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Brave Sir Robin,Blitzer,2,0,25453505,Morkz Mashaz,Orc,8,3,1,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Glenn,Blocker,1,0,25453511,Morkz Mashaz,Orc,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Lancelot,Blitzer,1,3,25453506,Morkz Mashaz,Orc,4,1,0,0,0,1,0,0,0,0,40,0,6,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Knights Saying Ni,Brettonian,Dave,Blocker,2,2,25453508,Morkz Mashaz,Orc,1,1,0,1,0,0,0,0,0,0,0,0,3,NA,BH
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Gramdar,Thrower,2,5,25260509,Knights Saying Ni,Orc,0,0,0,0,0,0,0,0,0,0,36,0,1,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Braduk Break'Nub,Black Orc Blocker,1,0,25260502,Knights Saying Ni,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Azhag Smash'Throat,Black Orc Blocker,1,0,25260501,Knights Saying Ni,Orc,7,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Rakth,Blitzer,2,0,25260507,Knights Saying Ni,Orc,10,2,1,0,0,0,0,0,0,0,0,1,6,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Gutrad,Lineman,1,0,25260510,Knights Saying Ni,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Moghor,Blitzer,1,0,25260505,Knights Saying Ni,Orc,11,1,0,0,0,0,0,0,0,0,24,0,5,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Gluru,Blitzer,1,0,25260508,Knights Saying Ni,Orc,7,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Marfang,Lineman,1,0,25260511,Knights Saying Ni,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Grubak Break'Zeye,Black Orc Blocker,1,2,25260504,Knights Saying Ni,Orc,2,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Grogfak Break'Burn,Black Orc Blocker,1,2,25260503,Knights Saying Ni,Orc,4,1,0,1,0,0,0,0,0,0,0,0,3,NA,MNG
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Tralor,Lineman,1,0,25874503,Knights Saying Ni,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba597,Greenhorn Cup,Game 18,1,Morkz Mashaz,Orc,Tukak,Blitzer,1,2,25260506,Knights Saying Ni,Orc,4,2,1,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Gerhart Urquhart,Lineman,1,7,25244850,Bouner Boys,Khemri,2,1,0,1,1,0,0,0,0,0,0,0,5,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Borgrut Silent,Ogre,1,0,25244842,Bouner Boys,Khemri,9,3,1,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Detlef Farren,Lineman,1,0,0,Bouner Boys,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Viscount Hamlyn,Lineman,1,0,25244849,Bouner Boys,Khemri,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Stefan Fleisch,Blitzer,2,2,25244845,Bouner Boys,Khemri,9,2,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Captain Eagle-Eye,Thrower,1,3,25673182,Bouner Boys,Khemri,3,2,0,1,0,0,1,6,0,0,0,0,6,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Seneschal Leopold,Lineman,1,0,25244851,Bouner Boys,Khemri,3,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Bertolf Meinard,Catcher,2,0,25244848,Bouner Boys,Khemri,0,0,0,0,0,0,0,0,1,0,36,0,3,NA,BH
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Edwin Dalrymple,Lineman,1,0,25898743,Bouner Boys,Khemri,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Baldric Fentleberry,Lineman,1,0,0,Bouner Boys,Khemri,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba4dd,Greenhorn Cup,Game 10,1,Axe and the Crow United,Human,Gunther Bosch,Lineman,1,3,25244852,Bouner Boys,Khemri,4,1,0,0,0,1,0,0,0,0,20,0,6,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Purple Homewrecker,Tomb Guardian,1,5,25148369,Axe and the Crow United,Khemri,7,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,One Eyed Snake,Tomb Guardian,1,0,25148370,Axe and the Crow United,Khemri,8,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Bald Avenger,Blitz Ra,1,0,25339554,Axe and the Crow United,Khemri,6,1,1,0,0,0,0,0,0,0,34,1,7,NA,MNG
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Wood,Skeleton,1,0,25148471,Axe and the Crow United,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Belly Stick,Skeleton,1,0,25644344,Axe and the Crow United,Khemri,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Morning Glory,Tomb Guardian,1,0,25148395,Axe and the Crow United,Khemri,7,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Custard Slinger,Thro Ra,2,0,25148409,Axe and the Crow United,Khemri,4,0,0,0,0,0,0,0,0,0,24,0,2,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Man's Best Friend,Skeleton,1,0,25148467,Axe and the Crow United,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,Dead
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Blue Steel,Blitz Ra,2,0,25148466,Axe and the Crow United,Khemri,8,0,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Ding-Dong,Skeleton,1,0,25148468,Axe and the Crow United,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Full Salute,Tomb Guardian,2,4,25148396,Axe and the Crow United,Khemri,13,5,2,2,0,0,0,0,0,0,0,1,12,NA,NA
+10004ba4dd,Greenhorn Cup,Game 10,1,Bouner Boys,Khemri,Bud,Skeleton,1,0,25148470,Axe and the Crow United,Khemri,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,Barnaby Rudge,Hobgoblin,2,6,25251754,Mahrak Marauders,Khemri,2,0,0,0,0,0,1,4,1,0,30,0,7,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,Smux Brainstink,Hobgoblin,1,0,0,Mahrak Marauders,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,"Billy ""Brown Bread""",Bull Centaur,2,2,25251756,Mahrak Marauders,Khemri,9,4,1,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,Peckham Rye,Blocker,2,0,25251758,Mahrak Marauders,Khemri,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,Jimmy Riddle,Blocker,1,0,25251760,Mahrak Marauders,Khemri,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,Sweeney Todd,Blocker,1,0,25251762,Mahrak Marauders,Khemri,9,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,Chalfont St. Giles,Hobgoblin,1,1,25251755,Mahrak Marauders,Khemri,1,2,0,0,0,0,1,4,1,0,0,0,7,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,Mickey Bliss,Blocker,1,0,25251759,Mahrak Marauders,Khemri,7,3,0,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,Barney Rubble,Bull Centaur,2,0,25251757,Mahrak Marauders,Khemri,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,Ruby Murray,Blocker,1,0,25251761,Mahrak Marauders,Khemri,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,East End Geezers,Chaos Dwarf,Alan Whickers,Blocker,2,0,25251763,Mahrak Marauders,Khemri,5,3,1,0,0,0,0,0,0,0,0,0,4,NA,BH
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Geheb,Tomb Guardian,1,5,24900297,East End Geezers,Khemri,7,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Ualatep,Skeleton,1,2,24900494,East End Geezers,Khemri,3,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Usirian,Tomb Guardian,1,0,24900298,East End Geezers,Khemri,4,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Apheb Iumut,Skeleton,1,0,0,East End Geezers,Khemri,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Ptra,Tomb Guardian,1,0,24900296,East End Geezers,Khemri,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Phakth,Blitz Ra,1,0,24900301,East End Geezers,Khemri,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Khsar,Tomb Guardian,2,2,24900299,East End Geezers,Khemri,12,3,1,1,0,0,0,0,0,0,0,0,7,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Qu'aph,Thro Ra,2,0,25369311,East End Geezers,Khemri,3,2,0,0,0,0,0,0,0,0,36,0,3,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Nefmat Apoto,Skeleton,1,0,0,East End Geezers,Khemri,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Djaf,Blitz Ra,1,4,24900300,East End Geezers,Khemri,3,0,0,0,0,1,1,4,0,0,10,0,8,NA,NA
+10004ba3a0,Greenhorn Cup,Game 2,1,Mahrak Marauders,Khemri,Amunis Maaor,Skeleton,1,0,0,East End Geezers,Khemri,2,0,0,0,0,0,0,0,1,0,12,0,4,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,Croc Pool,Saurus,2,5,25228e3,Gods Of Fate,High Elf,8,2,0,0,0,0,0,0,0,0,30,0,4,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,The Hulk,Saurus,2,0,25227999,Gods Of Fate,High Elf,7,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,Black Panther,Skink,1,0,25990488,Gods Of Fate,High Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,Thanos is your Daddy,Kroxigor,1,4,25227995,Gods Of Fate,High Elf,10,3,0,2,1,0,0,0,0,0,0,0,8,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,Dr. Weird,Saurus,1,0,25228001,Gods Of Fate,High Elf,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,Wolvercroc,Saurus,2,0,25227998,Gods Of Fate,High Elf,8,3,0,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,Ant-Man,Skink,1,0,25228005,Gods Of Fate,High Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,Black Widow,Skink,3,0,25228003,Gods Of Fate,High Elf,1,0,0,0,0,0,0,0,0,0,16,0,2,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,Spider Lizard,Skink,1,0,25228002,Gods Of Fate,High Elf,0,0,0,0,0,0,0,0,0,0,32,0,1,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,Captain Iron Croc,Saurus,1,0,25302781,Gods Of Fate,High Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b9e22,Greenhorn Cup,Game 7,1,Train of Pain,Lizardmen,God of Binge Eating,Saurus,1,2,25227997,Gods Of Fate,High Elf,6,1,0,1,0,0,0,0,0,0,0,1,6,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,Lady Luck,Blitzer,2,7,25149998,Train of Pain,High Elf,6,3,1,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,Skuld,Lineman,1,0,25150006,Train of Pain,High Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,Fortuna,Catcher,2,0,2515e4,Train of Pain,High Elf,0,0,0,0,0,0,0,0,1,0,42,0,3,NA,BH
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,Verdandi,Lineman,1,0,25150007,Train of Pain,High Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,Clotho,Lineman,1,0,25150002,Train of Pain,High Elf,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,Lachesis,Lineman,1,0,25150004,Train of Pain,High Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,Laima,Catcher,1,0,25150001,Train of Pain,High Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,Atropos,Lineman,1,0,25150003,Train of Pain,High Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,-MA,Dead
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,Urdr,Lineman,1,0,25150005,Train of Pain,High Elf,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,Fate,Thrower,2,1,25149997,Train of Pain,High Elf,2,0,0,0,0,0,1,6,0,0,52,0,6,NA,NA
+10004b9e22,Greenhorn Cup,Game 7,1,Gods Of Fate,High Elf,The Lady,Blitzer,2,4,25149999,Train of Pain,High Elf,8,4,0,2,0,0,0,0,0,0,0,0,6,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Lord Doggo,Nurgle Warrior,1,7,25188377,A Few Ornery Onanists,Elven Union,10,2,0,1,1,0,0,0,0,0,0,0,6,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Modiflut,Rotter,1,0,25640840,A Few Ornery Onanists,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Lifestolen,Pestigor,2,3,25188378,A Few Ornery Onanists,Elven Union,2,0,0,0,0,1,0,0,0,0,76,0,6,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Karl,Rotter,1,0,25188383,A Few Ornery Onanists,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Leslutch,Rotter,1,0,25640841,A Few Ornery Onanists,Elven Union,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Matthias,Rotter,1,0,25188382,A Few Ornery Onanists,Elven Union,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Reyan the Distateful,Rotter,1,0,0,A Few Ornery Onanists,Elven Union,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Undying,Nurgle Warrior,2,2,25188375,A Few Ornery Onanists,Elven Union,8,2,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,George,Beast Of Nurgle,2,0,25188373,A Few Ornery Onanists,Elven Union,3,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Dirge,Nurgle Warrior,1,2,25188374,A Few Ornery Onanists,Elven Union,7,3,1,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Dying,Nurgle Warrior,2,0,25188376,A Few Ornery Onanists,Elven Union,9,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,Ye Olde Guard,Nurgle,Nibennefindal Larentholial,Rotter,1,0,0,A Few Ornery Onanists,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,William Wormcharmer,Lineman,1,5,25136267,Ye Olde Guard,Elven Union,0,0,0,0,0,0,0,0,1,0,0,0,2,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,Blake Bashingcandle,Blitzer,1,0,25136276,Ye Olde Guard,Elven Union,5,1,0,0,0,0,0,0,0,0,4,0,3,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,Overgalad Cromelwa,Lineman,1,0,25876208,Ye Olde Guard,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,Alister Spankmeister,Lineman,1,0,25136270,Ye Olde Guard,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,Oscar Snakecharmer,Catcher,2,0,25768110,Ye Olde Guard,Elven Union,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,Dunstan Dolphinflogger,Blitzer,1,0,25136277,Ye Olde Guard,Elven Union,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,Liam Lovesock,Lineman,1,0,25136272,Ye Olde Guard,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,Sterling Stains,Lineman,1,0,25136271,Ye Olde Guard,Elven Union,0,0,0,0,0,0,0,0,0,0,12,0,1,NA,NA
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,Nibennefindal Larentholial,Lineman,1,0,0,Ye Olde Guard,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,Dead
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,Henry Hornhonker,Lineman,1,3,25136269,Ye Olde Guard,Elven Union,3,1,0,0,0,1,0,0,0,0,14,0,6,NA,MNG
+10004b8f5d,Greenhorn Cup,Game 17,1,A Few Ornery Onanists,Elven Union,Tarquin Tosser,Thrower,2,1,25136275,Ye Olde Guard,Elven Union,1,0,0,0,0,0,1,4,0,0,18,0,5,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Bodhi,Thrower,2,5,25215102,Gorkacidal Tendencies,Orc,2,0,0,0,0,0,0,0,0,0,48,0,2,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Koby,Black Orc Blocker,2,2,25191326,Gorkacidal Tendencies,Orc,11,2,0,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Andy,Blitzer,1,3,25191283,Gorkacidal Tendencies,Orc,3,1,0,0,0,1,0,0,0,0,14,0,6,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Kai,Lineman,1,0,25191332,Gorkacidal Tendencies,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Steve,Blitzer,1,0,25191280,Gorkacidal Tendencies,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Allan,Blitzer,1,0,25191281,Gorkacidal Tendencies,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Midge,Lineman,1,2,25788150,Gorkacidal Tendencies,Orc,1,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Mikey,Blitzer,1,0,25191282,Gorkacidal Tendencies,Orc,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Shay,Black Orc Blocker,1,0,25191327,Gorkacidal Tendencies,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Zane,Lineman,1,0,25191333,Gorkacidal Tendencies,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Roy,Black Orc Blocker,1,0,25191328,Gorkacidal Tendencies,Orc,8,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Da Kahoonaz,Orc,Taj,Black Orc Blocker,2,0,25191330,Gorkacidal Tendencies,Orc,11,4,1,0,0,0,0,0,0,0,0,0,6,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,Big Mac McNaughty,Lineman,1,5,24858885,Da Kahoonaz,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,Tony Playz Poor,Blitzer,2,2,24858836,Da Kahoonaz,Orc,14,3,1,1,0,0,0,0,0,0,0,0,7,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,Chubz Stepz,Lineman,1,0,24858884,Da Kahoonaz,Orc,0,1,1,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,Piyro ,Black Orc Blocker,1,0,24858837,Da Kahoonaz,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,HelGnz,Black Orc Blocker,1,0,24858838,Da Kahoonaz,Orc,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,Umbrella Hatz,Blitzer,2,0,24858834,Da Kahoonaz,Orc,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,Sudo-Nom-nom,Lineman,1,0,24858840,Da Kahoonaz,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,Bucket Bonga,Blitzer,1,0,24858835,Da Kahoonaz,Orc,3,0,0,0,0,0,0,0,0,0,4,0,2,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,Lyracianz da Lump,Troll,1,0,25842688,Da Kahoonaz,Orc,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,Aratark Five-Teef,Blitzer,1,3,24858833,Da Kahoonaz,Orc,3,0,0,0,0,1,0,0,0,0,54,0,6,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,B.F.O. Watrix,Black Orc Blocker,1,0,24858839,Da Kahoonaz,Orc,7,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8d0c,Greenhorn Cup,Game 3,1,Gorkacidal Tendencies,Orc,Kill Joyz,Black Orc Blocker,1,2,24858832,Da Kahoonaz,Orc,7,1,0,1,0,0,0,0,0,0,0,0,4,NA,BH
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Reagansmash,Lineman,1,5,25251641,All Rats must DIE,Skaven,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Crystal Hunter,Lineman,1,0,25251640,All Rats must DIE,Skaven,1,0,0,0,0,0,0,0,0,0,0,1,3,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Sugary Chip,Blitzer,2,0,25251634,All Rats must DIE,Skaven,7,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Belja,Runner,2,0,25251638,All Rats must DIE,Skaven,1,0,0,0,0,0,0,0,1,0,0,0,3,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Pedro Jack,Lineman,2,0,25251642,All Rats must DIE,Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Baby Emma,Witch Elf,1,6,25785673,All Rats must DIE,Skaven,4,1,0,1,0,1,1,2,1,0,22,0,12,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Yorkshire Kiwi,Lineman,1,2,25251644,All Rats must DIE,Skaven,1,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Puppi,Lineman,1,0,25251639,All Rats must DIE,Skaven,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Faker,Blitzer,2,6,25251637,All Rats must DIE,Skaven,5,0,0,0,0,2,0,0,1,0,24,0,10,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Rama Set,Blitzer,2,1,25251636,All Rats must DIE,Skaven,5,1,1,0,0,0,1,4,0,0,22,0,7,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,Deadly  Nightshade,Dark Elf,Chub Step,Blitzer,2,1,25251635,All Rats must DIE,Skaven,7,2,1,0,0,0,1,6,0,0,26,0,8,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Yvienne,Lineman,1,5,25229315,Deadly  Nightshade,Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Undertaker,Rat Ogre,1,0,25224879,Deadly  Nightshade,Skaven,16,3,1,0,0,0,0,0,0,0,0,0,7,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Bought Witness,Gutter Runner,3,4,25224884,Deadly  Nightshade,Skaven,0,0,0,0,0,1,1,4,0,0,72,0,8,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Executioner,Blitzer,1,0,25224881,Deadly  Nightshade,Skaven,14,1,0,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Bloodthirsty Witness,Gutter Runner,1,3,25224883,Deadly  Nightshade,Skaven,0,0,0,0,0,1,0,0,1,0,100,0,7,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Elyot,Lineman,1,0,25229313,Deadly  Nightshade,Skaven,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Sarah,Lineman,1,0,25229312,Deadly  Nightshade,Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Lying Witness,Gutter Runner,2,0,25224882,Deadly  Nightshade,Skaven,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Scared Witness,Gutter Runner,1,0,25928840,Deadly  Nightshade,Skaven,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Lariatte,Lineman,2,0,25229314,Deadly  Nightshade,Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8bff,Greenhorn Cup,Game 1,1,All Rats must DIE,Skaven,Judge,Blitzer,1,2,25224880,Deadly  Nightshade,Skaven,8,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,Leonardo Da Vinci,Wardancer,2,5,25416936,Sugar n' Spikes,Orc,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,Aëthyrd,Lineman,1,0,0,Sugar n' Spikes,Orc,5,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,Karl Marx,Catcher,2,0,25416938,Sugar n' Spikes,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,Elon Musk,Wardancer,2,0,25416935,Sugar n' Spikes,Orc,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,Albert Einstein,Catcher,2,0,25416940,Sugar n' Spikes,Orc,1,0,0,0,0,0,0,0,1,0,20,0,4,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,Platon,Lineman,2,0,25416943,Sugar n' Spikes,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,Alan Turing,Lineman,1,2,25416942,Sugar n' Spikes,Orc,1,1,0,1,0,0,0,0,0,0,0,0,3,NA,BH
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,The Toothfairy,Treeman,1,2,25416934,Sugar n' Spikes,Orc,3,1,0,1,1,0,0,0,0,0,0,0,5,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,Jules Verne,Catcher,1,0,25416939,Sugar n' Spikes,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,Marie Curie,Lineman,1,0,25416941,Sugar n' Spikes,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b7735,Greenhorn Cup,Game 5,1,Ad Astra!,Wood Elf,Nikola Tesla,Thrower,2,1,25416937,Sugar n' Spikes,Orc,4,0,0,0,0,0,1,2,0,0,26,0,5,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Mint,Black Orc Blocker,1,5,25178083,Ad Astra!,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Parsley,Blitzer,1,0,25178079,Ad Astra!,Orc,1,0,0,0,0,0,0,0,0,0,10,0,2,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Rosemary,Blitzer,1,3,25178081,Ad Astra!,Orc,3,1,0,0,0,1,0,0,0,0,34,0,6,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Thyme,Blitzer,2,4,25178082,Ad Astra!,Orc,12,8,3,2,0,0,0,0,0,0,0,0,12,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Sage,Blitzer,1,0,25178080,Ad Astra!,Orc,3,0,0,0,0,0,0,0,0,0,2,0,2,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Cardamom,Lineman,1,0,25178088,Ad Astra!,Orc,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Ginger,Black Orc Blocker,1,0,25178085,Ad Astra!,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Cinamon,Black Orc Blocker,1,0,25178084,Ad Astra!,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Saffron,Thrower,1,0,25178087,Ad Astra!,Orc,6,2,2,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Caraway,Lineman,2,0,25178089,Ad Astra!,Orc,1,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7735,Greenhorn Cup,Game 5,1,Sugar n' Spikes,Orc,Nutmeg,Black Orc Blocker,1,0,25178086,Ad Astra!,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,Dead
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Martin Naughtyman,Lineman,2,6,25267795,Chosen of Papa Nurgle,Nurgle,1,0,0,0,0,0,1,6,0,0,8,0,5,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Bennebacht Cumberdich,Blitzer,2,0,25267798,Chosen of Papa Nurgle,Nurgle,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Hugh Lineman,Lineman,1,0,25267925,Chosen of Papa Nurgle,Nurgle,3,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Kennedict Bumbaclart,Lineman,1,0,25247760,Chosen of Papa Nurgle,Nurgle,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Man Jackhugh,Lineman,1,0,25267954,Chosen of Papa Nurgle,Nurgle,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Corn Seannery,Blitzer,2,0,25267785,Chosen of Papa Nurgle,Nurgle,8,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Jack Hughman,Blitzer,1,0,25213719,Chosen of Papa Nurgle,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Jennebacht Fumblecatch,Catcher,2,0,25267813,Chosen of Papa Nurgle,Nurgle,0,0,0,0,0,0,0,0,2,0,18,0,5,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Huge Jackedman,Ogre,1,4,25247759,Chosen of Papa Nurgle,Nurgle,10,4,0,2,0,0,0,0,0,0,0,0,6,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Hughmanjack Batchercum,Thrower,1,1,25267675,Chosen of Papa Nurgle,Nurgle,2,1,0,0,0,0,1,6,0,0,8,0,6,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Regular Rovers,Human,Benedict Fannypack,Blitzer,1,0,25267878,Chosen of Papa Nurgle,Nurgle,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Sildar the Sanguine,Nurgle Warrior,1,5,25658752,Regular Rovers,Nurgle,9,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Ansel von Carstein ,Rotter,1,0,25358763,Regular Rovers,Nurgle,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Toxic Terry,Rotter,1,0,25044345,Regular Rovers,Nurgle,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Handsome Harry,Rotter,1,2,25044423,Regular Rovers,Nurgle,3,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Felix,Beast Of Nurgle,1,0,25044341,Regular Rovers,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Depression-gor,Pestigor,2,6,25044335,Regular Rovers,Nurgle,5,2,2,0,0,2,0,0,0,0,102,0,13,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Dangerous Dave,Rotter,1,0,25044452,Regular Rovers,Nurgle,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Narcoleptic Nick,Rotter,1,0,25044347,Regular Rovers,Nurgle,1,0,0,0,0,0,0,0,1,0,0,0,3,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Lazy Larry,Rotter,1,0,25044785,Regular Rovers,Nurgle,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Zhuge Liang,Rotter,1,0,25772885,Regular Rovers,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Pherbon the Persuasive,Nurgle Warrior,1,2,25044159,Regular Rovers,Nurgle,12,2,0,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Melkor the Magnificent,Nurgle Warrior,2,0,25044131,Regular Rovers,Nurgle,4,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7426,Greenhorn Cup,Game 12,1,Chosen of Papa Nurgle,Nurgle,Vogorak the Victorious,Nurgle Warrior,1,1,25044162,Regular Rovers,Nurgle,3,0,0,0,0,0,1,4,0,0,0,0,4,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,Frank the Tank,Flesh Golem,1,7,25276603,Bilboko Bastarditos,Dark Elf,5,3,1,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,Stevie Wolfie,Zombie,1,0,25276610,Bilboko Bastarditos,Dark Elf,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,The Brown Streak,Ghoul,1,0,25276612,Bilboko Bastarditos,Dark Elf,3,2,1,0,0,0,0,0,1,0,14,0,6,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,Mick the Prick,Zombie,1,0,25276611,Bilboko Bastarditos,Dark Elf,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,The Cavalry,Zombie,1,0,25276614,Bilboko Bastarditos,Dark Elf,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,A Random Workie,Zombie,1,0,25276608,Bilboko Bastarditos,Dark Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,Tim the Tim,Zombie,1,0,25276607,Bilboko Bastarditos,Dark Elf,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,Swedge,Wight,1,2,25276606,Bilboko Bastarditos,Dark Elf,9,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,Steakbake,Zombie,1,0,25276609,Bilboko Bastarditos,Dark Elf,3,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,Spud,Ghoul,1,1,25276613,Bilboko Bastarditos,Dark Elf,1,1,0,0,0,0,1,4,0,0,16,0,6,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,Ravey Davey,Wight,3,0,25276605,Bilboko Bastarditos,Dark Elf,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Burnside Boogeymen,Necromantic,Mad Gerry,Werewolf,1,0,25276604,Bilboko Bastarditos,Dark Elf,12,5,0,0,0,0,0,0,0,0,0,0,6,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Éldelbar,Lineman,2,5,24917351,Burnside Boogeymen,Dark Elf,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Éldelgas,Lineman,1,0,24917353,Burnside Boogeymen,Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Éldelkas,Lineman,2,0,24917352,Burnside Boogeymen,Dark Elf,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Kenny,Lineman,1,1,24917356,Burnside Boogeymen,Dark Elf,1,0,0,0,0,0,1,4,1,0,20,0,7,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Errol,Blitzer,2,0,24917350,Burnside Boogeymen,Dark Elf,5,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Éldelpan,Lineman,1,0,24917354,Burnside Boogeymen,Dark Elf,3,1,1,0,0,0,0,0,0,0,0,0,3,NA,BH
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Venger,Blitzer,1,2,24917349,Burnside Boogeymen,Dark Elf,5,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Naila,Witch Elf,1,3,25816623,Burnside Boogeymen,Dark Elf,4,0,0,0,0,1,0,0,1,0,6,0,7,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Nivers,Runner,1,1,24917346,Burnside Boogeymen,Dark Elf,0,0,0,0,0,0,1,4,0,0,6,0,4,NA,NA
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Éldeltang,Lineman,1,0,24917355,Burnside Boogeymen,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,Niggle,BH
+10004b73e9,Greenhorn Cup,Game 13,1,Bilboko Bastarditos,Dark Elf,Dwar,Blitzer,2,4,24917348,Burnside Boogeymen,Dark Elf,2,0,0,0,0,1,1,8,1,0,60,0,11,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Just Another One,Rotter,1,5,25159098,Neverlive,Undead,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,the Sage,Beast Of Nurgle,1,0,25159097,Neverlive,Undead,6,4,1,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Sinister Dexter,Pestigor,1,0,25946345,Neverlive,Undead,1,0,0,0,0,0,0,0,0,0,30,0,2,NA,Dead
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Nothing Special,Rotter,1,0,25159099,Neverlive,Undead,4,1,0,0,0,0,0,0,0,0,0,1,4,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Sandune,Nurgle Warrior,2,2,25159095,Neverlive,Undead,12,4,0,1,1,0,0,0,0,0,0,0,8,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Horney Cricket,Nurgle Warrior,1,0,25159092,Neverlive,Undead,6,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Frat Boy #9001,Rotter,1,0,25159102,Neverlive,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Ornan,Pestigor,2,0,25159096,Neverlive,Undead,9,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Cry'mulgor,Rotter,1,0,25443683,Neverlive,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Just One of the Guys,Rotter,1,0,25159101,Neverlive,Undead,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Luminous,Nurgle Warrior,1,0,25159094,Neverlive,Undead,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,The Rowdy REBBL Rousers,Nurgle,Horney Necro Cricket,Nurgle Warrior,1,0,25159093,Neverlive,Undead,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,Bodie,Zombie,1,5,25257832,The Rowdy REBBL Rousers,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,Lu Bu,Mummy,1,2,25257781,The Rowdy REBBL Rousers,Undead,10,5,2,1,1,0,0,0,0,0,0,0,10,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,Zhang Fei,Mummy,1,0,25257782,The Rowdy REBBL Rousers,Undead,7,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,Liu Bei,Ghoul,3,3,25257784,The Rowdy REBBL Rousers,Undead,7,2,0,0,0,1,0,0,0,0,38,0,7,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,"Lars ""Lightweight"" Lykke",Zombie,1,0,25354142,The Rowdy REBBL Rousers,Undead,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,Vicious Nilla,Zombie,1,0,25257809,The Rowdy REBBL Rousers,Undead,2,0,0,0,0,0,0,0,0,0,0,0,1,-MA,Dead
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,Ferro,Zombie,1,0,25257808,The Rowdy REBBL Rousers,Undead,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,Cao Cao,Wight,2,0,25257779,The Rowdy REBBL Rousers,Undead,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,Zhuge Jin,Ghoul,1,3,25927557,The Rowdy REBBL Rousers,Undead,2,0,0,0,0,1,0,0,0,0,78,0,6,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,All Apple Pies,Zombie,1,0,25257747,The Rowdy REBBL Rousers,Undead,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,Guan Yu,Wight,1,0,25131157,The Rowdy REBBL Rousers,Undead,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7151,Greenhorn Cup,Game 14,1,Neverlive,Undead,Zhang Liao,Ghoul,1,0,25131159,The Rowdy REBBL Rousers,Undead,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Bardida the Awaker,Blitzer,2,7,25195410,Masters of the Underverce,Underworld Denizens,3,2,1,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Alkithoe Marpesia,Linewoman,1,0,25195414,Masters of the Underverce,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,8,0,2,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Telepyleia the Huntress,Linewoman,1,0,25690927,Masters of the Underverce,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Anaea Penthesilea,Blitzer,1,2,25195407,Masters of the Underverce,Underworld Denizens,8,3,1,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Alkaia Bright Moon,Blitzer,1,1,25195408,Masters of the Underverce,Underworld Denizens,4,1,0,0,0,0,1,2,0,0,34,0,6,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Toxophile Dolope,Linewoman,1,0,25690928,Masters of the Underverce,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,14,0,2,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Androdameia Alcippe,Linewoman,1,0,25195411,Masters of the Underverce,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Anymone the Enchanter,Linewoman,2,2,25195413,Masters of the Underverce,Underworld Denizens,5,1,0,1,1,0,0,0,0,0,0,0,5,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Atanea Amynome,Blitzer,1,3,25195409,Masters of the Underverce,Underworld Denizens,7,3,0,0,0,1,0,0,1,0,24,0,10,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Alkidike Ainia,Catcher,1,3,25195418,Masters of the Underverce,Underworld Denizens,0,0,0,0,0,1,0,0,0,0,8,0,4,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Queens of the memes,Amazon,Arsippe Spearwielder,Thrower,2,0,25195417,Masters of the Underverce,Underworld Denizens,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,Mer-Gob II,Goblin,1,5,25355331,Queens of the memes,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,1,3,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,He-Rat,Blitzer,2,2,25135556,Queens of the memes,Underworld Denizens,10,2,1,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,OrcoGob,Goblin,1,0,25135678,Queens of the memes,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,TellaGob,Goblin,1,0,25135684,Queens of the memes,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,Ram-Gob,Goblin,1,0,25135661,Queens of the memes,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,Battle Rat,Blitzer,2,2,25135558,Queens of the memes,Underworld Denizens,10,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,Evil-Lyn-Rat,Thrower,1,0,25135677,Queens of the memes,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,18,0,2,NA,Dead
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,The SorcerRat,Thrower,2,0,25135560,Queens of the memes,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,64,0,3,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,SkellaTroll,Troll,2,0,25135553,Queens of the memes,Underworld Denizens,6,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,Rat-At-Arms,Lineman,1,0,25135574,Queens of the memes,Underworld Denizens,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,Beast Rat,Lineman,1,2,25135591,Queens of the memes,Underworld Denizens,6,2,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,Gob-E-Faces,Goblin,1,0,25135649,Queens of the memes,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,18,0,1,NA,BH
+10004b6eed,Greenhorn Cup,Game 4,1,Masters of the Underverce,Underworld Denizens,Tri-Gob,Goblin,1,0,25658955,Queens of the memes,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,Oto,Lineman,1,5,25312062,Sci-Fi Sauri,Lizardmen,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,Jakub,Lineman,1,0,25312059,Sci-Fi Sauri,Lizardmen,3,2,0,0,0,0,0,0,0,0,0,0,2,NA,MNG
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,Alexandr,Blitzer,2,2,25312055,Sci-Fi Sauri,Lizardmen,7,2,0,1,0,0,0,0,0,0,0,0,4,NA,-AV
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,Bogdan,Catcher,1,0,25312057,Sci-Fi Sauri,Lizardmen,0,0,0,0,0,0,0,0,0,0,58,0,2,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,Theodor,Blitzer,1,8,25312056,Sci-Fi Sauri,Lizardmen,5,1,0,1,0,2,0,0,1,0,56,0,13,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,Vladan,Lineman,1,0,25312063,Sci-Fi Sauri,Lizardmen,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,Zikmund,Lineman,1,0,25312064,Sci-Fi Sauri,Lizardmen,4,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,Řehoř,Lineman,1,0,25312065,Sci-Fi Sauri,Lizardmen,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,Mojmír,Lineman,1,0,25312060,Sci-Fi Sauri,Lizardmen,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,Oleg,Lineman,1,1,25312061,Sci-Fi Sauri,Lizardmen,1,0,0,0,0,0,1,4,0,0,0,0,4,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sultans from Skull Palace,Kislev Circus,František,Lineman,1,0,25312058,Sci-Fi Sauri,Lizardmen,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,Isaac Asimov,Kroxigor,2,7,25083944,Sultans from Skull Palace,Lizardmen,7,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,0011,Skink,1,0,25083810,Sultans from Skull Palace,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,H. Beam Piper,Saurus,1,0,25083946,Sultans from Skull Palace,Lizardmen,5,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,James Blish,Saurus,1,2,25083947,Sultans from Skull Palace,Lizardmen,4,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,Charles Stross,Saurus,1,0,25083949,Sultans from Skull Palace,Lizardmen,7,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,0100,Skink,1,0,25083811,Sultans from Skull Palace,Lizardmen,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,Larry Niven,Saurus,1,2,25083948,Sultans from Skull Palace,Lizardmen,6,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,Klitz of the Pyramid,Skink,1,0,0,Sultans from Skull Palace,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,Robert A. Heinlein,Saurus,1,2,25083945,Sultans from Skull Palace,Lizardmen,6,2,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,Jack McDevitt,Saurus,1,0,25083950,Sultans from Skull Palace,Lizardmen,7,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b66de,Greenhorn Cup,Game 20,1,Sci-Fi Sauri,Lizardmen,0010,Skink,1,0,25083809,Sultans from Skull Palace,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Toruviel,Zombie,1,5,25144533,Marvellous Mutants,Chaos,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Deathrow McElf IV,Zombie,1,2,25144534,Marvellous Mutants,Chaos,3,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Avallac'h,Ghoul,2,0,25144538,Marvellous Mutants,Chaos,2,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Ciaran,Zombie,1,0,25144532,Marvellous Mutants,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,-ST
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Iorveth,Ghoul,1,3,25144537,Marvellous Mutants,Chaos,0,0,0,0,0,1,0,0,0,0,66,0,5,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Squirrely III,Mummy,1,0,25144529,Marvellous Mutants,Chaos,3,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Imlerith,Wight,2,4,25144530,Marvellous Mutants,Chaos,13,4,0,2,0,0,0,0,0,0,0,0,7,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Cannon Foddelf III,Zombie,1,0,25144535,Marvellous Mutants,Chaos,3,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Eredin,Wight,1,0,25773483,Marvellous Mutants,Chaos,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Am I Useless?,Mummy,2,2,25144528,Marvellous Mutants,Chaos,6,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Interdeadmensional BS,Undead,Rotten Food For Viking,Zombie,1,0,25144536,Marvellous Mutants,Chaos,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,Onofre the One-horned,Warrior,1,5,25249985,Interdeadmensional BS,Chaos,5,2,0,0,0,0,0,0,0,0,6,0,3,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,Gillion the Gifted,Beastman,1,0,25250258,Interdeadmensional BS,Chaos,0,0,0,0,0,0,0,0,0,0,44,0,1,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,Hugo the Hunchback,Beastman,1,0,25807967,Interdeadmensional BS,Chaos,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,Ta'tigor,Beastman,1,0,0,Interdeadmensional BS,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,Clawy McClaw,Warrior,2,2,25249991,Interdeadmensional BS,Chaos,11,1,0,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,Spyridon Spikyface,Warrior,1,0,25249982,Interdeadmensional BS,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,Dennis Deformation,Beastman,1,1,25250640,Interdeadmensional BS,Chaos,0,0,0,0,0,0,1,4,0,0,0,0,3,NA,MNG
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,Grisly Griselda,Beastman,2,2,25250260,Interdeadmensional BS,Chaos,9,2,1,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,"""Suction"" Sullivan",Warrior,2,0,25249986,Interdeadmensional BS,Chaos,8,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,Twyford the Twisted,Beastman,1,0,25266304,Interdeadmensional BS,Chaos,2,0,0,0,0,0,0,0,1,0,0,0,3,NA,MNG
+10004bb963,Greenhorn Cup 2,Game 27,1,Marvellous Mutants,Chaos,Werner the Warped,Beastman,1,0,25250257,Interdeadmensional BS,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,Morr T.A. Woman,Zombie,2,5,25257055,Common Nightmares,Necromantic,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,How Deep I.Y. Love,Ghoul,1,0,25846100,Common Nightmares,Necromantic,1,0,0,0,0,0,0,0,0,0,12,0,2,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,Can't Have You,Zombie,1,0,25277753,Common Nightmares,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,Open Sesame,Mummy,2,2,25133944,Common Nightmares,Necromantic,7,3,0,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,Tony Manero,Ghoul,2,3,25258989,Common Nightmares,Necromantic,5,1,1,0,0,1,0,0,0,0,28,0,7,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,Night Fever,Wight,1,0,25133946,Common Nightmares,Necromantic,3,0,0,0,0,0,0,0,0,0,4,0,2,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,Fifth of Beethoven,Zombie,1,0,25133961,Common Nightmares,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,Disco Mountain,Mummy,1,2,25133945,Common Nightmares,Necromantic,11,5,1,1,0,0,0,0,0,0,0,0,8,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,Jive Talkin',Zombie,1,0,25269779,Common Nightmares,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,Disco Inferno,Skeleton,1,0,25277751,Common Nightmares,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Saturday Nyght Femur,Undead,Should B Dancing,Zombie,1,0,25269781,Common Nightmares,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,Dead People,Zombie,1,5,24430623,Saturday Nyght Femur,Necromantic,5,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,Dead People,Zombie,1,0,24430626,Saturday Nyght Femur,Necromantic,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,Being Chased,Werewolf,1,0,24430617,Saturday Nyght Femur,Necromantic,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,Horrid Injury,Flesh Golem,1,0,24430621,Saturday Nyght Femur,Necromantic,8,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,Drowning,Flesh Golem,1,2,24430622,Saturday Nyght Femur,Necromantic,7,3,1,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,Dead People,Zombie,1,0,24430627,Saturday Nyght Femur,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,Friz'fagors,Zombie,1,0,25878157,Saturday Nyght Femur,Necromantic,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,N@ked in Public,Ghoul,2,3,24430618,Saturday Nyght Femur,Necromantic,1,1,1,0,0,1,0,0,0,0,78,0,8,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,Falling to Death,Wight,2,2,24430620,Saturday Nyght Femur,Necromantic,11,5,0,1,0,0,0,0,0,0,0,0,7,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,Dead People,Zombie,1,0,24430624,Saturday Nyght Femur,Necromantic,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb40b,Greenhorn Cup 2,Game 25,1,Common Nightmares,Necromantic,Dead People,Zombie,1,2,24430625,Saturday Nyght Femur,Necromantic,3,2,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,Letting Squiggy Down,Lineman,1,5,25246142,Lecter's Brothers,Dark Elf,3,0,0,0,0,0,0,0,0,0,0,1,3,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,Failing Before Trying,Blitzer,2,1,25241631,Lecter's Brothers,Dark Elf,5,1,1,0,0,0,1,6,0,0,24,0,7,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,Laziness,Lineman,1,0,25241638,Lecter's Brothers,Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,No Strength Skills,Blitzer,3,1,25241630,Lecter's Brothers,Dark Elf,10,4,0,0,0,0,1,4,0,0,4,0,8,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,Car Crash,Lineman,1,0,25241633,Lecter's Brothers,Dark Elf,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,Throwing Dice,Lineman,1,0,25241637,Lecter's Brothers,Dark Elf,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,Playing Elves,Thrower,2,4,25241629,Lecter's Brothers,Dark Elf,3,3,0,2,0,0,0,0,0,0,0,0,5,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,Snakes,Catcher,1,3,25854177,Lecter's Brothers,Dark Elf,0,0,0,0,0,1,0,0,2,0,40,0,8,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,Claw,Lineman,1,0,25246122,Lecter's Brothers,Dark Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,Average Stats for +TV,Lineman,1,0,25241634,Lecter's Brothers,Dark Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Conquering Your Fears,High Elf,Zombies,Lineman,1,0,25241632,Lecter's Brothers,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Masmael,Blitzer,3,5,25129554,Conquering Your Fears,Dark Elf,7,0,0,0,0,0,0,0,0,0,32,1,5,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Bethdrir,Blitzer,2,0,25129556,Conquering Your Fears,Dark Elf,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Tanlil,Lineman,1,0,25129560,Conquering Your Fears,Dark Elf,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Mashil,Blitzer,1,0,25129555,Conquering Your Fears,Dark Elf,5,1,1,0,0,0,0,0,0,0,0,0,3,NA,BH
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Gaesthrin,Lineman,2,2,25129567,Conquering Your Fears,Dark Elf,4,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Fandith,Lineman,1,0,25129579,Conquering Your Fears,Dark Elf,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Korion,Lineman,1,0,25129557,Conquering Your Fears,Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Aenanarna,Witch Elf,1,5,25129564,Conquering Your Fears,Dark Elf,2,2,0,1,0,1,0,0,1,0,54,0,10,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Cellan,Lineman,1,0,0,Conquering Your Fears,Dark Elf,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Indrel,Lineman,1,1,25129559,Conquering Your Fears,Dark Elf,5,0,0,0,0,0,1,6,0,0,8,0,5,NA,NA
+10004bac76,Greenhorn Cup 2,Game 33,1,Lecter's Brothers,Dark Elf,Gesdrir,Lineman,1,0,25129566,Conquering Your Fears,Dark Elf,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Nice Bert,Lineman,1,5,25625430,Lukas' Tricksters,Norse,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Old Albert,Lineman,1,0,25228057,Lukas' Tricksters,Norse,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Green,Blitzer,1,1,25228048,Lukas' Tricksters,Norse,2,0,0,0,0,0,1,10,0,0,30,0,5,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Young Marc,Lineman,1,0,25228058,Lukas' Tricksters,Norse,4,0,0,0,0,0,0,0,0,0,0,1,3,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Lemon,Blocker,2,0,25228053,Lukas' Tricksters,Norse,1,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Oolang,Blocker,1,0,25228052,Lukas' Tricksters,Norse,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,English Breakfast,Blitzer,2,0,25228051,Lukas' Tricksters,Norse,8,0,0,0,0,0,0,0,0,0,0,0,2,NA,MNG
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Big Mate,Lineman,1,0,25228054,Lukas' Tricksters,Norse,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Handsome Jules,Lineman,1,0,25228055,Lukas' Tricksters,Norse,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Earl Grey,Blitzer,1,3,25228050,Lukas' Tricksters,Norse,3,1,0,0,0,1,0,0,1,0,8,0,8,NA,MNG
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Herbal,Blitzer,1,0,25228049,Lukas' Tricksters,Norse,7,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Knights of Tea,Brettonian,Handsome Sam,Lineman,1,0,25228056,Lukas' Tricksters,Norse,5,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Óttar Ketilsson,Lineman,1,7,23962265,Knights of Tea,Norse,7,4,2,1,0,0,0,0,0,0,0,0,7,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Hall Dolluson,Lineman,1,0,23962267,Knights of Tea,Norse,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Egillsteinn,Runner,1,0,23962262,Knights of Tea,Norse,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Audunnbrandr,Berserker,1,2,23962259,Knights of Tea,Norse,8,3,0,1,0,0,0,0,0,0,0,1,7,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Thórrkell,Runner,2,6,23962261,Knights of Tea,Norse,4,1,0,0,0,2,0,0,0,0,108,0,11,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Óttargautr,Lineman,1,0,23962266,Knights of Tea,Norse,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Úlfr Hrafnarson,Lineman,2,0,23962263,Knights of Tea,Norse,3,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Ulver the Hunter,Ulfwerener,1,0,23962257,Knights of Tea,Norse,16,2,1,0,0,0,0,0,0,0,0,0,6,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Sturlagerâr,Lineman,1,0,26032578,Knights of Tea,Norse,5,5,3,0,0,0,0,0,0,0,0,0,7,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Scald the Howler,Ulfwerener,1,0,23962258,Knights of Tea,Norse,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Mördormr,Lineman,1,0,23962264,Knights of Tea,Norse,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba7db,Greenhorn Cup 2,Game 23,1,Lukas' Tricksters,Norse,Lôrundgestr,Berserker,1,0,23962260,Knights of Tea,Norse,7,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,Minty Mc'Ginty,Halfling,1,5,25921138,Intellectual's Chaos,Chaos,0,2,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,Ike,Halfling,1,0,25207882,Intellectual's Chaos,Chaos,0,1,0,0,0,0,0,0,0,0,4,0,2,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,Butters,Halfling,1,0,25207880,Intellectual's Chaos,Chaos,0,1,0,0,0,0,0,0,0,0,10,0,2,NA,BH
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,Mike,Halfling,2,0,25207881,Intellectual's Chaos,Chaos,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,Samoa Sam,Halfling,1,0,25207877,Intellectual's Chaos,Chaos,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,-AV
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,Chip Ga'lore,Halfling,1,0,25207879,Intellectual's Chaos,Chaos,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,Peppermint Fatty,Halfling,1,0,25207878,Intellectual's Chaos,Chaos,0,1,1,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,Sugar Daddy,Halfling,1,0,25207883,Intellectual's Chaos,Chaos,0,2,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,PLAYER_NAMES_CHAMPION_PUGGY_FALLBACK,Fallback,1,0,0,Intellectual's Chaos,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,BirchBark MadTwig,Treeman,2,2,25207885,Intellectual's Chaos,Chaos,10,3,0,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,RootBeer MeanLimbs,Treeman,2,2,25207884,Intellectual's Chaos,Chaos,11,3,0,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,"Freddy ""Fudge"" Fingers",Halfling,1,0,25207876,Intellectual's Chaos,Chaos,0,2,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Cupcake Crushers,Halfling,PLAYER_NAMES_CHAMPION_DEEPROOTSTRONGBRANCH,Deeproot Strongbranch,1,2,0,Intellectual's Chaos,Chaos,7,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,Nosedive,Beastman,1,5,25147382,Cupcake Crushers,Chaos,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,Twilight Sparkle,Beastman,1,0,25147381,Cupcake Crushers,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,Young Sheldon,Warrior,1,0,25147378,Cupcake Crushers,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,The Entirety of Reddit,Warrior,1,3,25147379,Cupcake Crushers,Chaos,3,0,0,0,0,1,0,0,0,0,30,0,5,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,Summer,Beastman,1,0,25147383,Cupcake Crushers,Chaos,4,1,1,0,0,0,0,0,0,0,0,1,5,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,Gnargy Antler,Beastman,1,0,25878156,Cupcake Crushers,Chaos,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,DeviantArt,Beastman,1,0,25269765,Cupcake Crushers,Chaos,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,Pickle Rick,Warrior,1,2,25147376,Cupcake Crushers,Chaos,5,2,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,Sherlock,Beastman,2,0,25147380,Cupcake Crushers,Chaos,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,Sonic The Hedgefagor,Beastman,1,0,25147385,Cupcake Crushers,Chaos,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,Morty,Warrior,1,3,25147377,Cupcake Crushers,Chaos,0,0,0,0,0,1,0,0,0,0,38,0,4,NA,NA
+10004ba78f,Greenhorn Cup 2,Game 30,1,Intellectual's Chaos,Chaos,Flat Earth Society,Beastman,1,0,25147384,Cupcake Crushers,Chaos,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Platon,Wight,1,5,25279357,4 Stunned Dwarf Technik,Dark Elf,4,0,0,0,0,0,0,0,0,0,0,1,3,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Eardestroyer,Ghoul,1,0,25279354,4 Stunned Dwarf Technik,Dark Elf,1,2,0,0,0,0,0,0,0,0,26,0,3,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Todd,Mummy,2,0,25279359,4 Stunned Dwarf Technik,Dark Elf,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Nero,Zombie,1,0,25654679,4 Stunned Dwarf Technik,Dark Elf,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Eardestroyers Brother,Ghoul,1,0,25279355,4 Stunned Dwarf Technik,Dark Elf,0,0,0,0,0,0,0,0,1,0,0,0,2,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Tiberius,Zombie,1,0,25279351,4 Stunned Dwarf Technik,Dark Elf,4,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Diogenes,Wight,1,1,25279356,4 Stunned Dwarf Technik,Dark Elf,5,1,1,0,0,0,1,4,0,0,2,0,7,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Julius Caesar,Zombie,1,0,25279349,4 Stunned Dwarf Technik,Dark Elf,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Claudius,Zombie,1,0,25279352,4 Stunned Dwarf Technik,Dark Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Bob,Mummy,1,2,25279358,4 Stunned Dwarf Technik,Dark Elf,7,2,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,Dawn of Eardestroyer,Undead,Nero,Skeleton,1,0,25279353,4 Stunned Dwarf Technik,Dark Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Hinge,Witch Elf,2,5,25245182,Dawn of Eardestroyer,Dark Elf,7,1,1,0,0,0,0,0,0,0,0,2,8,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Rianndrir,Lineman,1,0,0,Dawn of Eardestroyer,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Harris Barton,Lineman,1,0,25185657,Dawn of Eardestroyer,Dark Elf,2,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Tom Rathman,Blitzer,2,0,25185652,Dawn of Eardestroyer,Dark Elf,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Ken Norton Jr,Lineman,1,1,25185659,Dawn of Eardestroyer,Dark Elf,3,1,0,0,0,0,1,2,1,0,12,0,8,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Istnil,Lineman,1,0,0,Dawn of Eardestroyer,Dark Elf,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Jerry Rice,Blitzer,1,7,25185650,Dawn of Eardestroyer,Dark Elf,5,0,0,0,0,2,1,6,1,0,76,0,14,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Caemhil,Lineman,1,0,0,Dawn of Eardestroyer,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Jesse Sapulo,Lineman,2,0,25185655,Dawn of Eardestroyer,Dark Elf,10,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Bubba Paris,Lineman,1,0,25185658,Dawn of Eardestroyer,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba70e,Greenhorn Cup 2,Game 40,1,4 Stunned Dwarf Technik,Dark Elf,Steve Wallace,Lineman,2,0,25245183,Dawn of Eardestroyer,Dark Elf,5,2,1,0,0,0,0,0,0,0,22,1,6,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,Bamford,Saurus,1,5,25247106,Play on the Music,Chaos Dwarf,7,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,Juninho,Saurus,1,2,25247098,Play on the Music,Chaos Dwarf,4,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,Marton Missile,Skink,1,3,25247113,Play on the Music,Chaos Dwarf,0,0,0,0,0,1,0,0,0,0,22,0,4,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,Gibbo,Saurus,1,0,25247100,Play on the Music,Chaos Dwarf,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,Barwick Baller,Skink,2,3,25247111,Play on the Music,Chaos Dwarf,0,0,0,0,0,1,0,0,0,0,52,0,5,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,Linthorpe Lazer,Skink,1,0,25247108,Play on the Music,Chaos Dwarf,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,King Bechamel,Kroxigor,1,0,25247094,Play on the Music,Chaos Dwarf,8,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,Adama Traore,Saurus,1,0,25247104,Play on the Music,Chaos Dwarf,10,3,1,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,Stockton Speedster,Skink,1,0,25247109,Play on the Music,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,Spicey Parmo,Saurus,2,2,25247096,Play on the Music,Chaos Dwarf,11,3,0,1,1,0,0,0,0,0,0,0,8,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,The Boro Boyz,Lizardmen,Tommy Transporter,Saurus,1,0,25247102,Play on the Music,Chaos Dwarf,7,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,Nights on Snowdonia,Blocker,2,5,25031955,The Boro Boyz,Chaos Dwarf,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,Common Pebbles,Blocker,1,0,25031956,The Boro Boyz,Chaos Dwarf,4,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,Zden Bonethief,Hobgoblin,1,0,0,The Boro Boyz,Chaos Dwarf,1,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,When the Levis Rip,Blocker,1,0,25031958,The Boro Boyz,Chaos Dwarf,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,Feel Alright Ltd.,Hobgoblin,1,0,25031959,The Boro Boyz,Chaos Dwarf,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,REBBL Radio,Hobgoblin,1,0,25031961,The Boro Boyz,Chaos Dwarf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,Personal Jockstrap,Hobgoblin,1,3,25031960,The Boro Boyz,Chaos Dwarf,6,0,0,0,0,1,0,0,0,0,44,0,6,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,"Babies, Oh Really?",Blocker,1,0,25031957,The Boro Boyz,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,Dead
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,Sing for ABSOLUTEUNIT,Blocker,1,0,25031953,The Boro Boyz,Chaos Dwarf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,Bumfull of Rashers,Bull Centaur,2,0,25031951,The Boro Boyz,Chaos Dwarf,10,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba673,Greenhorn Cup 2,Game 22,1,Play on the Music,Chaos Dwarf,Noll Foulfinder,Hobgoblin,1,0,0,The Boro Boyz,Chaos Dwarf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Pointgy Antler,Beastman,1,8,25225152,The Bloody NHS,Vampire,2,0,0,0,0,1,0,0,0,0,26,0,5,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Gnarzy Hide,Beastman,1,3,25225150,The Bloody NHS,Vampire,2,0,0,0,0,1,0,0,1,0,12,0,7,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Eyesweat Starebaag,Warrior,1,4,25225148,The Bloody NHS,Vampire,8,4,0,2,0,0,0,0,0,0,0,1,8,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Maks Dal' Shin,Warrior,1,3,25225147,The Bloody NHS,Vampire,4,1,0,0,0,1,0,0,1,0,20,0,8,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Bestnogor,Beastman,1,0,25225156,The Bloody NHS,Vampire,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,Niggle
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Quakeflush Neth Ghurk,Warrior,1,0,25225146,The Bloody NHS,Vampire,5,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Brashey Pelt,Beastman,1,0,25225153,The Bloody NHS,Vampire,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Far'nogors,Beastman,2,6,25225154,The Bloody NHS,Vampire,11,7,2,3,1,0,0,0,0,0,0,0,14,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Rikkit Frim Phaos'y,Warrior,1,1,25225149,The Bloody NHS,Vampire,5,1,1,0,0,0,1,4,0,0,6,0,7,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Shag-gors,Beastman,1,0,25225151,The Bloody NHS,Vampire,3,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,Nuffle's Yellow Horns,Chaos,Gnarly Muzzle,Beastman,2,2,25225155,The Bloody NHS,Vampire,1,1,1,0,0,0,2,20,1,0,14,0,11,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,O-,Thrall,1,5,25218011,Nuffle's Yellow Horns,Vampire,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,B-,Thrall,1,0,25218014,Nuffle's Yellow Horns,Vampire,3,1,0,0,0,0,0,0,0,0,0,1,4,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,Mystery Blood,Thrall,1,0,25218019,Nuffle's Yellow Horns,Vampire,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,Doctor Ackula,Vampire,2,0,25218007,Nuffle's Yellow Horns,Vampire,1,1,0,0,0,0,0,0,0,0,28,0,3,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,A+,Thrall,1,0,25218013,Nuffle's Yellow Horns,Vampire,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,Dead
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,Doctor Nipok,Vampire,2,0,25218009,Nuffle's Yellow Horns,Vampire,6,3,2,0,0,0,0,0,0,0,38,0,7,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,Doctor Nick,Vampire,2,2,25218008,Nuffle's Yellow Horns,Vampire,11,1,0,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,AB+,Thrall,1,0,25218016,Nuffle's Yellow Horns,Vampire,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,AB-,Thrall,1,0,25218017,Nuffle's Yellow Horns,Vampire,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,B+,Thrall,1,0,25218015,Nuffle's Yellow Horns,Vampire,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,Nurse niv,Thrall,1,0,25218018,Nuffle's Yellow Horns,Vampire,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,O+,Thrall,1,0,25218010,Nuffle's Yellow Horns,Vampire,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b9eee,Greenhorn Cup 2,Game 21,1,The Bloody NHS,Vampire,A-,Thrall,1,0,25218012,Nuffle's Yellow Horns,Vampire,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Marhag,Blitzer,1,5,25422338,Cyrus's Viruses,Nurgle,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Rurber,Blitzer,2,0,25422340,Cyrus's Viruses,Nurgle,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Rokzog,Lineman,1,0,25422346,Cyrus's Viruses,Nurgle,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Azhag Bruis'Cranium,Black Orc Blocker,1,0,25422344,Cyrus's Viruses,Nurgle,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Rokhor,Blitzer,1,2,25422337,Cyrus's Viruses,Nurgle,5,2,0,1,1,0,0,0,0,0,0,0,5,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Badram,Lineman,1,0,25422347,Cyrus's Viruses,Nurgle,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Ulgrot Break'Tee,Black Orc Blocker,1,0,25422341,Cyrus's Viruses,Nurgle,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Galnast Eat'Skullz,Black Orc Blocker,1,2,25422342,Cyrus's Viruses,Nurgle,9,3,0,1,1,0,0,0,0,0,0,0,7,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Taknee,Thrower,1,3,25422345,Cyrus's Viruses,Nurgle,1,0,0,0,0,1,0,0,0,0,78,0,6,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Srozog,Blitzer,1,0,25422339,Cyrus's Viruses,Nurgle,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Gorgs War Boys,Orc,Badruk Eat'Zeye,Black Orc Blocker,1,2,25422343,Cyrus's Viruses,Nurgle,5,3,1,1,1,0,0,0,0,0,0,0,7,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Cutaneous Righteous,Pestigor,1,8,25404370,Gorgs War Boys,Nurgle,1,1,1,0,0,1,0,0,0,0,50,0,7,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Plague Rising,Nurgle Warrior,1,0,25404280,Gorgs War Boys,Nurgle,10,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Cephalic Postulosis,Nurgle Warrior,1,0,25404281,Gorgs War Boys,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Bubonic Mega,Nurgle Warrior,1,0,25404279,Gorgs War Boys,Nurgle,8,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Leacherous Grubber,Rotter,2,0,25404375,Gorgs War Boys,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Acne Vulgaris,Beast Of Nurgle,2,0,25404277,Gorgs War Boys,Nurgle,6,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Brazen Goatrot,Pestigor,1,0,25834662,Gorgs War Boys,Nurgle,3,0,0,0,0,0,0,0,0,0,16,0,2,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Footrot Flatfoot,Rotter,1,0,25404372,Gorgs War Boys,Nurgle,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,Dead
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Herpes Maximus,Nurgle Warrior,1,0,25404278,Gorgs War Boys,Nurgle,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Stink Eye,Rotter,1,0,25404373,Gorgs War Boys,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,Dead
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Srotum Scab,Rotter,1,0,25404371,Gorgs War Boys,Nurgle,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b95d2,Greenhorn Cup 2,Game 32,1,Cyrus's Viruses,Nurgle,Resting Crabs,Rotter,1,0,25404374,Gorgs War Boys,Nurgle,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Robin Williams,Catcher,1,9,25680577,My Brothers Enbalmed,Khemri,1,0,0,0,0,1,1,2,1,0,52,0,11,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Biggie Smalls,Blitzer,1,3,25680519,My Brothers Enbalmed,Khemri,7,1,0,1,0,0,1,4,0,0,4,0,8,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Prince,Lineman,1,3,25680579,My Brothers Enbalmed,Khemri,1,1,0,0,0,1,0,0,0,0,10,0,6,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Bruce Lee,Lineman,1,0,25680581,My Brothers Enbalmed,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Muhammad Ali,Lineman,1,0,25680613,My Brothers Enbalmed,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Paul Walker,Thrower,1,0,25680520,My Brothers Enbalmed,Khemri,2,1,0,0,0,0,0,0,0,0,10,0,3,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Michael Jackson,Lineman,1,0,25680580,My Brothers Enbalmed,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Steve Irwin,Lineman,1,2,25680612,My Brothers Enbalmed,Khemri,1,1,0,1,1,0,0,0,0,0,0,0,5,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Elvis Presley,Lineman,1,2,25680578,My Brothers Enbalmed,Khemri,1,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Tupac,Blitzer,1,0,25680518,My Brothers Enbalmed,Khemri,7,1,0,0,0,0,0,0,0,0,28,0,4,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,Dead Elves Passing,High Elf,Steve Jobs,Catcher,1,3,25680576,My Brothers Enbalmed,Khemri,0,0,0,0,0,1,0,0,1,0,30,0,6,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,Industrial Disease,Tomb Guardian,1,5,25581453,Dead Elves Passing,Khemri,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,Sultan of Swing,Tomb Guardian,1,0,25581452,Dead Elves Passing,Khemri,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,The Bug,Skeleton,1,0,25581460,Dead Elves Passing,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,Solid Rock,Thro Ra,1,0,25581456,Dead Elves Passing,Khemri,2,0,0,0,0,0,0,0,0,0,6,0,2,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,Heavy Fuel,Tomb Guardian,1,0,25581454,Dead Elves Passing,Khemri,3,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,Iron Hand,Blitz Ra,1,0,25581457,Dead Elves Passing,Khemri,11,3,2,0,0,0,0,0,0,0,0,0,7,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,Six Blade Knife,Skeleton,1,0,25581458,Dead Elves Passing,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,-AV
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,Walk of Life,Thro Ra,2,3,25581455,Dead Elves Passing,Khemri,2,0,0,0,0,1,0,0,0,0,38,0,5,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,How Long,Skeleton,1,0,25581461,Dead Elves Passing,Khemri,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,Mummy For Nothing,Tomb Guardian,1,0,25581451,Dead Elves Passing,Khemri,6,1,0,0,0,0,0,0,0,0,6,0,4,NA,NA
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,Why Worry,Skeleton,1,0,25581459,Dead Elves Passing,Khemri,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,Dead
+10004b9372,Greenhorn Cup 2,Game 39,1,My Brothers Enbalmed,Khemri,Expresso Love,Blitz Ra,1,0,26001207,Dead Elves Passing,Khemri,6,1,0,0,0,0,0,0,0,0,12,0,4,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Leonid Tkachenko,Lineman,1,5,25223689,Reality Kings,Kislev Circus,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Anton Zhurov,Lineman,1,0,25237108,Reality Kings,Kislev Circus,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Yaroslav Ivanov,Lineman,1,2,0,Reality Kings,Kislev Circus,5,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Dancer,Catcher,1,0,25733514,Reality Kings,Kislev Circus,0,0,0,0,0,0,0,0,0,0,26,0,1,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Stanislav Kurakin,Lineman,1,0,25223688,Reality Kings,Kislev Circus,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Greybeard,Blitzer,1,2,25237043,Reality Kings,Kislev Circus,8,5,1,1,0,0,0,0,0,0,0,0,7,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Niko,Catcher,2,0,25223686,Reality Kings,Kislev Circus,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Sasha,Blitzer,1,0,25251673,Reality Kings,Kislev Circus,9,1,0,0,0,0,0,0,0,0,4,0,4,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Yaroslav Orlov,Lineman,1,0,25223693,Reality Kings,Kislev Circus,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Viktor Tsvetayev,Lineman,1,0,25223691,Reality Kings,Kislev Circus,7,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Sunbo's Flying Troupe,Kislev Circus,Grigory Sadovsky,Lineman,1,0,25237056,Reality Kings,Kislev Circus,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,Ivan Grishin,Lineman,1,5,0,Sunbo's Flying Troupe,Kislev Circus,1,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,RK Prime,Lineman,1,0,25145892,Sunbo's Flying Troupe,Kislev Circus,3,2,0,0,0,0,0,0,0,0,0,1,4,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,Milf Hunter,Blitzer,2,2,25145886,Sunbo's Flying Troupe,Kislev Circus,13,4,1,1,0,0,0,0,0,0,0,0,7,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,HD Love,Lineman,1,0,25145893,Sunbo's Flying Troupe,Kislev Circus,5,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,Taras Mordvinov,Lineman,1,0,0,Sunbo's Flying Troupe,Kislev Circus,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,Brown and Round,Lineman,1,0,25145894,Sunbo's Flying Troupe,Kislev Circus,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,Team Squirt,Catcher,2,2,25145888,Sunbo's Flying Troupe,Kislev Circus,1,1,0,0,0,0,2,10,1,0,32,0,10,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,Money Talks,Catcher,1,7,25145907,Sunbo's Flying Troupe,Kislev Circus,0,0,0,0,0,2,1,6,2,0,24,0,14,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,Big Naturals,Lineman,1,0,25145895,Sunbo's Flying Troupe,Kislev Circus,3,1,0,0,0,0,0,0,0,0,8,0,3,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,In the VIP,Lineman,2,0,25145889,Sunbo's Flying Troupe,Kislev Circus,4,1,0,0,0,0,0,0,0,0,6,0,3,NA,NA
+10004b9155,Greenhorn Cup 2,Game 28,1,Reality Kings,Kislev Circus,Captain Stabbin,Blitzer,1,2,25145885,Sunbo's Flying Troupe,Kislev Circus,3,2,1,1,0,0,0,0,0,0,10,0,5,NA,BH
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Buonocore,Rotter,1,5,25440262,Raw Fists,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Okeson,Pestigor,1,6,25816186,Raw Fists,Orc,3,0,0,0,0,2,0,0,2,0,38,0,12,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Black,Pestigor,2,5,25439856,Raw Fists,Orc,0,0,0,0,0,1,2,14,0,0,62,0,10,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Farrar,Rotter,1,0,25439342,Raw Fists,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Freeman,Rotter,1,0,25439695,Raw Fists,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Fauchard,Nurgle Warrior,1,0,25438908,Raw Fists,Orc,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,"Dr. ""Painless"" Parker",Beast Of Nurgle,1,0,25439843,Raw Fists,Orc,7,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Greenwood,Rotter,1,0,25440127,Raw Fists,Orc,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Taylor,Rotter,1,0,25439947,Raw Fists,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Holliday,Nurgle Warrior,1,0,25438909,Raw Fists,Orc,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Morton,Nurgle Warrior,1,0,25438911,Raw Fists,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,The Torture Club,Nurgle,Dr. Angle,Nurgle Warrior,1,0,25438910,Raw Fists,Orc,6,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,Dusk Muskrat,Blitzer,1,5,24629275,The Torture Club,Orc,8,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,Elegant Bloodbath,Blitzer,1,0,24629276,The Torture Club,Orc,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,Rogue Vocoder Blitz,Thrower,1,0,24939097,The Torture Club,Orc,0,0,0,0,0,0,0,0,0,0,20,0,1,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,Kirby,Troll,1,0,24946268,The Torture Club,Orc,9,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,Young Numbness,Blitzer,2,0,24450810,The Torture Club,Orc,9,3,1,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,Heavy Seven Richter,Black Orc Blocker,1,0,24938825,The Torture Club,Orc,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,Pavlov's Bad Dog,Black Orc Blocker,1,0,24938842,The Torture Club,Orc,3,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,Harbinger Of Gore,Black Orc Blocker,1,0,25702052,The Torture Club,Orc,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,Turbulent Murder Burnout,Black Orc Blocker,1,0,24938837,The Torture Club,Orc,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,No Name Nuisance,Goblin,1,0,24948611,The Torture Club,Orc,0,0,0,0,0,0,0,0,0,0,12,0,1,NA,NA
+10004b88d9,Greenhorn Cup 2,Game 37,1,Raw Fists,Orc,Gun In They Trumpet,Blitzer,2,0,24450811,The Torture Club,Orc,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Iybien,Blitzer,1,10,25385618,Gullenheim Doozebags,High Elf,9,2,0,1,0,1,0,0,0,0,10,0,8,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Yvir,Lineman,1,1,25385622,Gullenheim Doozebags,High Elf,0,0,0,0,0,0,1,4,0,0,24,0,4,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Gaenlil,Lineman,1,0,0,Gullenheim Doozebags,High Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Taltain,Lineman,1,0,25385623,Gullenheim Doozebags,High Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Marlil,Lineman,1,0,0,Gullenheim Doozebags,High Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Nentin,Lineman,1,0,0,Gullenheim Doozebags,High Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Nalbaire,Blitzer,1,2,25385619,Gullenheim Doozebags,High Elf,6,2,0,1,0,0,0,0,0,0,32,0,5,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Gaenran,Lineman,1,0,0,Gullenheim Doozebags,High Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Kyrran,Lineman,1,0,25385621,Gullenheim Doozebags,High Elf,2,0,0,0,0,0,0,0,1,0,38,0,4,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Fimhil,Lineman,1,0,25385624,Gullenheim Doozebags,High Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Elves Behaving Badly,Dark Elf,Galdosteal,Witch Elf,2,2,25385617,Gullenheim Doozebags,High Elf,10,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,Dope Francis,Lineman,1,5,25338479,Elves Behaving Badly,High Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,Xi Kingpin,Blitzer,1,0,25338311,Elves Behaving Badly,High Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,Pushover Putinn,Lineman,2,0,25337880,Elves Behaving Badly,High Elf,2,0,0,0,0,0,0,0,0,0,4,0,2,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,Celedur Eleneme,Blitzer,1,0,25662271,Elves Behaving Badly,High Elf,14,2,1,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,Money Mayfeather,Lineman,1,0,25337225,Elves Behaving Badly,High Elf,5,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,Christiano Crybaby,Lineman,1,0,25336755,Elves Behaving Badly,High Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,Sidhôndur Galonren,Lineman,1,0,0,Elves Behaving Badly,High Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,Kim Jong-Unfair,Catcher,1,3,25337264,Elves Behaving Badly,High Elf,2,0,0,0,0,1,0,0,0,0,52,0,6,NA,MNG
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,Orastil Telthanthor,Lineman,1,0,0,Elves Behaving Badly,High Elf,4,0,0,0,0,0,0,0,0,0,2,0,2,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,"Tom ""Snake-Eyes"" Bruise",Lineman,2,0,25338480,Elves Behaving Badly,High Elf,3,3,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b8891,Greenhorn Cup 2,Game 31,1,Gullenheim Doozebags,High Elf,The Governator,Lineman,1,0,25337778,Elves Behaving Badly,High Elf,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Galanthal Maalonel,Lineman,1,5,25219213,3Cash 3Crew: Revengening,Human,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Idhrenmaedhdraug Elenrina,Blitzer,1,4,25219204,3Cash 3Crew: Revengening,Human,4,0,0,0,0,1,1,4,0,0,48,0,8,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Harcadorton Shaladeth,Catcher,1,3,25219207,3Cash 3Crew: Revengening,Human,2,0,0,0,0,1,0,0,0,0,32,0,5,NA,BH
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Barsidhdon Yraueth,Catcher,3,0,25219206,3Cash 3Crew: Revengening,Human,3,1,1,0,0,0,0,0,1,0,38,0,6,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Caelalelion Shadondaleth,Lineman,1,0,25219212,3Cash 3Crew: Revengening,Human,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Breganien Gawsumé,Blitzer,1,0,25219205,3Cash 3Crew: Revengening,Human,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Calmornon Yraueth,Lineman,1,0,25219210,3Cash 3Crew: Revengening,Human,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,Niggle
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Risscon Shalandalan,Lineman,1,0,25219211,3Cash 3Crew: Revengening,Human,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,Dead
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Hérion Shardragiel,Thrower,1,0,25219214,3Cash 3Crew: Revengening,Human,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Faebellaien Ealalond,Lineman,1,0,25219209,3Cash 3Crew: Revengening,Human,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,Jonestown Journeymen,Elven Union,Mortaleth Malamyr,Lineman,1,0,25219208,3Cash 3Crew: Revengening,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,Dead
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,"Pedro ""Pesos"" Morales",Lineman,1,5,25275515,Jonestown Journeymen,Human,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,"""Lotto"" Otto Helmsly IV",Catcher,2,0,25265597,Jonestown Journeymen,Human,0,0,0,0,0,0,0,0,0,0,18,0,1,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,"""Jingling"" Julius Hearne",Lineman,2,3,25275514,Jonestown Journeymen,Human,3,1,0,1,0,0,1,4,0,0,24,0,7,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,"Scooter ""Jackpot"" Jaxx",Blitzer,1,7,25112694,Jonestown Journeymen,Human,6,2,0,2,0,1,0,0,1,0,16,0,11,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,'Sugar Daddy',Ogre,1,2,25265600,Jonestown Journeymen,Human,5,5,0,1,1,0,0,0,0,0,0,0,7,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,"""Casino"" Cassius Blye Jr",Blitzer,2,0,25113088,Jonestown Journeymen,Human,8,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,"Benny ""Benjamins"" Flynn",Blitzer,3,6,25112695,Jonestown Journeymen,Human,14,6,1,3,1,0,0,0,0,0,0,0,12,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,"Jake ""The Snake"" Watson",Lineman,1,0,25275546,Jonestown Journeymen,Human,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,"Grant ""Big Foot"" Shuley",Lineman,1,0,25265397,Jonestown Journeymen,Human,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,"""Poker"" Chip Smitts",Catcher,1,3,25113049,Jonestown Journeymen,Human,1,0,0,0,0,1,0,0,0,0,20,0,5,NA,NA
+10004b6b6d,Greenhorn Cup 2,Game 24,1,3Cash 3Crew: Revengening,Human,'Boots Down' Tommy Brown,Lineman,1,0,25857303,Jonestown Journeymen,Human,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Roger the Shrubber,Zombie,1,5,0,Questing for the Cup,Brettonian,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Bash,Zombie,1,0,25787944,Questing for the Cup,Brettonian,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Gregory Goyle,Zombie,1,0,25618648,Questing for the Cup,Brettonian,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Voldemort,Werewolf,1,6,25618639,Questing for the Cup,Brettonian,4,0,0,0,0,2,0,0,0,0,74,0,9,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Tom Riddle,Wight,1,0,25618642,Questing for the Cup,Brettonian,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Blaise Zabini,Zombie,1,0,25618646,Questing for the Cup,Brettonian,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Regulus Black,Zombie,1,0,25618645,Questing for the Cup,Brettonian,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Bloody Baron,Flesh Golem,1,0,25786362,Questing for the Cup,Brettonian,7,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Severus Snape,Zombie,1,2,25618643,Questing for the Cup,Brettonian,2,3,1,1,1,0,0,0,0,0,0,0,7,NA,Dead
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Lucius Malfoy,Flesh Golem,1,0,25618640,Questing for the Cup,Brettonian,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Narcissa Malfoy,Zombie,1,0,25618644,Questing for the Cup,Brettonian,2,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Slytherin!,Necromantic,Draco Malfoy,Wight,1,5,25618641,Questing for the Cup,Brettonian,9,3,0,1,0,1,0,0,0,0,14,0,9,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Lancelot the Brave,Blitzer,2,5,25425787,Slytherin!,Brettonian,7,2,0,0,0,0,0,0,1,0,0,1,7,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Patsy,Lineman,1,0,25425792,Slytherin!,Brettonian,5,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Concorde,Lineman,1,0,25868935,Slytherin!,Brettonian,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Brather Maynard,Lineman,1,0,25425795,Slytherin!,Brettonian,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Sir Bors,Blocker,2,2,25425789,Slytherin!,Brettonian,6,2,0,1,1,0,0,0,0,0,0,0,6,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Boldly Brave Sir Robin,Blocker,1,0,25425790,Slytherin!,Brettonian,7,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Old Man in Scene 24,Lineman,1,0,25425798,Slytherin!,Brettonian,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Frank the Historian,Lineman,1,0,25425797,Slytherin!,Brettonian,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Black Knight,Blocker,1,0,25425788,Slytherin!,Brettonian,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Prince Herbert,Blocker,1,1,25425791,Slytherin!,Brettonian,3,0,0,0,0,0,1,4,0,0,8,0,5,NA,NA
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Roger the Shrubber,Lineman,1,0,25425794,Slytherin!,Brettonian,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,Dead
+10004b6a9d,Greenhorn Cup 2,Game 35,1,Questing for the Cup,Brettonian,Arthur,Blitzer,1,2,25425786,Slytherin!,Brettonian,8,1,0,1,0,0,0,0,0,0,14,0,5,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,Aurora,Beastman,1,5,25606243,House Fiery Balls,Elven Union,0,0,0,0,0,0,0,0,1,0,10,0,3,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,Commando,Warrior,1,2,25606238,House Fiery Balls,Elven Union,8,2,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,Mulan,Beastman,1,0,25606244,House Fiery Balls,Elven Union,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,Last Action Hero,Warrior,1,2,25606237,House Fiery Balls,Elven Union,5,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,Jasmine,Beastman,1,1,25606242,House Fiery Balls,Elven Union,2,0,0,0,0,0,1,6,0,0,14,0,5,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,Meridia,Beastman,1,0,25606246,House Fiery Balls,Elven Union,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,Tiana,Beastman,1,3,25606245,House Fiery Balls,Elven Union,4,1,0,0,0,1,0,0,0,0,26,0,6,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,Predator,Warrior,1,0,25606236,House Fiery Balls,Elven Union,4,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,Belle,Beastman,1,0,25606240,House Fiery Balls,Elven Union,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,The Terminator,Warrior,1,2,25606239,House Fiery Balls,Elven Union,6,2,1,1,0,0,0,0,0,0,0,1,7,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,End of Daze,Chaos,Snow White,Beastman,1,0,25867785,House Fiery Balls,Elven Union,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Tholnoz,Lineman,2,5,25365649,End of Daze,Elven Union,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Idalas,Catcher,1,3,25365639,End of Daze,Elven Union,1,0,0,0,0,1,0,0,1,0,46,0,7,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Arianum,Lineman,1,0,25365645,End of Daze,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Faebu,Lineman,1,0,25365643,End of Daze,Elven Union,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Augurius,Lineman,1,3,25365647,End of Daze,Elven Union,4,2,1,0,0,1,0,0,0,0,16,0,7,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Roco Nam,Lineman,2,0,25365642,End of Daze,Elven Union,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Kalima,Lineman,2,0,25365648,End of Daze,Elven Union,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Verdur Undotauré,Lineman,1,0,0,End of Daze,Elven Union,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,Niggle
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Wernard,Lineman,1,1,25365644,End of Daze,Elven Union,3,1,1,0,0,0,1,6,0,0,0,0,6,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Agorbaar Eleneme,Lineman,1,2,0,End of Daze,Elven Union,2,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004b6672,Greenhorn Cup 2,Game 36,1,House Fiery Balls,Elven Union,Verulun,Blitzer,2,0,25365640,End of Daze,Elven Union,10,4,2,0,0,0,0,0,0,0,20,0,7,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Shira,Blitzer,1,5,25254255,Ice Kinks,Lizardmen,7,3,1,0,0,0,0,0,1,0,0,0,7,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Chance,Lineman,2,0,25254259,Ice Kinks,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Aiden,Lineman,1,0,25255789,Ice Kinks,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Druez,Blitzer,1,0,25388669,Ice Kinks,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1,-MA,BH
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Teelo,Blitzer,1,0,25254302,Ice Kinks,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,-AG
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Caligula,Lineman,2,0,25254274,Ice Kinks,Lizardmen,6,0,0,0,0,0,0,0,0,0,2,0,3,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Thrace,Lineman,1,0,25388906,Ice Kinks,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Atliy,Lineman,1,0,25254307,Ice Kinks,Lizardmen,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Trace,Runner,1,1,26067908,Ice Kinks,Lizardmen,2,2,0,0,0,0,1,12,0,0,30,0,6,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Diyvinity,Witch Elf,1,1,25388612,Ice Kinks,Lizardmen,3,0,0,0,0,0,1,2,1,0,28,0,7,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Serpent Lords,Dark Elf,Magikal,Lineman,1,0,25254221,Ice Kinks,Lizardmen,4,3,2,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Coaltatl,Skink,1,5,0,Serpent Lords,Lizardmen,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Oatluaxitz,Saurus,1,0,25149838,Serpent Lords,Lizardmen,8,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Hua of Gold,Skink,1,6,25149842,Serpent Lords,Lizardmen,1,0,0,0,0,2,0,0,0,0,30,0,8,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Xholtenquapec,Saurus,1,0,25149837,Serpent Lords,Lizardmen,8,3,1,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Loq of Huatl,Skink,1,0,25149845,Serpent Lords,Lizardmen,1,1,0,0,0,0,0,0,0,0,32,0,3,NA,BH
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Tehetla,Skink,1,0,25149844,Serpent Lords,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Lazqai,Saurus,2,0,25149836,Serpent Lords,Lizardmen,9,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Mazdamuntz,Skink,1,0,25149843,Serpent Lords,Lizardmen,0,0,0,0,0,0,0,0,0,0,12,0,1,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Carnouapec,Skink,1,0,25149840,Serpent Lords,Lizardmen,0,1,1,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Xlaqai,Skink,1,4,0,Serpent Lords,Lizardmen,3,3,0,2,0,0,0,0,0,0,0,0,5,NA,NA
+10004bbdd8,Greenhorn Cup 3,Game 54,1,Ice Kinks,Lizardmen,Boqkrox of the Moon,Saurus,1,0,25149839,Serpent Lords,Lizardmen,10,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Ehaua-zha the Plagueguard,Nurgle Warrior,1,5,25673683,Bright Moon Poets,Necromantic,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Boris von Rotwurst,Rotter,1,0,25673691,Bright Moon Poets,Necromantic,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Matthias the Anomic,Rotter,1,0,25673690,Bright Moon Poets,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Hector the Rotten,Rotter,1,0,25673693,Bright Moon Poets,Necromantic,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Orgus Vullgu,Nurgle Warrior,1,2,25673684,Bright Moon Poets,Necromantic,4,2,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Ro'gor,Pestigor,1,3,25673687,Bright Moon Poets,Necromantic,3,0,0,0,0,1,0,0,0,0,44,0,5,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Ehaua-zha Fragile,Nurgle Warrior,1,2,25673686,Bright Moon Poets,Necromantic,6,3,0,1,0,0,0,0,0,0,0,0,5,NA,Dead
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Hob the Rotten,Rotter,1,0,25673692,Bright Moon Poets,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Lord Stocco Dysplasia,Nurgle Warrior,1,0,25673685,Bright Moon Poets,Necromantic,6,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Davion the Sickly Number One Fan,Rotter,1,0,25673689,Bright Moon Poets,Necromantic,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Errekako Usaintzuak,Nurgle,Oiliak of Guck,Beast Of Nurgle,1,0,25673688,Bright Moon Poets,Necromantic,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Rigor the Duster,Zombie,1,5,22903261,Errekako Usaintzuak,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Pebblemuncher,Ghoul,1,3,23202731,Errekako Usaintzuak,Necromantic,0,0,0,0,0,1,0,0,0,0,52,0,5,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Tom the Vanguard,Zombie,1,0,22903263,Errekako Usaintzuak,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Lupino,Werewolf,2,3,22903667,Errekako Usaintzuak,Necromantic,6,1,0,0,0,1,0,0,0,0,38,0,7,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Ulric the Terrible,Wight,1,0,22903257,Errekako Usaintzuak,Necromantic,8,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Leo Vigor,Zombie,1,0,22903260,Errekako Usaintzuak,Necromantic,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Vlad the Terrible,Wight,1,3,22903256,Errekako Usaintzuak,Necromantic,4,1,1,0,0,1,0,0,0,0,14,0,7,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Gregor the Cadaverous,Flesh Golem,1,0,22903252,Errekako Usaintzuak,Necromantic,8,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Stein the Haunter,Flesh Golem,1,2,22903265,Errekako Usaintzuak,Necromantic,8,2,1,1,1,0,0,0,0,0,0,0,7,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Ewan Bone Marrow,Zombie,1,0,22903262,Errekako Usaintzuak,Necromantic,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bbbfc,Greenhorn Cup 3,Game 43,1,Bright Moon Poets,Necromantic,Gerhart the Dead Jester,Zombie,1,0,22903264,Errekako Usaintzuak,Necromantic,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Nenthar,Lineman,1,5,0,Innuendo Bingo,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Katroth Moonstriker,Lineman,1,1,25239166,Innuendo Bingo,Orc,7,2,0,0,0,0,1,4,0,0,0,0,6,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Aldrich Warrong,Lineman,1,0,25239167,Innuendo Bingo,Orc,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Tobroth Dawnblight,Blitzer,1,0,25239160,Innuendo Bingo,Orc,2,1,0,0,0,0,0,0,1,0,20,0,5,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Sal Doomhunter,Lineman,1,0,25239162,Innuendo Bingo,Orc,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Viktor Cutgrip,Lineman,1,0,25239163,Innuendo Bingo,Orc,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Sammael Dawnblight,Blitzer,1,0,25239161,Innuendo Bingo,Orc,4,0,0,0,0,0,0,0,1,0,0,0,3,NA,BH
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Theon Halfwit,Lineman,2,0,25239168,Innuendo Bingo,Orc,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Iulia Shadeeyes,Witch Elf,2,3,25239158,Innuendo Bingo,Orc,7,0,0,0,0,1,0,0,0,0,22,0,6,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Henrell Dawnblight,Blitzer,1,0,25239159,Innuendo Bingo,Orc,4,1,1,0,0,0,0,0,0,0,0,0,3,NA,BH
+10004bb9af,Greenhorn Cup 3,Game 47,1,The Brighton Greed,Dark Elf,Eva Killskaitie,Lineman,2,1,25239164,Innuendo Bingo,Orc,2,0,0,0,0,0,1,14,0,0,18,0,5,NA,BH
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Matt Sterbator,Black Orc Blocker,1,7,25177756,The Brighton Greed,Orc,3,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Heywood Jablowmi,Thrower,1,0,25177753,The Brighton Greed,Orc,1,0,0,0,0,0,0,0,1,0,46,0,4,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Ichi Sake,Blitzer,1,5,25177749,The Brighton Greed,Orc,5,2,1,1,0,1,0,0,0,0,12,0,8,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Willie Fisterbottom,Lineman,1,1,25177758,The Brighton Greed,Orc,2,0,0,0,0,0,1,2,0,0,0,0,4,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Eric Shun,Blitzer,1,0,25177752,The Brighton Greed,Orc,5,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Harry Balzac,Lineman,1,0,25177759,The Brighton Greed,Orc,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Jack Mehoff,Black Orc Blocker,1,0,25177754,The Brighton Greed,Orc,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Drew Peacock,Blitzer,2,2,25177751,The Brighton Greed,Orc,5,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Jack Schitt,Black Orc Blocker,1,0,25177755,The Brighton Greed,Orc,5,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Wayne Kerr,Black Orc Blocker,1,2,25177757,The Brighton Greed,Orc,5,3,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004bb9af,Greenhorn Cup 3,Game 47,1,Innuendo Bingo,Orc,Buck Nekkid,Blitzer,1,0,25177750,The Brighton Greed,Orc,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Davion the Crippled,Rotter,1,5,25262791,The Winds of Chamon II,Human,4,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Lord Pan'De'Mic Dometrian,Nurgle Warrior,1,0,25262784,The Winds of Chamon II,Human,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Matthias the Anomic,Rotter,1,0,25262792,The Winds of Chamon II,Human,3,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Matthias the Primatic,Rotter,1,2,25795446,The Winds of Chamon II,Human,3,2,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Mymulgor,Pestigor,2,5,25262787,The Winds of Chamon II,Human,8,2,0,1,0,1,0,0,0,0,30,0,8,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Luke Rotleg,Rotter,1,0,25262790,The Winds of Chamon II,Human,6,2,2,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Reyan the Infirmed,Rotter,1,0,25262789,The Winds of Chamon II,Human,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Yaaz'a the Great,Beast Of Nurgle,1,0,25262782,The Winds of Chamon II,Human,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Yaceteg the Corrupter,Nurgle Warrior,1,3,25262783,The Winds of Chamon II,Human,3,0,0,0,0,1,0,0,0,0,24,0,5,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Bbhallll Vullgu,Nurgle Warrior,1,0,25262785,The Winds of Chamon II,Human,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,Nurgle in the jungles,Nurgle,Phactho Leprad,Nurgle Warrior,1,0,25806347,The Winds of Chamon II,Human,5,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Edwin Dalrymple,Lineman,1,5,25217967,Nurgle in the jungles,Human,3,0,0,0,0,0,0,0,0,0,4,0,2,NA,MNG
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Arnulf Wulf,Blitzer,1,0,25218034,Nurgle in the jungles,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Eomund Hamlyn,Blitzer,1,0,25218037,Nurgle in the jungles,Human,3,0,0,0,0,0,0,0,0,0,2,0,2,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Harold Lutolf,Lineman,1,0,0,Nurgle in the jungles,Human,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Butt Smart,Ogre,1,0,25217979,Nurgle in the jungles,Human,6,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Galahad Greyland,Catcher,2,0,25218352,Nurgle in the jungles,Human,0,0,0,0,0,0,0,0,0,0,2,0,1,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Perceval Filibert,Catcher,1,0,25218033,Nurgle in the jungles,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Gordon Ottmann,Lineman,1,0,25217964,Nurgle in the jungles,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Maximillian Voltz,Blitzer,1,0,25218379,Nurgle in the jungles,Human,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Detlef Bosch,Lineman,1,0,25217994,Nurgle in the jungles,Human,2,0,0,0,0,0,0,0,0,0,2,0,2,NA,MNG
+10004bb463,Greenhorn Cup 3,Game 555,1,The Winds of Chamon II,Human,Harkot Advar,Blitzer,1,0,25218035,Nurgle in the jungles,Human,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Peša,Gutter Runner,1,8,25313797,Squeeky Blinders,Skaven,0,0,0,0,0,1,0,0,0,0,36,0,4,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Rváč,Lineman,1,0,25313859,Squeeky Blinders,Skaven,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Žochan,Gutter Runner,1,6,25313795,Squeeky Blinders,Skaven,1,0,0,0,0,2,0,0,1,0,24,0,10,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Džentlmen,Lineman,2,0,25313858,Squeeky Blinders,Skaven,9,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Kubusta,Blitzer,1,0,25313792,Squeeky Blinders,Skaven,11,2,0,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Šóa,Gutter Runner,1,0,25313796,Squeeky Blinders,Skaven,0,0,0,0,0,0,0,0,0,0,4,0,1,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Rváč,Lineman,1,0,25313856,Squeeky Blinders,Skaven,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Hlína,Blitzer,1,4,25313793,Squeeky Blinders,Skaven,11,3,0,2,0,0,0,0,0,0,0,0,7,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Hrtlik,Gutter Runner,2,0,25313821,Squeeky Blinders,Skaven,3,2,0,0,0,0,0,0,0,0,34,0,3,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Notro,Lineman,1,0,25313857,Squeeky Blinders,Skaven,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Dirty Black Rats,Skaven,Ondrox,Thrower,1,1,25313794,Squeeky Blinders,Skaven,3,2,0,0,0,0,1,6,0,0,26,0,6,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,Thomas Colby,Blitzer,1,5,25021157,Dirty Black Rats,Skaven,8,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,Finn Colby,Gutter Runner,2,0,25021163,Dirty Black Rats,Skaven,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,Polly Gray,Thrower,1,1,25021159,Dirty Black Rats,Skaven,3,1,0,0,0,0,1,2,0,0,6,0,6,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,John Colby,Gutter Runner,1,0,25021161,Dirty Black Rats,Skaven,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,Arthur Colby II,Blitzer,1,2,25651955,Dirty Black Rats,Skaven,12,3,0,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,Michael Gray,Gutter Runner,1,3,25021162,Dirty Black Rats,Skaven,0,0,0,0,0,1,0,0,1,0,68,0,7,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,Ada Colby,Gutter Runner,1,0,25021160,Dirty Black Rats,Skaven,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,Johnny Rats,Lineman,1,0,25021164,Dirty Black Rats,Skaven,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,Grace Colby,Lineman,1,0,25021165,Dirty Black Rats,Skaven,4,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,Esme Colby,Lineman,1,2,25021166,Dirty Black Rats,Skaven,6,1,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba642,Greenhorn Cup 3,Game 49,1,Squeeky Blinders,Skaven,Alfie Solorats,Lineman,1,0,25021167,Dirty Black Rats,Skaven,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,William Murderface,Mummy,1,5,25726080,Calcilators,Undead,4,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,Sammy Hagar,Wight,1,5,25726071,Calcilators,Undead,6,2,0,1,0,1,0,0,0,0,12,0,8,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,Chester Bennington,Zombie,1,0,25726076,Calcilators,Undead,5,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,Lemmy,Zombie,1,0,25726078,Calcilators,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,Billy Idol,Wight,1,3,25726070,Calcilators,Undead,7,2,0,0,0,1,0,0,0,0,24,0,7,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,Nathan Explosion,Mummy,1,0,25726079,Calcilators,Undead,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,Kurt Kobain,Zombie,1,0,25726077,Calcilators,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,MNG
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,Randy Rhodes,Zombie,1,0,25726074,Calcilators,Undead,6,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,Toki Wartooth,Zombie,1,0,25726093,Calcilators,Undead,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,Elvis,Zombie,1,0,25726107,Calcilators,Undead,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,With a REBBL Yell,Undead,Mike Patton,Ghoul,1,0,25726072,Calcilators,Undead,1,2,0,0,0,0,0,0,0,0,42,0,3,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Rotrobber,Ghoul,1,5,25510673,With a REBBL Yell,Undead,0,0,0,0,0,0,0,0,0,0,12,0,1,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Ulric the Despised,Wight,1,0,25510652,With a REBBL Yell,Undead,9,2,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Brian the Stalker,Wight,1,0,25510653,With a REBBL Yell,Undead,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Titus Bone Marrow,Zombie,1,0,25510657,With a REBBL Yell,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Leo the Duster,Zombie,1,0,25510659,With a REBBL Yell,Undead,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Titus Spleen,Zombie,1,0,25510658,With a REBBL Yell,Undead,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Siamtu the Ancient,Mummy,1,4,25510651,With a REBBL Yell,Undead,10,4,1,2,0,0,0,0,0,0,0,0,7,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Leo the Scavenger,Zombie,1,0,25510660,With a REBBL Yell,Undead,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Rotchewer,Ghoul,1,0,25510698,With a REBBL Yell,Undead,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Tutmose the Mummified,Mummy,1,0,25510650,With a REBBL Yell,Undead,10,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba3df,Greenhorn Cup 3,Game 57,1,Calcilators,Undead,Dirtleaper,Ghoul,1,3,25510654,With a REBBL Yell,Undead,4,1,1,0,0,1,0,0,0,0,42,0,7,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Lance Thruster,Warrior,1,5,25050371,Urwendors Requiem,Undead,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Tom Wanks,Beastman,1,0,25050376,Urwendors Requiem,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Will Pounder,Beastman,2,3,25708643,Urwendors Requiem,Undead,4,1,0,0,0,1,0,0,1,0,32,0,8,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Rocky Balboner,Beastman,1,1,25779125,Urwendors Requiem,Undead,1,0,0,0,0,0,1,4,0,0,26,0,5,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Throbbin Hood,Beastman,1,0,25050378,Urwendors Requiem,Undead,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Dirk Diggler,Warrior,1,0,25050370,Urwendors Requiem,Undead,6,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Seymore Butts,Beastman,1,0,25050373,Urwendors Requiem,Undead,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Buster Good,Beastman,2,0,25779126,Urwendors Requiem,Undead,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Randy Focker,Beastman,1,0,25249934,Urwendors Requiem,Undead,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Ben Dover,Warrior,2,0,25050372,Urwendors Requiem,Undead,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Horn Stars MMXVIII,Chaos,Luke Thighwalker,Warrior,1,0,25779079,Urwendors Requiem,Undead,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Pascal ter Burg,Zombie,2,5,25026051,Horn Stars MMXVIII,Undead,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Helmer MacCurry,Mummy,1,0,25033346,Horn Stars MMXVIII,Undead,3,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Olivier Lassaigne,Wight,1,0,25033397,Horn Stars MMXVIII,Undead,6,1,1,0,0,0,0,0,1,0,0,0,6,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Giovanni Mazzeschi,Zombie,1,0,25026050,Horn Stars MMXVIII,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Pol Thirion,Wight,1,0,25033410,Horn Stars MMXVIII,Undead,5,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Jon Strobelt,Ghoul,1,1,25033411,Horn Stars MMXVIII,Undead,0,0,0,0,0,0,1,4,0,0,14,0,4,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Alexander Steiner,Ghoul,1,6,25378462,Horn Stars MMXVIII,Undead,0,0,0,0,0,2,0,0,0,0,52,0,8,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Frode Karlslund,Zombie,1,0,25026049,Horn Stars MMXVIII,Undead,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Vlad Geninici,Mummy,2,4,25033369,Horn Stars MMXVIII,Undead,4,2,0,2,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,PLAYER_NAMES_CHAMPION_SINNEDBAD_FALLBACK,Fallback,1,0,0,Horn Stars MMXVIII,Undead,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Elmar Lehepuu,Ghoul,2,0,25033428,Horn Stars MMXVIII,Undead,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba259,Greenhorn Cup 3,Game 42,1,Urwendors Requiem,Undead,Teemu Germus,Zombie,1,0,25667826,Horn Stars MMXVIII,Undead,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,No scoring threat,Thrall,1,5,25408615,California Love,Human,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,Brestle,Thrall,2,0,25408545,California Love,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,Dead
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,Frenzy and Strip Ball,Vampire,1,1,25408542,California Love,Human,3,1,0,0,0,0,1,4,0,0,16,0,6,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,Dodged out of TZ,Vampire,2,0,25408541,California Love,Human,7,2,1,0,0,0,0,0,0,0,0,0,4,NA,-MA
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,Didnt set up for a blitz,Thrall,1,0,25617851,California Love,Human,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,Apple Pie,Thrall,1,0,25408616,California Love,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,Took Thick Skull,Thrall,1,0,25408646,California Love,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,Dead
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,Gave up 84 blocks,Thrall,2,0,25408543,California Love,Human,0,0,0,0,0,0,0,0,0,0,18,0,1,NA,Dead
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,BB2016,Thrall,1,0,25621856,California Love,Human,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,Forgot it was turn 8,Thrall,2,0,25408614,California Love,Human,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,-MA
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,Misclicked End Zone,Vampire,2,0,25408540,California Love,Human,10,4,1,0,0,0,0,0,1,0,4,0,8,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,Fatal Mis-stakes,Vampire,Orc GFI's,Thrall,1,0,25408647,California Love,Human,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,Anaheim,Blitzer,2,11,25066098,Fatal Mis-stakes,Human,10,6,1,3,0,0,0,0,0,0,0,0,9,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,Portola,Lineman,1,0,25066101,Fatal Mis-stakes,Human,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,Sacc-Town,Ogre,2,2,25066094,Fatal Mis-stakes,Human,4,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,East LA,Blitzer,1,0,25066095,Fatal Mis-stakes,Human,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,San D,Catcher,1,3,25066099,Fatal Mis-stakes,Human,0,0,0,0,0,1,0,0,2,0,38,0,8,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,Boron,Lineman,1,4,25066103,Fatal Mis-stakes,Human,3,4,0,2,1,0,0,0,0,0,0,0,7,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,Inglewood,Blitzer,2,0,25066097,Fatal Mis-stakes,Human,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,Napa,Lineman,1,0,25066102,Fatal Mis-stakes,Human,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,Zzyzx,Lineman,1,2,25066104,Fatal Mis-stakes,Human,2,1,0,1,1,0,0,0,0,0,0,0,5,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,Oakland,Catcher,1,4,25066100,Fatal Mis-stakes,Human,0,0,0,0,0,1,1,2,0,0,28,0,7,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,Rialto,Lineman,1,0,25940049,Fatal Mis-stakes,Human,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b9b04,Greenhorn Cup 3,Game 45,1,California Love,Human,Compton,Blitzer,1,3,25066096,Fatal Mis-stakes,Human,2,1,0,1,1,0,1,8,0,0,6,0,9,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Inflammable,Blitzer,2,5,25224133,Quiguanas,Lizardmen,9,4,0,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Toxic Fumes,Goblin,1,0,25224138,Quiguanas,Lizardmen,0,1,1,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Improper Lifting,Thrower,1,2,25224135,Quiguanas,Lizardmen,2,0,0,0,0,0,2,4,0,0,14,0,7,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Unwanted Touch,Goblin,1,0,25369323,Quiguanas,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Ladders,Troll,1,0,25224131,Quiguanas,Lizardmen,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Carpal Tunnel,Goblin,1,0,25224139,Quiguanas,Lizardmen,1,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Faulty Wiring,Thrower,1,0,25224134,Quiguanas,Lizardmen,3,0,0,0,0,0,0,0,2,0,16,1,8,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Trips,Lineman,1,0,25224137,Quiguanas,Lizardmen,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,Dead
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Flammable,Blitzer,1,3,25224132,Quiguanas,Lizardmen,7,0,0,0,0,1,0,0,0,0,26,0,6,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Workplace Violence,Goblin,1,0,25224141,Quiguanas,Lizardmen,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Falling Objects,Goblin,1,0,25224140,Quiguanas,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Machine Entanglement,Goblin,1,0,25224142,Quiguanas,Lizardmen,2,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Safety Hazards,Underworld Denizens,Slips,Lineman,1,0,25224136,Quiguanas,Lizardmen,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,Mr. Dupette,Skink,1,5,25222185,Safety Hazards,Lizardmen,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,Renekton,Saurus,1,0,25222248,Safety Hazards,Lizardmen,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,Killer Croc,Saurus,1,0,25222250,Safety Hazards,Lizardmen,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,Swampy,Saurus,1,0,25355998,Safety Hazards,Lizardmen,6,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,Crocubot,Saurus,1,0,25222246,Safety Hazards,Lizardmen,0,1,1,0,0,0,0,0,0,0,0,0,2,NA,Dead
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,Pascal,Skink,2,3,25222183,Safety Hazards,Lizardmen,0,1,1,0,0,1,0,0,1,0,52,0,9,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,Private I. Guana,Skink,1,1,25222182,Safety Hazards,Lizardmen,1,1,0,0,0,0,1,4,0,0,14,0,6,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,Mr. Vile,Saurus,1,2,25222249,Safety Hazards,Lizardmen,5,2,0,1,1,0,0,0,0,0,0,0,5,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,Louis,Saurus,1,0,25222247,Safety Hazards,Lizardmen,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,Roderick Lizzard,Skink,1,0,25222184,Safety Hazards,Lizardmen,3,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b8e54,Greenhorn Cup 3,Game 48,1,Quiguanas,Lizardmen,The Enormous Crocodile,Kroxigor,1,0,25222252,Safety Hazards,Lizardmen,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Sir Caumfley,Blocker,1,5,25739118,Lee's Rebbls,Human,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Lord Zedvaux,Blitzer,1,4,25739079,Lee's Rebbls,Human,5,0,0,0,0,1,1,10,0,0,60,0,9,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Lord Porahoi,Blitzer,1,5,25739078,Lee's Rebbls,Human,7,2,0,1,0,1,0,0,1,0,18,0,10,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Mr. Tooft,Lineman,1,0,25739160,Lee's Rebbls,Human,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Sir Zoat,Blocker,1,0,25739116,Lee's Rebbls,Human,3,1,0,0,1,0,0,0,0,0,0,0,4,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Lord Vawn,Blitzer,1,3,25739077,Lee's Rebbls,Human,6,3,0,1,0,0,1,2,0,0,8,0,9,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Dull Doug,Lineman,1,0,0,Lee's Rebbls,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Sir Fonboll,Blocker,1,0,25739159,Lee's Rebbls,Human,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Sir Belyus,Blocker,1,0,25739117,Lee's Rebbls,Human,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Mr. Gogor,Lineman,1,0,25739161,Lee's Rebbls,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Hierarchy,Brettonian,Lord Ergor,Blitzer,1,0,25739080,Lee's Rebbls,Human,3,1,0,0,0,0,0,0,1,0,60,0,6,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Clover,Lineman,1,5,25588585,Hierarchy,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,-ST
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Sunflower,Catcher,1,0,25588573,Hierarchy,Human,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Daisy,Blitzer,1,0,25588572,Hierarchy,Human,5,1,0,0,0,0,0,0,0,0,0,0,2,NA,Dead
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Marygold,Ogre,1,0,25588571,Hierarchy,Human,2,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Rosemary,Blitzer,1,0,25588523,Hierarchy,Human,9,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Dahlia,Catcher,1,0,25588574,Hierarchy,Human,2,0,0,0,0,0,0,0,1,0,0,0,3,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Honeysuckle,Lineman,1,0,25588576,Hierarchy,Human,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Snapdragon,Lineman,1,0,25588575,Hierarchy,Human,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,-AV
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Magnolia,Lineman,1,0,25588568,Hierarchy,Human,2,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Lavender,Blitzer,1,0,25588522,Hierarchy,Human,9,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Patchouli,Blitzer,1,2,25588521,Hierarchy,Human,7,2,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b86ff,Greenhorn Cup 3,Game 44,1,Lee's Rebbls,Human,Chrysanthemum,Thrower,1,4,25588562,Hierarchy,Human,2,0,0,0,0,1,1,4,0,0,48,0,8,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Rosa Luxemburg,Blitzer,1,5,25352889,No Elf's Sky,High Elf,9,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Maria Spiridonova,Linewoman,1,0,25253971,No Elf's Sky,High Elf,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Lyudmila Pavlichenko,Thrower,2,2,25352888,No Elf's Sky,High Elf,1,0,0,0,0,0,2,18,0,0,12,0,7,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Vilma Lucila Espin,Blitzer,1,0,25253962,No Elf's Sky,High Elf,10,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Kalpana Datta,Catcher,1,0,25355270,No Elf's Sky,High Elf,3,0,0,0,0,0,0,0,1,0,10,0,4,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Angela Davies,Catcher,1,5,25253882,No Elf's Sky,High Elf,3,2,1,1,0,1,0,0,1,0,12,0,10,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Janet Jagan,Linewoman,1,0,25253965,No Elf's Sky,High Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Claire Lacombe,Linewoman,2,0,25253969,No Elf's Sky,High Elf,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Jiang Qing,Blitzer,2,2,25253963,No Elf's Sky,High Elf,8,2,1,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Elena Stasova,Linewoman,1,0,25253967,No Elf's Sky,High Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Phoolan Devi,Blitzer,1,2,25253880,No Elf's Sky,High Elf,6,3,1,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,The Tolerant Left,Amazon,Tania the Guerrilla,Linewoman,1,0,25253966,No Elf's Sky,High Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,-MA
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Lyra,Lineman,1,5,25145904,The Tolerant Left,High Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Rission Telthanthor,Lineman,1,2,0,The Tolerant Left,High Elf,2,2,0,1,0,0,0,0,1,0,0,0,5,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Kiirdur Faerondalan,Lineman,1,0,0,The Tolerant Left,High Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,MNG
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Arlathtan Orren,Lineman,1,0,0,The Tolerant Left,High Elf,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Pisces,Lineman,1,0,25145906,The Tolerant Left,High Elf,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Garnon Landeredal,Lineman,1,0,0,The Tolerant Left,High Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Cassiopeia,Thrower,3,3,25145900,The Tolerant Left,High Elf,3,2,0,1,0,0,1,4,0,0,8,0,7,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Aquarius,Blitzer,1,0,25145896,The Tolerant Left,High Elf,6,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Orastien Neltaelen,Lineman,1,0,0,The Tolerant Left,High Elf,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Aquila,Blitzer,1,4,25145897,The Tolerant Left,High Elf,4,1,0,0,0,1,1,4,1,0,50,0,11,NA,NA
+10004b8509,Greenhorn Cup 3,Game 56,1,No Elf's Sky,High Elf,Leo,Lineman,1,0,25145903,The Tolerant Left,High Elf,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,Kermit,Blitzer,2,7,25220953,Eldricht Ambrosia Runners,Underworld Denizens,15,5,2,1,0,0,0,0,0,0,0,0,9,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,Hypnotoad,Catcher,2,3,25220955,Eldricht Ambrosia Runners,Underworld Denizens,0,0,0,0,0,1,0,0,4,0,38,0,12,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,King Harold,Lineman,1,0,25220961,Eldricht Ambrosia Runners,Underworld Denizens,3,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,Mccartneys Backingsinger,Lineman,1,0,25220956,Eldricht Ambrosia Runners,Underworld Denizens,5,0,0,0,0,0,0,0,1,0,0,0,3,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,Crazy F... igor,Lineman,1,0,25220957,Eldricht Ambrosia Runners,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,Raphael,Lineman,1,3,25220962,Eldricht Ambrosia Runners,Underworld Denizens,6,2,0,1,0,0,1,2,0,0,28,0,8,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,Gerard Depardieu,Lineman,1,0,25220958,Eldricht Ambrosia Runners,Underworld Denizens,6,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,Frogger,Lineman,1,0,25220960,Eldricht Ambrosia Runners,Underworld Denizens,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,Toad of Toadhall,Catcher,1,4,25220954,Eldricht Ambrosia Runners,Underworld Denizens,1,1,1,0,0,0,4,22,0,0,58,0,15,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,Grenouille,Lineman,1,0,25220959,Eldricht Ambrosia Runners,Underworld Denizens,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Bare Gills,Kislev Circus,Bear Grills,Tame Bear,1,0,25220952,Eldricht Ambrosia Runners,Underworld Denizens,7,2,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Ratwood,Thrower,1,5,24485015,Bare Gills,Underworld Denizens,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Insidiously Crafty One,Goblin,1,0,24484994,Bare Gills,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Trickily Insidious One,Goblin,1,0,24484997,Bare Gills,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Wilpox,Blitzer,1,0,24485017,Bare Gills,Underworld Denizens,5,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Rake,Lineman,1,0,24485013,Bare Gills,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Sneakily Dubious One,Goblin,1,0,24484998,Bare Gills,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Plottingly Sneaky One,Goblin,1,0,24484995,Bare Gills,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,12,0,2,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Wilfur,Blitzer,1,0,24485018,Bare Gills,Underworld Denizens,11,2,1,0,0,0,0,0,0,0,0,0,5,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Shadily Fishy One,Goblin,1,0,24484996,Bare Gills,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Evasively Conniving One,Goblin,1,0,24484993,Bare Gills,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Warrens,Lineman,1,0,24485014,Bare Gills,Underworld Denizens,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Tratsk,Thrower,1,0,24485016,Bare Gills,Underworld Denizens,4,2,0,0,0,0,0,0,0,0,28,0,3,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,"Snusk, Head Team Sampler",Troll,1,0,24505098,Bare Gills,Underworld Denizens,5,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7c4c,Greenhorn Cup 3,Game 53,1,Eldricht Ambrosia Runners,Underworld Denizens,Fishily Shrewd One,Goblin,1,0,24484999,Bare Gills,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Donakillo,Warrior,1,5,25453573,Jungler Beats,Amazon,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Rig Paw,Beastman,1,2,0,Jungler Beats,Amazon,3,4,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Pablo Pick-axe-o,Beastman,1,0,25453581,Jungler Beats,Amazon,5,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Mangleangelo,Warrior,1,0,25453571,Jungler Beats,Amazon,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,-AV
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Rapheyell,Warrior,1,0,25453572,Jungler Beats,Amazon,5,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Salvagore Dali,Beastman,1,0,25453577,Jungler Beats,Amazon,3,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Kraser Fur,Beastman,1,0,0,Jungler Beats,Amazon,3,1,0,0,0,0,0,0,0,0,10,0,3,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Jackson Pole-axe,Beastman,1,0,25453579,Jungler Beats,Amazon,3,0,0,0,0,0,0,0,0,0,18,0,2,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Andy Warhorn,Beastman,1,0,25453580,Jungler Beats,Amazon,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Clawed Monet,Beastman,1,0,25529762,Jungler Beats,Amazon,3,2,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Starry Blight,Chaos,Leonardo DaMinceMeat,Warrior,1,0,25453574,Jungler Beats,Amazon,4,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Jasmine,Thrower,1,6,25231249,Starry Blight,Amazon,1,0,0,0,0,0,1,6,0,0,16,0,5,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Snow White,Blitzer,2,0,25231245,Starry Blight,Amazon,9,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Ariel,Blitzer,2,0,25231242,Starry Blight,Amazon,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Minnie Mouse,Linewoman,1,0,25231355,Starry Blight,Amazon,0,1,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Belle,Linewoman,1,0,25231247,Starry Blight,Amazon,4,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Mulan,Linewoman,1,0,25231246,Starry Blight,Amazon,1,2,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Pocahontas,Blitzer,1,3,25231243,Starry Blight,Amazon,11,2,0,0,0,1,0,0,0,0,10,0,8,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Rapunzel,Catcher,2,0,25231248,Starry Blight,Amazon,10,4,2,0,0,0,0,0,1,0,10,0,9,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Sleeping Beauty,Linewoman,1,0,25231251,Starry Blight,Amazon,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Cindarella,Blitzer,1,2,25231244,Starry Blight,Amazon,10,4,1,1,0,0,0,0,0,0,0,0,6,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Tiana,Linewoman,1,0,25231250,Starry Blight,Amazon,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7724,Greenhorn Cup 3,Game 51,1,Jungler Beats,Amazon,Tinkerbell,Linewoman,1,0,25231252,Starry Blight,Amazon,0,0,0,0,0,0,0,0,0,0,24,0,1,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Demetrjusz Slavko,Thrall,1,5,25151952,Goblin lives matter,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Count Amadán the Vain,Vampire,2,2,25151948,Goblin lives matter,Underworld Denizens,3,1,0,0,0,0,2,16,0,0,2,0,8,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Petar Król,Thrall,1,0,25151953,Goblin lives matter,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Myron Yanukovych,Thrall,1,0,25899611,Goblin lives matter,Underworld Denizens,2,0,0,0,0,0,0,0,1,0,16,0,4,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Lech Jawor,Thrall,1,0,25151958,Goblin lives matter,Underworld Denizens,5,0,0,0,0,0,0,0,0,0,14,0,2,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Rostyslav Dudek,Thrall,1,0,25151956,Goblin lives matter,Underworld Denizens,3,1,1,0,0,0,0,0,0,0,0,0,3,NA,MNG
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Count Mannfred Draco,Vampire,2,0,25151949,Goblin lives matter,Underworld Denizens,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Clement Slavka,Thrall,1,0,25600528,Goblin lives matter,Underworld Denizens,1,1,0,0,0,0,0,0,0,0,0,0,2,NA,BH
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Count Wladyslaw the Blood Dragon,Vampire,2,0,25151947,Goblin lives matter,Underworld Denizens,5,1,0,0,0,0,0,0,1,0,0,0,4,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Leonid Ivanchuck,Thrall,1,2,25151954,Goblin lives matter,Underworld Denizens,7,2,1,1,0,0,0,0,0,0,0,0,5,NA,Dead
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Toma Dudek,Thrall,1,0,25151950,Goblin lives matter,Underworld Denizens,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Walentry Kravchuk,Thrall,1,0,25151951,Goblin lives matter,Underworld Denizens,7,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Who Bat,Vampire,Redoslav Gorsk,Thrall,2,0,25151955,Goblin lives matter,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,-ST
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Gnakbang,Goblin,1,5,24583785,Who Bat,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,8,0,1,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Shimgrib,Goblin,1,0,0,Who Bat,Underworld Denizens,0,2,1,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Fugzig,Goblin,1,0,0,Who Bat,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Stonepuke,Troll,1,0,24583776,Who Bat,Underworld Denizens,4,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Lhekit,Blitzer,2,11,24583777,Who Bat,Underworld Denizens,8,8,1,4,0,1,0,0,0,0,40,0,15,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Boch,Goblin,1,0,24583784,Who Bat,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Gubbsub,Goblin,1,2,0,Who Bat,Underworld Denizens,0,1,0,1,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Wotch,Goblin,1,0,0,Who Bat,Underworld Denizens,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Striuk,Thrower,1,0,24583780,Who Bat,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,10,0,1,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Gubbfen,Goblin,1,0,24583783,Who Bat,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Wotgang,Goblin,1,0,0,Who Bat,Underworld Denizens,0,1,1,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,leeuk,Lineman,1,3,24583781,Who Bat,Underworld Denizens,1,0,0,0,0,1,0,0,0,0,40,0,5,NA,BH
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Tidkrit,Goblin,1,0,24583787,Who Bat,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004b7482,Greenhorn Cup 3,Game 52,1,Goblin lives matter,Underworld Denizens,Kniim the Quick,Blitzer,2,2,24583778,Who Bat,Underworld Denizens,10,5,2,1,1,0,0,0,0,0,0,0,10,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Riannmal,Blitzer,1,5,25352879,Dad Approved Boyfriends,Underworld Denizens,3,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Morbaire,Lineman,1,0,25352881,Dad Approved Boyfriends,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,Niggle
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Malbaire,Lineman,1,0,25352885,Dad Approved Boyfriends,Underworld Denizens,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Gaenhil,Lineman,1,6,25352882,Dad Approved Boyfriends,Underworld Denizens,1,0,0,0,0,2,0,0,2,0,26,0,12,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Lithdrir,Blitzer,1,1,25352877,Dad Approved Boyfriends,Underworld Denizens,2,1,0,0,0,0,1,4,0,0,8,0,6,NA,Dead
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Norbien,Lineman,1,4,25352886,Dad Approved Boyfriends,Underworld Denizens,1,0,0,0,0,1,1,4,0,0,22,0,8,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Endbaire,Blitzer,1,0,25352878,Dad Approved Boyfriends,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Bethlos,Blitzer,1,1,25352876,Dad Approved Boyfriends,Underworld Denizens,5,0,0,0,0,0,1,4,1,0,20,0,7,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Kyrnal,Lineman,1,0,25352883,Dad Approved Boyfriends,Underworld Denizens,2,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Elthrin,Lineman,1,0,25352884,Dad Approved Boyfriends,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,-ST
+10004b6f1d,Greenhorn Cup 3,Game 59,1,DDU,Dark Elf,Bethrel,Lineman,1,0,25352880,Dad Approved Boyfriends,Underworld Denizens,2,0,0,0,0,0,0,0,0,0,6,0,2,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Michael Myers,Goblin,1,5,25253481,DDU,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Max Cady,Goblin,1,0,25253484,DDU,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Damien,Goblin,1,0,25253485,DDU,Underworld Denizens,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Jigsaw,Thrower,1,2,25253475,DDU,Underworld Denizens,3,2,0,1,1,0,0,0,0,0,14,0,6,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,The Collector,Thrower,1,0,25253476,DDU,Underworld Denizens,1,1,0,0,0,0,0,0,0,0,18,0,3,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Chucky,Goblin,1,0,25253483,DDU,Underworld Denizens,0,0,0,0,0,0,0,0,0,0,12,0,1,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Pinhead,Goblin,1,0,25253482,DDU,Underworld Denizens,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Leatherface,Lineman,1,0,25253478,DDU,Underworld Denizens,4,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Freddy Kruegar,Blitzer,1,3,25253480,DDU,Underworld Denizens,11,5,2,1,0,0,1,4,0,0,14,0,13,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Frankenstein's Monster,Troll,1,2,25253474,DDU,Underworld Denizens,5,2,1,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Jason Voorhees,Blitzer,1,0,25253479,DDU,Underworld Denizens,12,1,0,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004b6f1d,Greenhorn Cup 3,Game 59,1,Dad Approved Boyfriends,Underworld Denizens,Candyman 2,Lineman,1,3,25296130,DDU,Underworld Denizens,6,0,0,0,0,1,0,0,1,0,12,0,8,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Dorfl,Black Orc Blocker,1,5,25773915,Bilboko Dead Dancers,Necromantic,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Angua von Überwald,Blitzer,1,0,25773918,Bilboko Dead Dancers,Necromantic,5,1,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Nobby Nobbs,Blitzer,1,0,25773926,Bilboko Dead Dancers,Necromantic,6,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Cheery Littlebottom,Lineman,1,2,25773979,Bilboko Dead Dancers,Necromantic,4,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Detritus,Black Orc Blocker,1,2,25773854,Bilboko Dead Dancers,Necromantic,5,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Fred Colon,Black Orc Blocker,1,0,25773855,Bilboko Dead Dancers,Necromantic,7,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Reginald Shoe,Black Orc Blocker,1,0,25773880,Bilboko Dead Dancers,Necromantic,7,1,0,0,0,0,0,0,0,0,0,0,3,NA,Dead
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Wee Mad Arthur,Thrower,1,0,25774029,Bilboko Dead Dancers,Necromantic,1,0,0,0,0,0,0,0,0,0,32,0,2,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Downspout,Lineman,1,0,25774030,Bilboko Dead Dancers,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Carrot Ironfoundersson,Blitzer,1,0,25773917,Bilboko Dead Dancers,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004bb7f1,Greenhorn Cup 4,Game 64,1,The-Watch,Orc,Samuel Vimes,Blitzer,1,3,25773916,Bilboko Dead Dancers,Necromantic,2,0,0,0,0,1,0,0,0,0,12,0,5,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Montag el Guapo,Flesh Golem,1,5,25605153,The-Watch,Necromantic,8,0,0,0,0,0,0,0,0,0,0,0,2,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Gugohoot el Sabio,Flesh Golem,1,2,25605152,The-Watch,Necromantic,8,1,0,1,1,0,0,0,0,0,0,0,6,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Ulric el Cazador,Wight,1,0,25605155,The-Watch,Necromantic,5,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Herk Vigor,Zombie,1,0,25605159,The-Watch,Necromantic,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Reginald Shoe,Zombie,1,0,0,The-Watch,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Tom el Barbero,Zombie,1,0,25605157,The-Watch,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Amaris Woolsey,Werewolf,1,3,25605151,The-Watch,Necromantic,7,1,0,0,0,1,0,0,0,0,80,0,8,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Julien Algor Mortis,Zombie,1,0,25605158,The-Watch,Necromantic,3,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Steffan el Nefasto,Wight,1,0,25605154,The-Watch,Necromantic,8,1,0,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Ewan No articulaciones,Zombie,1,0,25605156,The-Watch,Necromantic,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,-MA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Kantarg Woolsey,Werewolf,1,0,25605150,The-Watch,Necromantic,7,2,1,0,0,0,0,0,0,0,0,1,6,NA,NA
+10004bb7f1,Greenhorn Cup 4,Game 64,1,Bilboko Dead Dancers,Necromantic,Virigard el Anatomista,Zombie,1,0,25605160,The-Watch,Necromantic,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,Lab Partner ,Gnoblar,1,5,25920694,[GMAN] Don't mess with us,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,Niggle
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,Senator Chett Bloodface,Ogre,1,2,25920688,[GMAN] Don't mess with us,Dark Elf,6,2,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,Pigg Tindersmash IV,Ogre,1,2,25920691,[GMAN] Don't mess with us,Dark Elf,5,3,1,0,0,0,0,0,0,1,18,1,12,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,Subreddit Moderator,Gnoblar,1,0,25920684,[GMAN] Don't mess with us,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,Bruno Thunderloins ,Ogre,1,2,25920686,[GMAN] Don't mess with us,Dark Elf,8,3,0,1,0,0,0,0,0,0,0,0,5,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,"Torg, Considerate Lover",Ogre,1,0,25920690,[GMAN] Don't mess with us,Dark Elf,6,1,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,Magic: The Gathering,Gnoblar,1,0,25920685,[GMAN] Don't mess with us,Dark Elf,0,0,0,0,0,0,0,0,0,0,8,0,1,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,Ladies Love Cool Jomgar,Ogre,1,0,25920689,[GMAN] Don't mess with us,Dark Elf,2,1,1,0,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,Blackpilled Bill Masters,Gnoblar,1,0,25920693,[GMAN] Don't mess with us,Dark Elf,0,0,0,0,0,0,0,0,0,0,12,0,1,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,Not Actually a Nice Guy,Gnoblar,1,0,25920692,[GMAN] Don't mess with us,Dark Elf,0,0,0,0,0,0,0,0,0,0,4,0,1,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,Empire of the Chads,Ogre,"Korgar, of Clan Football",Ogre,1,2,25920687,[GMAN] Don't mess with us,Dark Elf,6,2,0,1,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Indriorn,Blitzer,1,8,25946270,Empire of the Chads,Dark Elf,6,2,0,0,0,1,0,0,1,0,0,0,8,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Gaeneos,Blitzer,1,0,25946272,Empire of the Chads,Dark Elf,4,3,1,0,0,0,0,0,0,0,0,0,4,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Caemthil,Lineman,1,2,25946277,Empire of the Chads,Dark Elf,1,1,0,1,0,0,0,0,0,0,0,0,3,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Hathbrior,Lineman,1,0,25946276,Empire of the Chads,Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Anlan,Lineman,1,0,25946278,Empire of the Chads,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,BH
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Nalthan,Lineman,1,0,25946280,Empire of the Chads,Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,BH
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Lithmair,Lineman,1,0,25946279,Empire of the Chads,Dark Elf,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Baneritt,Witch Elf,1,1,25946269,Empire of the Chads,Dark Elf,4,3,0,0,0,0,1,6,0,0,20,1,9,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Lithir,Lineman,1,0,25946274,Empire of the Chads,Dark Elf,0,0,0,0,0,0,0,0,0,0,2,0,1,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Ulbaire,Blitzer,1,4,25946271,Empire of the Chads,Dark Elf,5,3,2,0,0,1,1,4,1,0,38,0,14,NA,NA
+10004ba381,Greenhorn Cup 4,Game 62,1,[GMAN] Don't mess with us,Dark Elf,Torwe,Lineman,1,0,25946275,Empire of the Chads,Dark Elf,1,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA
