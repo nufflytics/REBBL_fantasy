@@ -530,6 +530,8 @@ shinyServer(function(input, output, session) {
         title = "Player Pool",
         width = 12,
         collapsible = T,
+        status = "primary",
+        solidHeader = T,
         fluidRow(class = "vertical-align", 
                  column(3, p(
                    "Select players for your fantasy team"
@@ -541,6 +543,9 @@ shinyServer(function(input, output, session) {
       box(
         title=glue::glue("{user()}'s team:"),
         width = 12,
+        status = "success",
+        solidHeader = T,
+        collapsible = T, 
         fluidRow(class = "vertical-align",
                  column(3,textInput("teamname", label = NULL, placeholder = "Enter a team name")),
                  column(3, 
