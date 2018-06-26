@@ -4,3 +4,6 @@
 .Ruserdata
 *.DS_Store
 data/login.csv
+data/fantasy_teams.csv
+data/logs/*
+data/treasury.csv
