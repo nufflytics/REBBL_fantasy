@@ -10,7 +10,7 @@ library(DT)
 library(shinyjs)
 library(shinycssloaders)
 
-options(spinner.type=8, spinner.color = "#555555")
+options(spinner.type=8, spinner.color = "#333333")
 
 # Leaderboard content ----
 leaderboard <- tabItem(tabName = "leaderboard",
@@ -70,19 +70,19 @@ overall_stats <- tabItem(tabName = "stats",
                              tabPanel("Averaged", withSpinner(DT::dataTableOutput("averaged_stats_table"))),
                              tabPanel("All", withSpinner(DT::dataTableOutput("stats_table")))
                            )
-                         ),
-                         fluidRow(
-                           infoBoxOutput("best_game_stats", width = 3),
-                           conditionalPanel(
-                             "(input.stats_tab == 'Averaged' & input.averaged_stats_table_rows_selected != '') | (input.stats_tab == 'All' & input.stats_table_rows_selected != '')",
-                             box(
-                               width = 6,
-                               title = "Week by week",
-                               plotOutput("points_bar_stats")
-                             )
-                           ),
-                           infoBoxOutput("worst_game_stats", width = 3)
-                         )
+                          ) #, #Removed for testing
+                         # fluidRow(
+                         #   infoBoxOutput("best_game_stats", width = 3),
+                         #   conditionalPanel(
+                         #     "(input.stats_tab == 'Averaged' & input.averaged_stats_table_rows_selected != '') | (input.stats_tab == 'All' & input.stats_table_rows_selected != '')",
+                         #     box(
+                         #       width = 6,
+                         #       title = "Week by week",
+                         #       plotOutput("points_bar_stats")
+                         #     )
+                         #   ),
+                         #   infoBoxOutput("worst_game_stats", width = 3)
+                         # )
 )
 
 # Team creation page --------
