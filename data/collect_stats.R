@@ -25,37 +25,6 @@ get_contests <- function(league_name) {
 
 matches <- map_dfr(leagues, get_contests)
 
-#load webhook info and API calls from file
-# load("api.Rda")
-# load("RFBBL_parameters.Rda")
-
-
-# get_league_data <- function(league_response) {
-#   response_content <- content(league_response) 
-#   
-#   #Parse basic table information
-#   league_games <- response_content %>% 
-#     html_table %>% 
-#     extract2(1) %>% # Get first html table in response
-#     set_colnames(c("comp","round","h_coach","h_team","h_img","score","a_img","a_team","a_coach")) %>% 
-#     separate(score,c("h_score","a_score")) %>% 
-#     filter(a_coach != "Coach 2")
-#   
-#   if(nrow(league_games)==0) return(NULL) # No games, don't process further
-#   
-#   #Add uuids from the [data] attribute of html nodes
-#   league_games$uuid <- response_content %>% 
-#     html_nodes("[data]") %>% 
-#     html_attr("data") %>% 
-#     magrittr::extract(seq(1,length(.),by=10)) %>% # have the uuid listed 10 times per table row, so just take one
-#     str_replace_all("^1[012]","") # strip initial 1<platform_code> from uuid so unrecorded games have ID = 0
-#   
-#   # add numeric ID for easy comparison and remove concedes (a_score is NA after above processing)
-#   league_games %>% 
-#     mutate(ID = strtoi(uuid, base = 16)) #%>% 
-#   #filter(!is.na(a_score))
-# }
-
 calc_FP <- function(player_result, own_race, own_team, opp_race, opp_team, round, uuid, league, comp) {
   data_frame(
     match_uuid = uuid,
@@ -124,7 +93,7 @@ match_FP <- function(uuid, round) {
 new_stats <- map2_df(matches$uuid, matches$round, match_FP)
 
 #Write new stats and update last recorded game
-write_csv(new_stats, "S8_player_stats.csv", append = TRUE)
+write_csv(new_stats, "player_stats.csv", append = TRUE)
 
 if(nrow(new_stats) > 0) {
   write_file(filter(matches, id == max(id))$uuid,"last_game.uuid")
