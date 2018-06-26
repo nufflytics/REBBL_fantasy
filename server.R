@@ -449,7 +449,7 @@ shinyServer(function(input, output, session) {
   }, ignoreNULL = T, ignoreInit = T, once = T)
   
   output$user_team_table <- DT::renderDataTable({
-    validate(need(length(reactiveValuesToList(user_created_team)) > 0, message = F))
+    validate(need(length(reactiveValuesToList(user_created_team) %>% compact) > 0, message = F))
     DT::datatable(
       data = reactiveValuesToList(user_created_team) %>% 
         bind_rows() %>% 
@@ -582,7 +582,7 @@ shinyServer(function(input, output, session) {
       addClass("add_player", class = "btn-success")
     }
     
-    if(is.null(input$user_team_table_rows_selected)) {
+    if(is.null(input$user_team_table_rows_selected) | length(reactiveValuesToList(user_created_team) %>% compact)==0 ) {
       disable("remove_player")
       removeClass("remove_player", class = "btn-danger")
     } else {
