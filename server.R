@@ -51,6 +51,8 @@ pretty_skills <- function(skill) {
 }
 
 check_player_numbers <- function(df) {
+  if(nrow(df)==0) return(FALSE)
+  
   df <- df %>% 
     group_by(race, type) %>% 
     summarise(n = n())
@@ -62,6 +64,8 @@ check_player_numbers <- function(df) {
 }
 
 check_regions <- function(df) {
+  if(nrow(df)==0) return(FALSE)
+  
   df <- df %>% 
     group_by(Region) %>% 
     summarise(n = n())
