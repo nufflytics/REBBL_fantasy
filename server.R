@@ -585,7 +585,7 @@ shinyServer(function(input, output, session) {
       addClass("remove_player", class = "btn-danger")
     }
     
-    if( (all(reactiveValuesToList(validation))) & nchar(input$teamname)>0 ) {
+    if( (all(as.logical(reactiveValuesToList(validation)))) & nchar(input$teamname)>0 ) {
       enable("submit_team")
       addClass("submit_team", "btn-success")
     } else {
@@ -610,8 +610,10 @@ shinyServer(function(input, output, session) {
   })
   
   observeEvent(input$remove_player, {
+    cat(paste0(user(), " is firing a player\n"))
     deleted_id <- isolate(reactiveValuesToList(user_created_team) %>% compact %>% magrittr::extract(order(map_dbl(., "Cost"), decreasing = T)) %>% names)[input$user_team_table_rows_selected]
     
+    cat(paste0("Firing ", user_created_team[[deleted_id]]$name, " (", deleted_id, ")\n"))
     user_created_team[[deleted_id]] <- NULL
   })
   
