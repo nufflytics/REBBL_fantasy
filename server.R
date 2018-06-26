@@ -76,7 +76,8 @@ shinyServer(function(input, output, session) {
   
   coaches <- read_lines("data/coaches.txt")
   teams <- read_csv("data/fantasy_teams.csv", col_types = "cciccccic")
-  treasury <- read_rds("data/treasury.rds")
+  treasury <- read_csv("data/treasury.csv", col_types = "ci")
+  treasury <- as.list(treasury$Cash) %>% set_names(treasury$Coach)
   stats <- read_csv("data/OI_player_stats.csv") %>% filter(!Type %in% c("Star Player"))
   costs <- read_csv("data/costs.csv")
   regions <- select(stats, Team, league) %>% unique %>% rename(Region = league)
@@ -644,7 +645,9 @@ shinyServer(function(input, output, session) {
     
     store <- cbind(Coach = Coach, FTeam = FTeam, Round = Round, team, Special = ifelse(reserve, "r", ""))
     
-    teams %>% 
+    #reread data to minimise collision
+    cat(paste0(now(tzone="UTC"), "\t", user(), " submitting team ", FTeam, " with players ", glue::collapse(team$Player, ", "), " and IDs ", glue::collapse(team$playerID, ", ") ,"\n"), file = "data/logs/submission.log", append = T)
+    read_csv("data/fantasy_teams.csv", col_types = "cciccccic") %>% 
       filter(Coach != user()) %>% 
       bind_rows(store) %>% 
       write_csv("data/fantasy_teams.csv")
@@ -653,7 +656,11 @@ shinyServer(function(input, output, session) {
     
     treasury[[user()]] <- creation_cash_left()
     
-    write_rds(treasury, "data/treasury.rds")
+    cat(paste0(now(tzone="UTC"), "\t", user(), " treasury set to ", creation_cash_left(), "\n"), file = "data/logs/treasury.log", append = T)
+    read_csv("data/treasury.csv", col_types = "ci") %>% 
+      filter(Coach != user()) %>% 
+      bind_rows(data_frame(Coach = user(), Bank = creation_cash_left())) %>% 
+      write_csv("data/treasury.csv")
     
     shiny::showNotification(id = "team_submitted", ui = span(icon("check-circle") , "Team submitted"), duration = 2, type = "warning", closeButton = F)
     addClass("shiny-notification-team_submitted", "animated rubberBand")
