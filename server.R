@@ -536,7 +536,7 @@ shinyServer(function(input, output, session) {
                  )), 
                  column(9,span(class = "pull-right", actionButton("add_player", "Hire player", icon = icon("plus-circle"))))
         ),
-        DT::dataTableOutput("player_pool")
+        withSpinner(DT::dataTableOutput("player_pool"))
       ),
       box(
         title=glue::glue("{user()}'s team:"),
