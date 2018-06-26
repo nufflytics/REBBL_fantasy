@@ -114,9 +114,9 @@ dashboardPage(title = "REBBL Fantasy League",
               dashboardBody(
                 includeCSS("www/css/google-font.css"),
                 tags$head(
-                  tags$link(rel="stylesheet", href="/css/fantasy.css"),
-                  tags$link(rel="stylesheet", href="/css/google-font.css"),
-                  tags$link(rel="stylesheet", href="/css/animate.css")
+                  tags$link(rel="stylesheet", href="css/fantasy.css"),
+                  tags$link(rel="stylesheet", href="css/google-font.css"),
+                  tags$link(rel="stylesheet", href="css/animate.css")
                   ),
                 useShinyjs(),
                 tabItems(
