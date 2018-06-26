@@ -8,7 +8,7 @@ suppressMessages(require(nufflytics))
 
 api_key <- readRDS("api.key")
 last_game = read_file("last_game.uuid")
-leagues <- c("REBBL - Big O", "REBBL - Gman", "REBBL - REL")
+leagues <- c("Big O", "Gman", "REL")
 
 uuid_to_id <- function(uuid) {
   if(is.na(uuid)) return(0)
@@ -25,82 +25,57 @@ get_contests <- function(league_name) {
 
 matches <- map_dfr(leagues, get_contests)
 
-#load webhook info and API calls from file
-# load("api.Rda")
-# load("RFBBL_parameters.Rda")
-
-
-# get_league_data <- function(league_response) {
-#   response_content <- content(league_response) 
-#   
-#   #Parse basic table information
-#   league_games <- response_content %>% 
-#     html_table %>% 
-#     extract2(1) %>% # Get first html table in response
-#     set_colnames(c("comp","round","h_coach","h_team","h_img","score","a_img","a_team","a_coach")) %>% 
-#     separate(score,c("h_score","a_score")) %>% 
-#     filter(a_coach != "Coach 2")
-#   
-#   if(nrow(league_games)==0) return(NULL) # No games, don't process further
-#   
-#   #Add uuids from the [data] attribute of html nodes
-#   league_games$uuid <- response_content %>% 
-#     html_nodes("[data]") %>% 
-#     html_attr("data") %>% 
-#     magrittr::extract(seq(1,length(.),by=10)) %>% # have the uuid listed 10 times per table row, so just take one
-#     str_replace_all("^1[012]","") # strip initial 1<platform_code> from uuid so unrecorded games have ID = 0
-#   
-#   # add numeric ID for easy comparison and remove concedes (a_score is NA after above processing)
-#   league_games %>% 
-#     mutate(ID = strtoi(uuid, base = 16)) #%>% 
-#   #filter(!is.na(a_score))
-# }
-
-calc_FP <- function(player_result, own_race, own_team, opp_race, opp_team, round, uuid) {
+calc_FP <- function(player_result, own_race, own_team, opp_race, opp_team, round, uuid, league, comp) {
   data_frame(
     match_uuid = uuid,
+    league = league,
+    comp = comp,
     Round = round,
     Team = own_team,
     Race = own_race,
-    Name = player_result$playerData$name,
-    Type = nufflytics::id_to_playertype(player_result$playerData$idPlayerType),
-    Level = player_result$playerData$level,
-    SPP_gain = player_result$xp,
-    playerID = player_result$statistics$idPlayerListing,
+    Name = player_result$name,
+    Type = player_result$type %>% stringr::str_replace_all(c(".*_(.*)" = "\\1", "([a-z])([A-Z])" = "\\1 \\2")),
+    Level = player_result$level,
+    SPP_gain = player_result$xp_gain,
+    playerID = fill_nulls(player_result$id, 0),
     Opponent = opp_team,
     Opponent_Race = opp_race,
-    BLK = player_result$statistics$inflictedTackles,
-    AVBr = player_result$statistics$inflictedInjuries,
-    KO = player_result$statistics$inflictedKO,
-    CAS = player_result$statistics$inflictedCasualties,
-    Kills = player_result$statistics$inflictedDead,
-    TD = player_result$statistics$inflictedTouchdowns,
-    Pass = player_result$statistics$inflictedPasses,
-    Pass_m = player_result$statistics$inflictedMetersPassing * (Pass>0), # Odd bug where players could get pass yards without passing
-    Catch = player_result$statistics$inflictedCatches,
-    Int = player_result$statistics$inflictedInterceptions,
-    Carry_m = player_result$statistics$inflictedMetersRunning,
-    Surf = player_result$statistics$inflictedPushOuts,
-    FP = ceiling(BLK/5)+ceiling(AVBr/2)+KO+CAS+(2*Kills)+(2*Surf)+(3*TD)+(2*Pass)+ceiling(Pass_m/20)+(2*Catch)+(5*Int)+ceiling(Carry_m/50)
+    BLK = player_result$stats$inflictedtackles,
+    AVBr = player_result$stats$inflictedinjuries,
+    KO = player_result$stats$inflictedko,
+    CAS = player_result$stats$inflictedcasualties,
+    Kills = player_result$stats$inflicteddead,
+    TD = player_result$stats$inflictedtouchdowns,
+    Pass = player_result$stats$inflictedpasses,
+    Pass_m = player_result$stats$inflictedmeterspassing,
+    Catch = player_result$stats$inflictedcatches,
+    Int = player_result$stats$inflictedinterceptions,
+    Carry_m = player_result$stats$inflictedmetersrunning,
+    Surf = player_result$stats$inflictedpushouts,
+    FP = ceiling(BLK/5)+ceiling(AVBr/2)+KO+CAS+(2*Kills)+(2*Surf)+(3*TD)+(2*Pass)+ceiling(Pass_m/20)+(2*Catch)+(5*Int)+ceiling(Carry_m/50),
+    old_injuries = map_chr(player_result$casualties_state_id[-match(player_result$casualties_sustained_id,player_result$casualties_state_id)], ~map_chr(., ~nufflytics::id_to_casualty(.) ))%>% fill_nulls,
+    new_injuries = map_chr(player_result$casualties_sustained_id, ~map_chr(., ~nufflytics::id_to_casualty(.))) %>% fill_nulls
   )
 }
 
 match_FP <- function(uuid, round) {
-  stats = get_game_stats(uuid, "pc")
+  match_data = api_match(api_key, uuid)
   
-  if (stats$RowMatch$homeNbSupporters == 0 | stats$RowMatch$idMatchCompletionStatus != 0) return(NULL) 
-  home = stats$MatchResultDetails$coachResults[[1]]$teamResult$playerResults
-  away = stats$MatchResultDetails$coachResults[[2]]$teamResult$playerResults
+  if (match_data$match$teams[[1]]$nbsupporters == 0) return(NULL) 
+  home = match_data$match$teams[[1]]$roster
+  away = match_data$match$teams[[2]]$roster
   
   pmap_df(
     list(
       c(home,away),
-      rep(c(nufflytics::id_to_race(stats$RowMatch$idRacesHome),nufflytics::id_to_race(stats$RowMatch$idRacesAway)), c(length(home),length(away))),
-      rep(c(stats$RowMatch$teamHomeName,stats$RowMatch$teamAwayName), c(length(home),length(away))),
-      rep(c(nufflytics::id_to_race(stats$RowMatch$idRacesAway),nufflytics::id_to_race(stats$RowMatch$idRacesHome)), c(length(home),length(away))),
-      rep(c(stats$RowMatch$teamAwayName,stats$RowMatch$teamHomeName), c(length(home),length(away))),
+      rep(c(nufflytics::id_to_race(match_data$match$teams[[1]]$idraces),nufflytics::id_to_race(match_data$match$teams[[2]]$idraces)), c(length(home),length(away))),
+      rep(c(match_data$match$teams[[1]]$teamname,match_data$match$teams[[2]]$teamname), c(length(home),length(away))),
+      rep(c(nufflytics::id_to_race(match_data$match$teams[[2]]$idraces),nufflytics::id_to_race(match_data$match$teams[[2]]$idraces)), c(length(home),length(away))),
+      rep(c(match_data$match$teams[[2]]$teamname,match_data$match$teams[[1]]$teamname), c(length(home),length(away))),
       round,
-      uuid
+      uuid,
+      match_data$match$leaguename,
+      match_data$match$competitionname
       ),
     calc_FP
     )
@@ -118,7 +93,7 @@ match_FP <- function(uuid, round) {
 new_stats <- map2_df(matches$uuid, matches$round, match_FP)
 
 #Write new stats and update last recorded game
-write_csv(new_stats, "S8_player_stats.csv", append = TRUE)
+write_csv(new_stats, "player_stats.csv", append = TRUE)
 
 if(nrow(new_stats) > 0) {
   write_file(filter(matches, id == max(id))$uuid,"last_game.uuid")
