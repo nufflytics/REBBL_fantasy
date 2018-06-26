@@ -1,0 +1,45 @@
+.username {
+padding-top: 15px; 
+padding-bottom: 15px; 
+padding-right: 15px;
+}
+
+.skillimg {
+ height: 30px;
+ margin: 1px;
+ border-radius: 5px;
+ border-width: 2px;
+ border-style: solid;
+ border-color #444;
+}
+
+table.dataTable tbody tr {
+  height:40px;
+  min-height: 40px;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.treasury {
+  font-size: 150%;
+}
+
+.short-infobox .info-box {
+  width: 400%;
+}
+
+.vertical-align .form-group {
+  margin-bottom: 0px;
+}
+
+#shiny-notification-team_submitted {
+  color: #4c8a4e;
+  background-color: #ccfcce;
+  border: 1px solid #b7fab4;
+  position:fixed;
+  top: calc(50%);
+  left: calc(50%);
+}

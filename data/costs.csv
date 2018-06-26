@@ -1,1 +1,102 @@
-Race,Type,CostChaos,Minotaur,120Chaos Dwarf,Minotaur,120Dark Elf,Witch Elf,120Dwarf,Troll Slayer,120Elven Union,Catcher,120High Elf,Catcher,120High Elf,Thrower,120Necromantic,Werewolf,120Skaven,Gutter Runner,120Vampire,Vampire,120Wood Elf,Wardancer,120Chaos Dwarf,Bull Centaur,110Dwarf,Runner,110Elven Union,Blitzer,110Kislev Circus,Catcher,110Norse,Berserker,110Norse,Yhetee,110Orc,Blitzer,110Underworld Denizens,Blitzer,110Amazon,Blitzer,100Brettonian,Blitzer,100Dark Elf,Blitzer,100Dark Elf,Runner,100Elven Union,Thrower,100Halfling,Treeman,100High Elf,Blitzer,100Human,Thrower,100Kislev Circus,Blitzer,100Nurgle,Pestigor,100Ogre,Ogre,100Skaven,Rat Ogre,100Skaven,Storm Vermin,100Undead,Mummy,100Wood Elf,Catcher,100Wood Elf,Thrower,100Amazon,Catcher,90Amazon,Thrower,90Chaos,Chaos Warrior,90Human,Blitzer,90Human,Catcher,90Khemri,Blitz Ra,90Kislev Circus,Tame Bear,90Lizardmen,Kroxigor,90Norse,Runner,90Norse,Ulfwerener,90Orc,Thrower,90Undead,Ghoul,90Undead,Wight,90Underworld Denizens,Thrower,90Underworld Denizens,Warpstone Troll,90Necromantic,Ghoul,90Necromantic,Wight,90Dwarf,Deathroller,80Goblin,Pogoer,80Goblin,Troll,80Human,Ogre,80Khemri,Thro Ra,80Khemri,Tomb Guardian,80Lizardmen,Saurus,80Norse,Thrower,80Nurgle,Nurgle Warrior,80Orc,Troll,80Skaven,Thrower,80Chaos Dwarf,Blocker,70Dwarf,Blitzer,70Necromantic,Flesh Golem,70Nurgle,Beast of Nurgle,70Orc,Black Orc,70Wood Elf,Treeman,70Brettonian,Blocker,60Chaos,Beastman,60Dwarf,Longbeard,60Goblin,Fanatic,60Goblin,Looney,60Amazon,Linewoman,50Chaos Dwarf,Hobgoblin,50Dark Elf,Assassin,50Lizardmen,Skink,50Norse,Lineman,50Underworld Denizens,Lineman,50Dark Elf,Lineman,40Elven Union,Lineman,40Goblin,Goblin,40Halfling,Halfling,40High Elf,Lineman,40Human,Lineman,40Kislev Circus,Lineman,40Orc,Lineman,40Skaven,Lineman,40Vampire,Thrall,40Wood Elf,Lineman,40Brettonian,Lineman,30Khemri,Skeleton,30Necromantic,Zombie,30Nurgle,Rotter,30Orc,Goblin,30Undead,Skeleton,30Undead,Zombie,30Underworld Denizens,Goblin,30Ogre,Gnoblar,20Goblin,Bombardier,10
+Race,Type,Cost
+Chaos,Minotaur,120
+Chaos Dwarf,Minotaur,120
+Dark Elf,Witch Elf,120
+Dwarf,Troll Slayer,120
+Elven Union,Catcher,120
+High Elf,Catcher,120
+High Elf,Thrower,120
+Necromantic,Werewolf,120
+Skaven,Gutter Runner,120
+Vampire,Vampire,120
+Wood Elf,Wardancer,120
+Chaos Dwarf,Bull Centaur,110
+Dwarf,Runner,110
+Elven Union,Blitzer,110
+Kislev Circus,Catcher,110
+Norse,Berserker,110
+Norse,Yhetee,110
+Orc,Blitzer,110
+Underworld Denizens,Blitzer,110
+Amazon,Blitzer,100
+Brettonian,Blitzer,100
+Dark Elf,Blitzer,100
+Dark Elf,Runner,100
+Elven Union,Thrower,100
+Halfling,Treeman,100
+High Elf,Blitzer,100
+Human,Thrower,100
+Kislev Circus,Blitzer,100
+Nurgle,Pestigor,100
+Ogre,Ogre,100
+Skaven,Rat Ogre,100
+Skaven,Blitzer,100
+Undead,Mummy,100
+Wood Elf,Catcher,100
+Wood Elf,Thrower,100
+Amazon,Catcher,90
+Amazon,Thrower,90
+Chaos,Warrior,90
+Human,Blitzer,90
+Human,Catcher,90
+Khemri,Blitz Ra,90
+Kislev Circus,Tame Bear,90
+Lizardmen,Kroxigor,90
+Norse,Runner,90
+Norse,Ulfwerener,90
+Orc,Thrower,90
+Undead,Ghoul,90
+Undead,Wight,90
+Underworld Denizens,Thrower,90
+Underworld Denizens,Troll,90
+Necromantic,Ghoul,90
+Necromantic,Wight,90
+Dwarf,Deathroller,80
+Goblin,Pogoer,80
+Goblin,Troll,80
+Human,Ogre,80
+Khemri,Thro Ra,80
+Khemri,Tomb Guardian,80
+Lizardmen,Saurus,80
+Norse,Thrower,80
+Nurgle,Nurgle Warrior,80
+Orc,Troll,80
+Skaven,Thrower,80
+Chaos Dwarf,Blocker,70
+Dwarf,Blitzer,70
+Necromantic,Flesh Golem,70
+Nurgle,Beast Of Nurgle,70
+Orc,Black Orc Blocker,70
+Wood Elf,Treeman,70
+Brettonian,Blocker,60
+Chaos,Beastman,60
+Dwarf,Blocker,60
+Goblin,Fanatic,60
+Goblin,Looney,60
+Amazon,Linewoman,50
+Chaos Dwarf,Hobgoblin,50
+Dark Elf,Assassin,50
+Lizardmen,Skink,50
+Norse,Lineman,50
+Underworld Denizens,Lineman,50
+Dark Elf,Lineman,40
+Elven Union,Lineman,40
+Goblin,Goblin,40
+Halfling,Halfling,40
+High Elf,Lineman,40
+Human,Lineman,40
+Kislev Circus,Lineman,40
+Orc,Lineman,40
+Skaven,Lineman,40
+Vampire,Thrall,40
+Wood Elf,Lineman,40
+Brettonian,Lineman,30
+Khemri,Skeleton,30
+Necromantic,Zombie,30
+Nurgle,Rotter,30
+Orc,Goblin,30
+Undead,Skeleton,30
+Undead,Zombie,30
+Underworld Denizens,Goblin,30
+Ogre,Gnoblar,20
+Goblin,Bombardier,10

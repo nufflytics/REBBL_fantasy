@@ -7,6 +7,10 @@
 library(shiny)
 library(shinydashboard)
 library(DT)
+library(shinyjs)
+library(shinycssloaders)
+
+options(spinner.type=8, spinner.color = "#555555")
 
 # Leaderboard content ----
 leaderboard <- tabItem(tabName = "leaderboard",
@@ -63,8 +67,8 @@ overall_stats <- tabItem(tabName = "stats",
                              id = "stats_tab",
                              width = 12,
                              selected = "Averaged",
-                             tabPanel("Averaged", DT::dataTableOutput("averaged_stats_table")),
-                             tabPanel("All", DT::dataTableOutput("stats_table"))
+                             tabPanel("Averaged", withSpinner(DT::dataTableOutput("averaged_stats_table"))),
+                             tabPanel("All", withSpinner(DT::dataTableOutput("stats_table")))
                            )
                          ),
                          fluidRow(
@@ -81,6 +85,12 @@ overall_stats <- tabItem(tabName = "stats",
                          )
 )
 
+# Team creation page --------
+team_builder <- tabItem(tabName = "create", uiOutput("team_builder"))
+
+# Trade helper page -----
+trade_helper <- tabItem(tabName = "trade", uiOutput("trade_helper"))
+
 # Page scaffold ----
 dashboardPage(title = "REBBL Fantasy League",
               skin="black",
@@ -88,24 +98,33 @@ dashboardPage(title = "REBBL Fantasy League",
                 title = span(tagList(a(href="https://www.reddit.com/r/rebbl", img(src = "img/ReBBL_logo_800px_72dpi.png", width = "70px")),"Fantasy")),
                 tags$li(class = "dropdown",
                         tags$li(class="dropdown username", textOutput("username")),
-                        tags$li(class="dropdown", actionLink("login", "", icon = icon("user-o", class = "fa-lg fa-fw")))
+                        tags$li(class="dropdown", actionLink("login", "Login", icon = icon("user-o", class = "fa-lg fa-fw")))
                 )
               ),
               dashboardSidebar(
                 sidebarMenu(
                   id = "tabs",
-                  menuItem("Stats", tabName = "stats", icon = icon("bar-chart", class = "fa-fw")),
-                  menuItem("Leaderboard", tabName = "leaderboard", icon = icon("trophy", class = "fa-fw")),
-                  menuItem("Teams", tabName = "teams", icon = icon("user", class = "fa-fw"))
+                  #menuItem("Leaderboard", tabName = "leaderboard", icon = icon("trophy", class = "fa-fw")),
+                  #menuItem("Team Performance", tabName = "teams", icon = icon("user", class = "fa-fw")),
+                  menuItem("Player Stats", tabName = "stats", icon = icon("bar-chart", class = "fa-fw")),
+                  menuItemOutput("team_builder_menu"),
+                  menuItemOutput("trade_helper_menu")
                 )
               ),
               dashboardBody(
                 includeCSS("www/css/google-font.css"),
-                tags$head(tags$link(rel="stylesheet", href="/css/fantasy.css")),
+                tags$head(
+                  tags$link(rel="stylesheet", href="/css/fantasy.css"),
+                  tags$link(rel="stylesheet", href="/css/google-font.css"),
+                  tags$link(rel="stylesheet", href="/css/animate.css")
+                  ),
+                useShinyjs(),
                 tabItems(
                   overall_stats,
-                  leaderboard,
-                  team_summary
+                  #leaderboard,
+                  #team_summary,
+                  team_builder,
+                  trade_helper
                 )
               )
 )
