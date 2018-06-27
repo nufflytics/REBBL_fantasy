@@ -20,6 +20,8 @@ library(bcrypt)
 library(shinyjs)
 library(shinycssloaders)
 
+source("global.R")
+
 start_time = lubridate::dmy_hm("240618 0000", tz = "UTC")
 
 theme_fantasy <- function() {
@@ -49,6 +51,9 @@ pretty_skills <- function(skill) {
   )
   )
 }
+
+min_players <- 6
+start_treasury <- 600
 
 check_player_numbers <- function(df) {
   if(nrow(df)==0) return(FALSE)
@@ -373,7 +378,7 @@ shinyServer(function(input, output, session) {
   output$team_builder_menu <- renderMenu({
     validate(need(user(), message = F), need(gameweek < 3, message = F))
     
-    menuItem("Create Team", tabName = "create", icon = icon("edit", class = "fa-fw"))
+    menuItem("Create Team", tabName = "create", icon = icon("pencil-alt", class = "fa-fw fa-lg"))
   })
   
   selectable_players <- reactive({
@@ -406,12 +411,12 @@ shinyServer(function(input, output, session) {
       selectable_players() %>% select(-playerID) %>% mutate_at(vars("level", "Cost"), as.integer),
       class = "display compact",
       escape = c(-9,-10),
-      filter = "top",
+      filter = list(position = "top", plain = T),
       rownames = F,
       colnames = c("Region", "Coach","Team", "Player", "Race", "Type", "Level", "Cost", "Acquired Skills", "Current Injuries"),
       selection = "single",
       options = list(
-        dom = "tip",
+        dom = "tlip",
         scrollX = T,
         pageLength = 5,
         lengthMenu = c(5, 10, 20),
@@ -485,7 +490,7 @@ shinyServer(function(input, output, session) {
     )
   })
   
-  creation_cash_left <- reactive({ 1200 - (map_dbl(reactiveValuesToList(user_created_team) %>% compact, 'Cost') %>% sum) })
+  creation_cash_left <- reactive({ start_treasury - (map_dbl(reactiveValuesToList(user_created_team) %>% compact, 'Cost') %>% sum) })
   
   output$cash_remaining = renderUI({
     span(class=glue::glue("treasury pull-right {ifelse(creation_cash_left() >= 0, 'text-success', 'text-danger')}"), glue::glue("Treasury remaining: ${prettyNum(creation_cash_left(), big.mark=',')}"))
@@ -503,8 +508,8 @@ shinyServer(function(input, output, session) {
   observeEvent(reactiveValuesToList(user_created_team), {
     team <- isolate(reactiveValuesToList(user_created_team) %>% compact())
     
-    validation$bank <- (1200 - (map_dbl(team, 'Cost') %>% sum)) >= 0
-    validation$num_players <- length(team) >= 12
+    validation$bank <- (start_treasury - (map_dbl(team, 'Cost') %>% sum)) >= 0
+    validation$num_players <- length(team) >= min_players
     validation$positions <- check_player_numbers(team %>% bind_rows())
     validation$regions <- team %>% bind_rows() %>% check_regions()
   }, ignoreNULL = T, ignoreInit = T)
@@ -598,7 +603,7 @@ shinyServer(function(input, output, session) {
       removeClass("submit_team", "btn-success")
     }
     
-    if((length(input$reserve_selection) %>% magrittr::add(11)) == (reactiveValuesToList(user_created_team) %>% compact %>% length)) {
+    if((length(input$reserve_selection) %>% magrittr::add(min_players-1)) == (reactiveValuesToList(user_created_team) %>% compact %>% length)) {
       enable("confirm_submission")
       addClass("confirm_submission", "btn-success")
     } else {
@@ -625,14 +630,16 @@ shinyServer(function(input, output, session) {
   observeEvent(input$submit_team, {
     ordered_team <- isolate(reactiveValuesToList(user_created_team) %>% compact %>% magrittr::extract(order(map_dbl(., "Cost"), decreasing = T)) %>% bind_rows)
     
+    #browser()
+    
     showModal(modalDialog(
       title = "Confirm team and select reserves",
       easyClose = T,
       div(class = "bg-info", 
-          p(HTML(paste0(strong(user()), ",")),glue::glue("please select {nrow(ordered_team) - 11} reserve players for"),tags$strong(input$teamname)),
-          p(glue::glue("You will have ${ifelse(creation_cash_left() > 0,creation_cash_left() %>% prettyNum(big.mark=','), NULL)} remaining in your treasury for future trades"))
+          p(HTML(paste0(strong(user()), ",")),glue::glue("please select {nrow(ordered_team) - (min_players-1)} reserve players for"),tags$strong(input$teamname)),
+          ifelse(creation_cash_left() > 0,p(glue::glue("You will have ${creation_cash_left() %>% prettyNum(big.mark=',')} remaining in your treasury for future trades")), '')
       ),
-      checkboxGroupInput("reserve_selection", width = "100%", "Reserves", choiceValues = ordered_team$name, choiceNames = glue::glue_data(ordered_team, "{name} - ({race} {type}, Level {level})"), selected = ordered_team$name[-c(1:11)]),
+      checkboxGroupInput("reserve_selection", width = "100%", "Reserves", choiceValues = ordered_team$name, choiceNames = glue::glue_data(ordered_team, "{name} - ({race} {type}, Level {level})"), selected = ordered_team$name[-c(1:(min_players-1))]),
       footer = tagList(modalButton("Cancel", icon = icon("ban")), actionButton("confirm_submission", "Confirm team", icon = icon("upload")))
     ))
   })
@@ -671,13 +678,25 @@ shinyServer(function(input, output, session) {
   })
   
   #Trade helper ------
-  output$trade_helper_menu <- renderMenu({
+  output$team_management_menu <- renderMenu({
     validate(need(user(), message = F), need(gameweek > 2 | user() == "Schlice", message = F))
     
-    menuItem("Request Trade", tabName = "trade", icon = icon("exchange", class = "fa-fw"))
+    menuItem("Team Management", tabName = "manage", icon = icon("clipboard-list", class = "fa-fw fa-lg"))
   })
   
-  output$trade_helper <- renderUI({
+  # Fetch current team for user (filter teams for user/max(round))
+  
+  # Create score history for players on the team?
+  
+  # Top display of team's performance (players, points-per-round (w/ pretty formatting?))
+  # Alter reserves here?
+  
+  # Bottom selectize (max 2) of players in team
+  # filter list of potential trades (filter stats by this and last round, unique players (last row if multiple), removing ones in team already and ones that cost too much (cost of traded players + treasury))
+  # Display trade summary w/ request button
+  # Send email? about trade, notify that it will be processed for next round
+  
+  output$team_management <- renderUI({
     validate(need(user(), message = F), need(gameweek > 2 | user() == "Schlice", message = F))
     
     fluidRow(
