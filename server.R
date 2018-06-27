@@ -22,6 +22,9 @@ library(shinycssloaders)
 
 source("global.R")
 
+min_players <- 6
+start_treasury <- 600
+
 start_time = lubridate::dmy_hm("240618 0000", tz = "UTC")
 
 theme_fantasy <- function() {
@@ -51,9 +54,6 @@ pretty_skills <- function(skill) {
   )
   )
 }
-
-min_players <- 6
-start_treasury <- 600
 
 check_player_numbers <- function(df) {
   if(nrow(df)==0) return(FALSE)

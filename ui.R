@@ -116,6 +116,7 @@ dashboardPage(title = "REBBL Fantasy League",
                 #suppressDependencies("font-awesome"),
                 includeCSS("www/css/google-font.css"),
                 tags$head(
+                  tags$meta("http-equiv" = "Content-Language", content = "en"),
                   tags$link(rel="stylesheet", href="css/fantasy.css"),
                   tags$link(rel="stylesheet", href="css/google-font.css"),
                   tags$link(rel="stylesheet", href="css/animate.css"),
