@@ -662,8 +662,6 @@ shinyServer(function(input, output, session) {
     reserve <- team$Player %in% input$reserve_selection
     captain <- team$Player %in% input$captain_picker
     
-    browser()
-    
     store <- cbind(Coach = Coach, FTeam = FTeam, Round = Round, team, Special = case_when(captain ~ "c", reserve ~ "r", T ~ ""))
     
     #reread data to minimise collision
