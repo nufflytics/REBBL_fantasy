@@ -663,7 +663,7 @@ shinyServer(function(input, output, session) {
     cat(paste0(now(tzone="UTC"), "\t", user(), " treasury set to ", creation_cash_left(), "\n"), file = "data/logs/treasury.log", append = T)
     read_csv("data/treasury.csv", col_types = "ci") %>% 
       filter(Coach != user()) %>% 
-      bind_rows(data_frame(Coach = user(), Bank = creation_cash_left())) %>% 
+      bind_rows(data_frame(Coach = user(), Cash = creation_cash_left())) %>% 
       write_csv("data/treasury.csv")
     
     shiny::showNotification(id = "team_submitted", ui = span(icon("check-circle") , "Team submitted"), duration = 2, type = "warning", closeButton = F)
