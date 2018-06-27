@@ -408,15 +408,16 @@ shinyServer(function(input, output, session) {
   
   output$player_pool <- DT::renderDataTable({
     DT::datatable(
-      selectable_players() %>% select(-playerID) %>% mutate_at(vars("level", "Cost"), as.integer),
-      class = "display compact",
+      selectable_players() %>% select(-playerID) %>% mutate_at(vars("Region", "race", "Cost"), as.factor),
+      class = "display compact new-filter",
       escape = c(-9,-10),
-      filter = list(position = "top", plain = T),
+      filter = "top",
       rownames = F,
       colnames = c("Region", "Coach","Team", "Player", "Race", "Type", "Level", "Cost", "Acquired Skills", "Current Injuries"),
       selection = "single",
       options = list(
         dom = "tlip",
+        search = list(regex=T),
         scrollX = T,
         pageLength = 5,
         lengthMenu = c(5, 10, 20),
@@ -630,19 +631,25 @@ shinyServer(function(input, output, session) {
   observeEvent(input$submit_team, {
     ordered_team <- isolate(reactiveValuesToList(user_created_team) %>% compact %>% magrittr::extract(order(map_dbl(., "Cost"), decreasing = T)) %>% bind_rows)
     
-    #browser()
+    cash_text <- ""
+    if(creation_cash_left() > 0) cash_text <- glue::glue("<p>You will have ${creation_cash_left() %>% prettyNum(big.mark=',')} remaining in your treasury for future trades</p>")
     
     showModal(modalDialog(
       title = "Confirm team and select reserves",
       easyClose = T,
       div(class = "bg-info", 
-          p(HTML(paste0(strong(user()), ",")),glue::glue("please select {nrow(ordered_team) - (min_players-1)} reserve players for"),tags$strong(input$teamname)),
-          ifelse(creation_cash_left() > 0,p(glue::glue("You will have ${creation_cash_left() %>% prettyNum(big.mark=',')} remaining in your treasury for future trades")), '')
-      ),
-      checkboxGroupInput("reserve_selection", width = "100%", "Reserves", choiceValues = ordered_team$name, choiceNames = glue::glue_data(ordered_team, "{name} - ({race} {type}, Level {level})"), selected = ordered_team$name[-c(1:(min_players-1))]),
+          HTML(paste0("<p>", strong(user()), glue::glue(", please select a captain and {nrow(ordered_team) - (min_players-1)} reserve players for "),tags$strong(input$teamname), "</p>", cash_text))
+          ),
+      selectInput("captain_picker", "Captain:", choices = ordered_team %>% filter(type != "Werewolf") %>% .$name),
+      uiOutput("reserve_picker"),
       footer = tagList(modalButton("Cancel", icon = icon("ban")), actionButton("confirm_submission", "Confirm team", icon = icon("upload")))
     ))
+    
+    output$reserve_picker = renderUI({
+      checkboxGroupInput("reserve_selection", width = "100%", "Reserves", choiceValues = ordered_team$name[!ordered_team$name %in% input$captain_picker], choiceNames = glue::glue_data(ordered_team %>% filter(!name %in% input$captain_picker), "{name} - ({race} {type}, Level {level})"), selected = ordered_team$name[!ordered_team$name %in% input$captain_picker][-c(1:(min_players-2))])
+    })
   })
+  
   
   observeEvent(input$confirm_submission, {
     Coach <- user()
@@ -653,8 +660,11 @@ shinyServer(function(input, output, session) {
       select(name, team, race, type, playerID) %>% 
       rename(Player = "name", Team = "team", Race = "race", Type="type")
     reserve <- team$Player %in% input$reserve_selection
+    captain <- team$Player %in% input$captain_picker
     
-    store <- cbind(Coach = Coach, FTeam = FTeam, Round = Round, team, Special = ifelse(reserve, "r", ""))
+    browser()
+    
+    store <- cbind(Coach = Coach, FTeam = FTeam, Round = Round, team, Special = case_when(captain ~ "c", reserve ~ "r", T ~ ""))
     
     #reread data to minimise collision
     cat(paste0(now(tzone="UTC"), "\t", user(), " submitting team ", FTeam, " with players ", glue::collapse(team$Player, ", "), " and IDs ", glue::collapse(team$playerID, ", ") ,"\n"), file = "data/logs/submission.log", append = T)
