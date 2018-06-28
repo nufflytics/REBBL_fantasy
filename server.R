@@ -22,8 +22,8 @@ library(shinycssloaders)
 
 source("global.R")
 
-min_players <- 6
-start_treasury <- 600
+min_players <- 12
+start_treasury <- 1200
 
 start_time = lubridate::dmy_hm("240618 0000", tz = "UTC")
 
@@ -108,6 +108,8 @@ shinyServer(function(input, output, session) {
     if(user() != "") {
       user("")
       pwd_err(NULL)
+      user_created_team <- reactiveValues()
+      
       updateActionButton(session, "login", "Login", icon = icon("user-o", class = "fa-lg fa-fw"))
     } else {
       showModal(modalDialog(
@@ -231,7 +233,11 @@ shinyServer(function(input, output, session) {
       filter(Coach == input$selected_coach) %>% 
       select(Special,Player:Type,Cost = `Total Cost`, Points = FP) %>% 
       mutate(
-        Special = ifelse(Special=="r", "<i class='fa fa-registered' title='Reserve'></i>", NA),
+        Special = case_when(
+          Special=="c" ~ "<i class='far fa-copyright' title='Captain'></i>",
+          Special=="r" ~ "<i class='far fa-registered' title='Reserve'></i>", 
+          T ~ NA
+          ),
         `Player efficiency` = Points*10/Cost 
       )
   })
@@ -640,13 +646,13 @@ shinyServer(function(input, output, session) {
       div(class = "bg-info", 
           HTML(paste0("<p>", strong(user()), glue::glue(", please select a captain and {nrow(ordered_team) - (min_players-1)} reserve players for "),tags$strong(input$teamname), "</p>", cash_text))
           ),
-      selectInput("captain_picker", "Captain:", choices = ordered_team %>% filter(type != "Werewolf") %>% .$name),
+      selectInput("captain_picker", "Captain:", choices = ordered_team %>% filter(type != "Werewolf") %>% .$name %>% set_names(glue::glue_data(ordered_team %>% filter(type != "Werewolf"), "{name} - ({race} {type}, Level {level})"))),
       uiOutput("reserve_picker"),
       footer = tagList(modalButton("Cancel", icon = icon("ban")), actionButton("confirm_submission", "Confirm team", icon = icon("upload")))
     ))
     
     output$reserve_picker = renderUI({
-      checkboxGroupInput("reserve_selection", width = "100%", "Reserves", choiceValues = ordered_team$name[!ordered_team$name %in% input$captain_picker], choiceNames = glue::glue_data(ordered_team %>% filter(!name %in% input$captain_picker), "{name} - ({race} {type}, Level {level})"), selected = ordered_team$name[!ordered_team$name %in% input$captain_picker][-c(1:(min_players-2))])
+      checkboxGroupInput("reserve_selection", width = "100%", "Reserves:", choiceValues = ordered_team$name[!ordered_team$name %in% input$captain_picker], choiceNames = glue::glue_data(ordered_team %>% filter(!name %in% input$captain_picker), "{name} - ({race} {type}, Level {level})"), selected = ordered_team$name[!ordered_team$name %in% input$captain_picker][-c(1:(min_players-2))])
     })
   })
   
@@ -681,19 +687,18 @@ shinyServer(function(input, output, session) {
       bind_rows(data_frame(Coach = user(), Cash = creation_cash_left())) %>% 
       write_csv("data/treasury.csv")
     
-    shiny::showNotification(id = "team_submitted", ui = span(icon("check-circle") , "Team submitted"), duration = 2, type = "warning", closeButton = F)
+    shiny::showNotification(id = "team_submitted", ui = span(icon("check-circle") , "Team submitted"), duration = 3, type = "warning", closeButton = F)
     addClass("shiny-notification-team_submitted", "animated rubberBand")
   })
   
   #Trade helper ------
   output$team_management_menu <- renderMenu({
-    validate(need(user(), message = F), need(gameweek > 2 | user() == "Schlice", message = F))
+    validate(need(user(), message = F))
     
     menuItem("Team Management", tabName = "manage", icon = icon("clipboard-list", class = "fa-fw fa-lg"))
   })
   
   # Fetch current team for user (filter teams for user/max(round))
-  
   # Create score history for players on the team?
   
   # Top display of team's performance (players, points-per-round (w/ pretty formatting?))
@@ -705,7 +710,7 @@ shinyServer(function(input, output, session) {
   # Send email? about trade, notify that it will be processed for next round
   
   output$team_management <- renderUI({
-    validate(need(user(), message = F), need(gameweek > 2 | user() == "Schlice", message = F))
+    validate(need(user(), message = F))
     
     fluidRow(
       box(
