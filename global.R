@@ -1,4 +1,4 @@
-icon <- function (name, class = NULL, lib = "font-awesome", type = "solid") 
+icon <- function (name, class = NULL, lib = "font-awesome", type = "solid", ...) 
 {
   prefixes <- list(`font-awesome` = "fa", glyphicon = "glyphicon")
   fa_extras <- list(solid = "s", regular = "r", brand = "b", old = "")
@@ -17,7 +17,7 @@ icon <- function (name, class = NULL, lib = "font-awesome", type = "solid")
   if (!is.null(class)) 
     iconClass <- paste(iconClass, class)
   
-  iconTag <- tags$i(class = iconClass)
+  iconTag <- tags$i(class = iconClass, ...)
   
   iconTag
 }
