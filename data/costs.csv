@@ -6,9 +6,9 @@ Dwarf,Troll Slayer,120
 Elven Union,Catcher,120
 High Elf,Catcher,120
 High Elf,Thrower,120
-Necromantic,Werewolf,120
-Skaven,Gutter Runner,120
-Vampire,Vampire,120
+Necromantic,Werewolf,140
+Skaven,Gutter Runner,100
+Vampire,Vampire,130
 Wood Elf,Wardancer,120
 Chaos Dwarf,Bull Centaur,110
 Dwarf,Runner,110
@@ -21,8 +21,8 @@ Underworld Denizens,Blitzer,110
 Amazon,Blitzer,100
 Brettonian,Blitzer,100
 Dark Elf,Blitzer,100
-Dark Elf,Runner,100
-Elven Union,Thrower,100
+Dark Elf,Runner,110
+Elven Union,Thrower,110
 Halfling,Treeman,100
 High Elf,Blitzer,100
 Human,Thrower,100
@@ -33,7 +33,7 @@ Skaven,Rat Ogre,100
 Skaven,Blitzer,100
 Undead,Mummy,100
 Wood Elf,Catcher,100
-Wood Elf,Thrower,100
+Wood Elf,Thrower,110
 Amazon,Catcher,90
 Amazon,Thrower,90
 Chaos,Warrior,90
