@@ -716,12 +716,13 @@ shinyServer(function(input, output, session) {
       box(
         title = "Team viewer",
         width = 12,
-        h2("Show team's performance")
-      ),
-      box(
-        width = 12,
-        h2("Trade assistant UI")
-      )
+        p("Interface for making trades and swapping captain/reserves will appear here once Round Two has commenced.")
+        #h2("Show team's performance")
+      )#,
+      #box(
+      #  width = 12,
+      #  h2("Trade assistant UI")
+      #)
     )
   })
   
