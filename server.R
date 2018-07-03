@@ -25,7 +25,7 @@ source("global.R")
 min_players <- 12
 start_treasury <- 1200
 
-start_time = lubridate::dmy_hm("240618 0000", tz = "UTC")
+start_time = lubridate::dmy_hm("040718 2359", tz = "Australia/Sydney") - weeks(2)
 
 theme_fantasy <- function() {
   theme_ipsum_rc(base_size = 12, axis_title_just = "m", axis_title_size = 14, grid = "Yy") + theme(legend.position = "bottom")
@@ -81,7 +81,33 @@ check_regions <- function(df) {
 shinyServer(function(input, output, session) {
   #Setup ------
   session$allowReconnect(TRUE)
-  gameweek = difftime(now("UTC"), start_time, units = "weeks") %>% ceiling()
+  gameweek = difftime(now(), start_time, units = "weeks") %>% ceiling()
+  
+  output$countdown <- renderUI({
+    validate(need(user(), message = F))
+    invalidateLater(1000*60)
+    
+    td <- difftime(start_time + weeks(gameweek), now()) %>% as.period()
+    
+    daysep <- ifelse(td@day > 1, " days ", " day ")
+    
+    time_left <- paste0(td@day, daysep, td@hour,":" , sprintf("%02d", td@minute), " left")
+    
+    start <- regexpr("[-1-9]|(0\\.)", time_left) # remove leading 0 values
+    time_left <- ifelse(start > 0, substr(time_left, start, nchar(time_left)),"")
+    
+    class = "text-info"
+    
+    if(td@day == 0) {
+      class = "text-warning"
+      if(td@hour == 0) {
+        class = "text-danger"
+      }
+    }
+    
+    HTML(glue::glue("<div class='vertical-align'><div>Round {gameweek}:&nbsp;</div><div class='{class}'>{time_left}</div></span>"))
+    
+  })
   
   coaches <- read_lines("data/coaches.txt")
   teams <- read_csv("data/fantasy_teams.csv", col_types = "cciccccic")
@@ -89,7 +115,7 @@ shinyServer(function(input, output, session) {
   treasury <- as.list(treasury$Cash) %>% set_names(treasury$Coach)
   stats <- read_csv("data/OI_player_stats.csv") %>% filter(!Type %in% c("Star Player"))
   costs <- read_csv("data/costs.csv")
-  regions <- select(stats, Team, league) %>% unique %>% rename(Region = league)
+  regions <- select(stats, Team, league) %>% unique %>% rename(Region = "league")
   stats <- stats %>% rename(Region = "league") %>% left_join(costs) %>% mutate(`Total Cost` = Cost + (Level-1)*10, Efficiency = FP*10/`Total Cost`)
   points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
   
@@ -110,7 +136,7 @@ shinyServer(function(input, output, session) {
       pwd_err(NULL)
       user_created_team <- reactiveValues()
       
-      updateActionButton(session, "login", "Login", icon = icon("user-o", class = "fa-lg fa-fw"))
+      updateActionButton(session, "login", "Login", icon = icon("user", class = "fa-lg fa-fw"), type = "regular")
     } else {
       showModal(modalDialog(
         title = "Login",
@@ -151,7 +177,7 @@ shinyServer(function(input, output, session) {
         pwd_err("Incorrect password, please try again.")
       }  
     }
-    updateActionButton(session, "login", "Logout", icon = icon(ifelse(user()=="","user-o","user"), class = "fa-lg fa-fw"))
+    updateActionButton(session, "login", "Logout", icon = icon("user", type = ifelse(user()=="","regular","solid"), class = "fa-lg fa-fw"))
   })
   
   
@@ -237,7 +263,7 @@ shinyServer(function(input, output, session) {
           Special=="c" ~ "<i class='far fa-copyright' title='Captain'></i>",
           Special=="r" ~ "<i class='far fa-registered' title='Reserve'></i>", 
           T ~ NA
-          ),
+        ),
         `Player efficiency` = Points*10/Cost 
       )
   })
@@ -449,7 +475,7 @@ shinyServer(function(input, output, session) {
   
   user_created_team <- reactiveValues()
   
-  observeEvent(nchar(input$teamname), { # Reload team data if coach already submitted something
+  observeEvent(c(nchar(input$teamname)), { # Reload team data if coach already submitted something
     if(filter(teams, Coach == user()) %>% nrow > 0) {
       
       for (id in filter(teams, Coach == user()) %>% .$playerID) {
@@ -540,7 +566,7 @@ shinyServer(function(input, output, session) {
   # End team validation ------
   
   output$team_builder <- renderUI({
-    validate(need(user(), message = F), need(gameweek < 3, message = F))
+    validate(need(user(), message = F))
     
     fluidRow(
       box(
@@ -553,7 +579,7 @@ shinyServer(function(input, output, session) {
                  column(3, p(
                    "Select players for your fantasy team"
                  )), 
-                 column(9,span(class = "pull-right", actionButton("add_player", "Hire player", icon = icon("plus-circle"))))
+                 column(9,span(class = "pull-right", actionButton("add_player", "Hire player", icon = icon("plus-circle")) %>% remove_default()))
         ),
         withSpinner(DT::dataTableOutput("player_pool"))
       ),
@@ -566,8 +592,8 @@ shinyServer(function(input, output, session) {
         fluidRow(class = "vertical-align",
                  column(3,textInput("teamname", label = NULL, placeholder = "Enter a team name")),
                  column(3, 
-                        actionButton("submit_team", "Submit team", icon = icon("upload")), 
-                        actionButton("remove_player", "Fire player", icon = icon("minus-circle"))
+                        actionButton("submit_team", "Submit team", icon = icon("upload")) %>% remove_default(), 
+                        actionButton("remove_player", "Fire player", icon = icon("minus-circle")) %>% remove_default()
                  ),
                  column(6,uiOutput("cash_remaining"))
         ),
@@ -645,7 +671,7 @@ shinyServer(function(input, output, session) {
       easyClose = T,
       div(class = "bg-info", 
           HTML(paste0("<p>", strong(user()), glue::glue(", please select a captain and {nrow(ordered_team) - (min_players-1)} reserve players for "),tags$strong(input$teamname), "</p>", cash_text))
-          ),
+      ),
       selectInput("captain_picker", "Captain:", choices = ordered_team %>% filter(type != "Werewolf") %>% .$name %>% set_names(glue::glue_data(ordered_team %>% filter(type != "Werewolf"), "{name} - ({race} {type}, Level {level})"))),
       uiOutput("reserve_picker"),
       footer = tagList(modalButton("Cancel", icon = icon("ban")), actionButton("confirm_submission", "Confirm team", icon = icon("upload")))
@@ -660,7 +686,7 @@ shinyServer(function(input, output, session) {
   observeEvent(input$confirm_submission, {
     Coach <- user()
     FTeam <- input$teamname
-    Round <- max(as.numeric(gameweek) + 1, 2)
+    Round <- 2
     
     team <- reactiveValuesToList(user_created_team) %>% compact %>% magrittr::extract(order(map_dbl(., "Cost"), decreasing = T)) %>% bind_rows %>% 
       select(name, team, race, type, playerID) %>% 
@@ -701,32 +727,214 @@ shinyServer(function(input, output, session) {
   # Fetch current team for user (filter teams for user/max(round))
   # Create score history for players on the team?
   
-  # Top display of team's performance (players, points-per-round (w/ pretty formatting?))
-  # Alter reserves here?
+  react_teams <- reactiveFileReader(1000, session, "data/fantasy_teams.csv", read_csv)
   
-  # Bottom selectize (max 2) of players in team
+  split_teams <- reactive({
+    split(react_teams(), react_teams()$Coach) %>% 
+      map(~split(., .$Round))
+  })
+  
+  user_team <- reactive({
+    split_teams()[[user()]][[ifelse(gameweek<2, "2", as.character(gameweek))]]
+  })
+  
+  next_round_team <- reactive({
+   # browser()
+    next_gameweek <- ifelse(gameweek <= 2, "3", as.character(gameweek + 1))
+    ret = NA
+    if(next_gameweek %in% names(split_teams()[[user()]])) {
+      ret = split_teams()[[user()]][[ifelse(gameweek<2, "3", as.character(gameweek + 1))]]
+    } else {
+      ret = user_team() %>% mutate(Round = Round +1)
+    }
+    
+    ret
+  }) 
+  
+  
+  player_status <- reactive({
+    validate(need(user_team(), message = F))
+    filter(stats, playerID %in% user_team()$playerID) %>% 
+      filter(Round <= max(as.numeric(gameweek), 1)) %>% 
+      group_by(playerID) %>% 
+      summarise(Level = last(Level), `Total Cost` = last(`Total Cost`), isDead = "Dead" %in% new_injuries) %>% 
+      left_join(user_team()) %>% 
+      select(playerID, Level, `Total Cost`, isDead)
+  })
+  
+  team_overview <- reactive({
+    #browser()
+    validate(need(user_team(), message = F), need(player_status(), message = F))
+    
+    next_round_team() %>% 
+      select(-Round) %>% 
+      left_join(stats %>% bind_rows(stats %>% sample_frac(0.5) %>% mutate(Round = 2, FP = ceiling(rpois(nrow(.), 2.5)) ,new_injuries = sample(c(NA,"MNG","MNG","MNG","-AV","-AG","Dead"), nrow(.), replace=T))),by = c("playerID", "Team", "Race","Type")) %>% 
+      select(playerID, Player, Race, Type, Round, FP, Special) %>% 
+      mutate(Round = paste0("R",Round)) %>% 
+      spread(Round, FP) %>% 
+      left_join(player_status())
+    
+  })
+  
+  # Top display of team's performance (players, points-per-round (w/ pretty formatting?))
+  
+  output$team_overview_table <- DT::renderDataTable({
+    DT::datatable({
+      team_overview() %>% 
+        mutate(Special = case_when(
+          Special=="c" ~ "<i class='far fa-copyright' title='Captain'></i>",
+          Special=="r" ~ "<i class='far fa-registered' title='Reserve'></i>",
+          is.na(Special) ~ ''
+        ),
+        isDead = ifelse(isDead, "<img class='skillimg' src='img/skills/Dead.png' title='Dead' />", "")
+        ) %>% 
+        select(Special, Player, Race, Type, Level, `Total Cost`, matches("R[123456789]"), isDead) %>% 
+        arrange(desc(`Total Cost`))
+    },
+    rownames = F,
+    class="display compact",
+    colnames = c(' ' = 'Special', ' ' = 'isDead'),
+    filter = "none",
+    escape = c("Player"),
+    options = list(
+      dom = "t",
+      scrollX = T,
+      pageLength = 20,
+      ordering = F,
+      #autoWidth = T,
+      columnDefs = list(list(targets = c(0), width = "20px"), list(targets = c(1:5), width = "10%"), list(targets = c(6:(gameweek+5)), width = "15%"))
+    ) 
+    ) %>% 
+      DT::formatStyle(colnames(.$x$data)[grep("R[1234567890]",colnames(.$x$data))],
+                      background = styleColorBar(c(0,20), "#cce5ff"),
+                      backgroundSize = '90% 90%',
+                      backgroundRepeat = 'no-repeat',
+                      backgroundPosition = 'center')
+    })
+
   # filter list of potential trades (filter stats by this and last round, unique players (last row if multiple), removing ones in team already and ones that cost too much (cost of traded players + treasury))
+  team_trade_value <- reactive({
+    stats %>% 
+      filter(playerID %in% next_round_team()$playerID) %>% 
+      group_by(playerID) %>% 
+      summarise_all(last) %>% 
+      ungroup() %>% 
+      select(playerID, Name, `Total Cost`) %>% 
+      arrange(desc(`Total Cost`))
+  })
+  
+  trade_pool <- reactive({
+    stats %>% 
+      filter(Round %in% c(gameweek-1, gameweek)) %>% 
+      group_by(playerID) %>% 
+      summarise_all(last) %>% 
+      ungroup() %>% 
+      filter(!playerID %in% next_round_team()$playerID, `Total Cost` <= 1200) %>% 
+      arrange_desc(`Total Cost`)
+  })
+  
   # Display trade summary w/ request button
   # Send email? about trade, notify that it will be processed for next round
+  
+  output$FTeamName <- renderText(paste(user_team()$FTeam %>% unique(), "Overview"))
   
   output$team_management <- renderUI({
     validate(need(user(), message = F))
     
     fluidRow(
       box(
-        title = "Team viewer",
+        title = textOutput("FTeamName"),
         width = 12,
-        p("Interface for making trades and swapping captain/reserves will appear here once Round Two has commenced.")
-        #h2("Show team's performance")
-      )#,
-      #box(
-      #  width = 12,
-      #  h2("Trade assistant UI")
-      #)
+        status = "primary",
+        solidHeader = T,
+        collapsible = T,
+        #p("Interface for making trades and swapping captain/reserves will appear here once Round Two has commenced.")
+        DT::dataTableOutput("team_overview_table"),
+        fluidRow(class = "vertical-align", style = "padding-top: 0.7em",
+            column(3, radioGroupButtons("change_special", "Reassign:", choices = c("Captain", "Reserves"), justified = T, selected = NULL, status = "primary", individual = T)),
+            column(6, selectizeInput("special_picker", "Player", choices = team_overview() %>% filter(Special %in% c(NA, NA_character_), Type != "Werewolf") %>% arrange(desc(`Total Cost`)) %>% use_series(Player),   multiple = T)),
+            column(3, br(), actionButton("special_confirm","Confirm change", icon = icon("check-circle", type="regular"), class = "btn-success", width = "100%") %>% remove_default())
+        )
+        
+      ),
+      box(
+        title = "Trade assistant",
+        width = 12,
+        status = "warning",
+        solidHeader = T,
+        collapsible = T,
+        fluidRow(class = "vertical-align",
+          column(4, selectizeInput("trade_out", "", choices = glue::glue_data(team_trade_value(), "{Name} - ${`Total Cost`}") %>% set_names(team_trade_value()$Name), multiple = T)),
+          column(4, class = "vertical-align", icon("money-bill", type = "regular", class = "fa-3x"), div(class = "treasury", style = "padding-left: 1em", glue::glue("${treasury[[user()]]}")))
+        )
+      )
     )
   })
+
   
+  observeEvent(c(input$change_special, input$special_confirm), {
+    if(input$change_special == "Captain") {
+      updateSelectizeInput(session, "special_picker", label = "New Captain:", choices = team_overview() %>% filter(Special %in% c(NA, NA_character_), Type != "Werewolf") %>% arrange(desc(`Total Cost`)) %>% use_series(Player))
+    } else {
+      updateSelectizeInput(session, "special_picker", label = "New Reserve(s):", choices = team_overview() %>% filter(Special %in% c(NA,'r')) %>% arrange(desc(`Total Cost`)) %>%  use_series(Player))
+    }
+  })
   
-  #output$debug = renderText(c(names(user_created_team), map_lgl(reactiveValuesToList(user_created_team), is.null)))
+  observeEvent(input$special_confirm, {
+    if(input$change_special == "Captain") {
+      
+      changes <- next_round_team() %>% 
+        mutate(Special = case_when(
+        Special == 'c' ~ NA_character_,
+        Player %in% input$special_picker ~ "c",
+        T ~ Special
+      ))
+      cat(paste0(now(tzone="UTC"), "\t", user(), " changing captain ", next_round_team() %>% filter(Special == "c") %>% .$Player, " for ", input$special_picker ,"\n"), file = "data/logs/special_changes.log", append = T)
+      read_csv("data/fantasy_teams.csv") %>% 
+        filter(Coach != user() | Round != ifelse(gameweek < 2, "3", as.character(gameweek + 1))) %>% 
+        bind_rows(changes) %>% 
+        write_csv("data/fantasy_teams.csv")
+    } else {
+      changes <- next_round_team() %>% 
+        mutate(Special = case_when(
+          Special == 'r' & !Player %in% input$special_picker ~ NA_character_,
+          Player %in% input$special_picker ~ "r",
+          T ~ Special
+        ))
+      
+      cat(paste0(now(tzone="UTC"), "\t", user(), " changing reserves ", next_round_team() %>% filter(Special == "r") %>% .$Player %>% glue::collapse(", "), " for ", glue::collapse(input$special_picker, ", "), "\n"), file = "data/logs/special_changes.log", append = T)
+      
+      read_csv("data/fantasy_teams.csv") %>% 
+        filter(Coach != user() | Round != ifelse(gameweek < 2, "3", as.character(gameweek + 1))) %>% 
+        bind_rows(changes) %>% 
+        write_csv("data/fantasy_teams.csv")
+    }
+  })
+  
+  observe({
+    validate(need(input$change_special, message = F), need(user_team(), message = F))
+
+    if(input$change_special == "Captain") {
+      if(length(input$special_picker) != 1) {
+        removeClass("special_confirm", "btn-success")
+        disable("special_confirm")
+      } else {
+        addClass("special_confirm", "btn-success")
+        enable("special_confirm")
+      }
+    }
+    
+    if(input$change_special == "Reserves") {
+      if(length(input$special_picker) != nrow(next_round_team()) - 11) {
+        removeClass("special_confirm", "btn-success")
+        disable("special_confirm")
+      } else {
+        addClass("special_confirm", "btn-success")
+        enable("special_confirm")
+      }
+    }
+  })
+  
+  #output$debug = renderText(input$change_special)
   #output$debug2 = renderTable(reactiveValuesToList(user_created_team) %>% compact %>% bind_rows)
 })
