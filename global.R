@@ -21,3 +21,9 @@ icon <- function (name, class = NULL, lib = "font-awesome", type = "solid", ...)
   
   iconTag
 }
+
+remove_default <- function(tag) {
+  tag$attribs$class %<>% str_remove(" ?btn-default")
+  
+  tag
+}
