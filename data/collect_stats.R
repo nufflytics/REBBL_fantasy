@@ -8,7 +8,7 @@ suppressMessages(require(nufflytics))
 
 api_key <- readRDS("api.key")
 last_game = read_file("last_game.uuid")
-leagues <- c("Big O", "Gman", "REL")
+leagues <- c("REBBL - Big O", "REBBL - Gman", "REBBL - REL")
 
 uuid_to_id <- function(uuid) {
   if(is.na(uuid)) return(0)
