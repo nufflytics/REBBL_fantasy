@@ -10,6 +10,7 @@ library(shiny)
 library(nufflytics)
 library(readr)
 library(dplyr)
+library(magrittr)
 library(stringr)
 library(lubridate)
 library(purrr)
@@ -19,6 +20,7 @@ library(hrbrthemes)
 library(bcrypt)
 library(shinyjs)
 library(shinycssloaders)
+library(shinyWidgets)
 
 source("global.R")
 
@@ -879,7 +881,7 @@ shinyServer(function(input, output, session) {
                             uiOutput("trade_tally")
                      ),
                      column(3,class = "text-center",
-                            actionButton("confirm_trade", "Process Trade", icon = icon("check-circle", type = "regular", class = "fa-lg"), class = "disabled", style="margin-bottom:0px")%>% remove_defaults()
+                            actionButton("confirm_trade", "Process Trade", icon = icon("check-circle", type = "regular", class = "fa-lg"), class = "disabled", style="margin-bottom:0px")%>% remove_default()
                      ),
                      column(2,class = "bg-info",id = "waiver_box",
                             checkboxInput("request_trade_waiver","Request trade fee waiver"), tags$small("Select if you believe a trade fee has been applied incorectly to this trade"))
@@ -897,11 +899,11 @@ shinyServer(function(input, output, session) {
   })
 
   observe({
-    validate(need(input$trade_out, message = F), need(input$trade_in, message = F))
-     
+    validate(need(treasury_change(), message = F))
+    #browser()
     trade_out_num <- length(input$trade_out) <= 2
-    trade_in_num <- length(input$trade_in) <= 2 & length(input$trade_out) == length(input$trade_in)
-    good_value <- treasury_change() >= 0
+    trade_in_num <- ifelse("trade_in" %in% names(input), length(input$trade_in) <= 2 & length(input$trade_out) == length(input$trade_in), FALSE)
+    good_value <- treasury_change() <= treasury[[user()]]
     
     if(trade_out_num & trade_in_num & good_value) {
       enable("confirm_trade")
@@ -915,6 +917,14 @@ shinyServer(function(input, output, session) {
   })
   
   observeEvent(input$confirm_trade, {
+    
+    showModal(modalDialog(
+      title = "Trade confirmation",
+      icon("warning", class = "fa-2x txt-warning"),
+      "Trade interface still being completed",
+      easyClose = TRUE
+    ))
+    
     trade_in_players <- trade_pool() %>% filter(playerID %in% input$trade_in) %>% select(Name, Team, Race, Type, playerID)
     prospective_team <- next_round_team() %>% inset(.$playerID %in% input$trade_out, 4:8, trade_in_players)
   })
@@ -958,7 +968,7 @@ shinyServer(function(input, output, session) {
   })
   
   
-  observeEvent(input$trade_out, {
+  observeEvent(available_trades(), {
     updateSelectizeInput(session, "trade_in", choices = available_trades()$playerID %>% set_names(glue::glue_data(available_trades(), "{Name} - ${`Total Cost`}")))
   })
   
