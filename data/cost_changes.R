@@ -1,1 +1,1 @@
-mutate(Cost = case_when(Type == "Werewolf" ~ 140L, Type =="Vampire" ~ 130L, Race == "Dark Elf" & Type == "Runner" ~ 100L, Race == "Elven Union" & Type == "Thrower" ~ 110L, Race == "Wood Elf" & Type == "Thrower" ~ 110L,Type=="Gutter Runner"~100L)
+mutate(Cost = case_when(Type == "Werewolf" ~ 140L, Type =="Vampire" ~ 130L, Race == "Dark Elf" & Type == "Runner" ~ 110L, Race == "Elven Union" & Type == "Thrower" ~ 110L, Race == "Wood Elf" & Type == "Thrower" ~ 110L,Type=="Gutter Runner"~100L)
