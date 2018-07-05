@@ -33,7 +33,7 @@ theme_fantasy <- function() {
   theme_ipsum_rc(base_size = 12, axis_title_just = "m", axis_title_size = 14, grid = "Yy") + theme(legend.position = "bottom")
 }
 
-initial_player_pool <- read_rds("data/api_team_output.rds") %>% 
+initial_player_pool <- read_rds("data/all_rebbl_api_team_output.rds") %>% 
   map_dfr(~data_frame(
     coach = .$coach$name, 
     team = .$team$name, 
@@ -117,7 +117,8 @@ shinyServer(function(input, output, session) {
   treasury <- as.list(treasury$Cash) %>% set_names(treasury$Coach)
   stats <- read_csv("data/OI_player_stats.csv") %>% filter(!Type %in% c("Star Player"))
   costs <- read_csv("data/costs.csv")
-  regions <- select(stats, Team, league) %>% unique %>% rename(Region = "league")
+  #regions <- select(stats, Team, league) %>% unique %>% rename(Region = "league")
+  regions <- read_csv("data/regions.csv")
   stats <- stats %>% rename(Region = "league") %>% left_join(costs) %>% mutate(`Total Cost` = Cost + (Level-1)*10, Efficiency = FP*10/`Total Cost`)
   points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
   
