@@ -16,7 +16,7 @@ uuid_to_id <- function(uuid) {
 }
 
 get_contests <- function(league_name) {
-  api_contests(api_key, league_name, status = "played", limit = 2000)$upcoming_matches %>% 
+  api_contests(api_key, league_name, status = "played", limit = 200)$upcoming_matches %>% 
     map_dfr(
       ~data.frame(uuid = .$match_uuid, id = .$match_id, round = .$round)
       ) %>% 
