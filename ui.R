@@ -71,7 +71,7 @@ overall_stats <- tabItem(tabName = "stats",
                              tabPanel("Averaged", withSpinner(DT::dataTableOutput("averaged_stats_table"))),
                              tabPanel("All", withSpinner(DT::dataTableOutput("stats_table")))
                            )
-                          ) #, #Removed for testing
+                         ) #, #Removed for testing
                          # fluidRow(
                          #   infoBoxOutput("best_game_stats", width = 3),
                          #   conditionalPanel(
@@ -97,16 +97,15 @@ dashboardPage(title = "REBBL Fantasy League",
               skin="black",
               dashboardHeader(
                 title = span(tagList(a(href="https://www.reddit.com/r/rebbl", img(src = "img/ReBBL_logo_800px_72dpi.png", width = "70px")),"Fantasy")),
-                tags$li(class = "dropdown",
-                        tags$li(class="dropdown username", textOutput("username")),
-                        tags$li(class="dropdown", actionLink("login", "Login", icon = icon("user", class = "fa-lg fa-fw", type = "regular")))
-                )
+                tags$li(class = "dropdown username", uiOutput("countdown")),
+                tags$li(class="dropdown username", textOutput("username")),
+                tags$li(class="dropdown", actionLink("login", "Login", icon = icon("user", class = "fa-lg fa-fw", type = "regular")))
               ),
               dashboardSidebar(
                 sidebarMenu(
                   id = "tabs",
-                 # menuItem("Leaderboard", tabName = "leaderboard", icon = icon("trophy", class = "fa-fw fa-lg")),
-                 # menuItem("Team Performance", tabName = "teams", icon = icon("football-ball", class = "fa-fw fa-lg")),
+                  # menuItem("Leaderboard", tabName = "leaderboard", icon = icon("trophy", class = "fa-fw fa-lg")),
+                  # menuItem("Team Performance", tabName = "teams", icon = icon("football-ball", class = "fa-fw fa-lg")),
                   menuItem("Player Stats", tabName = "stats", icon = icon("chart-bar", class = "fa-fw fa-lg", type = "regular")),
                   menuItemOutput("team_builder_menu"),
                   menuItemOutput("team_management_menu")
@@ -121,7 +120,7 @@ dashboardPage(title = "REBBL Fantasy League",
                   tags$link(rel="stylesheet", href="css/google-font.css"),
                   tags$link(rel="stylesheet", href="css/animate.css"),
                   tags$link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.1.0/css/all.css", integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt")
-                  ),
+                ),
                 useShinyjs(),
                 tabItems(
                   overall_stats,
