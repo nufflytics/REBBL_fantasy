@@ -43,3 +43,11 @@ table.dataTable tbody tr {
   top: calc(50%);
   left: calc(50%);
 }
+
+#waiver_box .checkbox {
+  margin-bottom: 5px;
+}
+
+.total {
+  border-top: 3px double rgb(128,128,128);
+}

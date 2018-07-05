@@ -25,7 +25,7 @@ source("global.R")
 min_players <- 12
 start_treasury <- 1200
 
-start_time = lubridate::dmy_hm("040718 2359", tz = "Australia/Sydney") - weeks(2)
+start_time = lubridate::dmy_hm("040718 2359", tz = "Australia/Sydney")
 
 theme_fantasy <- function() {
   theme_ipsum_rc(base_size = 12, axis_title_just = "m", axis_title_size = 14, grid = "Yy") + theme(legend.position = "bottom")
@@ -739,7 +739,7 @@ shinyServer(function(input, output, session) {
   })
   
   next_round_team <- reactive({
-   # browser()
+    # browser()
     next_gameweek <- ifelse(gameweek <= 2, "3", as.character(gameweek + 1))
     ret = NA
     if(next_gameweek %in% names(split_teams()[[user()]])) {
@@ -768,7 +768,7 @@ shinyServer(function(input, output, session) {
     
     next_round_team() %>% 
       select(-Round) %>% 
-      left_join(stats %>% bind_rows(stats %>% sample_frac(0.5) %>% mutate(Round = 2, FP = ceiling(rpois(nrow(.), 2.5)) ,new_injuries = sample(c(NA,"MNG","MNG","MNG","-AV","-AG","Dead"), nrow(.), replace=T))),by = c("playerID", "Team", "Race","Type")) %>% 
+      left_join(stats) %>% 
       select(playerID, Player, Race, Type, Round, FP, Special) %>% 
       mutate(Round = paste0("R",Round)) %>% 
       spread(Round, FP) %>% 
@@ -810,8 +810,8 @@ shinyServer(function(input, output, session) {
                       backgroundSize = '90% 90%',
                       backgroundRepeat = 'no-repeat',
                       backgroundPosition = 'center')
-    })
-
+  })
+  
   # filter list of potential trades (filter stats by this and last round, unique players (last row if multiple), removing ones in team already and ones that cost too much (cost of traded players + treasury))
   team_trade_value <- reactive({
     stats %>% 
@@ -823,18 +823,102 @@ shinyServer(function(input, output, session) {
       arrange(desc(`Total Cost`))
   })
   
+  treasury_change <- reactive({
+    validate(need(input$trade_out, message = F))
+    
+    cost_sold <- filter(team_overview(), playerID %in% input$trade_out) %>% use_series(`Total Cost`) %>% sum
+    
+    cost_bought <- 0
+    
+    if(!is.null(input$trade_in)) cost_bought <-filter(trade_pool(), playerID %in% input$trade_in) %>% use_series(`Total Cost`) %>% sum
+    
+    cost_sold - cost_bought - trade_fee()
+  })
+  
   trade_pool <- reactive({
     stats %>% 
       filter(Round %in% c(gameweek-1, gameweek)) %>% 
       group_by(playerID) %>% 
       summarise_all(last) %>% 
       ungroup() %>% 
-      filter(!playerID %in% next_round_team()$playerID, `Total Cost` <= 1200) %>% 
-      arrange_desc(`Total Cost`)
+      filter(!playerID %in% team_trade_value()$playerID) %>% 
+      arrange(desc(`Total Cost`))
   })
   
-  # Display trade summary w/ request button
-  # Send email? about trade, notify that it will be processed for next round
+  trade_fee <- reactive({
+    validate(need(!is.null(input$trade_out), message = F))
+
+    free_trade <- team_overview() %>% 
+      filter(playerID %in% input$trade_out) %>% 
+      select(playerID, matches("R[1234567890]"), isDead) %>% 
+      gather(round, points, -playerID, -isDead) %>% 
+      mutate(round = str_remove(round,"R") %>% as.integer()) %>% 
+      group_by(playerID) %>% 
+      summarise(round = max(round), isDead = all(isDead)) %>% 
+      mutate(fired = (gameweek - round) >= 3, free = isDead|fired) %>% 
+      use_series(free) %>% 
+      all
+    
+    ifelse(free_trade | input$request_trade_waiver, 0, 10)
+  })
+  
+  available_trades <- reactive({
+    validate(need(trade_fee(), message = F))
+    
+    traded_value <- filter(team_trade_value(), playerID %in% input$trade_out) %>% use_series(`Total Cost`) %>% sum()
+    
+    trade_pool() %>% 
+      filter(`Total Cost` <= treasury[[user()]] + traded_value - trade_fee())
+  })
+  
+  output$trade_summary <- renderUI({
+    validate(need(input$trade_out, message = F))
+    
+    div(class = "vertical-align",
+                     column(7,
+                            uiOutput("trade_tally")
+                     ),
+                     column(3,class = "text-center",
+                            actionButton("confirm_trade", "Process Trade", icon = icon("check-circle", type = "regular", class = "fa-lg"), class = "disabled", style="margin-bottom:0px")%>% remove_defaults()
+                     ),
+                     column(2,class = "bg-info",id = "waiver_box",
+                            checkboxInput("request_trade_waiver","Request trade fee waiver"), tags$small("Select if you believe a trade fee has been applied incorectly to this trade"))
+                     )
+  })
+  
+  output$trade_tally <- renderUI({
+    tagList(
+      h4("Trade Summary:"),
+      map(input$trade_out, ~div(icon("arrow-left", class="fa-lg fa-fw text-danger"), span(class="text-danger", "Trading out:"), span(HTML(glue::glue_data(filter(team_overview(), playerID == .), "{Player} - {Race} {Type} {span(class = 'pull-right', '$',`Total Cost`)}"))))),
+      map(input$trade_in, ~div(icon("arrow-right", class="fa-lg fa-fw text-success"), span(class="text-success", "Trading in:"), span(HTML(glue::glue_data(filter(available_trades(), playerID == .), "{Name} - {Race} {Type} {span(class = 'pull-right', '$',`Total Cost`)}"))))),
+      div(icon("money-bill-wave", class = "fa-lg fa-fw"), "Trade fee", span(class = "pull-right", '$', trade_fee())),
+      div("Net treasury", span(class = paste("pull-right total", case_when(treasury_change() > 0 ~ 'text-success', treasury_change() < 0 ~ 'text-danger', T ~ '')), "$", treasury_change()))
+    )
+  })
+
+  observe({
+    validate(need(input$trade_out, message = F), need(input$trade_in, message = F))
+     
+    trade_out_num <- length(input$trade_out) <= 2
+    trade_in_num <- length(input$trade_in) <= 2 & length(input$trade_out) == length(input$trade_in)
+    good_value <- treasury_change() >= 0
+    
+    if(trade_out_num & trade_in_num & good_value) {
+      enable("confirm_trade")
+      addClass("confirm_trade", "btn-success")
+    } else {
+      disable("confirm_trade")
+      removeClass("confirm_trade", "btn-success")
+    }
+    
+    
+  })
+  
+  observeEvent(input$confirm_trade, {
+    trade_in_players <- trade_pool() %>% filter(playerID %in% input$trade_in) %>% select(Name, Team, Race, Type, playerID)
+    prospective_team <- next_round_team() %>% inset(.$playerID %in% input$trade_out, 4:8, trade_in_players)
+  })
+  
   
   output$FTeamName <- renderText(paste(user_team()$FTeam %>% unique(), "Overview"))
   
@@ -851,9 +935,9 @@ shinyServer(function(input, output, session) {
         #p("Interface for making trades and swapping captain/reserves will appear here once Round Two has commenced.")
         DT::dataTableOutput("team_overview_table"),
         fluidRow(class = "vertical-align", style = "padding-top: 0.7em",
-            column(3, radioGroupButtons("change_special", "Reassign:", choices = c("Captain", "Reserves"), justified = T, selected = NULL, status = "primary", individual = T)),
-            column(6, selectizeInput("special_picker", "Player", choices = team_overview() %>% filter(Special %in% c(NA, NA_character_), Type != "Werewolf") %>% arrange(desc(`Total Cost`)) %>% use_series(Player),   multiple = T)),
-            column(3, br(), actionButton("special_confirm","Confirm change", icon = icon("check-circle", type="regular"), class = "btn-success", width = "100%") %>% remove_default())
+                 column(3, radioGroupButtons("change_special", "Reassign:", choices = c("Captain", "Reserves"), justified = T, selected = NULL, status = "primary", individual = T)),
+                 column(6, selectizeInput("special_picker", "Player", choices = team_overview() %>% filter(Special %in% c(NA, NA_character_), Type != "Werewolf") %>% arrange(desc(`Total Cost`)) %>% use_series(Player),   multiple = T)),
+                 column(3, br(), actionButton("special_confirm","Confirm change", icon = icon("check-circle", type="regular"), class = "btn-success", width = "100%") %>% remove_default())
         )
         
       ),
@@ -864,13 +948,19 @@ shinyServer(function(input, output, session) {
         solidHeader = T,
         collapsible = T,
         fluidRow(class = "vertical-align",
-          column(4, selectizeInput("trade_out", "", choices = glue::glue_data(team_trade_value(), "{Name} - ${`Total Cost`}") %>% set_names(team_trade_value()$Name), multiple = T)),
-          column(4, class = "vertical-align", icon("money-bill", type = "regular", class = "fa-3x"), div(class = "treasury", style = "padding-left: 1em", glue::glue("${treasury[[user()]]}")))
-        )
+                 column(4, selectizeInput("trade_out", "Trading out:", choices = team_trade_value()$playerID %>% set_names(glue::glue_data(team_trade_value(), "{Name} - ${`Total Cost`}")), multiple = T)),
+                 column(4, class = "text-center", div(class = "treasury", glue::glue("Treasury: ${treasury[[user()]]}"))),
+                 column(4, selectizeInput("trade_in", "Trading in:", choices = NULL, multiple = T))
+        ),
+        uiOutput("trade_summary")
       )
     )
   })
-
+  
+  
+  observeEvent(input$trade_out, {
+    updateSelectizeInput(session, "trade_in", choices = available_trades()$playerID %>% set_names(glue::glue_data(available_trades(), "{Name} - ${`Total Cost`}")))
+  })
   
   observeEvent(c(input$change_special, input$special_confirm), {
     if(input$change_special == "Captain") {
@@ -885,10 +975,10 @@ shinyServer(function(input, output, session) {
       
       changes <- next_round_team() %>% 
         mutate(Special = case_when(
-        Special == 'c' ~ NA_character_,
-        Player %in% input$special_picker ~ "c",
-        T ~ Special
-      ))
+          Special == 'c' ~ NA_character_,
+          Player %in% input$special_picker ~ "c",
+          T ~ Special
+        ))
       cat(paste0(now(tzone="UTC"), "\t", user(), " changing captain ", next_round_team() %>% filter(Special == "c") %>% .$Player, " for ", input$special_picker ,"\n"), file = "data/logs/special_changes.log", append = T)
       read_csv("data/fantasy_teams.csv") %>% 
         filter(Coach != user() | Round != ifelse(gameweek < 2, "3", as.character(gameweek + 1))) %>% 
@@ -913,7 +1003,7 @@ shinyServer(function(input, output, session) {
   
   observe({
     validate(need(input$change_special, message = F), need(user_team(), message = F))
-
+    
     if(input$change_special == "Captain") {
       if(length(input$special_picker) != 1) {
         removeClass("special_confirm", "btn-success")
@@ -935,6 +1025,6 @@ shinyServer(function(input, output, session) {
     }
   })
   
-  #output$debug = renderText(input$change_special)
+  output$debug = renderText(input$trade_out)
   #output$debug2 = renderTable(reactiveValuesToList(user_created_team) %>% compact %>% bind_rows)
 })
