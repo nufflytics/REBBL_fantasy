@@ -112,13 +112,13 @@ shinyServer(function(input, output, session) {
   })
   
   coaches <- read_lines("data/coaches.txt")
-  teams <- read_csv("data/fantasy_teams.csv", col_types = "cciccccic")
-  treasury <- read_csv("data/treasury.csv", col_types = "ci")
+  teams <- read_csv("data/fantasy_teams.csv", col_types = "cciccccic", trim_ws = F)
+  treasury <- read_csv("data/treasury.csv", col_types = "ci", trim_ws = F)
   treasury <- as.list(treasury$Cash) %>% set_names(treasury$Coach)
-  stats <- read_csv("data/player_stats.csv") %>% filter(!Type %in% c("Star Player")) %>% mutate_at(vars(league), str_remove, "REBBL - ")
-  costs <- read_csv("data/costs.csv")
+  stats <- read_csv("data/player_stats.csv", trim_ws = F) %>% filter(!Type %in% c("Star Player")) %>% mutate_at(vars(league), str_remove, "REBBL - ")
+  costs <- read_csv("data/costs.csv", trim_ws = F)
   #regions <- select(stats, Team, league) %>% unique %>% rename(Region = "league")
-  regions <- read_csv("data/regions.csv")
+  regions <- read_csv("data/regions.csv", trim_ws = F)
   stats <- stats %>% rename(Region = "league") %>% left_join(costs) %>% mutate(`Total Cost` = Cost + (Level-1)*10, Efficiency = FP*10/`Total Cost`)
   points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
   
