@@ -317,7 +317,7 @@ shinyServer(function(input, output, session) {
   })
   
   output$averaged_stats_table <- DT::renderDataTable(
-    DT::datatable(summarised_stats %>% select(-playerID),
+    DT::datatable(summarised_stats %>% select(-playerID) %>% ungroup() %>% mutate_at(vars(Region), as.factor),
                   extensions = "Scroller",
                   options = list(
                     dom = 'tip',
