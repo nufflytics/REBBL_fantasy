@@ -115,7 +115,7 @@ shinyServer(function(input, output, session) {
   teams <- read_csv("data/fantasy_teams.csv", col_types = "cciccccic")
   treasury <- read_csv("data/treasury.csv", col_types = "ci")
   treasury <- as.list(treasury$Cash) %>% set_names(treasury$Coach)
-  stats <- read_csv("data/OI_player_stats.csv") %>% filter(!Type %in% c("Star Player"))
+  stats <- read_csv("data/player_stats.csv") %>% filter(!Type %in% c("Star Player")) %>% mutate_at(vars(league), str_remove, "REBBL - ")
   costs <- read_csv("data/costs.csv")
   #regions <- select(stats, Team, league) %>% unique %>% rename(Region = "league")
   regions <- read_csv("data/regions.csv")
@@ -333,7 +333,8 @@ shinyServer(function(input, output, session) {
   
   output$stats_table <- DT::renderDataTable(
     DT::datatable(sorted_stats %>% 
-                    select(Region, Name, Team, Race, Type, Round, Cost = `Total Cost`, Points = "FP", Efficiency, BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf),
+                    select(Region, Name, Team, Race, Type, Round, Cost = `Total Cost`, Points = "FP", Efficiency, BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf) %>% 
+                    mutate_at(vars(Region), as.factor),
                   extensions = "Scroller",
                   options = list(
                     dom = 'tip',
