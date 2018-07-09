@@ -819,9 +819,11 @@ shinyServer(function(input, output, session) {
   
   # filter list of potential trades (filter stats by this and last round, unique players (last row if multiple), removing ones in team already and ones that cost too much (cost of traded players + treasury))
   team_trade_value <- reactive({
+    #browser()
     stats %>% 
       filter(playerID %in% next_round_team()$playerID) %>% 
       group_by(playerID) %>% 
+      mutate_at(vars(old_injuries, new_injuries, skills), as.character) %>% 
       summarise_all(last) %>% 
       ungroup() %>% 
       select(playerID, Name, `Total Cost`) %>% 
