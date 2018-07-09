@@ -26,6 +26,16 @@ get_contests <- function(league_name) {
 matches <- map_dfr(leagues, get_contests)
 
 calc_FP <- function(player_result, own_race, own_team, opp_race, opp_team, round, uuid, league, comp) {
+  
+  old_injuries <- map_chr(
+    player_result$casualties_state_id[-match(player_result$casualties_sustained_id,player_result$casualties_state_id)], 
+    ~map_chr(., ~nufflytics::id_to_casualty(.))
+    )
+  new_injuries <- map_chr(player_result$casualties_sustained_id, ~map_chr(., ~nufflytics::id_to_casualty(.)))
+  skills <- player_result$skills
+  
+  #browser()
+  
   data_frame(
     match_uuid = uuid,
     league = league,
@@ -53,8 +63,9 @@ calc_FP <- function(player_result, own_race, own_team, opp_race, opp_team, round
     Carry_m = player_result$stats$inflictedmetersrunning,
     Surf = player_result$stats$inflictedpushouts,
     FP = ceiling(BLK/5)+ceiling(AVBr/2)+KO+CAS+(2*Kills)+(2*Surf)+(3*TD)+(2*Pass)+ceiling(Pass_m/20)+(2*Catch)+(5*Int)+ceiling(Carry_m/50),
-    old_injuries = map_chr(player_result$casualties_state_id[-match(player_result$casualties_sustained_id,player_result$casualties_state_id)], ~map_chr(., ~nufflytics::id_to_casualty(.) ))%>% fill_nulls,
-    new_injuries = map_chr(player_result$casualties_sustained_id, ~map_chr(., ~nufflytics::id_to_casualty(.))) %>% fill_nulls
+    old_injuries = ifelse(is_empty(old_injuries), list(), list(old_injuries)),
+    new_injuries = ifelse(is_empty(new_injuries), list(), list(new_injuries)),
+    skills = ifelse(is_empty(skills), list(), list(skills))
   )
 }
 
@@ -93,7 +104,9 @@ match_FP <- function(uuid, round) {
 new_stats <- map2_df(matches$uuid, matches$round, match_FP)
 
 #Write new stats and update last recorded game
-write_csv(new_stats, "player_stats.csv", append = TRUE)
+stats <- read_rds("player_stats.rds")
+
+bind_rows(stats,new_stats) %>% write_rds(path = "player_stats.rds")
 
 if(nrow(new_stats) > 0) {
   write_file(filter(matches, id == max(id))$uuid,"last_game.uuid")

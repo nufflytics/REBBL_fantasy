@@ -116,7 +116,7 @@ shinyServer(function(input, output, session) {
   teams <- read_csv("data/fantasy_teams.csv", col_types = "cciccccic", trim_ws = F)
   treasury <- read_csv("data/treasury.csv", col_types = "ci", trim_ws = F)
   treasury <- as.list(treasury$Cash) %>% set_names(treasury$Coach)
-  stats <- read_csv("data/player_stats.csv", trim_ws = F) %>% filter(!Type %in% c("Star Player")) %>% mutate_at(vars(league), str_remove, "REBBL - ")
+  stats <- read_rds("data/player_stats.rds") %>% filter(!Type %in% c("Star Player")) %>% mutate_at(vars(league), str_remove, "REBBL - ")
   costs <- read_csv("data/costs.csv", trim_ws = F)
   #regions <- select(stats, Team, league) %>% unique %>% rename(Region = "league")
   regions <- read_csv("data/regions.csv", trim_ws = F)
@@ -140,7 +140,7 @@ shinyServer(function(input, output, session) {
       pwd_err(NULL)
       user_created_team <- reactiveValues()
       
-      updateActionButton(session, "login", "Login", icon = icon("user", class = "fa-lg fa-fw"), type = "regular")
+      updateActionButton(session, "login", "Login", icon = icon("user", class = "fa-lg fa-fw", type = "regular"))
     } else {
       showModal(modalDialog(
         title = "Login",
@@ -535,7 +535,7 @@ shinyServer(function(input, output, session) {
   })
   
   
-  # Team validation and infoBoxes -----
+    #Team validation and infoBoxes -----
   validation <- reactiveValues(
     bank = F,
     num_players = F,
@@ -568,7 +568,7 @@ shinyServer(function(input, output, session) {
     validate(need(length(reactiveValuesToList(user_created_team)) > 0, message = F))
     infoBox("Region Diversity", value = "Min 2 from each region", icon = icon(ifelse(validation$regions, "thumbs-up", "thumbs-down")), color = ifelse(validation$regions, "green","red"), fill = T)
   })  
-  # End team validation ------
+    #End team validation ------
   
   output$team_builder <- renderUI({
     validate(need(user(), message = F))
@@ -724,7 +724,7 @@ shinyServer(function(input, output, session) {
   
   #Trade helper ------
   output$team_management_menu <- renderMenu({
-    validate(need(user(), message = F))
+    validate(need(user(), message = F), need(user_team(), message = F))
     
     menuItem("Team Management", tabName = "manage", icon = icon("clipboard-list", class = "fa-fw fa-lg"))
   })
@@ -936,7 +936,7 @@ shinyServer(function(input, output, session) {
   output$FTeamName <- renderText(paste(user_team()$FTeam %>% unique(), "Overview"))
   
   output$team_management <- renderUI({
-    validate(need(user(), message = F))
+    validate(need(user(), message = F), need(user_team(), message = F))
     
     fluidRow(
       box(
@@ -972,7 +972,7 @@ shinyServer(function(input, output, session) {
   
   
   observeEvent(available_trades(), {
-    updateSelectizeInput(session, "trade_in", choices = available_trades()$playerID %>% set_names(glue::glue_data(available_trades(), "{Name} - ${`Total Cost`}")))
+    updateSelectizeInput(session, "trade_in", choices = available_trades()$playerID %>% set_names(glue::glue_data(available_trades(), "{Name} - ${`Total Cost`}")), selected = input$trade_in)
   })
   
   observeEvent(c(input$change_special, input$special_confirm), {
@@ -1038,6 +1038,6 @@ shinyServer(function(input, output, session) {
     }
   })
   
-  output$debug = renderText(input$trade_out)
+  #output$debug = renderText(input$trade_out)
   #output$debug2 = renderTable(reactiveValuesToList(user_created_team) %>% compact %>% bind_rows)
 })
