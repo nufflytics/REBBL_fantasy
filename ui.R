@@ -19,7 +19,7 @@ leaderboard <- tabItem(tabName = "leaderboard",
                          box(
                            title = "Current Standings",
                            width = 12,
-                           DT::dataTableOutput("leaderboard")
+                           withSpinner(DT::dataTableOutput("leaderboard"))
                          ),
                          conditionalPanel(
                            "input.leaderboard_rows_selected != ''",
