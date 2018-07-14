@@ -46,10 +46,23 @@ table.dataTable tbody tr {
   left: calc(50%);
 }
 
+#shiny-notification-trade_submitted {
+  color: #4c8a4e;
+  background-color: #ccfcce;
+  border: 1px solid #b7fab4;
+  position:fixed;
+  top: calc(50%);
+  left: calc(50%);
+}
+
 #waiver_box .checkbox {
   margin-bottom: 5px;
 }
 
 .total {
   border-top: 3px double rgb(128,128,128);
+}
+
+.waiver_box {
+  padding-bottom: 10px;
 }
