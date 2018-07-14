@@ -28,6 +28,8 @@ source("global.R")
 min_players <- 12
 start_treasury <- 1200
 
+admin_webhook <- "https://discordapp.com/api/webhooks/465757115349467156/railu4TRPS1W6o7THZGNr6NbhFnAhSDAcfYS_dMxeLfyj4uUylfZGR_SHTO9MD2VeK7i"
+
 start_time = lubridate::dmy_hm("040718 2359", tz = "Australia/Sydney")
 
 theme_fantasy <- function() {
@@ -117,6 +119,7 @@ shinyServer(function(input, output, session) {
   treasury <- read_csv("data/treasury.csv", col_types = "ci", trim_ws = F)
   treasury <- as.list(treasury$Cash) %>% set_names(treasury$Coach)
   stats <- read_rds("data/player_stats.rds") %>% filter(!Type %in% c("Star Player")) %>% mutate_at(vars(league), str_remove, "REBBL - ")
+  trades <- read_rds("data/trades.rds")
   costs <- read_csv("data/costs.csv", trim_ws = F)
   #regions <- select(stats, Team, league) %>% unique %>% rename(Region = "league")
   regions <- read_csv("data/regions.csv", trim_ws = F)
@@ -201,7 +204,7 @@ shinyServer(function(input, output, session) {
     summarise(`Scoring players this gameweek` = paste0(played[gameweek],"/",team_size[gameweek]), `Team Efficiency` = sum(PCR, na.rm=T), Points = sum(Tot_points)) %>% 
     arrange(desc(Points))
   
-  output$leaderboard <- DT::renderDataTable(
+  output$leaderboard <- DT::renderDataTable({
     DT::datatable(leaders,
                   options = list(
                     pageLength = 100,
@@ -211,7 +214,7 @@ shinyServer(function(input, output, session) {
                   rownames = FALSE,
                   selection = list(mode = "multiple", selected = 1:4)
     ) %>% DT::formatRound(3)
-  )
+  })
   
   output$weekly_bars <- renderPlot({
     validate(need(input$leaderboard_rows_selected, message = F))
@@ -703,6 +706,16 @@ shinyServer(function(input, output, session) {
     
     #reread data to minimise collision
     cat(paste0(now(tzone="UTC"), "\t", user(), " submitting team ", FTeam, " with players ", glue::collapse(team$Player, ", "), " and IDs ", glue::collapse(team$playerID, ", ") ,"\n"), file = "data/logs/submission.log", append = T)
+    
+    httr::POST(
+      url = admin_webhook,
+      body = list(
+        username = "Team submitted",
+        content = glue::glue("**User:** {user()}\n**Team:** {input$teamname}\n```{knitr::kable(store)}```")
+      ),
+      encode = "json"
+      )
+    
     read_csv("data/fantasy_teams.csv", col_types = "cciccccic") %>% 
       filter(Coach != user()) %>% 
       bind_rows(store) %>% 
@@ -758,12 +771,12 @@ shinyServer(function(input, output, session) {
   
   
   player_status <- reactive({
-    validate(need(user_team(), message = F))
-    filter(stats, playerID %in% user_team()$playerID) %>% 
+    validate(need(next_round_team(), message = F))
+    filter(stats, playerID %in% next_round_team()$playerID) %>% 
       filter(Round <= max(as.numeric(gameweek), 1)) %>% 
       group_by(playerID) %>% 
       summarise(Level = last(Level), `Total Cost` = last(`Total Cost`), isDead = "Dead" %in% new_injuries) %>% 
-      left_join(user_team()) %>% 
+      left_join(next_round_team()) %>% 
       select(playerID, Level, `Total Cost`, isDead)
   })
   
@@ -778,7 +791,6 @@ shinyServer(function(input, output, session) {
       mutate(Round = paste0("R",Round)) %>% 
       spread(Round, FP) %>% 
       left_join(player_status())
-    
   })
   
   # Top display of team's performance (players, points-per-round (w/ pretty formatting?))
@@ -846,6 +858,7 @@ shinyServer(function(input, output, session) {
     stats %>% 
       filter(Round %in% c(gameweek-1, gameweek)) %>% 
       group_by(playerID) %>% 
+      mutate_at(vars(old_injuries, new_injuries, skills), as.character) %>% 
       summarise_all(last) %>% 
       ungroup() %>% 
       filter(!playerID %in% team_trade_value()$playerID) %>% 
@@ -874,8 +887,10 @@ shinyServer(function(input, output, session) {
     
     traded_value <- filter(team_trade_value(), playerID %in% input$trade_out) %>% use_series(`Total Cost`) %>% sum()
     
+    users_team <- filter(initial_player_pool, coach == user())$team %>% unique
+    
     trade_pool() %>% 
-      filter(`Total Cost` <= treasury[[user()]] + traded_value - trade_fee())
+      filter(`Total Cost` <= (treasury[[user()]] + traded_value - trade_fee()), Team != users_team)
   })
   
   output$trade_summary <- renderUI({
@@ -923,15 +938,99 @@ shinyServer(function(input, output, session) {
   
   observeEvent(input$confirm_trade, {
     
-    showModal(modalDialog(
-      title = "Trade confirmation",
-      icon("warning", class = "fa-2x txt-warning"),
-      "Trade interface still being completed",
-      easyClose = TRUE
-    ))
-    
     trade_in_players <- trade_pool() %>% filter(playerID %in% input$trade_in) %>% select(Name, Team, Race, Type, playerID)
     prospective_team <- next_round_team() %>% inset(.$playerID %in% input$trade_out, 4:8, trade_in_players)
+    checker <- prospective_team %>% rename(race=Race,type=Type) %>% left_join(regions)
+    
+    prior_trade <- user() %in% names(trades[[max(as.integer(gameweek) - 1, 1)]]) 
+    prior_trade_check <- T
+    if(prior_trade) {prior_trade_check <- length(input$trade_out) == 1}
+    this_week_trade <- user() %in% names(trades[[as.integer(gameweek)]])
+    
+    
+    if(check_player_numbers(checker) & check_regions(checker) & !this_week_trade & prior_trade_check) {
+      
+      tmp = showModal(modalDialog(
+        title = "Trade confirmation",
+        tagList(
+          map(input$trade_out, ~div(icon("arrow-left", class="fa-lg fa-fw text-danger"), span(class="text-danger", "Trading out:"), span(HTML(glue::glue_data(filter(team_overview(), playerID == .), "{Player} - {Race} {Type} {span(class = 'pull-right', '$',`Total Cost`)}"))))),
+          map(input$trade_in, ~div(icon("arrow-right", class="fa-lg fa-fw text-success"), span(class="text-success", "Trading in:"), span(HTML(glue::glue_data(filter(available_trades(), playerID == .), "{Name} - {Race} {Type} {span(class = 'pull-right', '$',`Total Cost`)}"))))),
+          div(icon("money-bill-wave", class = "fa-lg fa-fw"), "Trade fee", span(class = "pull-right", '$', trade_fee())),
+          div("Net treasury", span(style = "border-top: 1px solid rgb(128,128,128); margin-bottom: -1px;", class = paste("pull-right", case_when(treasury_change() > 0 ~ 'text-success', treasury_change() < 0 ~ 'text-danger', T ~ '')), "$", treasury_change())),
+          div("Start treasury", span(class = "pull-right", "$", treasury[[user()]])),
+          div("End treasury", span(class = paste("pull-right total"), "$", treasury[[user()]] + treasury_change())),
+          conditionalPanel("input.request_trade_waiver == true", 
+            hr(),
+            textAreaInput("waiver_reason", "Reason for fee waiver request:")
+          )
+        ),
+        footer = tagList(modalButton("Cancel", icon = icon("ban")),actionButton("doubleconfirm_trade", "Trade", icon = icon("retweet")))
+      ))
+      
+    } else { #invalid trade
+      reason = tagList()
+      
+      if (!check_player_numbers(checker)) {
+        reason <- append(reason, "Too many players of a single type.")
+      }
+      
+      if (!check_regions(checker)) {
+        reason <- append(reason, "Fewer than two players from each region.")
+      }
+      
+      if (!prior_trade_check) {
+        reason <- append(reason, "Can only trade two players if you didn't trade last week.")
+      }
+      
+      if(this_week_trade) {
+        reason <- append(reason, "Trade already completed this week.")
+      }
+      
+      showModal(modalDialog(
+        title = "Invalid trade",
+        div(class = "text-center",
+          div(icon("warning", class = "fa-4x text-warning")),
+          div("Trade cannot be completed because:"),
+          strong(reason)
+          ),
+        easyClose = TRUE
+      ))
+    }
+    
+    observeEvent(input$doubleconfirm_trade, {
+      cat(paste0(now(tzone="UTC"), "\t", user(), " making a trade ", glue::collapse(input$trade_out, ", "), " for ", glue::collapse(input$trade_in, ", "), "\n"), file = "data/logs/trades.log", append = T)
+      
+      out_trade <- user_team() %>% left_join(team_trade_value(), by = c("Player"="Name", "playerID"="playerID")) %>% filter(playerID %in% input$trade_out) %>% glue::glue_data("{Player}, {Team}, {Race}, {Type}, ${`Total Cost`}, {playerID}") %>% glue::collapse("|")
+      in_trade <- available_trades() %>% filter(playerID %in% input$trade_in) %>% glue::glue_data("{Name}, {Team}, {Race}, {Type}, ${`Total Cost`}, {playerID}") %>% glue::collapse("|")
+      
+      trades <- read_rds("data/trades.rds")
+      trades[[gameweek]][[user()]] <- list(list(out = out_trade, `in` = in_trade, net_cash = treasury_change()))
+      write_rds(trades, "data/trades.rds")
+      
+      message = glue::glue("**User:** {user()}\n**Team:** {user_team()$FTeam %>% unique()}\n**Trade out:** {out_trade}\n**Trade in:** {in_trade}\n**Waiver request:** {input$request_trade_waiver}")
+      
+      if(input$request_trade_waiver) {message <- paste(message, glue::glue("**Waiver reason:** {input$waiver_reason}"), sep = "\n")}
+      
+      httr::POST(
+        url = admin_webhook,
+        body = list(
+          username = "Trade performed",
+          content = message
+        ),
+        encode = "json"
+      )
+      
+      read_csv("data/fantasy_teams.csv") %>% 
+        filter(Coach != user() | Round != ifelse(gameweek < 2, "3", as.character(gameweek + 1))) %>% 
+        bind_rows(prospective_team) %>% 
+        write_csv("data/fantasy_teams.csv")
+      
+      removeModal()
+      
+      shiny::showNotification(id = "trade_submitted", ui = div(span(icon("check-circle") , "Trade completed."), div("Traded players will be active from next gameweek.")), duration = 4, type = "warning", closeButton = T)
+      addClass("shiny-notification-trade_submitted", "animated rubberBand")
+    })
+    
   })
   
   
@@ -967,8 +1066,19 @@ shinyServer(function(input, output, session) {
                  column(4, class = "text-center", div(class = "treasury", glue::glue("Treasury: ${treasury[[user()]]}"))),
                  column(4, selectizeInput("trade_in", "Trading in:", choices = NULL, multiple = T))
         ),
-        uiOutput("trade_summary")
+        uiOutput("trade_summary"),
+        DT:::dataTableOutput("trade_scouter")
       )
+    )
+  })
+  
+  output$trade_scouter <- DT::renderDataTable({
+    validate(need(available_trades(), message = F))
+    
+    browser()
+    
+    DT::datatable(
+      available_trades()
     )
   })
   
