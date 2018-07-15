@@ -263,7 +263,10 @@ shinyServer(function(input, output, session) {
   
   output$team_name <- renderUI(h3(filter(teams,Coach == input$selected_coach) %>% .$FTeam %>% unique))
   
-  team_table <- reactive({points %>% 
+  team_table <- reactive({
+    validate(need(input$selected_coach, message = F))
+    
+    points %>% 
       filter(Round == input$selected_round) %>% 
       filter(Coach == input$selected_coach) %>% 
       select(Special,Player:Type,Cost = `Total Cost`, Points = FP) %>% 
@@ -271,7 +274,7 @@ shinyServer(function(input, output, session) {
         Special = case_when(
           Special=="c" ~ "<i class='far fa-copyright' title='Captain'></i>",
           Special=="r" ~ "<i class='far fa-registered' title='Reserve'></i>", 
-          T ~ NA
+          T ~ ''
         ),
         `Player efficiency` = Points*10/Cost 
       )
