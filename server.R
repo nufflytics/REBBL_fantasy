@@ -863,8 +863,8 @@ shinyServer(function(input, output, session) {
     stats %>% 
       filter(Round %in% c(gameweek-1, gameweek)) %>% 
       group_by(playerID) %>% 
-      mutate_at(vars(old_injuries, new_injuries, skills), as.character) %>% 
-      summarise_all(last) %>% 
+      #mutate_at(vars(old_injuries, new_injuries, skills), as.character) %>% 
+      summarise_all(~(if('list' %in% class(.)) .[length(.)] else last(.))) %>% 
       ungroup() %>% 
       filter(!playerID %in% team_trade_value()$playerID) %>% 
       arrange(desc(`Total Cost`))
@@ -895,7 +895,7 @@ shinyServer(function(input, output, session) {
     users_team <- filter(initial_player_pool, coach == user())$team %>% unique
     
     trade_pool() %>% 
-      filter(`Total Cost` <= (treasury[[user()]] + traded_value - trade_fee()), Team != users_team)
+      filter(`Total Cost` <= (treasury[[user()]] + traded_value - trade_fee()), Team != users_team, playerID > 100)
   })
   
   output$trade_summary <- renderUI({
@@ -949,6 +949,7 @@ shinyServer(function(input, output, session) {
     
     prior_trade <- user() %in% names(trades[[max(as.integer(gameweek) - 1, 1)]]) 
     prior_trade_check <- T
+    
     if(prior_trade) {prior_trade_check <- length(input$trade_out) == 1}
     this_week_trade <- user() %in% names(trades[[as.integer(gameweek)]])
     
@@ -1072,7 +1073,7 @@ shinyServer(function(input, output, session) {
                  column(4, selectizeInput("trade_in", "Trading in:", choices = NULL, multiple = T))
         ),
         uiOutput("trade_summary"),
-        DT:::dataTableOutput("trade_scouter")
+        conditionalPanel('input.trade_out != null', h3("Potential Trades"), withSpinner(DT:::dataTableOutput("trade_scouter")))
       )
     )
   })
@@ -1081,7 +1082,44 @@ shinyServer(function(input, output, session) {
     validate(need(available_trades(), message = F))
     
     DT::datatable(
-      available_trades()
+      available_trades() %>% 
+        select(Region, Division = comp, Name, Team, Race, Type, Level, FP, `Total Cost`, skills, old_injuries, new_injuries) %>% 
+        mutate(
+          Division = str_remove(Division, "Season 9 - Division "),
+          skills = map_chr(
+            skills, ~ifelse(
+              is_empty(.), 
+              NA, 
+              map_chr(., ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{pretty_skills(.)}' />")) %>% glue::collapse()
+            )
+          ),
+          old_injuries = map_chr(
+            old_injuries, ~ifelse(
+              is_empty(.),
+              NA,
+              map_chr(., ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{.}' />")) %>% glue::collapse()
+            )
+          ),
+          new_injuries = map_chr(
+            new_injuries, ~ifelse(
+              is_empty(.),
+              NA,
+              map_chr(.[!"BH"%in%.], ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{.}' />")) %>% glue::collapse()
+            )
+          )
+        ),
+      rownames = F,
+      class="display compact",
+      escape = c(-10,-11,-12),
+      options = list(
+        dom = "tlip",
+        scrollX = T,
+        pageLength = 20,
+        lengthMenu = c(5, 10, 20, 50),
+        ordering = F
+        #autoWidth = T,
+        #columnDefs = list(list(targets = c(0), width = "20px"), list(targets = c(1:5), width = "10%"), list(targets = c(6:(gameweek+5)), width = "15%"))
+      )
     )
   })
   
