@@ -1080,8 +1080,6 @@ shinyServer(function(input, output, session) {
   output$trade_scouter <- DT::renderDataTable({
     validate(need(available_trades(), message = F))
     
-    browser()
-    
     DT::datatable(
       available_trades()
     )
