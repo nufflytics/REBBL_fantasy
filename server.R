@@ -332,7 +332,7 @@ shinyServer(function(input, output, session) {
                     dom = 'tip',
                     scrollX = TRUE,
                     scrollY = 300,
-                    scroller= list(loadingIndicator = TRUE)
+                    scroller= list(loadingIndicator = TRUE, deferRender = T)
                   ),
                   selection = "single",
                   filter = "top",
@@ -347,6 +347,7 @@ shinyServer(function(input, output, session) {
                   extensions = "Scroller",
                   options = list(
                     dom = 'tip',
+                    deferRender=T,
                     scrollX = TRUE,
                     scrollY = 300,
                     scroller = list(loadingIndicator = TRUE)
