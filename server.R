@@ -701,7 +701,7 @@ shinyServer(function(input, output, session) {
   observeEvent(input$confirm_submission, {
     Coach <- user()
     FTeam <- input$teamname
-    Round <- 2
+    Round <- 3 #TODO: return this to 2 once no more people making late entries
     
     team <- reactiveValuesToList(user_created_team) %>% compact %>% magrittr::extract(order(map_dbl(., "Cost"), decreasing = T)) %>% bind_rows %>% 
       select(name, team, race, type, playerID) %>% 
