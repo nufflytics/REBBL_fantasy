@@ -723,7 +723,7 @@ shinyServer(function(input, output, session) {
       encode = "json"
       )
     
-    read_csv("data/fantasy_teams.csv", col_types = "cciccccic") %>% 
+    read_csv("data/fantasy_teams.csv", col_types = "cciccccic", trim_ws = F) %>% 
       filter(Coach != user()) %>% 
       bind_rows(store) %>% 
       write_csv("data/fantasy_teams.csv")
@@ -733,7 +733,7 @@ shinyServer(function(input, output, session) {
     treasury[[user()]] <- creation_cash_left()
     
     cat(paste0(now(tzone="UTC"), "\t", user(), " treasury set to ", creation_cash_left(), "\n"), file = "data/logs/treasury.log", append = T)
-    read_csv("data/treasury.csv", col_types = "ci") %>% 
+    read_csv("data/treasury.csv", col_types = "ci", trim_ws = F) %>% 
       filter(Coach != user()) %>% 
       bind_rows(data_frame(Coach = user(), Cash = creation_cash_left())) %>% 
       write_csv("data/treasury.csv")
@@ -752,7 +752,7 @@ shinyServer(function(input, output, session) {
   # Fetch current team for user (filter teams for user/max(round))
   # Create score history for players on the team?
   
-  react_teams <- reactiveFileReader(1000, session, "data/fantasy_teams.csv", read_csv)
+  react_teams <- reactiveFileReader(1000, session, "data/fantasy_teams.csv", read_csv, trim_ws = F)
   
   split_teams <- reactive({
     split(react_teams(), react_teams()$Coach) %>% 
@@ -1008,11 +1008,12 @@ shinyServer(function(input, output, session) {
     observeEvent(input$doubleconfirm_trade, {
       cat(paste0(now(tzone="UTC"), "\t", user(), " making a trade ", glue::collapse(input$trade_out, ", "), " for ", glue::collapse(input$trade_in, ", "), "\n"), file = "data/logs/trades.log", append = T)
       
-      out_trade <- user_team() %>% left_join(team_trade_value(), by = c("Player"="Name", "playerID"="playerID")) %>% filter(playerID %in% input$trade_out) %>% glue::glue_data("{Player}, {Team}, {Race}, {Type}, ${`Total Cost`}, {playerID}") %>% glue::collapse("|")
-      in_trade <- available_trades() %>% filter(playerID %in% input$trade_in) %>% glue::glue_data("{Name}, {Team}, {Race}, {Type}, ${`Total Cost`}, {playerID}") %>% glue::collapse("|")
+      out_trade <- isolate(user_team() %>% left_join(team_trade_value(), by = c("Player"="Name", "playerID"="playerID")) %>% filter(playerID %in% input$trade_out) %>% glue::glue_data("{Player}, {Team}, {Race}, {Type}, ${`Total Cost`}, {playerID}") %>% glue::collapse("|"))
+      in_trade <- isolate(available_trades() %>% filter(playerID %in% input$trade_in) %>% glue::glue_data("{Name}, {Team}, {Race}, {Type}, ${`Total Cost`}, {playerID}") %>% glue::collapse("|"))
       
       trades <- read_rds("data/trades.rds")
-      trades[[gameweek]][[user()]] <- list(list(out = out_trade, `in` = in_trade, net_cash = treasury_change()))
+      trades[[gameweek]][[user()]] <- isolate(list(list(out = out_trade, `in` = in_trade, net_cash = treasury_change())))
+      
       write_rds(trades, "data/trades.rds")
       
       message = glue::glue("**User:** {user()}\n**Team:** {user_team()$FTeam %>% unique()}\n**Trade out:** {out_trade}\n**Trade in:** {in_trade}\n**Waiver request:** {input$request_trade_waiver}")
@@ -1028,7 +1029,7 @@ shinyServer(function(input, output, session) {
         encode = "json"
       )
       
-      read_csv("data/fantasy_teams.csv") %>% 
+      read_csv("data/fantasy_teams.csv", trim_ws = F) %>% 
         filter(Coach != user() | Round != ifelse(gameweek < 2, "3", as.character(gameweek + 1))) %>% 
         bind_rows(prospective_team) %>% 
         write_csv("data/fantasy_teams.csv")
@@ -1147,7 +1148,7 @@ shinyServer(function(input, output, session) {
           T ~ Special
         ))
       cat(paste0(now(tzone="UTC"), "\t", user(), " changing captain ", next_round_team() %>% filter(Special == "c") %>% .$Player, " for ", input$special_picker ,"\n"), file = "data/logs/special_changes.log", append = T)
-      read_csv("data/fantasy_teams.csv") %>% 
+      read_csv("data/fantasy_teams.csv", trim_ws = F) %>% 
         filter(Coach != user() | Round != ifelse(gameweek < 2, "3", as.character(gameweek + 1))) %>% 
         bind_rows(changes) %>% 
         write_csv("data/fantasy_teams.csv")
@@ -1161,7 +1162,7 @@ shinyServer(function(input, output, session) {
       
       cat(paste0(now(tzone="UTC"), "\t", user(), " changing reserves ", next_round_team() %>% filter(Special == "r") %>% .$Player %>% glue::collapse(", "), " for ", glue::collapse(input$special_picker, ", "), "\n"), file = "data/logs/special_changes.log", append = T)
       
-      read_csv("data/fantasy_teams.csv") %>% 
+      read_csv("data/fantasy_teams.csv", trim_ws = F) %>% 
         filter(Coach != user() | Round != ifelse(gameweek < 2, "3", as.character(gameweek + 1))) %>% 
         bind_rows(changes) %>% 
         write_csv("data/fantasy_teams.csv")
