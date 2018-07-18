@@ -87,7 +87,7 @@ overall_stats <- tabItem(tabName = "stats",
 )
 
 # Team creation page --------
-#team_builder <- tabItem(tabName = "create", uiOutput("team_builder"))
+team_builder <- tabItem(tabName = "create", uiOutput("team_builder"))
 
 # Trade helper page -----
 trade_helper <- tabItem(tabName = "manage", uiOutput("team_management"))
@@ -107,7 +107,7 @@ dashboardPage(title = "REBBL Fantasy League",
                   menuItem("Leaderboard", tabName = "leaderboard", icon = icon("trophy", class = "fa-fw fa-lg")),
                   menuItem("Team Performance", tabName = "teams", icon = icon("football-ball", class = "fa-fw fa-lg")),
                   menuItem("Player Scouting", tabName = "stats", icon = icon("binoculars", class = "fa-fw fa-lg", type = "regular")),
-                  #menuItemOutput("team_builder_menu"),
+                  menuItemOutput("team_builder_menu"),
                   menuItemOutput("team_management_menu")
                 )
               ),
@@ -126,7 +126,7 @@ dashboardPage(title = "REBBL Fantasy League",
                   overall_stats,
                   leaderboard,
                   team_summary,
-                  #team_builder,
+                  team_builder,
                   trade_helper
                 )
               )
