@@ -423,7 +423,7 @@ shinyServer(function(input, output, session) {
   
   #Team Builder ------
   output$team_builder_menu <- renderMenu({
-    validate(need(user(), message = F), need(gameweek < 3, message = F))
+    validate(need(user(), message = F), need(user() %in% c("schlice","Morka"), message = F))
     
     menuItem("Create Team", tabName = "create", icon = icon("pencil-alt", class = "fa-fw fa-lg"))
   })
