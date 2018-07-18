@@ -930,7 +930,7 @@ shinyServer(function(input, output, session) {
     #browser()
     trade_out_num <- length(input$trade_out) <= 2
     trade_in_num <- ifelse("trade_in" %in% names(input), length(input$trade_in) <= 2 & length(input$trade_out) == length(input$trade_in), FALSE)
-    good_value <- treasury_change() <= treasury[[user()]]
+    good_value <- treasury_change() > 0 | abs(treasury_change()) <= treasury[[user()]]
     
     if(trade_out_num & trade_in_num & good_value) {
       enable("confirm_trade")
