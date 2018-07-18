@@ -1113,15 +1113,11 @@ shinyServer(function(input, output, session) {
       rownames = F,
       class="display compact",
       escape = c(-10,-11,-12),
-      extensions = "Scroller",
       options = list(
         deferRender=T,
-        dom = "tip",
         scrollX = T,
-        scrollY = 200,
         pageLength = 20,
-        scroller = list(loadingIndicator=T),
-        ordering = F
+        ordering = T
         #autoWidth = T,
         #columnDefs = list(list(targets = c(0), width = "20px"), list(targets = c(1:5), width = "10%"), list(targets = c(6:(gameweek+5)), width = "15%"))
       )
