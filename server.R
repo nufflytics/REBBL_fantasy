@@ -201,9 +201,10 @@ shinyServer(function(input, output, session) {
     mutate(PCR = Tot_points*10/cost)
   
   leaders <- weekly_points %>% 
-    filter(Round == gameweek) %>% 
-    summarise(`Scoring players this gameweek` = paste0(played,"/",team_size), `Team Efficiency` = sum(PCR, na.rm=T), Points = sum(Tot_points)) %>% 
-    arrange(desc(Points))
+    group_by(Coach, Round) %>% 
+    summarise(SP = paste0(played,"/",team_size), TE = sum(PCR, na.rm=T), TP = sum(Tot_points)) %>% 
+    summarise(`Scoring players this gameweek` = last(SP), `Team Efficiency this round` = last(TE), `Total Points` = sum(TP)) %>% 
+    arrange(desc(`Total Points`))
   
   output$leaderboard <- DT::renderDataTable({
     DT::datatable(leaders,
