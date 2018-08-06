@@ -138,7 +138,7 @@ shinyServer(function(input, output, session) {
   #regions <- select(stats, Team, league) %>% unique %>% rename(Region = "league")
   regions <- read_csv("data/regions.csv", trim_ws = F)
   stats <- stats %>% rename(Region = "league") %>% left_join(costs) %>% mutate(`Total Cost` = Cost + (Level-1)*10, Efficiency = FP*10/`Total Cost`)
-  points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round"))
+  points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round", "playerID"))
   
   observeEvent( # sets the selected round on the 
     input$tabs,
@@ -298,7 +298,6 @@ shinyServer(function(input, output, session) {
       )
   })
   output$team_summary <- DT::renderDataTable({
-   #browser()
     DT::datatable(team_table() %>% mutate_all(as.character),
                   options = list(
                     pageLength = 100,
