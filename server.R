@@ -60,6 +60,20 @@ pretty_skills <- function(skill) {
   )
 }
 
+imgify <- function(skill_vec) {
+  if(!is.null(skill_vec) & all(skill_vec != "BH")) {
+    return(
+      glue::glue_data(
+        list(skill = skill_vec), 
+        "<img class = 'skillimg' src='img/skills/{skill}.png' title='{pretty_skills(skill)}' />"
+        ) %>% 
+        glue::glue_collapse() %>% 
+        as.character()
+      )
+  }
+  ""
+}
+
 check_player_numbers <- function(df) {
   if(nrow(df)==0) return(FALSE)
   
@@ -203,7 +217,7 @@ shinyServer(function(input, output, session) {
   leaders <- weekly_points %>% 
     group_by(Coach, Round) %>% 
     summarise(SP = paste0(played,"/",team_size), TE = sum(PCR, na.rm=T), TP = sum(Tot_points)) %>% 
-    summarise(`Scoring players this gameweek` = last(SP), `Team Efficiency this round` = last(TE), `Total Points` = sum(TP)) %>% 
+    summarise(`Scoring players this gameweek` = SP[gameweek-1], `Team Efficiency this round` = TE[gameweek-1], `Total Points` = sum(TP)) %>% 
     arrange(desc(`Total Points`))
   
   output$leaderboard <- DT::renderDataTable({
@@ -268,20 +282,24 @@ shinyServer(function(input, output, session) {
     validate(need(input$selected_coach, message = F))
     
     points %>% 
-      filter(Round == input$selected_round) %>% 
+      filter(Round == input$selected_round) %>%
       filter(Coach == input$selected_coach) %>% 
-      select(Special,Player:Type,Cost = `Total Cost`, Points = FP) %>% 
+      select(Special,Player:Type,Cost = `Total Cost`, Points = FP, Skills = skills, `Old injuries` = old_injuries, `New injuries` = new_injuries) %>% 
       mutate(
         Special = case_when(
           Special=="c" ~ "<i class='far fa-copyright' title='Captain'></i>",
           Special=="r" ~ "<i class='far fa-registered' title='Reserve'></i>", 
           T ~ ''
         ),
-        `Player efficiency` = Points*10/Cost 
+        `Player efficiency` = Points*10/Cost,
+        Skills = modify_depth(Skills, 1, imgify),
+        `Old injuries` = modify_depth(`Old injuries`, 1, imgify),
+        `New injuries` = modify_depth(`New injuries`, 1, imgify)
       )
   })
-  output$team_summary <- DT::renderDataTable(
-    DT::datatable(team_table(),
+  output$team_summary <- DT::renderDataTable({
+   #browser()
+    DT::datatable(team_table() %>% mutate_all(as.character),
                   options = list(
                     pageLength = 100,
                     dom = 't',
@@ -291,8 +309,8 @@ shinyServer(function(input, output, session) {
                   colnames = c(" " = "Special"),
                   escape = FALSE,
                   selection = "single"
-    ) %>% DT::formatRound(8)
-  )
+    ) %>% DT::formatRound(11)
+  })
   
   
   #Stats tab ---------
