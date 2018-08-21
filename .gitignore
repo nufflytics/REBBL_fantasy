@@ -5,3 +5,4 @@
 *.DS_Store
 data/login.csv
 data/logs/*
+*api.key
