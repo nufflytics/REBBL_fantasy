@@ -763,7 +763,6 @@ shinyServer(function(input, output, session) {
   #Trade helper ------
   output$team_management_menu <- renderMenu({
     validate(need(user(), message = F), need(user_team(), message = F))
-    
     menuItem("Team Management", tabName = "manage", icon = icon("clipboard-list", class = "fa-fw fa-lg"))
   })
   
@@ -806,12 +805,12 @@ shinyServer(function(input, output, session) {
   })
   
   team_overview <- reactive({
-    #browser()
     validate(need(user_team(), message = F), need(player_status(), message = F))
     
     next_round_team() %>% 
       select(-Round) %>% 
       left_join(stats) %>% 
+      mutate(Round = ifelse(str_detect(comp, "[s|S]wiss"), Round+9, Round))%>% 
       select(playerID, Player, Race, Type, Round, FP, Special) %>% 
       mutate(Round = paste0("R",Round)) %>% 
       spread(Round, FP) %>% 
