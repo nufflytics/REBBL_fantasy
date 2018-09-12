@@ -28,7 +28,7 @@ source("global.R")
 min_players <- 12
 start_treasury <- 1200
 
-admin_webhook <- "https://discordapp.com/api/webhooks/465757115349467156/railu4TRPS1W6o7THZGNr6NbhFnAhSDAcfYS_dMxeLfyj4uUylfZGR_SHTO9MD2VeK7i"
+admin_webhook <- read_lines("data/hook.txt") 
 
 start_time = lubridate::dmy_hm("040718 2359", tz = "Australia/Sydney")
 
