@@ -5,3 +5,7 @@
 *.DS_Store
 data/login.csv
 data/logs/*
+<<<<<<< HEAD
+=======
+*api.key
+>>>>>>> 0b99bc81ac1c15d8d39d2d00c9c17b1969fff37f
