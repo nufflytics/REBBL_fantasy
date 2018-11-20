@@ -104,11 +104,12 @@ dashboardPage(title = "REBBL Fantasy League",
               dashboardSidebar(
                 sidebarMenu(
                   id = "tabs",
-                  menuItem("Leaderboard", tabName = "leaderboard", icon = icon("trophy", class = "fa-fw fa-lg")),
-                  menuItem("Team Performance", tabName = "teams", icon = icon("football-ball", class = "fa-fw fa-lg")),
+                  #menuItem("Leaderboard", tabName = "leaderboard", icon = icon("trophy", class = "fa-fw fa-lg")),
+                  #menuItem("Team Performance", tabName = "teams", icon = icon("football-ball", class = "fa-fw fa-lg")),
                   menuItem("Player Scouting", tabName = "stats", icon = icon("binoculars", class = "fa-fw fa-lg", type = "regular")),
                   menuItemOutput("team_builder_menu"),
-                  menuItemOutput("team_management_menu")
+                  #menuItemOutput("team_management_menu"),
+                  NULL
                 )
               ),
               dashboardBody(

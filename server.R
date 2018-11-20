@@ -30,7 +30,7 @@ start_treasury <- 1200
 
 admin_webhook <- read_lines("data/hook.txt") 
 
-start_time = lubridate::dmy_hm("040718 2359", tz = "Australia/Sydney")
+start_time = lubridate::dmy_hm("141118 2359", tz = "Australia/Sydney")
 
 theme_fantasy <- function() {
   theme_ipsum_rc(base_size = 12, axis_title_just = "m", axis_title_size = 14, grid = "Yy") + theme(legend.position = "bottom")
@@ -103,6 +103,7 @@ shinyServer(function(input, output, session) {
   gameweek = difftime(now(), start_time, units = "weeks") %>% ceiling()
   
   output$countdown <- renderUI({
+    #browser()
     validate(need(user(), message = F))
     invalidateLater(1000*60)
     
