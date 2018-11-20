@@ -10,7 +10,7 @@ team	id	coach	logo	race_id	race	description	dateLastMatch
 [admin]lee's rebbels	2307439	Luminous	Human_01	1	Human		2018-07-04 04:11:43
 [admin] Knights of Tea	2307389	Mystaes	Elf_01	14	ProElf		2018-07-04 03:49:21
 [admin]stumpforce	2307412	Luminous	Human_01	1	Human		2018-07-04 03:58:28
-[admin] are Just	2307383	Mystaes	Elf_01	14	ProElf		2018-07-04 03:45:19
+* [admin] are Just	2307383	Mystaes	Elf_01	14	ProElf		2018-07-04 03:45:19
 [admin]plague'em	2307432	Luminous	Skaven_01	3	Skaven		2018-07-04 04:08:32
 [admin]fullmonty	2307403	Luminous	Halfling_01	11	Halfling		2018-07-04 03:56:51
 [admin]northshire	2307421	Superfedtv	Human_01	1	Human		2018-07-04 04:01:46
@@ -47,5 +47,5 @@ team	id	coach	logo	race_id	race	description	dateLastMatch
 [admin]crypttoss	2307891	Miraskadu	Human_01	1	Human		2018-07-04 10:47:51
 [Admin] Ice Kinks	2307901	schlice	Norse_01	12	Norse		2018-07-04 10:50:58
 [admin]GullenheimTemp	2307902	Krusader	Human_01	1	Human		2018-07-04 10:51:24
-[admin] Elfin' around ??	2305437	Morka	Human_01	1	Human	Come back Elfin	2018-07-03 11:40:11
+* [admin] Elfin' around ??	2305437	Morka	Human_01	1	Human	Come back Elfin	2018-07-03 11:40:11
 [admin]liam	2307906	Miraskadu	Human_01	1	Human		2018-07-04 10:54:01

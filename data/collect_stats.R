@@ -69,8 +69,10 @@ calc_FP <- function(player_result, own_race, own_team, opp_race, opp_team, round
   )
 }
 
-match_FP <- function(uuid, round) {
+match_FP <- function(uuid, round = NULL) {
   match_data = api_match(api_key, uuid)
+  
+  if (is.null(round)) {round = match_data$match$round}
   
   if (match_data$match$teams[[1]]$nbsupporters == 0) return(NULL) 
   home = match_data$match$teams[[1]]$roster

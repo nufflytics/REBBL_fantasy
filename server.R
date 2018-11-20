@@ -137,7 +137,7 @@ shinyServer(function(input, output, session) {
   costs <- read_csv("data/costs.csv", trim_ws = F)
   #regions <- select(stats, Team, league) %>% unique %>% rename(Region = "league")
   regions <- read_csv("data/regions.csv", trim_ws = F)
-  stats <- stats %>% rename(Region = "league") %>% left_join(costs) %>% mutate(`Total Cost` = Cost + (Level-1)*10, Efficiency = FP*10/`Total Cost`)
+  stats <- stats %>% rename(Region = "league") %>% left_join(costs) %>% mutate(`Total Cost` = Cost + (Level-1)*10, Efficiency = FP*10/`Total Cost`, Round = ifelse(str_detect(comp, "[S|s]wiss"), Round+9, Round))
   points = left_join(teams, stats, by=c("Player" = "Name", "Team", "Race", "Type","Round", "playerID"))
   
   observeEvent( # sets the selected round on the 
@@ -806,7 +806,7 @@ shinyServer(function(input, output, session) {
   
   team_overview <- reactive({
     validate(need(user_team(), message = F), need(player_status(), message = F))
-    
+    browser()
     next_round_team() %>% 
       select(-Round) %>% 
       left_join(stats) %>% 
