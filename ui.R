@@ -108,7 +108,7 @@ dashboardPage(title = "REBBL Fantasy League",
                   #menuItem("Team Performance", tabName = "teams", icon = icon("football-ball", class = "fa-fw fa-lg")),
                   menuItem("Player Scouting", tabName = "stats", icon = icon("binoculars", class = "fa-fw fa-lg", type = "regular")),
                   menuItemOutput("team_builder_menu"),
-                  #menuItemOutput("team_management_menu"),
+                  menuItemOutput("team_management_menu"),
                   NULL
                 )
               ),
