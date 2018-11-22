@@ -47,7 +47,7 @@ initial_player_pool <- read_rds("data/all_rebbl_api_team_output.rds") %>%
     skills = map(.$roster, "skills"), 
     injuries = map(.$roster, ~map_chr(.$casualties_state, state_to_casualty)),
     playerID = map_int(.$roster,"id")
-  ))
+  )) %>% unique()
 
 pretty_skills <- function(skill) {
   str_replace_all(skill, c(
@@ -211,7 +211,7 @@ shinyServer(function(input, output, session) {
       FP = ifelse( Special %in% c("c"), 2*FP, FP), # Double captain's points
       FP = ifelse( Special %in% c("r") & max(row_number() > 11) & !is.na(FP), 0, FP) # Remove reserve's points if more than 11 points recorded
     )  %>% 
-    select(Coach,Round,Player,FP,`Total Cost`) %>% 
+    dplyr::select(Coach,Round,Player,FP,`Total Cost`) %>% 
     summarise(Tot_points = sum(FP, na.rm=T), played = sum(!is.na(FP)), cost = sum(`Total Cost`, na.rm=T), team_size = n()) %>% 
     mutate(PCR = Tot_points*10/cost)
   
@@ -285,7 +285,7 @@ shinyServer(function(input, output, session) {
     points %>% 
       filter(Round == input$selected_round) %>%
       filter(Coach == input$selected_coach) %>% 
-      select(Special,Player:Type,Cost = `Total Cost`, Points = FP, Skills = skills, `Old injuries` = old_injuries, `New injuries` = new_injuries) %>% 
+      dplyr::select(Special,Player:Type,Cost = `Total Cost`, Points = FP, Skills = skills, `Old injuries` = old_injuries, `New injuries` = new_injuries) %>% 
       mutate(
         Special = case_when(
           Special=="c" ~ "<i class='far fa-copyright' title='Captain'></i>",
@@ -345,7 +345,7 @@ shinyServer(function(input, output, session) {
   })
   
   output$averaged_stats_table <- DT::renderDataTable(
-    DT::datatable(summarised_stats %>% select(-playerID) %>% ungroup() %>% mutate_at(vars(Region), as.factor),
+    DT::datatable(summarised_stats %>% dplyr::select(-playerID) %>% ungroup() %>% mutate_at(vars(Region), as.factor),
                   extensions = "Scroller",
                   options = list(
                     dom = 'tip',
@@ -362,7 +362,7 @@ shinyServer(function(input, output, session) {
   
   output$stats_table <- DT::renderDataTable(
     DT::datatable(sorted_stats %>% 
-                    select(Region, Name, Team, Race, Type, Round, Cost = `Total Cost`, Points = "FP", Efficiency, BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf) %>% 
+                    dplyr::select(Region, Name, Team, Race, Type, Round, Cost = `Total Cost`, Points = "FP", Efficiency, BLK, AVBr, KO, CAS, Kills, TD, Pass, `Pass(m)`= "Pass_m", Catch, Int, `Carry(m)` = Carry_m, Surf) %>% 
                     mutate_at(vars(Region), as.factor),
                   extensions = "Scroller",
                   options = list(
@@ -469,12 +469,12 @@ shinyServer(function(input, output, session) {
       left_join(costs, by = c(race="Race",type="Type")) %>% 
       left_join(regions, by = c(team="Team")) %>% 
       mutate(Cost = Cost + (level-1)*10) %>% 
-      select(Region, coach,team,name,race,type,level, Cost, everything())
+      dplyr::select(Region, coach,team,name,race,type,level, Cost, everything())
   })
   
   output$player_pool <- DT::renderDataTable({
     DT::datatable(
-      selectable_players() %>% select(-playerID) %>% mutate_at(vars("Region", "race", "Cost"), as.factor),
+      selectable_players() %>% dplyr::select(-playerID) %>% mutate_at(vars("Region", "race", "Cost"), as.factor),
       class = "display compact new-filter",
       escape = c(-9,-10),
       filter = "top",
@@ -525,7 +525,7 @@ shinyServer(function(input, output, session) {
     DT::datatable(
       data = reactiveValuesToList(user_created_team) %>% 
         bind_rows() %>% 
-        select(-playerID) %>% 
+        dplyr::select(-playerID) %>% 
         arrange(desc(Cost)),
       class = "display compact",
       escape = c(-10,-11),
@@ -573,6 +573,7 @@ shinyServer(function(input, output, session) {
   )
   
   observeEvent(reactiveValuesToList(user_created_team), {
+    
     team <- isolate(reactiveValuesToList(user_created_team) %>% compact())
     
     validation$bank <- (start_treasury - (map_dbl(team, 'Cost') %>% sum)) >= 0
@@ -723,7 +724,7 @@ shinyServer(function(input, output, session) {
     Round <- 3 #TODO: return this to 2 once no more people making late entries
     
     team <- reactiveValuesToList(user_created_team) %>% compact %>% magrittr::extract(order(map_dbl(., "Cost"), decreasing = T)) %>% bind_rows %>% 
-      select(name, team, race, type, playerID) %>% 
+      dplyr::select(name, team, race, type, playerID) %>% 
       rename(Player = "name", Team = "team", Race = "race", Type="type")
     reserve <- team$Player %in% input$reserve_selection
     captain <- team$Player %in% input$captain_picker
@@ -778,15 +779,15 @@ shinyServer(function(input, output, session) {
   })
   
   user_team <- reactive({
-    split_teams()[[user()]][[ifelse(gameweek<2, "2", as.character(gameweek))]]
+    split_teams()[[user()]][[ifelse(gameweek<3, "3", as.character(gameweek))]]
   })
   
   next_round_team <- reactive({
     # browser()
-    next_gameweek <- ifelse(gameweek <= 2, "3", as.character(gameweek + 1))
+    next_gameweek <- ifelse(gameweek <= 3, "4", as.character(gameweek + 1))
     ret = NA
     if(next_gameweek %in% names(split_teams()[[user()]])) {
-      ret = split_teams()[[user()]][[ifelse(gameweek<2, "3", as.character(gameweek + 1))]]
+      ret = split_teams()[[user()]][[ifelse(gameweek<3, "4", as.character(gameweek + 1))]]
     } else {
       ret = user_team() %>% mutate(Round = Round +1)
     }
@@ -802,17 +803,17 @@ shinyServer(function(input, output, session) {
       group_by(playerID) %>% 
       summarise(Level = last(Level), `Total Cost` = last(`Total Cost`), isDead = "Dead" %in% new_injuries) %>% 
       left_join(next_round_team()) %>% 
-      select(playerID, Level, `Total Cost`, isDead)
+      dplyr::select(playerID, Level, `Total Cost`, isDead)
   })
   
   team_overview <- reactive({
     validate(need(user_team(), message = F), need(player_status(), message = F))
-    browser()
+    #browser()
     next_round_team() %>% 
-      select(-Round) %>% 
+      dplyr::select(-Round) %>% 
       left_join(stats) %>% 
       mutate(Round = ifelse(str_detect(comp, "[s|S]wiss"), Round+9, Round))%>% 
-      select(playerID, Player, Race, Type, Round, FP, Special) %>% 
+      dplyr::select(playerID, Player, Race, Type, Round, FP, Special) %>% 
       mutate(Round = paste0("R",Round)) %>% 
       spread(Round, FP) %>% 
       left_join(player_status())
@@ -830,7 +831,7 @@ shinyServer(function(input, output, session) {
         ),
         isDead = ifelse(isDead, "<img class='skillimg' src='img/skills/Dead.png' title='Dead' />", "")
         ) %>% 
-        select(Special, Player, Race, Type, Level, `Total Cost`, matches("R[123456789]"), isDead) %>% 
+        dplyr::select(Special, Player, Race, Type, Level, `Total Cost`, matches("R[123456789]"), isDead) %>% 
         arrange(desc(`Total Cost`))
     },
     rownames = F,
@@ -863,7 +864,7 @@ shinyServer(function(input, output, session) {
       mutate_at(vars(old_injuries, new_injuries, skills), as.character) %>% 
       summarise_all(last) %>% 
       ungroup() %>% 
-      select(playerID, Name, `Total Cost`) %>% 
+      dplyr::select(playerID, Name, `Total Cost`) %>% 
       arrange(desc(`Total Cost`))
   })
   
@@ -895,7 +896,7 @@ shinyServer(function(input, output, session) {
 
     free_trade <- team_overview() %>% 
       filter(playerID %in% input$trade_out) %>% 
-      select(playerID, matches("R[1234567890]"), isDead) %>% 
+      dplyr::select(playerID, matches("R[1234567890]"), isDead) %>% 
       gather(round, points, -playerID, -isDead) %>% 
       mutate(round = str_remove(round,"R") %>% as.integer()) %>% 
       group_by(playerID) %>% 
@@ -963,7 +964,7 @@ shinyServer(function(input, output, session) {
   
   observeEvent(input$confirm_trade, {
     
-    trade_in_players <- trade_pool() %>% filter(playerID %in% input$trade_in) %>% select(Name, Team, Race, Type, playerID)
+    trade_in_players <- trade_pool() %>% filter(playerID %in% input$trade_in) %>% dplyr::select(Name, Team, Race, Type, playerID)
     prospective_team <- next_round_team() %>% inset(.$playerID %in% input$trade_out, 4:8, trade_in_players)
     checker <- prospective_team %>% rename(race=Race,type=Type) %>% left_join(regions)
     
@@ -1104,7 +1105,7 @@ shinyServer(function(input, output, session) {
     
     DT::datatable(
       available_trades() %>% 
-        select(Region, Division = comp, Name, Team, Race, Type, Level, FP, `Total Cost`, skills, old_injuries, new_injuries) %>% 
+        dplyr::select(Region, Division = comp, Name, Team, Race, Type, Level, FP, `Total Cost`, skills, old_injuries, new_injuries) %>% 
         mutate(
           Division = str_remove(Division, "Season 9 - Division "),
           skills = map_chr(
@@ -1214,3 +1215,4 @@ shinyServer(function(input, output, session) {
   #output$debug = renderText(input$trade_out)
   #output$debug2 = renderTable(reactiveValuesToList(user_created_team) %>% compact %>% bind_rows)
 })
+
