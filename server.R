@@ -455,14 +455,14 @@ shinyServer(function(input, output, session) {
           skills, ~ifelse(
             is_empty(.), 
             NA, 
-            map_chr(., ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{pretty_skills(.)}' />")) %>% glue::collapse()
+            map_chr(., ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{pretty_skills(.)}' />")) %>% glue::glue_collapse()
           )
         ), 
         injuries = map_chr(
           injuries, ~ifelse(
             is_empty(.), 
             NA, 
-            map_chr(., ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{.}' />")) %>% glue::collapse()
+            map_chr(., ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{.}' />")) %>% glue::glue_collapse()
           )
         )
       ) %>% 
@@ -732,7 +732,7 @@ shinyServer(function(input, output, session) {
     store <- cbind(Coach = Coach, FTeam = FTeam, Round = Round, team, Special = case_when(captain ~ "c", reserve ~ "r", T ~ ""))
     
     #reread data to minimise collision
-    cat(paste0(now(tzone="UTC"), "\t", user(), " submitting team ", FTeam, " with players ", glue::collapse(team$Player, ", "), " and IDs ", glue::collapse(team$playerID, ", ") ,"\n"), file = "data/logs/submission.log", append = T)
+    cat(paste0(now(tzone="UTC"), "\t", user(), " submitting team ", FTeam, " with players ", glue::glue_collapse(team$Player, ", "), " and IDs ", glue::glue_collapse(team$playerID, ", ") ,"\n"), file = "data/logs/submission.log", append = T)
     
     httr::POST(
       url = admin_webhook,
@@ -1025,10 +1025,10 @@ shinyServer(function(input, output, session) {
     }
     
     observeEvent(input$doubleconfirm_trade, {
-      cat(paste0(now(tzone="UTC"), "\t", user(), " making a trade ", glue::collapse(input$trade_out, ", "), " for ", glue::collapse(input$trade_in, ", "), "\n"), file = "data/logs/trades.log", append = T)
+      cat(paste0(now(tzone="UTC"), "\t", user(), " making a trade ", glue::glue_collapse(input$trade_out, ", "), " for ", glue::glue_collapse(input$trade_in, ", "), "\n"), file = "data/logs/trades.log", append = T)
       
-      out_trade <- isolate(user_team() %>% left_join(team_trade_value(), by = c("Player"="Name", "playerID"="playerID")) %>% filter(playerID %in% input$trade_out) %>% glue::glue_data("{Player}, {Team}, {Race}, {Type}, ${`Total Cost`}, {playerID}") %>% glue::collapse("|"))
-      in_trade <- isolate(available_trades() %>% filter(playerID %in% input$trade_in) %>% glue::glue_data("{Name}, {Team}, {Race}, {Type}, ${`Total Cost`}, {playerID}") %>% glue::collapse("|"))
+      out_trade <- isolate(user_team() %>% left_join(team_trade_value(), by = c("Player"="Name", "playerID"="playerID")) %>% filter(playerID %in% input$trade_out) %>% glue::glue_data("{Player}, {Team}, {Race}, {Type}, ${`Total Cost`}, {playerID}") %>% glue::glue_collapse("|"))
+      in_trade <- isolate(available_trades() %>% filter(playerID %in% input$trade_in) %>% glue::glue_data("{Name}, {Team}, {Race}, {Type}, ${`Total Cost`}, {playerID}") %>% glue::glue_collapse("|"))
       
       trades <- read_rds("data/trades.rds")
       trades[[gameweek]][[user()]] <- isolate(list(list(out = out_trade, `in` = in_trade, net_cash = treasury_change())))
@@ -1112,21 +1112,21 @@ shinyServer(function(input, output, session) {
             skills, ~ifelse(
               is_empty(.), 
               NA, 
-              map_chr(., ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{pretty_skills(.)}' />")) %>% glue::collapse()
+              map_chr(., ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{pretty_skills(.)}' />")) %>% glue::glue_collapse()
             )
           ),
           old_injuries = map_chr(
             old_injuries, ~ifelse(
               is_empty(.),
               NA,
-              map_chr(., ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{.}' />")) %>% glue::collapse()
+              map_chr(., ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{.}' />")) %>% glue::glue_collapse()
             )
           ),
           new_injuries = map_chr(
             new_injuries, ~ifelse(
               is_empty(.),
               NA,
-              map_chr(.[!"BH"%in%.], ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{.}' />")) %>% glue::collapse()
+              map_chr(.[!"BH"%in%.], ~glue::glue("<img class='skillimg' src='img/skills/{.}.png' title='{.}' />")) %>% glue::glue_collapse()
             )
           )
         ),
@@ -1179,7 +1179,7 @@ shinyServer(function(input, output, session) {
           T ~ Special
         ))
       
-      cat(paste0(now(tzone="UTC"), "\t", user(), " changing reserves ", next_round_team() %>% filter(Special == "r") %>% .$Player %>% glue::collapse(", "), " for ", glue::collapse(input$special_picker, ", "), "\n"), file = "data/logs/special_changes.log", append = T)
+      cat(paste0(now(tzone="UTC"), "\t", user(), " changing reserves ", next_round_team() %>% filter(Special == "r") %>% .$Player %>% glue::glue_collapse(", "), " for ", glue::glue_collapse(input$special_picker, ", "), "\n"), file = "data/logs/special_changes.log", append = T)
       
       read_csv("data/fantasy_teams.csv", trim_ws = F) %>% 
         filter(Coach != user() | Round != ifelse(gameweek < 2, "3", as.character(gameweek + 1))) %>% 
