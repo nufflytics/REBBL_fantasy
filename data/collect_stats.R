@@ -5,6 +5,8 @@ suppressMessages(require(httr))
 suppressMessages(require(rvest))
 suppressMessages(require(stringr))
 suppressMessages(require(nufflytics))
+suppressMessages(require(RSQLite))
+suppressMessages(require(dbplyr))
 
 api_key <- readRDS("api.key")
 last_game = read_file("last_game.uuid")
@@ -103,13 +105,23 @@ match_FP <- function(uuid, round = NULL) {
 
 #Calculate fantasy stats
 
-new_stats <- map2_df(matches$uuid, matches$round, match_FP)
+add_stats <- map2_df(matches$uuid, matches$round, match_FP)
 
 #Write new stats and update last recorded game
 stats <- read_rds("player_stats.rds")
 
-bind_rows(stats,new_stats) %>% write_rds(path = "player_stats.rds")
+new_stats <- bind_rows(stats,add_stats) 
 
-if(nrow(new_stats) > 0) {
+if(nrow(add_stats) > 0) {
+  #update uuid
   write_file(filter(matches, id == max(id))$uuid,"last_game.uuid")
-  }
+  
+  #update stats for site
+  write_rds(new_stats, path = "player_stats.rds")
+  
+  #update db for external
+  con <- dbConnect(RSQLite::SQLite(), "www/db/player_stats.db")
+  copy_to(con, new_stats %>% select(-old_injuries, -new_injuries, -skills), "stats", overwrite = T, temporary = F)
+  dbDisconnect(con)
+  
+}
