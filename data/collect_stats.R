@@ -120,7 +120,7 @@ if(nrow(add_stats) > 0) {
   write_rds(new_stats, path = "player_stats.rds")
   
   #update db for external
-  con <- dbConnect(RSQLite::SQLite(), "www/db/player_stats.db")
+  con <- dbConnect(RSQLite::SQLite(), "../www/db/player_stats.db")
   copy_to(con, new_stats %>% select(-old_injuries, -new_injuries, -skills), "stats", overwrite = T, temporary = F)
   dbDisconnect(con)
   
