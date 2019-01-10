@@ -27,7 +27,7 @@ get_contests <- function(league_name) {
 
 matches <- map_dfr(leagues, get_contests)
 
-calc_FP <- function(player_result, own_race, own_team, opp_race, opp_team, round, uuid, league, comp) {
+calc_FP <- function(player_result, own_race, own_team, opp_race, opp_team, round, uuid, league, comp, result) {
   
   old_injuries <- map_chr(
     player_result$casualties_state_id[-match(player_result$casualties_sustained_id,player_result$casualties_state_id)], 
@@ -67,7 +67,8 @@ calc_FP <- function(player_result, own_race, own_team, opp_race, opp_team, round
     FP = ceiling(BLK/5)+ceiling(AVBr/2)+KO+CAS+(2*Kills)+(2*Surf)+(3*TD)+(2*Pass)+ceiling(Pass_m/20)+(2*Catch)+(5*Int)+ceiling(Carry_m/50),
     old_injuries = ifelse(is_empty(old_injuries), list(), list(old_injuries)),
     new_injuries = ifelse(is_empty(new_injuries), list(), list(new_injuries)),
-    skills = ifelse(is_empty(skills), list(), list(skills))
+    skills = ifelse(is_empty(skills), list(), list(skills)),
+    result = result
   )
 }
 
@@ -80,6 +81,15 @@ match_FP <- function(uuid, round = NULL) {
   home = match_data$match$teams[[1]]$roster
   away = match_data$match$teams[[2]]$roster
   
+  h_score <- match_data$match$teams[[1]]$score
+  a_score <- match_data$match$teams[[2]]$score
+  
+  result <- case_when(
+    h_score > a_score ~ c("W","L"),
+    h_score == a_score ~ c("T","T"),
+    h_score < a_score ~ c("L","W")
+  )
+  
   pmap_df(
     list(
       c(home,away),
@@ -90,7 +100,8 @@ match_FP <- function(uuid, round = NULL) {
       round,
       uuid,
       match_data$match$leaguename,
-      match_data$match$competitionname
+      match_data$match$competitionname,
+      rep(result, c(length(home),length(away)))
       ),
     calc_FP
     )
@@ -117,7 +128,7 @@ if(nrow(add_stats) > 0) {
   write_file(filter(matches, id == max(id))$uuid,"last_game.uuid")
   
   #update stats for site
-  write_rds(new_stats, path = "player_stats.rds")
+  write_rds(new_stats %>% select(-result), path = "player_stats.rds")
   
   #update db for external
   con <- dbConnect(RSQLite::SQLite(), "../www/db/player_stats.db")
